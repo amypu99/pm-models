@@ -1,0 +1,367 @@
+
+
+
+<RESPONSE>
+
+
+ The provided legal document is a decision from the Ohio Court of Appeals, specifically the 7th District Court of Appeals. This court hears appeals from decisions made in the lower courts within its jurisdiction. In this case, the defendant, Appellant, is appealing his conviction for murder by purposely causing the victim's death. The appellate court reviews the case based on the record and the arguments presented by both the prosecution and the defense.
+
+The appellate court addresses four main issues raised by the defendant:
+
+1. Sufficiency of the Evidence: The defendant argues that the evidence presented by the prosecution is insufficient to prove his guilt beyond a reasonable doubt. The court reviews the evidence presented during the trial, including witness testimonies, physical evidence, and expert opinions, to determine if the prosecution met its burden of proof.
+
+2. Prosecutorial Misconduct: The defendant claims that the prosecutor engaged in misconduct during closing arguments, which denied him a fair trial. The court evaluates the prosecutor's statements and actions to determine if they were improper and if they affected the defendant's substantial rights.
+
+3. Prosecutorial Misconduct: The defendant argues that the prosecutor improperly appealed to the jurors' sense of moral or civic duty, which denied him a fair trial. The court reviews the prosecut
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ It seems that the defendant, Jonathon Patton, was convicted of two counts of murder and two counts of murder with gun specifications. The convictions were based on the testimony of two witnesses, Wells and Hicks, who testified that Patton was the one who handed the gun to the shooter, Maurice Searcy. The prosecutor made some improper comments during closing arguments, referring to Patton as "General Patton" and suggesting that there might have been two guns involved in the crime. However, the defense attorney did not object to these comments, and the court found that the outcome of the trial would not have been different if the defense attorney had hired an expert witness. The court also found that the prosecutor's comments did not rise to the level of plain error.
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ Certainly, here's a summary:
+    The defendant, appellant, was found guilty of multiple counts of sexual abuse of a minor. The trial court permitted the testimony of an expert witness, Dr. Robin Tener, who provided a written report summarizing her expected testimony and her findings, analysis, conclusions, or opinion regarding her knowledge of nondisclosure and denial by victims of childhood sexual abuse. The defendant argued that the expert's report did not comply with Crim.R. 16(K), which requires experts to generate written reports and that the trial court's decision to permit the expert's testimony violates the Supreme Court of Ohio's decision in State v. Boaston. The court of appeals found no violation of Crim.R. 16(K) and concluded that the defendant was not prejudiced by the error and that any error in admitting the expert's testimony was harmless beyond a reasonable doubt. The court of appeals affirmed the judgment of the trial court.
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ It seems that the following holding from the case is relevant to your query: "A trial court and the reviewing court on appeal when considering whether there are allied offenses that merge into a single conviction under R.C. 2941.25(A) must first take into account the conduct of the defendant. In other words, how were the offenses committed?" (Internal quotation marks omitted.) State v. Ruff, 143 Ohio St.3d 114, 2015-Ohio-995, 34 N.E.3d 892, at ¶ 25.
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ v. Searfoss, 2019-Ohio-4619, 135 N.E.3d 853, ¶ 78 (6th Dist.).
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ of production for the affirmative defense of self-defense" and that "[t]he burden of proof for the affirmative defense of self-defense has shifted to the state"). {¶ 82} In sum, we find the jury instructions, viewed as a whole, clearly convey the state's burden to disprove self-defense. Accordingly, the second assignment of error is overruled. {¶ 83} The judgment of the trial court is affirmed. {¶ 84} Judgment affirmed.
+
+Outcome: affirmed
+
+Standard of Review: de novo
+
+Rule: Crim.R. 30(A)(1)(b)
+
+Citation: State v. Messenger, 154 Ohio St.3d 359, 2018-Ohio-1562, 109 N.E.3d 1170
+
+Parties: State of Ohio, Appellee; Christopher Messenger, Appellant
+
+Jurisdiction: Tenth District Court of Appeals
+
+Date of Decision: 2021-03-18
+
+Case Number: 10th Dist. No. 19AP-771
+
+Court: Ohio Tenth District Court of Appeals
+
+Judges:
+
+County
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ Certainly, here's a summary:
+    The appellant, who was living in a tent at a campsite, was convicted of felonious assault for attacking four people with a saw and a stick. He argued that he was entitled to a Castle Doctrine jury instruction, which would have meant that he had no duty to retreat because he was protecting himself from the victims' attack in his own residence. The trial court found that the definition of "dwelling" pursuant to R.C. 2901.05(D)(2) and the factual circumstances of this case controlled, and that the appellant's homeless status was irrelevant because the definition of a "dwelling" specifically includes a tent. The appellant argued that a homeless person who seeks shelter under a "highway overpass" would not be in a "dwelling" because it is "not designed for habitation." However, the newly amended R.C. 2901.09(B) now states that "for purposes of any section of the Revised Code that sets forth a criminal offense, a person has no duty to retreat before using force in self-defense, defense of anoth er, or defense of that person's residence if that person is in a place in which the person lawfully has a right to be." The court affirmed the judgment of the Lake County Court of Common Pleas.
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ In the case of State v. Burton, 2021-Ohio-3089, the court found that the trial court's denial of the appellant's petition for postconviction relief without a hearing constitutes an abuse of discretion. The appellant supported the timely filed petition with allegedly newly discovered evidence that, if believed, may be material, exculpatory, or exonerating under Brady v. Maryland, 373 U.S. 83, 87, 83 S.Ct. 1194, 10 L.Ed.2d 215 (1963). The newly discovered evidence refutes the state's witness testimony and exhibits regarding when and where the appellant's vehicle was towed in support of the appellant's claim that the contents of his vehicle had been removed and placed within the living unit to establish the appellant's possession and control. The record also indicates confusion between the trial and postconviction exhibits during the postconviction proceedings.
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ It appears that all of the criteria for this case to be considered for prosecutorial misconduct have not been met. The case does not involve a grand jury, self-defense, or the Castle Doctrine. The prosecutor's statement was not improper, and even if it was, James was not prejudiced by it. Therefore, the case does not fit the criteria for prosecutorial misconduct.
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ It seems that you are looking for a summary of the legal case State v. Holcomb, 2021-Ohio-2352. Here is a summary:
+
+    The defendant, Derrick Holcomb, was charged with two counts of felonious assault and two counts of domestic violence. The trial court merged the two felonious assault counts and sentenced Holcomb to five years in prison for each count, to be served concurrently. However, the trial court failed to note that the state had elected to proceed with only one of the felonious assault counts for sentencing.
+
+    On appeal, the court found that the submission of both felonious assault offenses to the jury was not improper, but the sentencing entry's characterization of the merged counts was an obvious error that affected the right to be convicted of only one of the two merged offenses. The court reversed and remanded the case with instructions to issue a new sentencing entry in conformity with the opinion to eliminate the conviction and five-year sentence on count four as the trial court agreed this offense merged into count three on the state's election according to law and consistent with the court's opinion.
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ Certainly, here's a summary:
+    Defendant appeals his convictions for felonious assault, having a weapon while under disability, and carrying a concealed weapon. Defendant argues that the trial court erred in admitting evidence of his prior convictions, in failing to instruct the jury on the lesser included offense of assault, in failing to instruct the jury on the lesser included offense of having a weapon while under disability, in failing to instruct the jury on the lesser included offense of carrying a concealed weapon, in failing to instruct the jury on the lesser included offense of having a weapon while under disability, in failing to instruct the jury on the lesser included offense of carrying a concealed weapon, in failing to instruct the jury on the lesser included offense of having a weapon while under disability, in failing to instruct the jury on the lesser included offense of carrying a concealed weapon, in failing to instruct the jury on the lesser included offense of having a weapon while under disability, in failing to instruct the jury on the lesser included offense of carrying a concealed weapon, in failing to instruct the jury on the lesser included offense of having a weapon while under disability, in failing to instruct the jury on the lesser included offense of carrying a concealed weapon, in failing to instruct the jury on the lesser included offense of having a weapon while under disability, in failing to instruct the jury on the lesser included offense of carrying a concealed weapon, in failing to instruct the jury
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ It appears that the following passage matches your query:
+
+{¶10} An appellate court reviews a trial court's denial of a petition for post-conviction relief under an abuse of discretion standard. State v. Gondor, 112 Ohio St.3d 377, 2006-Ohio-6679, 860 N.E.2d 77, ¶ 58. Abuse of discretion c onnotes more than an error of law; it implies the trial court acted arbitrarily, unr easonably or unconscionably. Blakemore v. Blakemore, 5 Ohio St.3d 217, 219, 450 N.E.2d 1140 (1983). Moreover, a post-conviction petitioner is not automatically entitled to a h earing. State v. Cole, 2 Ohio St.3d 112, 443 N.E.2d 169 (1982). Before granting an evidentiary hearing on the petition, the trial court shall determine whether there are substantive g rounds for relief. R.C. 2953.21(C). The trial court’s decision of whether to hold an eviden tial
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ The provided text is a legal decision, specifically a court opinion. It discusses a case involving the convictions of Phillips and Sutton, who were accused of shooting at police officers. The case revolves around the issue of Brady violation, which refers to the suppression of exculpatory evidence by the prosecution.
+
+In this case, former police officers Gregory Jones and Officer Lundy provided evidence that directly challenged the testimony of Officers Keane and Lentz. The trial court dismissed this evidence, stating that it was not material and did not impact the outcome of the trial. However, the appellants argue that the failure to disclose this evidence violated their due process rights.
+
+The court's decision is based on the principle that the jury system should impress upon the community that verdicts are given in accordance with the law by fair and impartial jurors. The court also refers to previous decisions, such as State v. Luckett, to emphasize the deference shown to the trial court in new trial appeals.
+
+The case highlights the importance of disclosing all relevant evidence to the defense, even if it comes from a police officer. The court's decision ultimately finds that there is a reasonable probability that had the defense possessed the newly discovered material, exculpatory, and impeaching evidence, the outcome of the proceeding would have been different. This decision underscores the need for transparency
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ In this case, the court affirms the findings of guilt for unlawful restraint and assault, but reverses the sentences because the trial court failed to provide the defendant with the right of allocution. The court finds that the prosecutor's comments during closing argument were improper but did not affect the trial's result and constitute plain error. The court also finds that the trial court failed to ask the defendant if he personally wished to make a statement or present information in mitigation of punishment, as required by Crim.R. 32(A). The court sustains the first assignment of error and remands the case for resentencing.
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ It seems that the relevant holding in this case is: "To obtain leave, defendant must demonstrate by clear and convincing proof that he or she had no knowledge of the existence of the ground supporting the motion for new trial and could not have learned of the existence of that ground within the time prescribed for filing the motion for new trial in the exercise of reasonable diligence."
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ The text of the legal document is as follows:
+    Decision: 8th Dist. Cuyahoga No. 109675, 109680, 109690.
+
+Criminal Appeals Nos. 109675, 109680, 109690.
+
+Cuyahoga County, Case Nos. CR-17-50799-A, CR-17-50800-A, CR-17-50801-A.
+
+Criminal Appeals from the Court of Common Pleas, Cuyahoga County, Ohio.
+
+Judges: LARRY A. JONES, SR., PRESIDING JUDGE MICHELLE J. SHEEHAN, J., and LISA B. FORBES, J., CONCUR.
+
+Opinion by: FORBES, J.
+
+Attorneys and Law Firms: For Appellant David Fields, pro se.
+
+For Appellee State of Ohio: David P. Snyder, Prosecuting Attorney, and Michael C. O'Malley, Assistant Prosecuting Attorney, 1200 Ontario Street, 9th Floor, Cleveland, O
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ Certainly, here's a summary:
+    The appellant was convicted of multiple counts of rape, sexual battery, gross sexual imposition, and kidnapping. He appealed, arguing that the trial court erred in admitting certain evidence and in allowing the prosecution to cross-examine him regarding specific incidents.
+
+    The appellant first argued that the trial court erred in admitting evidence of his domestic violence convictions and evidence from his social media accounts. The court found that the appellant opened the door to character evidence by testifying about his romantic relationship with the victim's mother and that the state was entitled to rebut that testimony. The court also found that the state's questions regarding the appellant's interactions with police were not improper, as they were not seeking to introduce extrinsic evidence. The court further found that the appellant's social media postings were admissible as "bad character evidence" because he brought his own character into question by introducing photographs of himself with his family. The court also found that the video depicting the appellant with firearms was admissible as a specific contradiction pursuant to Evid.R. 616(C).
+
+    The appellant next argued that the trial court erred in admitting evidence of his domestic violence convictions and evidence from his social media accounts. The court found that the appellant
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ The case meets the following criteria for further evaluation of prosecutorial misconduct:
+
+- Allegation is against the state, not the prosecutor/state.
+- Allegation is against defense attorney, not state.
+- No allegation of prosecutorial misconduct.
+- Misconduct is from a grand jury proceeding.
+- Trial is before 2001.
+- Allegation is in procedural history.
+- Appellee is the city, not state.
+- Prosecutor is a city prosecutor, not county prosecutor.
+
+The case does not meet the following criteria for further evaluation of prosecutorial misconduct:
+
+- Allegation is procedurally barred.
+- Defendant is a juvenile.
+- Case is not criminal.
+- Allegation of error is against the court, not the prosecutor/state.
+- Misconduct is against the court, not the prosecutor/state.
+- Allegation is against defense attorney, not state.
+- No allegation of prosecutorial misconduct.
+- Misconduct is from a grand jury proceeding.
+- Trial is before 2001.
+- Allegation is in procedural history.
+- Appellee is the city, not state.
+- Prosecutor is a city prosecutor, not county prosecutor.
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ It seems that the legal issues raised by Mr. Baber in his seven assignments of error have been thoroughly addressed and analyzed by the court. The court has found no merit in any of these assignments of error, and as a result, has affirmed the trial court's judgment. This means that the decision made by the trial court in Mr. Baber's case has been upheld by the appellate court, and Mr. Baber's arguments have not been successful in overturning the trial court's decision.
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ The Ohio Supreme Court has not issued a decision interpreting cases on causation in the same manner as this court.
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ Certainly, here's a summary:
+    The Ohio Supreme Court held that the trial court erred by denying Buehner's motion for a new trial based on its determination that Buehner failed to establish a Brady violation. The court found that the state's failure to disclose the statements of Anderson, Jenkins, and Mason constituted separate and distinct Brady violations that deprived Buehner of his right to due process. The court further held that there was a reasonable probability that the jury would have reached a different decision if the exculpatory evidence had been known at trial.
+    The court also held that Buehner's claim that the state utilized false testimony in violation of Illinois v. Napue, 360 U.S. 264, 79 S.Ct. 1173, 3 L.Ed.2d 1217 (1959), was not established. The court found that there was no evidence establishing that Edwards provided false testimony merely because he admitted to engaging in illegal activities with Saunders on the night of the shooting.
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ It seems that the key holding in this case is that the trial court abused its discretion by refusing to declare a mistrial when the prosecutor engaged in improper vouching that bolstered the testimony of the victim and witness Castro by implying knowledge of facts outside the record. This prejudiced the defendant's right to a fair trial, as the jury demonstrated sustained curiosity about the existence of additional eyewitness statements that would corroborate Mr. Castro's statement despite the trial court's curative instruction.
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ The court finds that the trial court did not abuse its discretion in summarily denying Murphy’s 2019 petition for postconviction relief without a hearing because the petition, the supporting evidence, and the record do not demonstrate sufficient operative facts to establish substantive grounds for relief, or in the alternative, res judicata bars his requested grounds for relief. The court also finds that Murphy has failed to demonstrate that he was unavoidably prevented from discovering the victim’s alleged recantation to permit a trial court to consider a successive postconviction relief.
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ Certainly, here's a summary:
+    Miller was convicted of inducing panic, child endangering, abduction, and domestic violence. He appealed, arguing that the evidence was insufficient to support his convictions, and that the trial court erred in denying his motion for a new trial. The court of appeals affirmed the convictions, holding that the evidence was sufficient to support the convictions, and that the trial court did not abuse its discretion in denying the motion for a new trial.
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ Certainly, here's a summary:
+    The defendant, a hospice nurse, was convicted of tampering with evidence in violation of R.C. 2921.12(A)(2) for making two reports regarding the death of a patient. The first report falsely indicated that the hospice had notified the coroner of the patient’s death, and the second report contained information about the patient’s death that the nurse knew was false. The defendant appealed, arguing that there was insufficient evidence to support the conviction.
+    The court of appeals agreed with the defendant and reversed the conviction. The court found that there was no evidence that the defendant made the first report knowing that an official proceeding or investigation was in progress or was about to be or likely to be instituted. The court also found that there was no evidence that the defendant made the second report knowing that any other individual was likely to report the patient’s death to the coroner and cause the coroner to institute an investigation. The court concluded that no rational trier of fact could have found all of the essential elements of tampering with evidence proven beyond a reasonable doubt.
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ It seems that the holding of the case is: The trial court did not err in sentencing Hawkins to 65 years to life.
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ The case meets the standards for further evaluation of prosecutorial misconduct.
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ 111 L.Ed.2d 666 (1990). The Confrontation Clause does not require that the defendant be physically present in the courtroom when the witness testifies. Id. at 846, 110 S.Ct. 3157, 111 L.Ed.2d 666. [29] [30] {¶87} The Confrontation Clause does not require that the defendant be physically present in the courtroom when the witness testifies. Id. at 846, 110 S.Ct. 3157,
+111 L.Ed.2d 666. [31] [32] {¶88} The Confrontation Clause does not require that the defendant be physically present in the courtroom when the witness testifies. Id. at 846, 110 S.Ct. 3157,
+111 L.Ed.2d 666. [33] [34] {¶89} The Confrontation Clause does not require that the defendant be physically present in the courtroom when the witness testifies. Id. at 846, 110 S.Ct. 3157
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ It seems that the legal document you provided is a case summary from the Ohio Court of Appeals. The case is State v. Jarrell, 2021-Ohio-2333. The appellant, Jarrell, argued that the trial court improperly excluded evidence of sexual child abuse perpetrated against him by T.J. The Ohio Court of Appeals agreed with Jarrell, stating that the evidence was admissible under Nemeth. However, the court found that Jarrell's arguments regarding evidence of sexual abuse concerning an abuser who is not involved in this case and evidence that he suffered a head injury as a child were without merit. The remaining arguments regarding improper comments by the state and consecutive sentences were deemed moot. As a result, the judgment of the trial court was reversed, and Jarrell's convictions were vacated. The case was remanded for a new trial according to law and consistent with the Ohio Court of Appeals' opinion.
+
+
+<LABEL>: Meets standards
+
+
+<RESPONSE>
+
+
+ The relevant holding in this case is: "Expungement proceedings are an information gathering process; prior notice of the objection was not required." (Hamilton, 75 Ohio St.3d 636, 640).
+
+
+<LABEL>: Meets standards

@@ -1,0 +1,23 @@
+# data
+classify/procedurally_barred.jsonl
+classify/one_example.jsonl
+
+# model checkpoints
+classify/saul-classification-ft
+classify/saul-classification-ft/*
+
+# outputs
+classify/pipeline*
+classify/generate_baseline.txt
+
+# python files
+classify/analyze_data.py
+classify/classify_standards.ipynb
+classify/finetune_classification.ipynb
+classify/finetune_example.ipynb
+classify/finetune_gen.py
+classify/seq_classification.ipynb
+classify/seq_classification.py
+
+# ipynb checkpoints
+.ipynb_checkpoints

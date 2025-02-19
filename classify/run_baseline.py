@@ -117,6 +117,75 @@ def run_pipeline_with_closing_reminder(filepath):
 
 # run_pipeline("pipeline_baseline_procedurally_barred.txt")
 # run_pipeline("outputs_baseline_truncated.txt")
-run_pipeline_with_closing_reminder("outputs_baseline_closing_reminder.txt")
+# run_pipeline_with_closing_reminder("outputs_baseline_closing_reminder.txt")
 # run_generate("generate_baseline.txt")
 
+
+dnms_path = "dnms.jsonl"
+question_df = pd.read_json(dnms_path, lines=True)
+
+# Questions
+case_juv_q = ("Is the defendant a juvenile (i.e. is the defendant younger than 18 years of age)? "
+              "If the defendant's name is given as initials or if the appellant is referred to as a minor, "
+              "the defendant is a juvenile. ")
+case_crim_q = ("Is the case criminal? One indicator that the case is criminal is if the trial case number"
+               " includes the characters ‘CR’.")
+# case_2001_q = "case_2001"
+case_app_q = "Is the appellee the city? "
+case_pros_q = "Is the prosecutor a city prosecutor?"
+aoe_none_q = "Are there any allegations of prosecutorial misconduct?"
+# aoe_grandjury_q = "aoe_grandjury"
+aoe_court_q = "Is the allegation of error against the court, sometimes referred to as the “trial court”?"
+aoe_defense_q = "Is the allegation of error against the defense attorney?"
+aoe_procbar_q = ("Is the allegation procedurally barred? For example, is it barred by res judicata because it was not "
+                 "raised during original trial and now it’s too late?")
+# aoe_prochist_q = "aoe_prochist"
+
+
+def run_pipeline_with_questions(question, label, filepath):
+
+    pipe = pipeline("text-generation", model=model, torch_dtype=torch.bfloat16, device='cuda', tokenizer=tokenizer)
+    pipe.model = pipe.model.to('cuda')
+
+    results = []
+
+    for i in range(30):
+        content = question_df.Prompt.values[i] + clean_text(question_df.Context.values[i])
+        tokenized_content = tokenizer(content, max_length=18000, return_tensors='pt').to('cuda')
+        tokenized_content = tokenizer.decode(tokenized_content["input_ids"][0][1:-1])
+        tokenized_content = tokenized_content + """\n\nAbove is the appellate case. Read over the case carefully and 
+        answer the following question: """ + question
+        message = [
+            {"role": "user", "content": tokenized_content},
+        ]
+
+        result = pipe(message, max_new_tokens=300, do_sample=False)
+
+        generated_text = result[0]["generated_text"][1]["content"]
+        results.append({
+            "Index": question_df.Index.iloc[i],
+            "Response": generated_text,
+            "Label": question_df.label.values[i],
+        })
+
+    results_df = pd.DataFrame(results)
+    results_df.to_csv(filepath, index=False)
+
+
+# Question to variable mapping
+questions = {
+        case_juv_q: "case_juv",
+        case_crim_q: "case_crim",
+        # case_2001_q: "case_2001",
+        case_app_q: "case_app",
+        case_pros_q: "case_pros",
+        aoe_none_q: "aoe_none",
+        # aoe_grandjury_q: "aoe_grandjury",
+        aoe_court_q: "aoe_court",
+        aoe_defense_q: "aoe_defense",
+        aoe_procbar_q: "aoe_procbar",
+        # aoe_prochist_q: "aoe_prochist",
+    }
+
+for q in questions:
+    run_pipeline_with_questions(q, questions[q], f"{questions[q]}.csv")

@@ -21,3 +21,6 @@ classify/seq_classification.py
 
 # ipynb checkpoints
 .ipynb_checkpoints
+
+# txt files
+cases_txt/

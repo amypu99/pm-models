@@ -112,47 +112,69 @@ def run_pipeline_with_closing_reminder(inference_df, filepath, model, tokenizer)
 
 
 def load_jsonl(filepath):
-    """Load JSONL file into DataFrame with proper error handling"""
     data = []
     with open(filepath, 'r') as file:
         for line in file:
-            try:
-                data.append(json.loads(line.strip()))
-            except json.JSONDecodeError as e:
-                print(f"Error parsing line: {e}")
-                continue
+            data.append(json.loads(line.strip()))
     return pd.DataFrame(data)
 
 
-def run_pipeline_with_questions(question, label, filepath, model, tokenizer):
+def run_pipeline_with_questions(question, label, filepath, model, tokenizer, batch_size=4):
     question_df = load_jsonl("dnms.jsonl")
-    pipe = pipeline("text-generation", model=model, torch_dtype=torch.bfloat16, device='cuda', tokenizer=tokenizer)
+
+    pipe = pipeline(
+        "text-generation",
+        model=model,
+        torch_dtype=torch.bfloat16,
+        device='cuda',
+        tokenizer=tokenizer
+    )
     pipe.model = pipe.model.to('cuda')
 
     results = []
 
-    for i in range(30):
-        content = clean_text(question_df.Context.values[i])
-        tokenized_content = tokenizer(content, max_length=8000, return_tensors='pt').to('cuda')
-        tokenized_content = tokenizer.decode(tokenized_content["input_ids"][0][1:-1])
-        tokenized_content = tokenized_content + """\n\nAbove is the appellate case. Read over the case carefully and 
-        answer the following question: """ + question
-        message = [
-            {"role": "user", "content": tokenized_content},
-        ]
+    for batch_start in range(0, 100, batch_size):
+        batch_end = min(batch_start + batch_size, len(question_df))
+        batch = question_df.iloc[batch_start:batch_end]
 
-        result = pipe(message, max_new_tokens=300, do_sample=False)
+        batch_messages = []
+        for content in batch.Context.values:
+            cleaned_content = clean_text(content)
+            tokenized_content = tokenizer(
+                cleaned_content,
+                max_length=8000,
+                return_tensors='pt'
+            ).to('cuda')
+            decoded_content = tokenizer.decode(tokenized_content["input_ids"][0][1:-1])
+            full_prompt = (
+                f"{decoded_content}\n\n"
+                "Above is the appellate case. Read over the case carefully and "
+                f"answer the following question: {question}"
+            )
+            batch_messages.append([{"role": "user", "content": full_prompt}])
 
-        generated_text = result[0]["generated_text"][1]["content"]
-        results.append({
-            "Index": question_df.Index.iloc[i],
-            "Response": generated_text,
-            label: question_df[label].values[i],
-        })
-        if i % 5 == 0:
+        batch_results = pipe(
+            batch_messages,
+            max_new_tokens=300,
+            do_sample=False
+        )
+
+        for i, result in enumerate(batch_results):
+            results.append({
+                "Index": batch.Index.iloc[i],
+                "Response": result[0]["generated_text"][1]["content"],
+                label: batch[label].iloc[i]
+            })
+
+        if batch_start % (batch_size * 5) == 0:
             gc.collect()
             torch.cuda.empty_cache()
-        print(i)
+
+        print(f"Processed up to sample {batch_end}")
+
+        if batch_start % (batch_size * 10) == 0:
+            temp_df = pd.DataFrame(results)
+            temp_df.to_csv(f"{filepath}.temp", index=False)
 
     results_df = pd.DataFrame(results)
     results_df.to_csv(filepath, index=False)
@@ -161,18 +183,20 @@ def run_pipeline_with_questions(question, label, filepath, model, tokenizer):
 def questions_setup(): # Questions
     case_juv_q = ("Is the defendant a juvenile (i.e. is the defendant younger than 18 years of age)? "
               "If the defendant's name is given as initials or if the appellant is referred to as a minor, "
-              "the defendant is a juvenile. ")
-    case_crim_q = ("Is the case criminal? One indicator that the case is criminal is if the trial case number"
-               " includes the characters ‘CR’.")
+              "the defendant is a juvenile. If no reference to the appellant being juvenile is made, the defendant is"
+                  "not a juvenile. ")
+    case_crim_q = ("Is the case criminal? One indication that the case is criminal is if the trial case number"
+               " includes the characters ‘CR’. An indicator that the case is not criminal is if the trial case number "
+                   "contains the characters 'CV'. ")
     # case_2001_q = "case_2001"
-    case_app_q = "Is the appellee the city? "
+    case_app_q = "Is the appellee the city?"
     case_pros_q = "Is the prosecutor a city prosecutor?"
     aoe_none_q = "Are there any allegations of prosecutorial misconduct?"
     # aoe_grandjury_q = "aoe_grandjury"
-    aoe_court_q = "Is the allegation of error against the court, sometimes referred to as the “trial court”?"
-    aoe_defense_q = "Is the allegation of error against the defense attorney?"
-    aoe_procbar_q = ("Is the allegation procedurally barred? For example, is it barred by res judicata because it was not "
-                 "raised during original trial and now it’s too late?")
+    # aoe_court_q = "Is the allegation of error against the court, sometimes referred to as the “trial court”?"
+    # aoe_defense_q = "Is the allegation of error against the defense attorney?"
+    # aoe_procbar_q = ("Is the allegation procedurally barred? For example, is it barred by res judicata because it was not "
+    #              "raised during original trial and now it’s too late?")
     # aoe_prochist_q = "aoe_prochist"
     # Question to variable mapping
     questions = {
@@ -181,11 +205,11 @@ def questions_setup(): # Questions
         # case_2001_q: "case_2001",
         case_app_q: "case_app",
         case_pros_q: "case_pros",
-        aoe_none_q: "aoe_none",
+        # aoe_none_q: "aoe_none",
         # aoe_grandjury_q: "aoe_grandjury",
-        aoe_court_q: "aoe_court",
-        aoe_defense_q: "aoe_defense",
-        aoe_procbar_q: "aoe_procbar",
+        # aoe_court_q: "aoe_court",
+        # aoe_defense_q: "aoe_defense",
+        # aoe_procbar_q: "aoe_procbar",
         # aoe_prochist_q: "aoe_prochist",
     }
     return questions

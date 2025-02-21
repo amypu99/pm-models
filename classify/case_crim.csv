@@ -1,101 +1,150 @@
 Index,Response,case_crim
-073-Beedy," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-154-Poe," Yes, the case is criminal. The trial case number, 17CRB-13232, includes the characters 'CR', which stands for ""Criminal."" This indicates that the case is related to a criminal offense.",0
-109-CLIFF RIVENBARK," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that the case is criminal.",1
-936-Phillips," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-121-Whittaker," Yes, the case is criminal. The trial case number, 17 JE 0025, includes the characters 'CR', which indicates that it is a criminal case.",0
-371-Myers," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-126-Miller," No, the case is not criminal. The trial case number, CVE20130262, contains the characters 'CV', which indicates that the case is a civil matter.",1
-886-KHAMISI," Yes, the case is criminal. The trial case number includes the characters 'CR', which is an indicator that the case is criminal.",0
-956-Graham," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-199-Blair," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-319-YOUNG," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-269-Roberts," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-131-BSHM ARCHITECTS," Based on the provided information, the case is not criminal. The trial case number, 18 MO 0001, does not include the characters 'CR', which typically indicates a criminal case. Instead, it contains the characters 'MO', which likely stands for 'Municipal' or 'Magistrate', indicating a civil case.",1
-909-Turner," Yes, the case is criminal. The trial case number, 18CRB00000000, includes the characters 'CR', which stands for criminal.",0
-063-Mohammed Ali," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-329-In Re SS," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that the case is criminal.",1
-096-M.," Yes, the case is criminal. The trial case number, 8th Dist. Cuyahoga No. 101223, includes the characters 'CR', which stands for criminal.",0
-212-Stewart," Yes, the case is criminal. The trial case number, 8-17-47, does not contain the characters 'CV', which would indicate a civil case. Instead, it includes the characters 'CR', which is an abbreviation for criminal.",0
-916-Campbell," Yes, the case is criminal. The trial case number includes the characters 'CR', which is an indicator that the case is criminal.",0
-074-Norman," Yes, the case is criminal. The trial case number, 98CR-2661, includes the characters 'CR', which stands for criminal.",0
-165-FERRICCI," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-937-Shaner," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-844-Brown," Based on the provided information, the case is not criminal. The trial case number does not include the characters 'CR', which is an indication that the case is not criminal. Instead, the case number includes the characters 'CV', which is an indicator that the case is not criminal.",0
-082-Jarmon," Yes, the case is criminal. The trial case number, CR-17-618637-A, includes the characters 'CR', which stands for 'Criminal'.",0
-155-Smith," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-095-Jordan," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-070-Stidhum," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-026-P.K.," Based on the provided information, the case is not criminal. The trial case number, 2018CA00050, does not contain the characters 'CR', which is an indicator that the case is not criminal. Instead, it contains the characters 'CA', which stands for 'Civil Appeal'. Therefore, the case is a civil matter.",1
-286-Yee," Yes, the case is criminal. The trial case number, E-17-024, includes the characters 'CR', which indicates that it is a criminal case.",0
-310-Middleton," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-472-Snowden," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-889-O’CONNELL II," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-363-Jackson," Yes, the case is criminal. The trial case number, 1-18-20, includes the characters 'CR', which indicates that it is a criminal case.",0
-998-E.," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that the case is criminal.",0
-346-Vance," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-927-Warren," Yes, the case is criminal. The trial case number includes the characters 'CR', which is an indicator that the case is criminal.",0
-069-Johnson," Yes, the case is criminal. The trial case number, CR-16-608678-A, includes the characters 'CR', which stands for Criminal.",0
-052-Owens," Yes, the case is criminal. The trial case number, 12CR100012, includes the characters 'CR', which stands for criminal.",0
-085-Vance," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-318-Hall," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-534-Warren," Yes, the case is criminal. The trial case number 18CRB-20579 indicates that it is a criminal case.",0
-114-Jones," Yes, the case is criminal. The trial case number, CT2017-0072, includes the characters 'CR', which indicates that it is a criminal case.",0
-"211-D.M., et al."," Based on the provided information, the case is not criminal. The trial case number, 12th Dist. Butler Nos. CA2014-06-130, 2014-Ohio-2372, does not include the characters 'CR', which is an indication that the case is criminal. Instead, the case number contains the characters 'CA', which stands for 'Civil Appeal'. This suggests that the case is a civil matter, not a criminal one.",1
-404-Hayden," Yes, the case is criminal. The trial case number, 1990-CR-308, includes the characters 'CR', which indicates that it is a criminal case.",0
-401-Tiedjen," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-900-Crowell," Yes, the case is criminal. The trial case number, CR-18-633669-A, includes the characters 'CR', which stands for Criminal.",0
-342-Petway," Yes, the case is criminal. The trial case number, 10CR0000000000, includes the characters 'CR', which is an indicator that the case is criminal.",0
-024-Zaccone," Yes, the case is criminal. The trial case number, 15 CR 21, includes the characters 'CR', which stands for ""Criminal.""",0
-185-Hartman," Yes, the case is criminal. The trial case number, 12-CR-56678, includes the characters 'CR', which indicates that it is a criminal case.",0
-352-Blanton," Yes, the case is criminal. The trial case number, 16CA1031, includes the characters 'CR', which indicates that it is a criminal case.",0
-903-McGlown Jr," Yes, the case is criminal. The trial case number, CR0200503412, includes the characters 'CR', which stands for criminal.",0
-908-Howard," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-474-Stahl-Francisco," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-344-Grooms," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-125-Willis, The case is not criminal.,1
-907-Banks," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-702-Smith," Yes, the case is criminal. The trial case number includes the characters 'CR', which is an indicator that the case is criminal.",0
-920-Edwards," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-877-BAER," Yes, the case is criminal. The trial case number, 7th Dist. Harrison No. 07 HA 8, includes the characters 'CR', which indicates that the case is criminal.",0
-680-Untied," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-879-Carter, The case is not criminal.,1
-256-Ammons," Yes, the case is criminal. The trial case numbers include the characters 'CR', which indicates that it is a criminal case.",0
-793-Lynch," Yes, the case is criminal. The trial case number, C-010209, includes the characters 'CR', which indicates that it is a criminal case.",0
-868-ROOTSTOWN TOWNSHIP BOARD OF TRUSTEES," The case is not criminal. The trial case numbers provided, 2019-CV-00180 and 2019-CV-00226, contain the characters 'CV', which indicates that the case is civil.",1
-187-NEWMAN," Yes, the case is criminal. The trial case number, CR-16-611461-A, includes the characters 'CR', which stands for ""Criminal.""",0
-307-Miku," Yes, the case is criminal. The trial case number, 2017 CA 00057, includes the characters 'CR', which indicates that it is a criminal case.",0
-846-Greenlee," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-230-SCHWENDEMAN," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-224-Liggins," Yes, the case is criminal. The trial case number, 15 CR 928, includes the characters 'CR', which stands for ""Criminal.""",0
-100-Long," Yes, the case is criminal. The trial case number, B-0402803, includes the characters 'CR', which indicates that it is a criminal case.",0
-935-Kunzer," Yes, the case is criminal. The trial case number, 3-18-16, includes the characters 'CR', which is an indicator that the case is criminal.",0
-954-Travis," Yes, the case is criminal. The trial case number, 1-18-39, includes the characters 'CR', which indicates that it is a criminal case.",0
-162-Solon," Based on the provided information, the case is not criminal. The trial case number, Stark County, Case No. 2017CA00210, does not contain the characters 'CR', which is an indicator that the case is not criminal.",1
-976-Thacker," Yes, the case is criminal. The trial case number, CT2018-0035, includes the characters 'CR', which is an indicator that the case is criminal.",0
-832-Estate of Reva," The case is not criminal. The trial case number is CV-2017-04-1332, which indicates that it is a civil case.",1
-325-Miday," Yes, the case is criminal. The trial case number, CR-13-573242, includes the characters 'CR', which stands for Criminal.",0
-851-Harrison," Yes, the case is criminal. The trial case number, TRD1902283, includes the characters 'CR', which stands for criminal.",0
-279-Hollins," Yes, the case is criminal. The trial case number includes the characters 'CR', which is an indication that the case is criminal.",0
-062-Robinson," Yes, the case is criminal. The trial case number, 8th Dist. Cuyahoga No. 102249, includes the characters 'CR', which indicates that it is a criminal case.",0
-183-In re Dor.B," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that the case is criminal.",1
-245-Tomlinson," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-130-Gray," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-887-Winfield," Yes, the case is criminal. The trial case number, Lucas No. L-13-1251, includes the characters 'CR', which indicates that it is a criminal case.",0
-349-KOPCHAK," Yes, the case is criminal. The trial case number, CT2017-0036, includes the characters 'CR', which stands for 'Criminal'. This indicates that the case is a criminal case.",0
-850-Manicini," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-195-PATRIOT ENERGY PARTNERS," Based on the provided information, the case is not criminal. The trial case number, 17 CO 0002, does not contain the characters 'CR', which typically indicates a criminal case. Instead, it contains the characters 'CV', which typically indicates a civil case. Therefore, the case is not criminal.",1
-365-Young," Yes, the case is criminal. The trial case number, 2015 CR 0013, includes the characters 'CR', which stands for ""Criminal.""",0
-975-State of Ohio," Yes, the case is criminal. The trial case number, 17 TRC 05832, includes the characters 'CR', which stands for criminal.",0
-860-Bowen," Yes, the case is criminal. The trial case number, 19CA0007, includes the characters 'CR', which is an indication that the case is criminal.",0
-225-Wright," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-248-Defiance Therapeutic Massage," Based on the provided information, the case is not criminal. The trial case number, 15CV000000000, contains the characters 'CV', which indicates that the case is not criminal.",1
-143-In L.D.," The case is not criminal. The trial case number, 18 CA 0027, does not contain the characters 'CR'.",1
-213-Tinley," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-154-Wallace," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-"834-LAKE PROPERTY MANAGEMENT, LLC", The case is not criminal.,1
-244-Price," Yes, the case is criminal. The trial case number, 17CA015, includes the characters 'CR', which indicates that it is a criminal case.",0
-164-O'Malley," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",1
-"254-Daniels, Sr"," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",0
-251-Giant Eagle," Yes, the case is criminal. The trial case number includes the characters 'CR', which indicates that it is a criminal case.",1
-"193-ADMINISTRATOR, OHIO BUREAU OF", The case is not criminal.,1
+073-Beedy," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+154-Poe," Yes, this case is criminal. The trial case number, 17CRB-13232, contains the characters 'CR', which indicates that it is a criminal case.",0
+109-CLIFF RIVENBARK," Yes, this case is criminal.",1
+936-Phillips," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+121-Whittaker," Yes, this case is criminal. The trial case number is 17 JE 0025, which does not contain 'CR' or 'CV'. The case is between the public (Steubenville Municipal Court of Jefferson County, Ohio) and a private citizen (appellant).",0
+371-Myers," Yes, this case is criminal. The trial case number contains the characters 'CR', which indicates that it is a criminal case.",0
+126-Miller," No, this case is not criminal. The trial case number is CA2017-12-021, which indicates that it is a civil appeal. The case involves a dispute between private parties, the Johnsons and Miller, over a promissory note and mortgages. There is no mention of criminal charges or proceedings against any of the parties involved.",1
+886-KHAMISI," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+956-Graham," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+199-Blair," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+319-YOUNG," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+269-Roberts," Yes, this case is criminal. The trial case number contains 'CR', which stands for criminal.",0
+131-BSHM ARCHITECTS," Yes, this case is criminal.",1
+909-Turner," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+063-Mohammed Ali," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+329-In Re SS," Step 1: Identify the trial case number
+The trial case number in the provided text is 17AP-681 and 17AP-682.
+
+Step 2: Check if the trial case number contains 'CR'
+The trial case number does not contain 'CR'.
+
+Step 3: Check if the trial case number contains 'CV' or 'CA'
+The trial case number does not contain 'CV' or 'CA'.
+
+Step 4: Determine if the case is between a private citizen and the public
+The case involves a dispute between parents and a child's guardian ad litem. This indicates that the case is not between a private citizen and the public.
+
+Step 5: Determine if the case is between two private parties
+The case involves a dispute between parents and a child's guardian ad litem. This indicates that the case is not between two private parties.
+
+Conclusion: Based on the steps above, the case is not criminal.",1
+096-M.," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+212-Stewart," Yes, this case is criminal. The trial case number, 8-17-47, does not contain 'CR,' but it is between the public and a private citizen, as the defendant is accused of selling drugs to others, which led to their overdose. The case is not civil, as it does not contain 'CV' for civil or 'CA' for civil appeal. Additionally, the case is not between two private parties, as it involves the defendant and the public.",0
+916-Campbell," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+074-Norman," Yes, this case is criminal. The trial case number, 98CR-2661, contains the characters 'CR,' which indicates that it is a criminal case.",0
+165-FERRICCI," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+937-Shaner," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+844-Brown," Yes, this case is criminal.",0
+082-Jarmon," Yes, this case is criminal. The trial case number, CR-17-618637-A, contains the characters 'CR', which indicates that it is a criminal case.",0
+155-Smith," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+095-Jordan," Yes, this case is criminal.",0
+070-Stidhum," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+026-P.K.," No, this case is not criminal. The trial case number is 2018CA00050, which indicates it is a civil appeal. The case involves a dispute between a non-parent and a non-parent over the legal custody of a child. The case does not involve a public entity or a private citizen, and it does not involve a criminal offense.",1
+286-Yee," Yes, this case is criminal. The trial case number, E-17-024, contains the characters 'CR', which indicates that it is a criminal case.",0
+310-Middleton," Yes, this case is criminal. The trial case number contains 'CR', which stands for criminal.",0
+472-Snowden," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+889-O’CONNELL II," Yes, this case is criminal. The trial case number contains 'CR,' which indicates that it is a criminal case.",0
+363-Jackson," Yes, this case is criminal. The trial case number, 1-18-20, contains the characters 'CR,' which indicates that it is a criminal case.",0
+998-E.," Yes, this case is criminal. The trial case number contains the characters 'CR', which indicates that it is a criminal case.",0
+346-Vance," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+927-Warren," Yes, this case is criminal. The trial case number contains the characters 'CR', which indicates that it is a criminal case.",0
+069-Johnson," Yes, this case is criminal. The trial case number, CR-16-608678-A, contains the characters 'CR', which indicates that it is a criminal case.",0
+052-Owens," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+085-Vance," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+318-Hall," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+534-Warren," Yes, this case is criminal. The trial case number, 18CRB-20579, contains the characters 'CR,' which indicates that it is a criminal case.",0
+114-Jones," Yes, this case is criminal. The trial case number, CT2017-0072, does not contain 'CR,' but it is between the public and a private citizen, which indicates that it might be criminal. The case is not between two private parties, which would indicate a civil case.",0
+"211-D.M., et al."," Yes, this case is criminal. The trial case number contains the characters 'CR', which indicates that it is a criminal case.",1
+404-Hayden," Yes, this case is criminal. The trial case number, 1990-CR-308, contains the characters 'CR,' which indicates that it is a criminal case.",0
+401-Tiedjen," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+900-Crowell," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+342-Petway," Yes, this case is criminal. The trial case number contains 'CR', which stands for criminal.",0
+024-Zaccone," Yes, this case is criminal. The trial case number, 15 CR 21, contains the characters 'CR,' which indicates that it is a criminal case.",0
+185-Hartman," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+352-Blanton," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+903-McGlown Jr," Yes, this case is criminal. The trial case number, CR0200503412, contains the characters 'CR', which indicates that it is a criminal case.",0
+908-Howard," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+474-Stahl-Francisco," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+344-Grooms," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+125-Willis," Yes, this case is criminal. The trial case number contains the characters 'CR', which indicates that it is a criminal case.",1
+907-Banks," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+702-Smith," Yes, this case is criminal.",0
+920-Edwards," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+877-BAER," Yes, this case is criminal. The trial case number, 07 HA 8, contains the characters 'CR', which indicates that it is a criminal case.",0
+680-Untied," Yes, this case is criminal. The trial case number contains the characters 'CR', which indicates that it is a criminal case.",0
+879-Carter," Yes, this case is criminal.",1
+256-Ammons," Yes, this case is criminal. The trial case numbers contain 'CR', which indicates that it is a criminal case.",0
+793-Lynch," Yes, this case is criminal. The trial case number is C-010209, which contains the characters 'CR'. This indicates that the case is criminal.",0
+868-ROOTSTOWN TOWNSHIP BOARD OF TRUSTEES," No, this case is not criminal. The case number contains 'CV' for civil, and the case is between two private parties (Ames and the Board).",1
+187-NEWMAN," Yes, this case is criminal. The trial case number, CR-16-611461-A, contains the characters 'CR', which indicates that it is a criminal case.",0
+307-Miku," Yes, this case is criminal.",0
+846-Greenlee," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+230-SCHWENDEMAN," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+224-Liggins," Yes, this case is criminal. The trial case number, 15 CR 928, contains the characters 'CR,' which indicates that it is a criminal case.",0
+100-Long," Yes, this case is criminal. The trial case number is B-0402803, which does not contain 'CR' or 'CV' for civil. The case involves a convicted inmate seeking access to public records pertaining to his prosecution or the investigation leading to his prosecution, which is a criminal matter.",0
+935-Kunzer," Yes, this case is criminal. The trial case number, 3-18-16, contains the characters 'CR,' which indicates that it is a criminal case.",0
+954-Travis," Yes, this case is criminal. The trial case number, 1-18-39, contains the characters 'CR,' which indicates that it is a criminal case.",0
+162-Solon," No, this case is not criminal. The trial case number is 17CV000210, which indicates it is a civil case. The case involves a domestic relations matter between two private parties, Husband and Wife. The case does not involve the public or a private citizen, and there is no indication that it is between the public and a private citizen.",1
+976-Thacker," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+832-Estate of Reva," Step 1: Identify the trial case number.
+In the given case, the trial case number is not mentioned.
+
+Step 2: Check if the trial case number contains 'CR'.
+Since the trial case number is not mentioned, we cannot check if it contains 'CR'.
+
+Step 3: Check if the trial case number contains 'CV' or 'CA'.
+The trial case number is not mentioned, so we cannot check if it contains 'CV' or 'CA'.
+
+Step 4: Determine if the case is between a private citizen and the public.
+The case involves a business invitee (Ms. Case) and a property owner (the Association). This indicates that the case is between a private citizen (Ms. Case) and a private entity (the Association).
+
+Step 5: Determine if the case is between two private parties.
+The case involves a business invitee (Ms. Case) and a property owner (the Association). This indicates that the case is between a private citizen (Ms. Case) and a private entity (the Association).
+
+Conclusion: Based on the information provided, the case is not criminal.",1
+325-Miday," Yes, this case is criminal. The trial case number, CR-13-573242, contains the characters 'CR', which indicates that it is a criminal case.",0
+851-Harrison," Yes, this case is criminal. The trial case number, TRD1902283, does not contain 'CR,' but it is between the public and a private citizen, as it involves a traffic stop and a citation issued by a State trooper. The case is not civil, as it does not contain 'CV' for civil, and it is not a civil appeal, as it does not contain 'CA' for civil appeal.",0
+279-Hollins," Yes, this case is criminal. The trial case number contains 'CR', which stands for criminal.",0
+062-Robinson," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+183-In re Dor.B," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",1
+245-Tomlinson," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+130-Gray," Yes, this case is criminal. The trial case number contains the characters 'CR', which indicates that it is a criminal case.",0
+887-Winfield," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+349-KOPCHAK," Yes, this case is criminal. The trial case number, CT2017-0036, contains the characters 'CR,' which indicates that it is a criminal case.",0
+850-Manicini," Step 1: Identify the trial case numbers in the case.
+- 2019 TRC 000477
+- 2019 CRB 000263
+
+Step 2: Check if the trial case numbers contain 'CR'.
+- 2019 TRC 000477 does not contain 'CR'.
+- 2019 CRB 000263 does not contain 'CR'.
+
+Step 3: Check if the trial case numbers contain 'CV' or 'CA'.
+- 2019 TRC 000477 does not contain 'CV' or 'CA'.
+- 2019 CRB 000263 does not contain 'CV' or 'CA'.
+
+Step 4: Check if the trial case numbers contain 'CA' for civil appeal.
+- 2019 TRC 000477 does not contain 'CA'.
+- 2019 CRB 000263 does not contain 'CA'.
+
+Step 5: Check if the case is between two private parties.
+- The case involves a defendant (Mancini) and a plaintiff (the State).
+
+Conclusion: Based on the information provided, the case is not criminal.",0
+195-PATRIOT ENERGY PARTNERS," Yes, this case is criminal.",1
+365-Young," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+975-State of Ohio," Yes, this case is criminal. The trial case number is 17 TRC 05832, which contains the characters 'CR', indicating that it is a criminal case.",0
+860-Bowen," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+225-Wright," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+248-Defiance Therapeutic Massage," No, this case is not criminal. The trial case number is 15CV0000000000, which indicates that it is a civil case. The case involves an unemployment compensation benefits dispute between an individual, Knapp, and her former employer, Defiance Therapeutic. The case does not involve any criminal charges or actions.",1
+143-In L.D.," No, this case is not criminal. The trial case number is 18 CA 0027, which indicates it is a civil appeal. The case involves a dependency and permanent custody of a minor child, L.D., by the Licking County Job and Family Services. The case does not involve a public-private citizen dispute or a criminal offense.",1
+213-Tinley," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+154-Wallace," Yes, this case is criminal. The trial case number is 100461, which does not contain 'CR' or 'CV'. The case is between the public and a private citizen, as it involves the state prosecuting Wallace for various charges. The case is not a civil appeal, as it does not contain 'CA'.",0
+"834-LAKE PROPERTY MANAGEMENT, LLC"," No, this case is not criminal. The trial case number is 11CV01801, which indicates that it is a civil case. The case involves a dispute between a tenant and a landlord over the condition of a door in a commercial building. The tenant, Stokes, alleges that the landlord, Lake Property, was negligent in installing and maintaining the door, which led to her injury. The case is being appealed by Lake Property, which argues that Stokes did not demonstrate a genuine issue of fact regarding the alleged breach of its duty of care. The case is being decided based on legal principles and precedents, rather than criminal penalties.",1
+244-Price," Yes, this case is criminal.",0
+164-O'Malley," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",1
+"254-Daniels, Sr"," Yes, this case is criminal. The trial case number contains 'CR', which indicates that it is a criminal case.",0
+251-Giant Eagle," Yes, this case is criminal.",1
+"193-ADMINISTRATOR, OHIO BUREAU OF"," Yes, this case is criminal.",1

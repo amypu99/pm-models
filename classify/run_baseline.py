@@ -7,7 +7,7 @@ import json
 import gc
 
 os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
-os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+os.environ["CUDA_VISIBLE_DEVICES"] = "3"
 os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'
 
 def model_setup():
@@ -142,14 +142,14 @@ def run_pipeline_with_questions(question, label, filepath, model, tokenizer, bat
             cleaned_content = clean_text(content)
             tokenized_content = tokenizer(
                 cleaned_content,
-                max_length=8000,
+                max_length=20000,
                 return_tensors='pt'
             ).to('cuda')
             decoded_content = tokenizer.decode(tokenized_content["input_ids"][0][1:-1])
             full_prompt = (
                 f"{decoded_content}\n\n"
-                "Above is the appellate case. Read over the case carefully and "
-                f"think step-by-step through the following question, answering with a 'Yes' or 'No': {question}"
+                "Above is the appellate case. Read over the case carefully and think step-by-step through "
+                f"the following question, answering with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess: {question}"
             )
             batch_messages.append([{"role": "user", "content": full_prompt}])
 
@@ -181,41 +181,41 @@ def run_pipeline_with_questions(question, label, filepath, model, tokenizer, bat
 
 
 def questions_setup(): # Questions
-    case_juv_q = ("Is the defendant a juvenile (i.e. is the defendant younger than 18 years of age)? "
-              "If the defendant's name is given as initials, if the appellant is referred to as a minor, "
-              "or if the case is from juvenile court, the defendant is a juvenile. If no reference to the appellant "
-                  "being juvenile is made, the defendant is not a juvenile.")
-    case_crim_q = ("Is this case criminal? One indication that the case is criminal is if the trial case number"
-               " contains the characters ‘CR’. If the trial case number does not contain 'CR,' another indication that "
-                   "the case might be criminal is if it is between the public and a private citizen. "
-                   "The case will not be criminal if the trial case number contains 'CV' for civil or 'CA' for civil "
-                   "appeal. Additionally, non criminal cases are between two private parties.")
-    case_2001_q = ("Did the original trial mentioned in this appellate case take place before 2001? If the original trial "
-                   "date is not mentioned, look for other clues that the trial might have taken place before 2001. The"
-                   " trial date will be before the conviction date and after the date of the crime.")
-    case_app_q = ("Is the appellee the city? If the appelle is listed as a city, not the state, the appellee is the city."
-                  "If the state or another party is listed as the appellee, the appelle is not the city.")
+    # case_juv_q = ("Is the defendant a juvenile (i.e. is the defendant younger than 18 years of age)? "
+    #           "If the defendant's name is given as initials, if the appellant is referred to as a minor, "
+    #           "or if the case is from juvenile court, the defendant is a juvenile. If no reference to the appellant "
+    #               "being juvenile is made, the defendant is not a juvenile.")
+    # case_crim_q = ("Is this case criminal? One indication that the case is criminal is if the trial case number"
+    #            " contains the characters ‘CR’. If the trial case number does not contain 'CR,' another indication that "
+    #                "the case might be criminal is if it is between the public and a private citizen. "
+    #                "The case will not be criminal if the trial case number contains 'CV' for civil or 'CA' for civil "
+    #                "appeal. Additionally, non criminal cases are between two private parties.")
+    # case_2001_q = ("Did the original trial mentioned in this appellate case take place before 2001? If the original trial "
+    #                "date is not mentioned, look for other clues that the trial might have taken place before 2001. The"
+    #                " trial date will be before the conviction date and after the date of the crime.")
+    # case_app_q = ("Is the appellee the city? If the appelle is listed as a city, not the state, the appellee is the city."
+    #               "If the state or another party is listed as the appellee, the appelle is not the city.")
     # case_pros_q = "Is the prosecutor a city prosecutor?"
     # aoe_none_q = "Are there any allegations of prosecutorial misconduct mentioned?"
     # aoe_grandjury_q = "aoe_grandjury"
-    # aoe_court_q = "Is the allegation of error against the court, sometimes referred to as the “trial court”?"
-    # aoe_defense_q = "Is the allegation of error against the defense attorney?"
-    # aoe_procbar_q = ("Is the allegation procedurally barred? For example, is it barred by res judicata because it was not "
-    #              "raised during original trial and now it’s too late?")
-    # aoe_prochist_q = "aoe_prochist"
+    aoe_court_q = "Is the allegation of error against the court, sometimes referred to as the “trial court”?"
+    aoe_defense_q = "Is the allegation of error against the defense attorney?"
+    aoe_procbar_q = ("Is the allegation procedurally barred? For example, is it barred by res judicata because it was not "
+                 "raised during original trial and now it’s too late?")
+    aoe_prochist_q = "aoe_prochist"
     # Question to variable mapping
     questions = {
-        case_juv_q: "case_juv",
-        case_crim_q: "case_crim",
-        case_2001_q: "case_2001",
-        case_app_q: "case_app",
+        # case_juv_q: "case_juv",
+        # case_crim_q: "case_crim",
+        # case_2001_q: "case_2001",
+        # case_app_q: "case_app",
         # case_pros_q: "case_pros",
         # aoe_none_q: "aoe_none",
         # aoe_grandjury_q: "aoe_grandjury",
-        # aoe_court_q: "aoe_court",
-        # aoe_defense_q: "aoe_defense",
-        # aoe_procbar_q: "aoe_procbar",
-        # aoe_prochist_q: "aoe_prochist",
+        aoe_court_q: "aoe_court",
+        aoe_defense_q: "aoe_defense",
+        aoe_procbar_q: "aoe_procbar",
+        aoe_prochist_q: "aoe_prochist",
     }
     return questions
 

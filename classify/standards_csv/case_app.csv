@@ -1,4 +1,4 @@
-,Unnamed: 0,Index,Response,case_app,Response Label
+Unnamed: 0.1,Unnamed: 0,Index,Response,case_app,Response Label
 0,0,073-Beedy," No, the appellee is not the city. In this case, the appellee is the State of Ohio.",0,0
 1,1,154-Poe," Yes, the appellee in this case is the city.",0,1
 2,2,109-CLIFF RIVENBARK," Step 1: Identify the appellee in the case.
@@ -8,7 +8,7 @@ Step 2: Determine if the appellee is a city.
 Drug Mart is not a city; it is a company.
 
 Step 3: Conclude whether the appellee is the city or not.
-Since the appellee is not a city, the appellee is not the city.",0,99
+Since the appellee is not a city, the appellee is not the city.",0,0
 3,3,936-Phillips," Step 1: Identify the parties involved in the case.
 In this case, the parties involved are:
 - Appellant: Phillips
@@ -18,7 +18,7 @@ Step 2: Determine if the appellee is a city.
 The appellee in this case is the State of Ohio, which is not a city.
 
 Step 3: Answer the question based on the information gathered.
-Since the appellee is not a city, the appellee is not the city.",0,99
+Since the appellee is not a city, the appellee is not the city.",0,0
 4,4,121-Whittaker," Step 1: Identify the parties involved in the case.
 In this case, the appellant is Steubenville and the appellee is Whittaker.
 
@@ -58,7 +58,7 @@ The appellee is not explicitly mentioned as a city in the provided case.
 Step 3: Check if the appellee is the state or another party.
 The appellee is not listed as the state or another party in the provided case.
 
-Conclusion: Based on the information provided, the appellee is not the city.",0,99
+Conclusion: Based on the information provided, the appellee is not the city.",0,0
 12,12,131-BSHM ARCHITECTS," Step 1: Identify the parties involved in the case.
 
 In this case, the appellant is Appellant and the appellee is Appellee.
@@ -73,7 +73,7 @@ The state or another party is not listed as the appellee.
 
 Step 4: Conclude whether the appellee is the city or not.
 
-Since the appellee is not listed as a city and the state or another party is not listed as the appellee, the appellee is not the city.",0,99
+Since the appellee is not listed as a city and the state or another party is not listed as the appellee, the appellee is not the city.",0,0
 13,13,909-Turner, Yes,0,1
 14,14,063-Mohammed Ali," Step 1: Identify the parties involved in the case.
 In this case, the parties involved are the State of Ohio, Ali, D.S., and A.B.
@@ -85,7 +85,7 @@ Step 3: Determine if the state or another party is listed as the appellee.
 The appellee is listed as the State of Ohio.
 
 Step 4: Conclude whether the appellee is the city or not.
-Since the appellee is listed as the State of Ohio, not the city, the appellee is not the city.",0,99
+Since the appellee is listed as the State of Ohio, not the city, the appellee is not the city.",0,0
 15,15,329-In Re SS," Step 1: Identify the parties involved in the case.
 In this case, the parties involved are:
 - Appellant: Mother
@@ -95,7 +95,7 @@ Step 2: Determine if the appellee is a city.
 The appellee in this case is Franklin County Children Services (FCCS), which is not a city.
 
 Step 3: Answer the question based on the information gathered.
-Since the appellee is not a city, the appellee is not the city.",0,99
+Since the appellee is not a city, the appellee is not the city.",0,0
 16,16,096-M.," Step 1: Identify the parties involved in the case.
 In this case, the appellant is A.M. and the appellee is the state of Ohio.
 
@@ -146,7 +146,7 @@ The appellee in this case is the State of Ohio, which is not a city.
 
 Step 3: Answer the question based on the information gathered.
 
-Since the appellee is not listed as a city, the appellee is not the city.",0,99
+Since the appellee is not listed as a city, the appellee is not the city.",0,0
 21,21,937-Shaner," Step 1: Identify the parties involved in the case.
 In this case, the appellant is ""Shane Shanon"" and the appellee is ""State of Ohio.""
 
@@ -180,7 +180,7 @@ Step 3: Determine if the state or another party is listed as the appellee.
 The state of Ohio is listed as the appellant, not the appellee.
 
 Step 4: Conclude if the appellee is the city.
-Since the appellee, Harry Jordan, is not listed as a city and the state or another party is not listed as the appellee, the appellee is not the city.",0,99
+Since the appellee, Harry Jordan, is not listed as a city and the state or another party is not listed as the appellee, the appellee is not the city.",0,0
 26,26,070-Stidhum," Step 1: Identify the parties involved in the case.
 In this case, the parties are:
 - Appellant: Stidhum
@@ -208,7 +208,7 @@ Step 3: Determine if the appellee is a state or another party.
 The appellee is not a state or another party, but rather a grandmother.
 
 Step 4: Conclude whether the appellee is the city or not.
-Since the appellee is not a city, the appellee is not the city.",0,99
+Since the appellee is not a city, the appellee is not the city.",0,0
 28,28,286-Yee," No, the appellee is not the city. In the provided case, the appellee is the State of Ohio.",0,0
 29,29,310-Middleton," Step 1: Identify the parties involved in the case.
 In this case, the parties involved are Middleton (appellant) and the State of Ohio (appellee).
@@ -243,7 +243,7 @@ Step 3: Determine if the state or another party is listed as the appellee.
 In this case, the state or another party is not listed as the appellee.
 
 Step 4: Conclude whether the appellee is the city or not.
-Since the appellee is not listed as a city and the state or another party is not listed as the appellee, the appellee is not the city.",0,99
+Since the appellee is not listed as a city and the state or another party is not listed as the appellee, the appellee is not the city.",0,0
 34,34,346-Vance," Step 1: Identify the parties involved in the case.
 In this case, the parties involved are the appellant (Larry Vance) and the appellee (State of Ohio).
 
@@ -265,7 +265,7 @@ Step 3: Determine if the state or another party is listed as the appellee.
 The appellee in this case is the State of Ohio, which is a state, not a city.
 
 Step 4: Conclude whether the appellee is the city or not.
-Since the appellee is the State of Ohio, which is not a city, the appellee is not the city.",0,99
+Since the appellee is the State of Ohio, which is not a city, the appellee is not the city.",0,0
 36,36,069-Johnson," No, the appellee is not the city. In the given case, the appellee is the state of Ohio.",0,0
 37,37,052-Owens," Step 1: Identify the appellee in the case.
 In this case, the appellee is ""Richard Owens III.""
@@ -388,7 +388,7 @@ Step 2: Determine if the appellee is a city.
 The appellee in this case is Tyarria Howard, not a city.
 
 Step 3: Answer the question.
-Based on the information provided, the appellee is not the city.",0,99
+Based on the information provided, the appellee is not the city.",0,0
 52,52,474-Stahl-Francisco," Step 1: Identify the parties involved in the case.
 In this case, the parties are:
 - Appellant: Ms. Stahl-Francisco
@@ -461,7 +461,7 @@ Step 3: Determine if the state or another party is listed as the appellee.
 The appellee is listed as ""the state.""
 
 Step 4: Conclude if the appellee is the city or not.
-Since the appellee is listed as ""the state,"" the appellee is not the city.",0,99
+Since the appellee is listed as ""the state,"" the appellee is not the city.",0,0
 58,58,877-BAER," Step 1: Identify the parties involved in the case.
 In this case, the parties involved are State v. Baer.
 
@@ -472,7 +472,7 @@ Step 3: Determine if the state or another party is listed as the appellee.
 The appellee in this case is listed as the state (Ohio).
 
 Step 4: Conclude if the appellee is the city or not.
-Since the appellee is listed as the state (Ohio), the appellee is not the city.",0,99
+Since the appellee is listed as the state (Ohio), the appellee is not the city.",0,0
 59,59,680-Untied," No, the appellee is not the city.",0,0
 60,60,879-Carter, No,0,0
 61,61,256-Ammons," Yes, the appellee in this case is the city. The appellee is listed as the ""State of Ohio"" and the ""Summit County Court of Common Pleas, County of Summit, State of Ohio.""",0,1
@@ -568,7 +568,7 @@ The appellee in this case is Thacker, not the state.
 
 Step 4: Conclude whether the appellee is the city or not.
 
-Since the appellee is not a city and is not listed as the state or another party, the appellee is not the city.",0,99
+Since the appellee is not a city and is not listed as the state or another party, the appellee is not the city.",0,0
 74,74,832-Estate of Reva," Step 1: Identify the parties involved in the case.
 In this case, the parties are the Estate of Reva Case (Appellant) and Austin Center III Condominium Association (Appellee).
 
@@ -644,7 +644,7 @@ The state or another party is not listed as the appellee.
 
 Step 5: Conclude whether the appellee is the city or not.
 
-Since the appellee is not listed as a city and the state or another party is not listed as the appellee, the appellee is not the city.",0,99
+Since the appellee is not listed as a city and the state or another party is not listed as the appellee, the appellee is not the city.",0,0
 80,80,245-Tomlinson," Step 1: Identify the parties involved in the case.
 In this case, the parties involved are the appellant (Tomlinson) and the appellee (State of Ohio).
 
@@ -711,7 +711,7 @@ Gerald Hlavin is an individual, not a city.
 Robert Norris is an individual, not a city.
 
 Step 3: Conclude whether the appellee is the city or not.
-Since none of the appellees are cities, the appellee is not the city.",0,99
+Since none of the appellees are cities, the appellee is not the city.",0,0
 86,86,365-Young," No, the appellee is not the city. In this case, the appellee is the state of Ohio.",0,0
 87,87,975-State of Ohio," Step 1: Identify the parties involved in the case.
 In this case, the State of Ohio is the appellant, and Ms. Kimberly S. Heil is the appellee.
@@ -744,7 +744,7 @@ Step 3: Determine if the state or another party is listed as the appellee.
 The appellee is listed as the State of Ohio.
 
 Step 4: Conclude whether the appellee is the city or not.
-Since the appellee is listed as the State of Ohio, not a city, the appellee is not the city.",0,99
+Since the appellee is listed as the State of Ohio, not a city, the appellee is not the city.",0,0
 90,90,248-Defiance Therapeutic Massage," Step 1: Identify the appellee in the case.
 In this case, the appellee is the Ohio Department of Job and Family Services (ODJFS).
 
@@ -752,7 +752,7 @@ Step 2: Determine if the appellee is a city.
 The appellee, ODJFS, is not a city. It is a state agency.
 
 Step 3: Answer the question.
-Since the appellee is not a city, the appellee is not the city.",0,99
+Since the appellee is not a city, the appellee is not the city.",0,0
 91,91,143-In L.D.," No, the appellee is not the city. In the provided case, the appellee is the Licking County Job and Family Services (LCJFS).",0,0
 92,92,213-Tinley," Step 1: Identify the parties involved in the case.
 In this case, the appellant is Mari Beth Tinley, and the appellee is the Wadsworth Municipal Court, County of Medina, State of Ohio.
@@ -790,7 +790,7 @@ Step 3: Determine if the state or another party is listed as the appellee.
 The appellee, Stokes, is not listed as the state or another party.
 
 Step 4: Conclude whether the appellee is the city or not.
-Since the appellee, Stokes, is not listed as a city and is not listed as the state or another party, the appellee is not the city.",0,99
+Since the appellee, Stokes, is not listed as a city and is not listed as the state or another party, the appellee is not the city.",0,0
 95,95,244-Price," Step 1: Identify the appellee in the case.
 In the given case, the appellee is not explicitly mentioned.
 
@@ -824,7 +824,7 @@ Step 3: Determine if the state or another party is listed as the appellee.
 In this case, the appellee is the State of Ohio, which is a state, not a city.
 
 Step 4: Conclude whether the appellee is the city or not.
-Since the appellee is the State of Ohio, which is not a city, the appellee is not the city.",0,99
+Since the appellee is the State of Ohio, which is not a city, the appellee is not the city.",0,0
 98,98,251-Giant Eagle," Step 1: Identify the appellee in the case.
 In the given case, the appellee is ""Giant Eagle.""
 

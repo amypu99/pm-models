@@ -182,21 +182,21 @@ def run_pipeline_with_questions(question, label, filepath, model, tokenizer, bat
 
 
 def questions_setup(): # Questions
-    case_juv_q = ("Is the defendant a juvenile (i.e. is the defendant younger than 18 years of age)? Some hints that the"
-                  " defendant is not juvenile are if the defendant's name is given as initials, if the appellant is "
-                  "referred to as minor, or if the case is from juvenile court. If you cannot determine the answer or no"
-                  " reference to the defendant being juvenile is made, the defendant is not a juvenile.")
-    case_crim_q = ("Is the case criminal? Criminal cases are between the public and a private citizen. Civil cases are "
-                   "between two private parties. (Hint: Case is criminal if the trial case number contains the "
-                   "characters ‘CR’. Case is civil if the trial case number contains 'CV' or 'CA', or if the case is "
-                   "marked as a civil appeal).")
+    # case_juv_q = ("Is the defendant a juvenile (i.e. is the defendant younger than 18 years of age)? Some hints that the"
+    #               " defendant is not juvenile are if the defendant's name is given as initials, if the appellant is "
+    #               "referred to as minor, or if the case is from juvenile court. If you cannot determine the answer or no"
+    #               " reference to the defendant being juvenile is made, the defendant is not a juvenile.")
+    # case_crim_q = ("Is the case criminal? Criminal cases are between the public and a private citizen. Civil cases are "
+    #                "between two private parties. (Hint: Case is criminal if the trial case number contains the "
+    #                "characters ‘CR’. Case is civil if the trial case number contains 'CV' or 'CA', or if the case is "
+    #                "marked as a civil appeal).")
     # case_2001_q = ("Did the original trial mentioned in this appellate case take place before 2001? If the original trial "
     #                "date is not mentioned, look for other clues that the trial might have taken place before 2001. The"
     #                " trial date will be before the conviction date and after the date of the crime.")
     # case_app_q = ("Is the appellee the city? If the appelle is listed as a city, not the state, the appellee is the city."
     #               "If the state or another party is listed as the appellee, the appelle is not the city.")
     # case_pros_q = "Is the prosecutor a city prosecutor?"
-    # aoe_none_q = "Are there any allegations of prosecutorial misconduct mentioned?"
+    aoe_none_q = "Are there any allegations of prosecutorial misconduct mentioned?"
     # aoe_grandjury_q = "aoe_grandjury"
     # aoe_court_q = "Is the allegation of error against the court, sometimes referred to as the “trial court”?"
     # aoe_defense_q = "Is the allegation of error against the defense attorney?"
@@ -205,12 +205,12 @@ def questions_setup(): # Questions
     # aoe_prochist_q = "aoe_prochist"
     # Question to variable mapping
     questions = {
-        case_juv_q: "case_juv",
-        case_crim_q: "case_crim",
+        # case_juv_q: "case_juv",
+        # case_crim_q: "case_crim",
         # case_2001_q: "case_2001",
         # case_app_q: "case_app",
         # case_pros_q: "case_pros",
-        # aoe_none_q: "aoe_none",
+        aoe_none_q: "aoe_none",
         # aoe_grandjury_q: "aoe_grandjury",
         # aoe_court_q: "aoe_court",
         # aoe_defense_q: "aoe_defense",
@@ -226,7 +226,7 @@ def evaluate_questions(answer):
     answer = answer.replace(".", "")
     if find_whole_word("Yes")(answer) or find_whole_word("Answer: Yes")(answer):
             return 1
-    elif find_whole_word("No")(answer) or find_whole_word("Answer: No")(answer):
+    elif find_whole_word("No")(answer) or find_whole_word("Answer: No")(answer) or find_whole_word("the appellee is not the city")(answer):
         return 0
     else:
         return 99
@@ -257,7 +257,7 @@ def main():
     for q in questions:
         print(q)
         run_pipeline_with_questions(q, questions[q], f"./standards_csv/{questions[q]}.csv", model, tokenizer)
-        results_df["Response Label"] = df["Response"].apply(evaluate_questions)
+        results_df["Response Label"] = results_df["Response"].apply(evaluate_questions)
         results_df.to_csv(f"./standards_csv/{questions[q]}.csv", index=False)
         gc.collect()
         torch.cuda.empty_cache()
@@ -266,4 +266,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

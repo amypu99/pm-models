@@ -1,101 +1,101 @@
-Index,Response,aoe_court
-073-Beedy, Yes,1
-154-Poe, Yes,0
-109-CLIFF RIVENBARK, Yes,0
-936-Phillips, Yes,1
-121-Whittaker, Yes,0
-371-Myers, Yes,0
-126-Miller, Yes,0
-886-KHAMISI, Yes,0
-956-Graham, Yes,0
-199-Blair, Yes,0
-319-YOUNG, Yes,1
-269-Roberts, Yes,1
-131-BSHM ARCHITECTS, Yes,0
-909-Turner, Yes,0
-063-Mohammed Ali, Yes,1
-329-In Re SS, Yes,0
-096-M., Yes,0
-212-Stewart, Yes,0
-916-Campbell, Yes,1
-074-Norman, Yes,1
-165-FERRICCI, Yes,0
-937-Shaner, Yes,0
-844-Brown, Yes,0
-082-Jarmon, Yes,0
-155-Smith, Yes,0
-095-Jordan, Yes,0
-070-Stidhum, Yes,0
-026-P.K., Yes,0
-286-Yee, Yes,0
-310-Middleton, Yes,0
-472-Snowden, Yes,0
-889-O’CONNELL II, Yes,1
-363-Jackson, Yes,0
-998-E., Yes,0
-346-Vance, Yes,0
-927-Warren, Yes,0
-069-Johnson, Yes,0
-052-Owens, Yes,0
-085-Vance, Yes,0
-318-Hall, Yes,0
-534-Warren, Yes,0
-114-Jones, Yes,0
-"211-D.M., et al.", Yes,0
-404-Hayden, Yes,0
-401-Tiedjen, Yes,0
-900-Crowell, Yes,0
-342-Petway, Yes,0
-024-Zaccone, Yes,1
-185-Hartman, Yes,0
-352-Blanton, Yes,0
-903-McGlown Jr, Yes,0
-908-Howard, Yes,0
-474-Stahl-Francisco, Yes,1
-344-Grooms, Yes,0
-125-Willis, Yes,0
-907-Banks, Yes,1
-702-Smith, Yes,0
-920-Edwards, Yes,1
-877-BAER, Yes,1
-680-Untied, Yes,0
-879-Carter, Yes,0
-256-Ammons, Yes,0
-793-Lynch, Yes,0
-868-ROOTSTOWN TOWNSHIP BOARD OF TRUSTEES, Yes,0
-187-NEWMAN, Yes,0
-307-Miku, Yes,1
-846-Greenlee, Yes,0
-230-SCHWENDEMAN, Yes,0
-224-Liggins, Yes,0
-100-Long, Yes,0
-935-Kunzer, Yes,1
-954-Travis, Yes,1
-162-Solon, Yes,0
-976-Thacker, Yes,0
-832-Estate of Reva, Yes,0
-325-Miday, Yes,0
-851-Harrison, Yes,0
-279-Hollins, Yes,1
-062-Robinson, Yes,1
-183-In re Dor.B, Yes,0
-245-Tomlinson, Yes,1
-130-Gray, Yes,0
-887-Winfield, Yes,0
-349-KOPCHAK, Yes,1
-850-Manicini, Yes,0
-195-PATRIOT ENERGY PARTNERS, Yes,0
-365-Young, Yes,0
-975-State of Ohio, Yes,0
-860-Bowen, Yes,0
-225-Wright, Yes,1
-248-Defiance Therapeutic Massage, Yes,0
-143-In L.D., Yes,0
-213-Tinley, Yes,0
-154-Wallace, Yes,0
-"834-LAKE PROPERTY MANAGEMENT, LLC", Yes,0
-244-Price, Yes,0
-164-O'Malley, Yes,0
-"254-Daniels, Sr", Yes,0
-251-Giant Eagle, Yes,0
-"193-ADMINISTRATOR, OHIO BUREAU OF", Yes.,0
+,Unnamed: 0,Index,Response,aoe_court,Label,Response Label
+0,0,073-Beedy, Yes,1,1,1
+1,1,154-Poe, Yes,0,1,1
+2,2,109-CLIFF RIVENBARK, Yes,0,1,1
+3,3,936-Phillips, Yes,1,1,1
+4,4,121-Whittaker, Yes,0,1,1
+5,5,371-Myers, Yes,0,1,1
+6,6,126-Miller, Yes,0,1,1
+7,7,886-KHAMISI, Yes,0,1,1
+8,8,956-Graham, Yes,0,1,1
+9,9,199-Blair, Yes,0,1,1
+10,10,319-YOUNG, Yes,1,1,1
+11,11,269-Roberts, Yes,1,1,1
+12,12,131-BSHM ARCHITECTS, Yes,0,1,1
+13,13,909-Turner, Yes,0,1,1
+14,14,063-Mohammed Ali, Yes,1,1,1
+15,15,329-In Re SS, Yes,0,1,1
+16,16,096-M., Yes,0,1,1
+17,17,212-Stewart, Yes,0,1,1
+18,18,916-Campbell, Yes,1,1,1
+19,19,074-Norman, Yes,1,1,1
+20,20,165-FERRICCI, Yes,0,1,1
+21,21,937-Shaner, Yes,0,1,1
+22,22,844-Brown, Yes,0,1,1
+23,23,082-Jarmon, Yes,0,1,1
+24,24,155-Smith, Yes,0,1,1
+25,25,095-Jordan, Yes,0,1,1
+26,26,070-Stidhum, Yes,0,1,1
+27,27,026-P.K., Yes,0,1,1
+28,28,286-Yee, Yes,0,1,1
+29,29,310-Middleton, Yes,0,1,1
+30,30,472-Snowden, Yes,0,1,1
+31,31,889-O’CONNELL II, Yes,1,1,1
+32,32,363-Jackson, Yes,0,1,1
+33,33,998-E., Yes,0,1,1
+34,34,346-Vance, Yes,0,1,1
+35,35,927-Warren, Yes,0,1,1
+36,36,069-Johnson, Yes,0,1,1
+37,37,052-Owens, Yes,0,1,1
+38,38,085-Vance, Yes,0,1,1
+39,39,318-Hall, Yes,0,1,1
+40,40,534-Warren, Yes,0,1,1
+41,41,114-Jones, Yes,0,1,1
+42,42,"211-D.M., et al.", Yes,0,1,1
+43,43,404-Hayden, Yes,0,1,1
+44,44,401-Tiedjen, Yes,0,1,1
+45,45,900-Crowell, Yes,0,1,1
+46,46,342-Petway, Yes,0,1,1
+47,47,024-Zaccone, Yes,1,1,1
+48,48,185-Hartman, Yes,0,1,1
+49,49,352-Blanton, Yes,0,1,1
+50,50,903-McGlown Jr, Yes,0,1,1
+51,51,908-Howard, Yes,0,1,1
+52,52,474-Stahl-Francisco, Yes,1,1,1
+53,53,344-Grooms, Yes,0,1,1
+54,54,125-Willis, Yes,0,1,1
+55,55,907-Banks, Yes,1,1,1
+56,56,702-Smith, Yes,0,1,1
+57,57,920-Edwards, Yes,1,1,1
+58,58,877-BAER, Yes,1,1,1
+59,59,680-Untied, Yes,0,1,1
+60,60,879-Carter, Yes,0,1,1
+61,61,256-Ammons, Yes,0,1,1
+62,62,793-Lynch, Yes,0,1,1
+63,63,868-ROOTSTOWN TOWNSHIP BOARD OF TRUSTEES, Yes,0,1,1
+64,64,187-NEWMAN, Yes,0,1,1
+65,65,307-Miku, Yes,1,1,1
+66,66,846-Greenlee, Yes,0,1,1
+67,67,230-SCHWENDEMAN, Yes,0,1,1
+68,68,224-Liggins, Yes,0,1,1
+69,69,100-Long, Yes,0,1,1
+70,70,935-Kunzer, Yes,1,1,1
+71,71,954-Travis, Yes,1,1,1
+72,72,162-Solon, Yes,0,1,1
+73,73,976-Thacker, Yes,0,1,1
+74,74,832-Estate of Reva, Yes,0,1,1
+75,75,325-Miday, Yes,0,1,1
+76,76,851-Harrison, Yes,0,1,1
+77,77,279-Hollins, Yes,1,1,1
+78,78,062-Robinson, Yes,1,1,1
+79,79,183-In re Dor.B, Yes,0,1,1
+80,80,245-Tomlinson, Yes,1,1,1
+81,81,130-Gray, Yes,0,1,1
+82,82,887-Winfield, Yes,0,1,1
+83,83,349-KOPCHAK, Yes,1,1,1
+84,84,850-Manicini, Yes,0,1,1
+85,85,195-PATRIOT ENERGY PARTNERS, Yes,0,1,1
+86,86,365-Young, Yes,0,1,1
+87,87,975-State of Ohio, Yes,0,1,1
+88,88,860-Bowen, Yes,0,1,1
+89,89,225-Wright, Yes,1,1,1
+90,90,248-Defiance Therapeutic Massage, Yes,0,1,1
+91,91,143-In L.D., Yes,0,1,1
+92,92,213-Tinley, Yes,0,1,1
+93,93,154-Wallace, Yes,0,1,1
+94,94,"834-LAKE PROPERTY MANAGEMENT, LLC", Yes,0,1,1
+95,95,244-Price, Yes,0,1,1
+96,96,164-O'Malley, Yes,0,1,1
+97,97,"254-Daniels, Sr", Yes,0,1,1
+98,98,251-Giant Eagle, Yes,0,1,1
+99,99,"193-ADMINISTRATOR, OHIO BUREAU OF", Yes.,0,1,1

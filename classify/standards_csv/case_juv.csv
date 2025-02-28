@@ -1,101 +1,101 @@
-Index,Response,case_juv
-073-Beedy, No,0
-154-Poe, No,0
-109-CLIFF RIVENBARK, Yes,0
-936-Phillips, No,0
-121-Whittaker, Yes,0
-371-Myers, Yes,0
-126-Miller, No,0
-886-KHAMISI, Yes,0
-956-Graham, No,0
-199-Blair, No,0
-319-YOUNG, Yes,0
-269-Roberts, Yes,0
-131-BSHM ARCHITECTS, No,0
-909-Turner, Yes,0
-063-Mohammed Ali, Yes,0
-329-In Re SS, Yes,0
-096-M., Yes,0
-212-Stewart, Yes,0
-916-Campbell, Yes,0
-074-Norman, No,0
-165-FERRICCI, Yes,0
-937-Shaner, Yes,0
-844-Brown, Yes,0
-082-Jarmon, No,0
-155-Smith, Yes,0
-095-Jordan, Yes,0
-070-Stidhum, Yes,0
-026-P.K., Yes,1
-286-Yee, No,0
-310-Middleton, Yes,0
-472-Snowden, Yes,0
-889-O’CONNELL II, Yes,0
-363-Jackson, No,0
-998-E., Yes,1
-346-Vance, Yes,0
-927-Warren, Yes,0
-069-Johnson, No,0
-052-Owens, Yes,0
-085-Vance, Yes,0
-318-Hall, No,0
-534-Warren, No,0
-114-Jones, No,0
-"211-D.M., et al.", Yes,1
-404-Hayden, No,0
-401-Tiedjen, Yes,0
-900-Crowell, No,0
-342-Petway, No,0
-024-Zaccone, Yes,0
-185-Hartman, Yes,0
-352-Blanton, Yes,0
-903-McGlown Jr, Yes,0
-908-Howard, Yes,0
-474-Stahl-Francisco, Yes,0
-344-Grooms, No,0
-125-Willis, Yes,0
-907-Banks, No,0
-702-Smith, Yes,0
-920-Edwards, Yes,0
-877-BAER, Yes,0
-680-Untied, No,0
-879-Carter, Yes,1
-256-Ammons, No,0
-793-Lynch, Yes,0
-868-ROOTSTOWN TOWNSHIP BOARD OF TRUSTEES, No,0
-187-NEWMAN, No,0
-307-Miku, No,0
-846-Greenlee, No,0
-230-SCHWENDEMAN, Yes,0
-224-Liggins, No,0
-100-Long, No,0
-935-Kunzer, Yes,0
-954-Travis, Yes,0
-162-Solon, Yes,0
-976-Thacker, No,0
-832-Estate of Reva, No,0
-325-Miday, No,0
-851-Harrison, Yes,0
-279-Hollins, No,0
-062-Robinson, Yes,0
-183-In re Dor.B, Yes,0
-245-Tomlinson, Yes,0
-130-Gray, No,0
-887-Winfield, Yes,0
-349-KOPCHAK, No,0
-850-Manicini, Yes,0
-195-PATRIOT ENERGY PARTNERS, No,0
-365-Young, No,0
-975-State of Ohio, No,0
-860-Bowen, Yes,0
-225-Wright, Yes,0
-248-Defiance Therapeutic Massage, No,0
-143-In L.D., Yes,0
-213-Tinley, Yes,0
-154-Wallace, Yes,0
-"834-LAKE PROPERTY MANAGEMENT, LLC", No,0
-244-Price, Yes,0
-164-O'Malley, Yes,0
-"254-Daniels, Sr", Yes,0
-251-Giant Eagle, No,0
-"193-ADMINISTRATOR, OHIO BUREAU OF", Yes,0
+,Index,Response,case_juv,Response Label
+0,073-Beedy, No,0,1
+1,154-Poe, No,0,1
+2,109-CLIFF RIVENBARK, Yes,0,0
+3,936-Phillips, No,0,1
+4,121-Whittaker, Yes,0,0
+5,371-Myers, Yes,0,0
+6,126-Miller, No,0,1
+7,886-KHAMISI, Yes,0,0
+8,956-Graham, No,0,1
+9,199-Blair, No,0,1
+10,319-YOUNG, Yes,0,0
+11,269-Roberts, Yes,0,0
+12,131-BSHM ARCHITECTS, No,0,1
+13,909-Turner, Yes,0,0
+14,063-Mohammed Ali, Yes,0,0
+15,329-In Re SS, Yes,0,0
+16,096-M., Yes,0,0
+17,212-Stewart, Yes,0,0
+18,916-Campbell, Yes,0,0
+19,074-Norman, No,0,1
+20,165-FERRICCI, Yes,0,0
+21,937-Shaner, Yes,0,0
+22,844-Brown, Yes,0,0
+23,082-Jarmon, No,0,1
+24,155-Smith, Yes,0,0
+25,095-Jordan, Yes,0,0
+26,070-Stidhum, Yes,0,0
+27,026-P.K., Yes,1,0
+28,286-Yee, No,0,1
+29,310-Middleton, Yes,0,0
+30,472-Snowden, Yes,0,0
+31,889-O’CONNELL II, Yes,0,0
+32,363-Jackson, No,0,1
+33,998-E., Yes,1,0
+34,346-Vance, Yes,0,0
+35,927-Warren, Yes,0,0
+36,069-Johnson, No,0,1
+37,052-Owens, Yes,0,0
+38,085-Vance, Yes,0,0
+39,318-Hall, No,0,1
+40,534-Warren, No,0,1
+41,114-Jones, No,0,1
+42,"211-D.M., et al.", Yes,1,0
+43,404-Hayden, No,0,1
+44,401-Tiedjen, Yes,0,0
+45,900-Crowell, No,0,1
+46,342-Petway, No,0,1
+47,024-Zaccone, Yes,0,0
+48,185-Hartman, Yes,0,0
+49,352-Blanton, Yes,0,0
+50,903-McGlown Jr, Yes,0,0
+51,908-Howard, Yes,0,0
+52,474-Stahl-Francisco, Yes,0,0
+53,344-Grooms, No,0,1
+54,125-Willis, Yes,0,0
+55,907-Banks, No,0,1
+56,702-Smith, Yes,0,0
+57,920-Edwards, Yes,0,0
+58,877-BAER, Yes,0,0
+59,680-Untied, No,0,1
+60,879-Carter, Yes,1,0
+61,256-Ammons, No,0,1
+62,793-Lynch, Yes,0,0
+63,868-ROOTSTOWN TOWNSHIP BOARD OF TRUSTEES, No,0,1
+64,187-NEWMAN, No,0,1
+65,307-Miku, No,0,1
+66,846-Greenlee, No,0,1
+67,230-SCHWENDEMAN, Yes,0,0
+68,224-Liggins, No,0,1
+69,100-Long, No,0,1
+70,935-Kunzer, Yes,0,0
+71,954-Travis, Yes,0,0
+72,162-Solon, Yes,0,0
+73,976-Thacker, No,0,1
+74,832-Estate of Reva, No,0,1
+75,325-Miday, No,0,1
+76,851-Harrison, Yes,0,0
+77,279-Hollins, No,0,1
+78,062-Robinson, Yes,0,0
+79,183-In re Dor.B, Yes,0,0
+80,245-Tomlinson, Yes,0,0
+81,130-Gray, No,0,1
+82,887-Winfield, Yes,0,0
+83,349-KOPCHAK, No,0,1
+84,850-Manicini, Yes,0,0
+85,195-PATRIOT ENERGY PARTNERS, No,0,1
+86,365-Young, No,0,1
+87,975-State of Ohio, No,0,1
+88,860-Bowen, Yes,0,0
+89,225-Wright, Yes,0,0
+90,248-Defiance Therapeutic Massage, No,0,1
+91,143-In L.D., Yes,0,0
+92,213-Tinley, Yes,0,0
+93,154-Wallace, Yes,0,0
+94,"834-LAKE PROPERTY MANAGEMENT, LLC", No,0,1
+95,244-Price, Yes,0,0
+96,164-O'Malley, Yes,0,0
+97,"254-Daniels, Sr", Yes,0,0
+98,251-Giant Eagle, No,0,1
+99,"193-ADMINISTRATOR, OHIO BUREAU OF", Yes,0,0

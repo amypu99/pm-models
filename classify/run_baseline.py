@@ -8,7 +8,7 @@ import gc
 import re
 
 os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
-os.environ["CUDA_VISIBLE_DEVICES"] = "3"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'
 
 def model_setup():
@@ -190,32 +190,33 @@ def questions_setup(): # Questions
     #                "between two private parties. (Hint: Case is criminal if the trial case number contains the "
     #                "characters ‘CR’. Case is civil if the trial case number contains 'CV' or 'CA', or if the case is "
     #                "marked as a civil appeal).")
-    # case_2001_q = ("Did the original trial mentioned in this appellate case take place before 2001? If the original trial "
-    #                "date is not mentioned, look for other clues that the trial might have taken place before 2001. The"
-    #                " trial date will be before the conviction date and after the date of the crime.")
+    case_2001_q = ("Did the original trial mentioned in this appellate case take place before 2001? If the original trial "
+                   "date is not mentioned, look for other clues that the trial might have taken place before 2001. The"
+                   " trial date will be before the conviction date and after the date of the crime.")
     # case_app_q = ("Is the appellee the city? If the appelle is listed as a city, not the state, the appellee is the city."
     #               "If the state or another party is listed as the appellee, the appelle is not the city.")
     # case_pros_q = "Is the prosecutor a city prosecutor?"
-    aoe_none_q = "Are there any allegations of prosecutorial misconduct mentioned?"
+    # aoe_none_q = "Are there any allegations of prosecutorial misconduct mentioned?"
     # aoe_grandjury_q = "aoe_grandjury"
     # aoe_court_q = "Is the allegation of error against the court, sometimes referred to as the “trial court”?"
     # aoe_defense_q = "Is the allegation of error against the defense attorney?"
     # aoe_procbar_q = ("Is the allegation procedurally barred? For example, is it barred by res judicata because it was not "
     #              "raised during original trial and now it’s too late?")
-    # aoe_prochist_q = "aoe_prochist"
+    aoe_prochist_q = ("Is the allegation in procedural history, i.e., was the prosecutorial misconduct in question raised"
+                      " in a previous appeal?")
     # Question to variable mapping
     questions = {
         # case_juv_q: "case_juv",
         # case_crim_q: "case_crim",
-        # case_2001_q: "case_2001",
+        case_2001_q: "case_2001",
         # case_app_q: "case_app",
         # case_pros_q: "case_pros",
-        aoe_none_q: "aoe_none",
+        # aoe_none_q: "aoe_none",
         # aoe_grandjury_q: "aoe_grandjury",
         # aoe_court_q: "aoe_court",
         # aoe_defense_q: "aoe_defense",
         # aoe_procbar_q: "aoe_procbar",
-        # aoe_prochist_q: "aoe_prochist",
+        aoe_prochist_q: "aoe_prochist"
     }
     return questions
 
@@ -256,7 +257,7 @@ def main():
     questions = questions_setup()
     for q in questions:
         print(q)
-        run_pipeline_with_questions(q, questions[q], f"./standards_csv/{questions[q]}.csv", model, tokenizer)
+        results_df = run_pipeline_with_questions(q, questions[q], f"./standards_csv/{questions[q]}.csv", model, tokenizer)
         results_df["Response Label"] = results_df["Response"].apply(evaluate_questions)
         results_df.to_csv(f"./standards_csv/{questions[q]}.csv", index=False)
         gc.collect()

@@ -41,19 +41,15 @@ def extract_text(pdf_dir, pdf):
         case_text += page.extract_text()
     return case_text, reader.metadata
 
-def create_ms_txt():
-    ms_pdf_dir = "cases_pdf/MS_2018_2021"
-    ms_output_dir = "cases_txt/MS_2018to2020"
-    process_to_txt(ms_pdf_dir, ms_output_dir, to_txt)
 
-def create_dmms_txt():
-    dnms_pdf_dir = "cases_pdf/DNMS_2018_2021"
-    dnms_output_dir = "cases_txt/DNMS_2018to2020"
-    process_to_txt(dnms_pdf_dir, dnms_output_dir, to_txt)
 
 if __name__ == "__main__":
-    create_ms_txt()
-    create_dmms_txt()
+    ms_pdf_dir = "../cases_pdf/MS"
+    ms_output_dir = "../cases_txt/MS"
+    process_to_txt(ms_pdf_dir, ms_output_dir, to_txt)
+    dnms_pdf_dir = "../cases_pdf/DNMS"
+    dnms_output_dir = "../cases_txt/DNMS"
+    process_to_txt(dnms_pdf_dir, dnms_output_dir, to_txt)
 
 
 

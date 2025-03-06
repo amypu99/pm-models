@@ -1,6 +1,6 @@
-,Index,Response,aoe_none,Response Label
-0,073-Beedy," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
-1,154-Poe," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
+Unnamed: 0,Index,Response,aoe_none,Response Label
+0,073-Beedy," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
+1,154-Poe," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
 2,109-CLIFF RIVENBARK," Step 1: Identify the key elements of the question.
 - Allegations
 - Prosecutorial misconduct
@@ -15,7 +15,7 @@ Step 4: Find the relevant part of the case.
 Step 5: Determine if there are any allegations of prosecutorial misconduct.
 - The case does not mention any allegations of prosecutorial misconduct.
 
-Answer: No",0,1
+Answer: No",1,1
 3,936-Phillips," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 - Mentioned in the case
@@ -31,7 +31,7 @@ Step 5: Compare the key elements of the question with the relevant part of the c
 - The case does not mention any allegations of prosecutorial misconduct.
 
 Step 6: Answer the question based on the comparison.
-- No, there are no allegations of prosecutorial misconduct mentioned in the case.",1,1
+- No, there are no allegations of prosecutorial misconduct mentioned in the case.",0,1
 4,121-Whittaker," Step 1: Identify the relevant information in the case.
 In this case, the appellant is accused of assaulting a child. The case involves a bench trial, and the appellant raises three assignments of error.
 
@@ -41,7 +41,7 @@ The appellant claims that the prosecutor made improper comments during the trial
 Step 3: Determine if the allegations are mentioned in the case.
 The case does mention the prosecutor's comments, which can be considered as allegations of prosecutorial misconduct.
 
-Answer: Yes",0,0
+Answer: Yes",1,1
 5,371-Myers," Step 1: Identify the main subject of the question.
 The main subject of the question is whether there are any allegations of prosecutorial misconduct mentioned in the provided appellate case.
 
@@ -52,8 +52,8 @@ Step 3: Compare the information found in the case with the question.
 The information found in the case does not include any allegations of prosecutorial misconduct.
 
 Step 4: Answer the question based on the comparison.
-Since there is no mention of prosecutorial misconduct in the provided appellate case, the answer to the question is 'No'.",0,1
-6,126-Miller," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
+Since there is no mention of prosecutorial misconduct in the provided appellate case, the answer to the question is 'No'.",1,1
+6,126-Miller," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
 7,886-KHAMISI," Step 1: Identify the key elements of the question.
 - Allegations
 - Prosecutorial misconduct
@@ -68,10 +68,10 @@ Step 5: Determine if any of the allegations involve prosecutorial misconduct.
 
 Step 6: Provide the answer based on the analysis.
 
-Answer: No",1,1
-8,956-Graham," No, there are no allegations of prosecutorial misconduct mentioned in the case.",0,1
-9,199-Blair," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
-10,319-YOUNG, No,0,1
+Answer: No",0,1
+8,956-Graham," No, there are no allegations of prosecutorial misconduct mentioned in the case.",1,1
+9,199-Blair," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
+10,319-YOUNG, No,1,1
 11,269-Roberts," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 - Mentioned in the case
@@ -84,16 +84,16 @@ Step 4: Compare the allegations in the question with the case.
 
 Step 5: Determine if there are any allegations of prosecutorial misconduct mentioned in the case.
 
-Answer: No",0,1
-12,131-BSHM ARCHITECTS," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
-13,909-Turner," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
+Answer: No",1,1
+12,131-BSHM ARCHITECTS," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
+13,909-Turner," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
 14,063-Mohammed Ali," Step 1: Identify the key elements of the question.
 - Allegations
 - Prosecutorial misconduct
 
 Step 2: Scan the case for any mention of allegations or prosecutorial misconduct.
 
-Step 3: Locate the following passage in the case: ""The State also argues that the trial court did not err by admitting the other-acts evidence. It contends that the testimony of A.B. and D.S. was admissible for the purpose of establishing a common scheme, plan, motive, intent, and/or identity. It argues that the other-acts evidence was admissible to show that Ali had a disposition to commit certain acts, and that the evidence was relevant to prove identity. It also contends that the other-acts evidence was admissible to show that Ali had a common scheme or plan to commit the charged crime. The State further argues that the trial court’s error was harmless because the other-acts evidence did not contribute to Ali’s conviction. It concludes that the other-acts evidence was admissible to show that Ali had a common scheme or plan to commit the charged crime, and that the evidence was relevant to prove identity. It also contends that the other-acts evidence was admissible to show that Ali had a disposition to commit certain acts, and that the evidence was relevant to prove identity. The State further",1,99
+Step 3: Locate the following passage in the case: ""The State also argues that the trial court did not err by admitting the other-acts evidence. It contends that the testimony of A.B. and D.S. was admissible for the purpose of establishing a common scheme, plan, motive, intent, and/or identity. It argues that the other-acts evidence was admissible to show that Ali had a disposition to commit certain acts, and that the evidence was relevant to prove identity. It also contends that the other-acts evidence was admissible to show that Ali had a common scheme or plan to commit the charged crime. The State further argues that the trial court’s error was harmless because the other-acts evidence did not contribute to Ali’s conviction. It concludes that the other-acts evidence was admissible to show that Ali had a common scheme or plan to commit the charged crime, and that the evidence was relevant to prove identity. It also contends that the other-acts evidence was admissible to show that Ali had a disposition to commit certain acts, and that the evidence was relevant to prove identity. The State further",0,1
 15,329-In Re SS," Step 1: Identify the key elements of the question.
 - Allegations
 - Prosecutorial misconduct
@@ -108,7 +108,7 @@ In the provided case, there is no mention of allegations or prosecutorial miscon
 
 Step 5: Answer the question based on the analysis.
 
-Answer: No",0,1
+Answer: No",1,1
 16,096-M.," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 - Mentioned in the case
@@ -127,7 +127,7 @@ Step 7: Determine if the identified instances match the key elements of the ques
 
 Step 8: Answer the question based on the comparison.
 
-Answer: No",1,1
+Answer: No",0,1
 17,212-Stewart," Step 1: Identify the key elements of the question.
 - Allegations
 - Prosecutorial misconduct
@@ -140,7 +140,7 @@ Step 4: Find the relevant part of the case.
 - In the case, there is no mention of any allegations of prosecutorial misconduct.
 
 Step 5: Answer the question based on the analysis.
-- No, there are no allegations of prosecutorial misconduct mentioned in the case.",1,1
+- No, there are no allegations of prosecutorial misconduct mentioned in the case.",0,1
 18,916-Campbell," Step 1: Identify the key elements of the question.
 - Allegations
 - Prosecutorial misconduct
@@ -156,9 +156,9 @@ Step 4: Analyze the information found in the relevant part of the case.
 Step 5: Determine if the allegations of prosecutorial misconduct are mentioned.
 - Yes, the case mentions allegations of prosecutorial misconduct, specifically regarding the introduction of evidence that was not properly authenticated.
 
-Answer: Yes",1,0
-19,074-Norman," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
-20,165-FERRICCI," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
+Answer: Yes",0,1
+19,074-Norman," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
+20,165-FERRICCI," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
 21,937-Shaner," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 - Read over the case carefully
@@ -175,7 +175,7 @@ Step 3: Think step-by-step through the case.
 - The appellant also argues that the trial court abused its discretion when it denied his motion for a new trial because the court improperly decided no juror misconduct occurred.
 
 Step 4: Answer with a 'Yes' or 'No'.
-- Yes, there are allegations of prosecutorial misconduct mentioned in the case.",0,0
+- Yes, there are allegations of prosecutorial misconduct mentioned in the case.",1,1
 22,844-Brown," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 - Mentioned in the case
@@ -192,8 +192,8 @@ Step 6: Determine if any of the identified instances are allegations of prosecut
 
 Step 7: Answer the question based on the analysis.
 
-Answer: No",1,1
-23,082-Jarmon," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
+Answer: No",0,1
+23,082-Jarmon," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
 24,155-Smith," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 - Mentioned in the case
@@ -206,7 +206,7 @@ Step 4: Compare the allegations in the question with the case.
 
 Step 5: Determine if there are any allegations of prosecutorial misconduct mentioned in the case.
 
-Answer: No",1,1
+Answer: No",0,1
 25,095-Jordan," Step 1: Identify the main subject of the question - allegations of prosecutorial misconduct.
 
 Step 2: Read through the case to find any mention of prosecutorial misconduct.
@@ -221,7 +221,7 @@ Step 6: Determine if the allegations mentioned in the case meet the requirements
 
 Step 7: Provide the answer based on the comparison.
 
-Answer: Yes",0,0
+Answer: Yes",1,1
 26,070-Stidhum," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 - Mentioned in the case
@@ -238,7 +238,7 @@ Step 6: Determine if the allegations mentioned in the case match the question.
 
 Step 7: Provide the answer based on the comparison.
 
-Answer: No",1,1
+Answer: No",0,1
 27,026-P.K.," Step 1: Identify the key elements of the question.
 - Allegations
 - Prosecutorial misconduct
@@ -251,8 +251,8 @@ Step 4: Compare the identified instances with the key elements of the question.
 
 Step 5: Determine if there are any allegations of prosecutorial misconduct mentioned in the case.
 
-Answer: No",0,1
-28,286-Yee," Yes, there are allegations of prosecutorial misconduct mentioned in the case. The appellant claims that the state threatened to use the same ""bogus"" evidence as the federal authorities used to secure the convictions.",0,0
+Answer: No",1,1
+28,286-Yee," Yes, there are allegations of prosecutorial misconduct mentioned in the case. The appellant claims that the state threatened to use the same ""bogus"" evidence as the federal authorities used to secure the convictions.",1,1
 29,310-Middleton," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 - Mentioned in the case
@@ -265,7 +265,7 @@ Step 4: Compare the identified instances with the key elements of the question.
 
 Step 5: Determine if there are any allegations of prosecutorial misconduct mentioned in the case.
 
-Answer: No",1,1
+Answer: No",0,1
 30,472-Snowden," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 
@@ -277,7 +277,7 @@ Step 4: Compare the allegations in the question with the case.
 
 Step 5: Determine if there are any allegations of prosecutorial misconduct in the case.
 
-Answer: No",1,1
+Answer: No",0,1
 31,889-O’CONNELL II," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 - Mentioned in the case
@@ -292,9 +292,9 @@ Step 5: Compare the identified instances with the key elements of the question.
 
 Step 6: Determine if there are any allegations of prosecutorial misconduct mentioned in the case.
 
-Answer: No",0,1
-32,363-Jackson," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
-33,998-E.," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
+Answer: No",1,1
+32,363-Jackson," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
+33,998-E.," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
 34,346-Vance," Step 1: Identify the key elements of the question.
 - Allegations
 - Prosecutorial misconduct
@@ -309,9 +309,9 @@ Step 5: Determine if any of the allegations involve prosecutorial misconduct.
 
 Step 6: Provide the answer based on the analysis.
 
-Answer: No",0,1
-35,927-Warren," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
-36,069-Johnson," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
+Answer: No",1,1
+35,927-Warren," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
+36,069-Johnson," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
 37,052-Owens," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 - Mentioned in the case
@@ -324,7 +324,7 @@ Step 4: Compare the allegations in the question with the instances found in the 
 
 Step 5: Determine if there are any allegations of prosecutorial misconduct mentioned in the case.
 
-Result: No, there are no allegations of prosecutorial misconduct mentioned in the case.",1,1
+Result: No, there are no allegations of prosecutorial misconduct mentioned in the case.",0,1
 38,085-Vance," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 
@@ -338,7 +338,7 @@ Step 5: Compare the key elements of the question with the information found in t
 
 Step 6: Determine if there are any allegations of prosecutorial misconduct mentioned in the case.
 
-Answer: No",0,1
+Answer: No",1,1
 39,318-Hall," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 - Mentioned in the case
@@ -355,8 +355,8 @@ Step 6: Determine if the allegations mentioned in the case are related to prosec
 
 Step 7: Answer the question based on the analysis.
 
-Answer: No",0,1
-40,534-Warren," Yes, there are allegations of prosecutorial misconduct mentioned in the case. The prosecutor made statements regarding the nurse who allegedly had an intimate relationship with the defendant, which contributed to the conviction. The trial court expressly relied on these statements, leading to the reversal of the conviction.",0,0
+Answer: No",1,1
+40,534-Warren," Yes, there are allegations of prosecutorial misconduct mentioned in the case. The prosecutor made statements regarding the nurse who allegedly had an intimate relationship with the defendant, which contributed to the conviction. The trial court expressly relied on these statements, leading to the reversal of the conviction.",1,1
 41,114-Jones," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 
@@ -368,7 +368,7 @@ Step 4: Compare the allegations in the question with the case details.
 
 Step 5: Determine if there are any allegations of prosecutorial misconduct mentioned in the case.
 
-Answer: No",1,1
+Answer: No",0,1
 42,"211-D.M., et al."," Step 1: Identify the key elements of the question.
 - Allegations
 - Prosecutorial misconduct
@@ -383,8 +383,8 @@ Step 5: Compare the findings in the case with the allegations mentioned in the q
 
 Step 6: Determine if there are any allegations of prosecutorial misconduct mentioned in the case.
 
-Answer: No",1,1
-43,404-Hayden," Yes, there are allegations of prosecutorial misconduct mentioned in the case. The defendant, Robert O. Hayden, claims that the prosecutor presented perjured testimonies in his 1990 trial, which violated his right to a fair trial and Brady v. Maryland.",0,0
+Answer: No",0,1
+43,404-Hayden," Yes, there are allegations of prosecutorial misconduct mentioned in the case. The defendant, Robert O. Hayden, claims that the prosecutor presented perjured testimonies in his 1990 trial, which violated his right to a fair trial and Brady v. Maryland.",1,1
 44,401-Tiedjen," Step 1: Identify the key elements of the question.
 - Allegations
 - Prosecutorial misconduct
@@ -405,8 +405,8 @@ Step 8: Determine if this part of the case is related to prosecutorial misconduc
 
 Step 9: Identify the part of the case where the majority concludes that the trial court abused its discretion by limiting the expert's testimony to the extent that it related to whether the newly discovered evidence was material and exculpatory.
 
-Step ",0,99
-45,900-Crowell," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
+Step ",1,1
+45,900-Crowell," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
 46,342-Petway," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 - Mentioned in the case
@@ -421,7 +421,7 @@ Step 5: Compare the allegations in the question with the case.
 
 Step 6: Determine if there are any allegations of prosecutorial misconduct mentioned in the case.
 
-Answer: No",1,1
+Answer: No",0,1
 47,024-Zaccone," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 - Mentioned in the case
@@ -436,7 +436,7 @@ Step 5: Compare the allegations in the question with the instances found in the 
 
 Step 6: Determine if there are any allegations of prosecutorial misconduct mentioned in the case.
 
-Answer: No",0,1
+Answer: No",1,1
 48,185-Hartman," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 - Mentioned in the appellate case
@@ -449,7 +449,7 @@ Step 4: Analyze the case for any instances of prosecutorial misconduct.
 
 Step 5: Compare the findings in the case with the question.
 
-Conclusion: There are no allegations of prosecutorial misconduct mentioned in the appellate case.",0,1
+Conclusion: There are no allegations of prosecutorial misconduct mentioned in the appellate case.",1,1
 49,352-Blanton," Step 1: Identify the relevant information in the case.
 In this case, the appellant, Blanton, is appealing his conviction for kidnapping, rape, and sexual battery. The case discusses the trial court's decision to impose consecutive sentences and the appellant's arguments against this decision.
 
@@ -457,8 +457,8 @@ Step 2: Look for any mention of prosecutorial misconduct.
 In the provided case, there is no mention or allegation of prosecutorial misconduct. The case focuses on the appellant's arguments against the consecutive sentences and the trial court's decision to impose them.
 
 Step 3: Answer the question based on the information found.
-Since there is no mention or allegation of prosecutorial misconduct in the provided case, the answer to the question is: No.",1,1
-50,903-McGlown Jr," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
+Since there is no mention or allegation of prosecutorial misconduct in the provided case, the answer to the question is: No.",0,1
+50,903-McGlown Jr," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
 51,908-Howard," Step 1: Identify the main subject of the question.
 The main subject of the question is whether there are any allegations of prosecutorial misconduct mentioned in the appellate case.
 
@@ -469,7 +469,7 @@ Step 3: Compare the information found in the case with the question.
 The question asks if there are any allegations of prosecutorial misconduct mentioned in the case. However, the case does not discuss prosecutorial misconduct.
 
 Step 4: Answer the question based on the comparison.
-Since there is no mention of prosecutorial misconduct in the case, the answer to the question is 'No'.",0,1
+Since there is no mention of prosecutorial misconduct in the case, the answer to the question is 'No'.",1,1
 52,474-Stahl-Francisco," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 - Mentioned in the case
@@ -484,7 +484,7 @@ Step 5: Compare the allegations in the question with the case.
 
 Step 6: Determine if there are any allegations of prosecutorial misconduct mentioned in the case.
 
-Answer: No",0,1
+Answer: No",1,1
 53,344-Grooms," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 
@@ -498,7 +498,7 @@ Step 5: Compare the allegations in the question with the case details.
 
 Step 6: Determine if there are any allegations of prosecutorial misconduct mentioned in the case.
 
-Answer: No",1,1
+Answer: No",0,1
 54,125-Willis," Step 1: Identify the key elements of the question.
 - Allegations
 - Prosecutorial misconduct
@@ -511,7 +511,7 @@ Step 4: Compare the key elements of the question with the information provided i
 
 Step 5: Determine if there are any allegations of prosecutorial misconduct mentioned in the case.
 
-Answer: No",0,1
+Answer: No",1,1
 55,907-Banks," Step 1: Identify the key elements of the question.
 - Allegations
 - Prosecutorial misconduct
@@ -524,13 +524,13 @@ Step 4: Compare the identified instances with the key elements of the question.
 
 Step 5: Determine if there are any allegations of prosecutorial misconduct mentioned in the case.
 
-Answer: No",0,1
-56,702-Smith," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
-57,920-Edwards," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
-58,877-BAER," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
-59,680-Untied, Yes,1,0
-60,879-Carter," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
-61,256-Ammons," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
+Answer: No",1,1
+56,702-Smith," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
+57,920-Edwards," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
+58,877-BAER," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
+59,680-Untied, Yes,0,1
+60,879-Carter," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
+61,256-Ammons," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
 62,793-Lynch," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 - Mentioned in the case
@@ -546,9 +546,9 @@ Step 5: Compare the findings from the case with the key elements of the question
 - The case discusses Lynch's argument regarding Hurst and its impact on Ohio's death penalty scheme.
 
 Step 6: Answer the question based on the comparison.
-- Yes, there are allegations of prosecutorial misconduct mentioned in the case, as Lynch argues that Hurst rendered Ohio'",1,0
-63,868-ROOTSTOWN TOWNSHIP BOARD OF TRUSTEES," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
-64,187-NEWMAN," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
+- Yes, there are allegations of prosecutorial misconduct mentioned in the case, as Lynch argues that Hurst rendered Ohio'",0,1
+63,868-ROOTSTOWN TOWNSHIP BOARD OF TRUSTEES," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
+64,187-NEWMAN," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
 65,307-Miku," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 - Mentioned in the case
@@ -561,11 +561,11 @@ Step 4: Compare the allegations in the case to the key elements of the question.
 
 Step 5: Determine if there are any allegations of prosecutorial misconduct mentioned in the case.
 
-Answer: No",0,1
-66,846-Greenlee," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
-67,230-SCHWENDEMAN," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
-68,224-Liggins," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
-69,100-Long," Yes, there are allegations of prosecutorial misconduct mentioned in the case. The appellant, John Long, claims that evidence outside the trial record, in the form of a stranger's unsolicited letter to him and a written report submitted to his trial counsel by an investigator assigned to his case, revealed the existence of statements made by eyewitnesses to law enforcement that exonerated him in the murder. He seeks relief from his conviction on grounds of prosecutorial misconduct and ineffective assistance of trial counsel.",0,0
+Answer: No",1,1
+66,846-Greenlee," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
+67,230-SCHWENDEMAN," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
+68,224-Liggins," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
+69,100-Long," Yes, there are allegations of prosecutorial misconduct mentioned in the case. The appellant, John Long, claims that evidence outside the trial record, in the form of a stranger's unsolicited letter to him and a written report submitted to his trial counsel by an investigator assigned to his case, revealed the existence of statements made by eyewitnesses to law enforcement that exonerated him in the murder. He seeks relief from his conviction on grounds of prosecutorial misconduct and ineffective assistance of trial counsel.",1,1
 70,935-Kunzer," Step 1: Identify the key elements of the question.
 - Allegations
 - Prosecutorial misconduct
@@ -580,7 +580,7 @@ Step 5: Compare the findings in the case with the key elements of the question.
 
 Step 6: Determine if there are any allegations of prosecutorial misconduct mentioned in the case.
 
-Answer: No",1,1
+Answer: No",0,1
 71,954-Travis," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 - Mentioned in the case
@@ -593,7 +593,7 @@ Step 4: Find the relevant part of the case.
 - In the case, there is no mention of prosecutorial misconduct.
 
 Step 5: Answer the question based on the analysis.
-- No, there are no allegations of prosecutorial misconduct mentioned in the case.",0,1
+- No, there are no allegations of prosecutorial misconduct mentioned in the case.",1,1
 72,162-Solon," Step 1: Identify the key elements of the question.
 - Allegations
 - Prosecutorial misconduct
@@ -606,8 +606,8 @@ Step 4: Find no mention of allegations of prosecutorial misconduct in the provid
 
 Step 5: Answer the question based on the analysis.
 
-Answer: No",0,1
-73,976-Thacker," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
+Answer: No",1,1
+73,976-Thacker," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
 74,832-Estate of Reva," Step 1: Identify the key elements of the question.
 - Allegations
 - Prosecutorial misconduct
@@ -620,8 +620,8 @@ Step 4: Analyze the case to see if it contains any allegations of prosecutorial 
 
 Step 5: The case provided does not mention any allegations of prosecutorial misconduct.
 
-Answer: No",0,1
-75,325-Miday," Yes, there are allegations of prosecutorial misconduct mentioned in the case. The case discusses the dismissal of charges for denial of speedy trial, failure to commence a prosecution, and trial court's lack of subject-matter jurisdiction, judicial misconduct, and denial of due process, attorney misconduct, and trial court abused discretion.",0,0
+Answer: No",1,1
+75,325-Miday," Yes, there are allegations of prosecutorial misconduct mentioned in the case. The case discusses the dismissal of charges for denial of speedy trial, failure to commence a prosecution, and trial court's lack of subject-matter jurisdiction, judicial misconduct, and denial of due process, attorney misconduct, and trial court abused discretion.",1,1
 76,851-Harrison," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 - Mentioned in the case
@@ -634,7 +634,7 @@ Step 4: Compare the allegations in the question with the case.
 
 Step 5: Determine if there are any allegations of prosecutorial misconduct mentioned in the case.
 
-Answer: No",0,1
+Answer: No",1,1
 77,279-Hollins," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 
@@ -646,7 +646,7 @@ Step 4: Compare the allegations in the question with the case details.
 
 Step 5: Determine if there are any allegations of prosecutorial misconduct mentioned in the case.
 
-Answer: No",1,1
+Answer: No",0,1
 78,062-Robinson," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 - Mentioned in the case
@@ -661,7 +661,7 @@ Step 5: Compare the allegations mentioned in the case with the question.
 
 Step 6: Determine if there are any allegations of prosecutorial misconduct mentioned in the case.
 
-Answer: No",0,1
+Answer: No",1,1
 79,183-In re Dor.B," Step 1: Identify the key elements of the question.
 - Allegations
 - Prosecutorial misconduct
@@ -674,7 +674,7 @@ Step 4: Determine if there are any allegations of prosecutorial misconduct menti
 
 Step 5: The passage does not mention any allegations of prosecutorial misconduct.
 
-Answer: No",0,1
+Answer: No",1,1
 80,245-Tomlinson," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 - Mentioned in the case
@@ -687,8 +687,8 @@ Step 4: Compare the allegations in the question with the case.
 
 Step 5: Determine if there are any allegations of prosecutorial misconduct mentioned in the case.
 
-Answer: No",0,1
-81,130-Gray," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
+Answer: No",1,1
+81,130-Gray," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
 82,887-Winfield," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 - Mentioned in the case
@@ -705,8 +705,8 @@ Step 6: Determine if the case addresses the allegations of prosecutorial miscond
 
 Step 7: Provide a 'Yes' or 'No' answer based on the comparison.
 
-Answer: No",0,0
-83,349-KOPCHAK," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
+Answer: No",1,1
+83,349-KOPCHAK," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
 84,850-Manicini," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 - Mentioned in the case
@@ -721,10 +721,10 @@ Step 5: Compare the findings from the analysis with the key elements of the ques
 
 Step 6: Determine if the case mentions any allegations of prosecutorial misconduct.
 
-Answer: No, there are no allegations of prosecutorial misconduct mentioned in the case.",1,1
-85,195-PATRIOT ENERGY PARTNERS," No, there are no allegations of prosecutorial misconduct mentioned in the provided case summary.",0,1
-86,365-Young," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
-87,975-State of Ohio," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
+Answer: No, there are no allegations of prosecutorial misconduct mentioned in the case.",0,1
+85,195-PATRIOT ENERGY PARTNERS," No, there are no allegations of prosecutorial misconduct mentioned in the provided case summary.",1,1
+86,365-Young," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
+87,975-State of Ohio," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
 88,860-Bowen," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 - Mentioned in the case
@@ -739,7 +739,7 @@ Step 5: Compare the identified instances with the key elements of the question.
 
 Step 6: Determine if there are any allegations of prosecutorial misconduct mentioned in the case.
 
-Answer: No",1,1
+Answer: No",0,1
 89,225-Wright," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 - Mentioned in the case
@@ -754,7 +754,7 @@ Step 5: Compare the allegations mentioned in the case with the key elements of t
 
 Step 6: Determine if there are any allegations of prosecutorial misconduct mentioned in the case.
 
-Answer: No",0,1
+Answer: No",1,1
 90,248-Defiance Therapeutic Massage," Step 1: Identify the key elements of the question.
 - Allegations
 - Prosecutorial misconduct
@@ -770,8 +770,8 @@ Step 5: Determine if the relevant part of the case mentions allegations of prose
 - The relevant part of the case does not mention allegations of prosecutorial misconduct.
 
 Step 6: Answer the question based on the analysis.
-- No, there are no allegations of prosecutorial misconduct mentioned in the case.",0,1
-91,143-In L.D.," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
+- No, there are no allegations of prosecutorial misconduct mentioned in the case.",1,1
+91,143-In L.D.," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
 92,213-Tinley," Step 1: Identify the key elements of the question.
 - Allegations
 - Prosecutorial misconduct
@@ -784,7 +784,7 @@ Step 4: Compare the key elements of the question with the information found in t
 
 Step 5: Determine if there are any allegations of prosecutorial misconduct mentioned in the case.
 
-Answer: No, there are no allegations of prosecutorial misconduct mentioned in the case.",0,1
+Answer: No, there are no allegations of prosecutorial misconduct mentioned in the case.",1,1
 93,154-Wallace," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 - Mentioned in the case
@@ -800,8 +800,8 @@ Step 5: Determine if the allegation of prosecutorial misconduct is mentioned in 
 - The case discusses the trial court's decision to deny Wallace's motion for a mistrial due to juror misconduct.
 
 Step 6: Answer the question based on the analysis.
-- Yes, there are allegations of prosecutorial misconduct mentioned in the case.",1,0
-94,"834-LAKE PROPERTY MANAGEMENT, LLC"," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
+- Yes, there are allegations of prosecutorial misconduct mentioned in the case.",0,1
+94,"834-LAKE PROPERTY MANAGEMENT, LLC"," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
 95,244-Price," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 - Mentioned in the case
@@ -818,7 +818,7 @@ Step 6: Determine if any of the identified instances are allegations of prosecut
 
 Step 7: Answer the question based on the analysis.
 
-Answer: No",1,1
+Answer: No",0,1
 96,164-O'Malley," Step 1: Identify the key elements of the question.
 - Allegations
 - Prosecutorial misconduct
@@ -832,7 +832,7 @@ Step 3: Analyze the case to determine if there are any allegations of prosecutor
 - The case does not specifically mention any allegations of prosecutorial misconduct.
 
 Step 4: Answer the question based on the analysis.
-- No, there are no allegations of prosecutorial misconduct mentioned in the case.",0,1
+- No, there are no allegations of prosecutorial misconduct mentioned in the case.",1,1
 97,"254-Daniels, Sr"," Step 1: Identify the key elements of the question.
 - Allegations of prosecutorial misconduct
 - Mentioned in the case
@@ -847,6 +847,6 @@ Step 5: Compare the allegations mentioned in the question with the case.
 
 Step 6: Determine if there are any allegations of prosecutorial misconduct mentioned in the case.
 
-Answer: No",1,1
-98,251-Giant Eagle," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
-99,"193-ADMINISTRATOR, OHIO BUREAU OF"," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",0,1
+Answer: No",0,1
+98,251-Giant Eagle," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1
+99,"193-ADMINISTRATOR, OHIO BUREAU OF"," No, there are no allegations of prosecutorial misconduct mentioned in the provided appellate case.",1,1

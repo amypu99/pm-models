@@ -76,7 +76,8 @@ def run_pipeline_with_questions(question, label, model, tokenizer, batch_size=4)
     return results_df
 
 def run_ordered_pipeline_with_questions(question, label, q_df, model, tokenizer, batch_size=4):
-    question_jsonl = load_jsonl("dnms.jsonl")
+    dnms_jsonl = load_jsonl("dnms.jsonl")
+    ms_jsonl = load_jsonl("ms.jsonl")
 
     pipe = pipeline(
         "text-generation",
@@ -88,15 +89,24 @@ def run_ordered_pipeline_with_questions(question, label, q_df, model, tokenizer,
     pipe.model = pipe.model.to('cuda')
 
     results = []
-    for batch_start in range(0, len(q_df), batch_size):
-        batch_end = min(batch_start + batch_size, len(q_df))
+    total_rows = len(q_df)
+    print(f"Total rows in q_df at start: {total_rows}")
+
+    for batch_start in range(0, total_rows, batch_size):
+        batch_end = min(batch_start + batch_size, total_rows)
         batch = q_df.iloc[batch_start:batch_end]
 
         batch_messages = []
-        for i in batch.Index:
-            # Match index in q_df to question_jsonl
-            matched_row = question_jsonl[question_jsonl['Index'] == i]
+        matched_count = 0
+
+        for idx in batch['Index']:
+            # Match index in either JSONL file
+            matched_row = dnms_jsonl[dnms_jsonl['Index'] == idx]
+            if matched_row.empty:
+                matched_row = ms_jsonl[ms_jsonl['Index'] == idx]
+
             if not matched_row.empty:
+                matched_count += 1
                 context = matched_row['Context'].values[0]
                 cleaned_content = clean_text(context)
                 tokenized_content = tokenizer(
@@ -108,9 +118,11 @@ def run_ordered_pipeline_with_questions(question, label, q_df, model, tokenizer,
                 full_prompt = (
                     f"{decoded_content}\n\n"
                     "Above is the appellate case. Read over the case carefully and think step-by-step through "
-                    f"the following question, answering with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess: {question}"
+                    f"the following question, answering with only a 'Yes' or 'No'. If you cannot determine the answer, provide your best yes or no guess: {question}"
                 )
                 batch_messages.append([{"role": "user", "content": full_prompt}])
+
+        print(f"Batch {batch_start}–{batch_end}: Matched {matched_count}/{len(batch)} rows")
 
         if not batch_messages:
             continue
@@ -122,10 +134,14 @@ def run_ordered_pipeline_with_questions(question, label, q_df, model, tokenizer,
         )
 
         for i, result in enumerate(batch_results):
+            matched_row = dnms_jsonl[dnms_jsonl['Index'] == batch.Index.iloc[i]]
+            if matched_row.empty:
+                matched_row = ms_jsonl[ms_jsonl['Index'] == batch.Index.iloc[i]]
+
             results.append({
                 "Index": batch.Index.iloc[i],
                 "Response": result[0]["generated_text"][1]["content"],
-                label: question_jsonl[label].iloc[i]
+                label: matched_row[label].iloc[0]  # Get label from the matched row
             })
 
         if batch_start % (batch_size * 5) == 0:
@@ -135,6 +151,7 @@ def run_ordered_pipeline_with_questions(question, label, q_df, model, tokenizer,
         print(f"Processed up to sample {batch_end}")
 
     results_df = pd.DataFrame(results)
+    print(f"Total rows processed: {len(results_df)}")
     return results_df
 
 
@@ -199,20 +216,16 @@ def run_specified():
         print(question_dict[q])
         results_df = run_pipeline_with_questions(question_dict[q], q, model, tokenizer)
         results_df["Response Label"] = results_df["Response"].apply(label_answers)
-        results_df.to_csv(f"./standards_csv/{question_dict[q]}.csv", index=False)
+        results_df.to_csv(f"./standards_csv/{q}.csv", index=False)
         gc.collect()
         torch.cuda.empty_cache()
         if torch.cuda.is_available():
             torch.cuda.synchronize()
 
 
-def flip_binary(filename):
-    column = filename.replace(".csv", "")
-    filename = "standards_csv/" + filename
-    df = pd.read_csv(filename)
-    df[column] = df[column].apply(lambda x: 0 if x == 1 else 1)
-    df["Response Label"] = df["Response Label"].apply(lambda x: 0 if x == "1" else 1)
-    df.to_csv(filename, index=False)
+def flip_binary(df):
+    df["Response Label"] = df["Response Label"].apply(lambda x: 0 if x == 1 else 1)
+    return df
 
 
 def run_ordered():
@@ -225,22 +238,40 @@ def run_ordered():
     questions = eval_df["filename"].tolist()
     questions.remove("case_app_regex")
 
-    q_df = pd.read_csv("standards_csv/case_app_regex.csv")
+    dnms_df = pd.read_csv("standards_csv/case_app_regex.csv")
+    ms_df = pd.read_csv("standards_csv/ms_case_app_regex.csv")
+    q_df = pd.concat([dnms_df, ms_df], axis=0, ignore_index=True)
     q_df = q_df[q_df['Response Label'] == 0]
 
     questions_dict = questions_setup()
     results_df = pd.DataFrame()
 
     for q in questions:
-        print(questions_dict[q])
+        print(f"\nRunning question: {questions_dict[q]}")
         results_df = run_ordered_pipeline_with_questions(questions_dict[q], q, q_df, model, tokenizer)
+
+        # Update response label
         results_df["Response Label"] = results_df["Response"].apply(label_answers)
+
+
+        if q=="case_crim" or q=="aoe_none":
+            results_df = flip_binary(results_df)
+            print("flipped")
+
+        results_df.to_csv(f"./ordered_run/{q}.csv", index=False)
+
+        # Filter rows where Response Label == 0 for the next iteration
         q_df = results_df[results_df['Response Label'] == 0]
+        new_q_df_size = len(results_df[results_df['Response Label'] == 0])
+        print(f"New q_df size after filtering: {new_q_df_size}")
+
+        # Free up GPU memory
+        gc.collect()
         torch.cuda.empty_cache()
         if torch.cuda.is_available():
             torch.cuda.synchronize()
 
-    results_df.to_csv(f"./ordered_run/final.csv", index=False)
+    results_df.to_csv(f"./ordered_run/final2.csv", index=False)
 
 if __name__ == "__main__":
     run_ordered()

@@ -1,17 +1,19 @@
 import os
 import pandas as pd
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline, LlamaForCausalLM, LlamaTokenizer
 import torch
-from transformers import pipeline
 import json
 import gc
 import re
+from vllm import LLM
+from vllm.sampling_params import SamplingParams
+
 
 os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
-os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0,3"
 os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'
 
-def model_setup():
+def saul_setup():
     model_name = "Equall/Saul-Instruct-v1"
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
@@ -28,6 +30,45 @@ def model_setup():
 
     return model, tokenizer
 
+def ministral_setup():
+    model_name = "mistralai/Ministral-8B-Instruct-2410"
+
+    # Load model
+    model = AutoModelForCausalLM.from_pretrained(
+        model_name,
+        torch_dtype=torch.bfloat16,
+        device_map="auto",
+    )
+
+    # Load tokenizer
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    tokenizer.padding_side = 'right'
+    tokenizer.pad_token = tokenizer.eos_token
+    tokenizer.add_eos_token = True
+
+    return model, tokenizer
+
+def llama_setup():
+    model_name = "meta-llama/Llama-3.1-8B-Instruct"
+
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    model = AutoModelForCausalLM.from_pretrained(
+        model_name,
+        torch_dtype=torch.bfloat16,
+        device_map="auto"
+    )
+    return model, tokenizer
+
+def mistral_setup():
+    model_name = "mistralai/Ministral-8B-Instruct-2410"
+
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    model = AutoModelForCausalLM.from_pretrained(
+        model_name,
+        torch_dtype=torch.bfloat16,
+        device_map="auto",
+    )
+    return model, tokenizer
 
 def clean_text(text):
     text = ' '.join(text.split())
@@ -116,7 +157,7 @@ def run_pipeline_with_closing_reminder(inference_df, filepath, model, tokenizer)
 def main():
     gc.collect()
     torch.cuda.empty_cache()
-    model, tokenizer = model_setup()
+    model, tokenizer = saul_setup()
 
     path = "/home/amy_pu/pm-models/classify/inference.jsonl"
     inference_df = pd.read_json(path, lines=True)

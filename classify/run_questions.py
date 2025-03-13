@@ -4,7 +4,7 @@ from transformers import pipeline
 import json
 import gc
 import re
-from run_baseline import clean_text, model_setup
+from run_baseline import clean_text, mistral_setup, ministral_setup, llama_setup
 
 
 def load_jsonl(filepath):
@@ -22,7 +22,8 @@ def run_pipeline_with_questions(question, label, model, tokenizer, batch_size=4)
         "text-generation",
         model=model,
         torch_dtype=torch.bfloat16,
-        device='cuda',
+        device_map='cuda',
+
         tokenizer=tokenizer
     )
     pipe.model = pipe.model.to('cuda')
@@ -83,10 +84,8 @@ def run_ordered_pipeline_with_questions(question, label, q_df, model, tokenizer,
         "text-generation",
         model=model,
         torch_dtype=torch.bfloat16,
-        device='cuda',
         tokenizer=tokenizer
     )
-    pipe.model = pipe.model.to('cuda')
 
     results = []
     total_rows = len(q_df)
@@ -111,14 +110,14 @@ def run_ordered_pipeline_with_questions(question, label, q_df, model, tokenizer,
                 cleaned_content = clean_text(context)
                 tokenized_content = tokenizer(
                     cleaned_content,
-                    max_length=20000,
+                    max_length=18000,
                     return_tensors='pt'
-                ).to('cuda')
+                )
                 decoded_content = tokenizer.decode(tokenized_content["input_ids"][0][1:-1])
                 full_prompt = (
                     f"{decoded_content}\n\n"
                     "Above is the appellate case. Read over the case carefully and think step-by-step through "
-                    f"the following question, answering with only a 'Yes' or 'No'. If you cannot determine the answer, provide your best yes or no guess: {question}"
+                    f"the following question, answering with only a 'Yes' or 'No'. If you are unable to determine the answer, try your best: {question}"
                 )
                 batch_messages.append([{"role": "user", "content": full_prompt}])
 
@@ -147,6 +146,7 @@ def run_ordered_pipeline_with_questions(question, label, q_df, model, tokenizer,
         if batch_start % (batch_size * 5) == 0:
             gc.collect()
             torch.cuda.empty_cache()
+            torch.cuda.synchronize()
 
         print(f"Processed up to sample {batch_end}")
 
@@ -168,16 +168,15 @@ def questions_setup():
                    "between two private parties. (Hint: Case is criminal if the trial case number contains the "
                    "characters ‘CR’. Case is civil if the trial case number contains 'CV' or 'CA', or if the case is "
                    "marked as a civil appeal).",
-        "case_2001": "Did the original trial mentioned in this appellate case take place before 2001? If the original trial "
-                   "date is not mentioned, look for other clues that the trial might have taken place before 2001. The"
+        "case_2001": "Did the original trial mentioned in this appellate case take place before 2001? The"
                    " trial date will be before the conviction date and after the date of the crime.",
         "case_app": "Is the appellee the city? If the appelle is listed as a city, not the state, the appellee is the city."
                   "If the state or another party is listed as the appellee, the appelle is not the city.",
         "case_pros" : "Is the prosecutor in question a city prosecutor?",
-        "aoe_none": "Are there any allegations of prosecutorial misconduct mentioned?",
+        "aoe_none": "Is there any mention of prosecutorial misconduct or misconduct by the state?",
         # aoe_grandjury_q: "aoe_grandjury",
-        "aoe_court": "Is the allegation of error against the court, sometimes referred to as the 'trial court'?",
-        "aoe_defense": "Is the allegation of error against the defense attorney?",
+        # "aoe_court": "Is the allegation of error against the court, sometimes referred to as the 'trial court'?",
+        # "aoe_defense": "Is the allegation of error against the defense attorney?",
         "aoe_procbar": "Is the allegation procedurally barred? For example, is it barred by res judicata because it was not "
                  "raised during original trial and now it’s too late?",
         "aoe_prochist": "Is the allegation in procedural history, i.e., was the prosecutorial misconduct in question raised"
@@ -231,12 +230,13 @@ def flip_binary(df):
 def run_ordered():
     gc.collect()
     torch.cuda.empty_cache()
-    model, tokenizer = model_setup()
+    model, tokenizer = mistral_setup()
 
     eval_df = pd.read_csv("standards_csv/evaluation_results.csv")
-    eval_df = eval_df.sort_values(by=["accuracy"], ascending=False)
+    eval_df = eval_df.sort_values(by=["f1_score"], ascending=False)
     questions = eval_df["filename"].tolist()
-    questions.remove("case_app_regex")
+    questions.remove("aoe_defense")
+    questions.remove("aoe_court")
 
     dnms_df = pd.read_csv("standards_csv/case_app_regex.csv")
     ms_df = pd.read_csv("standards_csv/ms_case_app_regex.csv")
@@ -258,7 +258,7 @@ def run_ordered():
             results_df = flip_binary(results_df)
             print("flipped")
 
-        results_df.to_csv(f"./ordered_run/{q}.csv", index=False)
+        results_df.to_csv(f"./mistral_run/{q}.csv", index=False)
 
         # Filter rows where Response Label == 0 for the next iteration
         q_df = results_df[results_df['Response Label'] == 0]
@@ -271,7 +271,10 @@ def run_ordered():
         if torch.cuda.is_available():
             torch.cuda.synchronize()
 
-    results_df.to_csv(f"./ordered_run/final2.csv", index=False)
+    results_df.to_csv(f"./mistral_run/final.csv", index=False)
+
+
 
 if __name__ == "__main__":
     run_ordered()
+

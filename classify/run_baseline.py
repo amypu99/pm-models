@@ -5,12 +5,12 @@ import torch
 import json
 import gc
 import re
-from vllm import LLM
-from vllm.sampling_params import SamplingParams
+# from vllm import LLM
+# from vllm.sampling_params import SamplingParams
 
 
 os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
-os.environ["CUDA_VISIBLE_DEVICES"] = "0,3"
+os.environ["CUDA_VISIBLE_DEVICES"] = "3"
 os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'
 
 def saul_setup():

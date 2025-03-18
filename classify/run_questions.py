@@ -160,27 +160,28 @@ def run_ordered_pipeline_with_questions(question, label, q_df, model, tokenizer,
 def questions_setup():
     # Question to variable mapping
     questions = {
-        "case_juv": "Is the defendant a juvenile (i.e. is the defendant younger than 18 years of age)? Some hints that the"
-                  " defendant is not juvenile are if the defendant's name is given as initials, if the appellant is "
-                  "referred to as minor, or if the case is from juvenile court. If you cannot determine the answer or no"
-                  " reference to the defendant being juvenile is made, the defendant is not a juvenile.",
-        "case_crim": "Is the case criminal? Criminal cases are between the public and a private citizen. Civil cases are "
-                   "between two private parties. (Hint: Case is criminal if the trial case number contains the "
-                   "characters ‘CR’. Case is civil if the trial case number contains 'CV' or 'CA', or if the case is "
-                   "marked as a civil appeal).",
-        "case_2001": "Did the original trial mentioned in this appellate case take place before 2001? The"
-                   " trial date will be before the conviction date and after the date of the crime.",
-        "case_app": "Is the appellee the city? If the appelle is listed as a city, not the state, the appellee is the city."
-                  "If the state or another party is listed as the appellee, the appelle is not the city.",
-        "case_pros" : "Is the prosecutor in question a city prosecutor?",
-        "aoe_none": "Is there any mention of prosecutorial misconduct or misconduct by the state?",
+        # "case_juv": "Is the defendant a juvenile (i.e. is the defendant younger than 18 years of age)? Some hints that the"
+        #           " defendant is not juvenile are if the defendant's name is given as initials, if the appellant is "
+        #           "referred to as minor, or if the case is from juvenile court. If you cannot determine the answer or no"
+        #           " reference to the defendant being juvenile is made, the defendant is not a juvenile.",
+        # "case_crim": "Is the case criminal? Criminal cases are between the public and a private citizen. Civil cases are "
+        #            "between two private parties. (Hint: Case is criminal if the trial case number contains the "
+        #            "characters ‘CR’. Case is civil if the trial case number contains 'CV' or 'CA', or if the case is "
+        #            "marked as a civil appeal).",
+        # "case_2001": "Did the original trial mentioned in this appellate case take place before 2001? The"
+        #            " trial date will be before the conviction date and after the date of the crime.",
+        # "case_app": "Is the appellee the city? If the appelle is listed as a city, not the state, the appellee is the city."
+        #           "If the state or another party is listed as the appellee, the appelle is not the city.",
+        # "case_pros" : "Is the prosecutor in question a city prosecutor?",
+        # "aoe_none": "Is there any mention of prosecutorial misconduct or misconduct by the state?",
+        "aoe_none": "Did the appellant in this case make any allegations of prosecutorial misconduct or misconduct by the state? If there is no information about any allegations, answer no.",
         # aoe_grandjury_q: "aoe_grandjury",
         # "aoe_court": "Is the allegation of error against the court, sometimes referred to as the 'trial court'?",
         # "aoe_defense": "Is the allegation of error against the defense attorney?",
-        "aoe_procbar": "Is the allegation procedurally barred? For example, is it barred by res judicata because it was not "
-                 "raised during original trial and now it’s too late?",
-        "aoe_prochist": "Is the allegation in procedural history, i.e., was the prosecutorial misconduct in question raised"
-                      " in a previous appeal?"
+        # "aoe_procbar": "Is the allegation procedurally barred? For example, is it barred by res judicata because it was not "
+        #          "raised during original trial and now it’s too late?",
+        # "aoe_prochist": "Is the allegation in procedural history, i.e., was the prosecutorial misconduct in question raised"
+        #               " in a previous appeal?"
     }
     return questions
 
@@ -208,14 +209,14 @@ def label_flipped_answers(answer):
 def run_specified():
     gc.collect()
     torch.cuda.empty_cache()
-    model, tokenizer = model_setup()
+    model, tokenizer = mistral_setup()
 
     question_dict = questions_setup()
     for q in question_dict:
         print(question_dict[q])
         results_df = run_pipeline_with_questions(question_dict[q], q, model, tokenizer)
-        results_df["Response Label"] = results_df["Response"].apply(label_answers)
-        results_df.to_csv(f"./standards_csv/{q}.csv", index=False)
+        results_df["Response Label"] = results_df["Response"].apply(label_flipped_answers)
+        results_df.to_csv(f"./mistral_questions/{q}.csv", index=False)
         gc.collect()
         torch.cuda.empty_cache()
         if torch.cuda.is_available():
@@ -276,5 +277,6 @@ def run_ordered():
 
 
 if __name__ == "__main__":
-    run_ordered()
+    # run_ordered()
+    run_specified()
 

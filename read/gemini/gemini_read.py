@@ -100,7 +100,8 @@ def randomize():
 
 
 if __name__ == "__main__":
-    genai.configure(api_key='AIzaSyChB60ef0mrYKoY2UobtM-fWqS-gWsHoJY')
+    # api_key = ""
+    genai.configure(api_key=api_key)
     model = genai.GenerativeModel(model_name="gemini-1.5-flash")
 
     pdf_dir = "cases_pdf/MS"

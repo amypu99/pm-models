@@ -1,0 +1,9 @@
+2024-12-11 15:51:07.708787: Error processing 2018-Ohio-4574_JM_DNMS: Invalid operation: The `response.parts` quick accessor requires a single candidate, but but `response.candidates` is empty.
+This appears to be caused by a blocked prompt, see `response.prompt_feedback`: block_reason: PROHIBITED_CONTENT
+
+2024-12-11 15:52:47.149292: Error processing 2018-Ohio-673_JM_DNMS: Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 4. Meaning that the model was reciting from copyrighted material.
+
+2024-12-11 15:52:55.744660: Error processing 2021-Ohio-4596: Invalid operation: The `response.parts` quick accessor requires a single candidate, but but `response.candidates` is empty.
+This appears to be caused by a blocked prompt, see `response.prompt_feedback`: block_reason: PROHIBITED_CONTENT
+
+2024-12-11 15:55:37.024372: Error processing 2020-Ohio-42: Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 4. Meaning that the model was reciting from copyrighted material.

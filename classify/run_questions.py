@@ -16,7 +16,7 @@ def load_jsonl(filepath):
 
 
 def run_pipeline_with_questions(question, label, model, tokenizer, batch_size=4):
-    question_jsonl = load_jsonl("dnms.jsonl")
+    question_jsonl = load_jsonl("jsonl/dnms.jsonl")
 
     pipe = pipeline(
         "text-generation",
@@ -77,8 +77,8 @@ def run_pipeline_with_questions(question, label, model, tokenizer, batch_size=4)
     return results_df
 
 def run_ordered_pipeline_with_questions(question, label, q_df, model, tokenizer, batch_size=4):
-    dnms_jsonl = load_jsonl("dnms.jsonl")
-    ms_jsonl = load_jsonl("ms.jsonl")
+    dnms_jsonl = load_jsonl("jsonl/dnms.jsonl")
+    ms_jsonl = load_jsonl("jsonl/ms.jsonl")
 
     pipe = pipeline(
         "text-generation",

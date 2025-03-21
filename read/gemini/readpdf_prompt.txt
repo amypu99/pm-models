@@ -1,0 +1,5 @@
+Convert all of the text in this pdf to json metadata. It should not be summarized, and please meet the following specifications.
+Include the following attributes extracted from the first page: 'Appellate Case Number', 'Court Name' (in the format Nth Appellate District), 'County', 'Opinion Date', 'Prosecutor Name', 'Defendant Name', 'Judge Name'.
+Each section, with the name of the section as the key, should be an additional attribute, and should contain a dictionary
+where the keys are each paragraph number in the corresponding section. For subsections, add another layer of depth to the section dictionary.
+

@@ -24,3 +24,11 @@ classify/seq_classification.py
 
 # txt files
 cases_txt/
+
+read/check_cases.py
+
+cases_pdf/*
+cases_olmocr/DNMS/results/
+cases_olmocr/DNMS/results/*
+cases_olmocr/MS/results/
+cases_olmocr/MS/results/*

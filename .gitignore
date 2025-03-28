@@ -24,3 +24,10 @@ classify/seq_classification.py
 
 # txt files
 cases_txt/
+
+# cache
+classify/~
+
+# test
+classify/test
+read/analyze_text.py

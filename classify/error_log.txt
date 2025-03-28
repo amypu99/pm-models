@@ -1,0 +1,185 @@
+The following values were not passed to `accelerate launch` and had defaults used instead:
+	`--num_processes` was set to a value of `4`
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--num_machines` was set to a value of `1`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+[W309 14:49:08.134914168 socket.cpp:752] [c10d] The client socket cannot be initialized to connect to [localhost]:29500 (errno: 97 - Address family not supported by protocol).
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:03<00:09,  3.15s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:03<00:09,  3.23s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:03<00:09,  3.26s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:03<00:09,  3.33s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:06<00:06,  3.13s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:06<00:06,  3.20s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:06<00:06,  3.21s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:06<00:06,  3.21s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:09<00:02,  2.98s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:09<00:03,  3.16s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:09<00:03,  3.18s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:09<00:03,  3.24s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:09<00:00,  2.09s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:09<00:00,  2.45s/it]
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama_fast.LlamaTokenizerFast'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.17s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.55s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.19s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.56s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.22s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.59s/it]
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama_fast.LlamaTokenizerFast'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message.
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama_fast.LlamaTokenizerFast'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message.
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama_fast.LlamaTokenizerFast'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message.
+Number of GPUs available: 4
+GPU 0: Tesla V100-SXM2-32GB - 3.39 GB allocated
+GPU 1: Tesla V100-SXM2-32GB - 4.24 GB allocated
+GPU 2: Tesla V100-SXM2-32GB - 4.24 GB allocated
+GPU 3: Tesla V100-SXM2-32GB - 4.16 GB allocated
+
+Running question: Is the defendant a juvenile (i.e. is the defendant younger than 18 years of age)? Some hints that the defendant is not juvenile are if the defendant's name is given as initials, if the appellant is referred to as minor, or if the case is from juvenile court. If you cannot determine the answer or no reference to the defendant being juvenile is made, the defendant is not a juvenile.
+Device set to use cuda:0
+Total rows in q_df at start: 198
+Truncation was not explicitly activated but `max_length` is provided a specific value, please use `truncation=True` to explicitly truncate examples to max length. Defaulting to 'longest_first' truncation strategy. If you encode pairs of sequences (GLUE-style) with the tokenizer you can select this strategy more precisely by providing a specific strategy to `truncation`.
+Batch 0–4: Matched 4/4 rows
+Number of GPUs available: 4
+GPU 0: Tesla V100-SXM2-32GB - 3.39 GB allocated
+GPU 1: Tesla V100-SXM2-32GB - 4.24 GB allocated
+GPU 2: Tesla V100-SXM2-32GB - 4.24 GB allocated
+GPU 3: Tesla V100-SXM2-32GB - 4.16 GB allocated
+
+Running question: Is the defendant a juvenile (i.e. is the defendant younger than 18 years of age)? Some hints that the defendant is not juvenile are if the defendant's name is given as initials, if the appellant is referred to as minor, or if the case is from juvenile court. If you cannot determine the answer or no reference to the defendant being juvenile is made, the defendant is not a juvenile.
+Number of GPUs available: 4
+GPU 0: Tesla V100-SXM2-32GB - 3.39 GB allocated
+GPU 1: Tesla V100-SXM2-32GB - 4.24 GB allocated
+GPU 2: Tesla V100-SXM2-32GB - 4.24 GB allocated
+GPU 3: Tesla V100-SXM2-32GB - 4.16 GB allocated
+
+Running question: Is the defendant a juvenile (i.e. is the defendant younger than 18 years of age)? Some hints that the defendant is not juvenile are if the defendant's name is given as initials, if the appellant is referred to as minor, or if the case is from juvenile court. If you cannot determine the answer or no reference to the defendant being juvenile is made, the defendant is not a juvenile.
+Device set to use cuda:0
+Total rows in q_df at start: 198
+Truncation was not explicitly activated but `max_length` is provided a specific value, please use `truncation=True` to explicitly truncate examples to max length. Defaulting to 'longest_first' truncation strategy. If you encode pairs of sequences (GLUE-style) with the tokenizer you can select this strategy more precisely by providing a specific strategy to `truncation`.
+Number of GPUs available: 4
+GPU 0: Tesla V100-SXM2-32GB - 3.39 GB allocated
+GPU 1: Tesla V100-SXM2-32GB - 4.24 GB allocated
+GPU 2: Tesla V100-SXM2-32GB - 4.24 GB allocated
+GPU 3: Tesla V100-SXM2-32GB - 4.16 GB allocated
+
+Running question: Is the defendant a juvenile (i.e. is the defendant younger than 18 years of age)? Some hints that the defendant is not juvenile are if the defendant's name is given as initials, if the appellant is referred to as minor, or if the case is from juvenile court. If you cannot determine the answer or no reference to the defendant being juvenile is made, the defendant is not a juvenile.
+Batch 0–4: Matched 4/4 rows
+Device set to use cuda:0
+Total rows in q_df at start: 198
+Truncation was not explicitly activated but `max_length` is provided a specific value, please use `truncation=True` to explicitly truncate examples to max length. Defaulting to 'longest_first' truncation strategy. If you encode pairs of sequences (GLUE-style) with the tokenizer you can select this strategy more precisely by providing a specific strategy to `truncation`.
+Device set to use cuda:0
+Total rows in q_df at start: 198
+Truncation was not explicitly activated but `max_length` is provided a specific value, please use `truncation=True` to explicitly truncate examples to max length. Defaulting to 'longest_first' truncation strategy. If you encode pairs of sequences (GLUE-style) with the tokenizer you can select this strategy more precisely by providing a specific strategy to `truncation`.
+Batch 0–4: Matched 4/4 rows
+Batch 0–4: Matched 4/4 rows
+Traceback (most recent call last):
+  File "/home/ps3203/Research/classify/run_questions.py", line 278, in <module>
+    run_ordered()
+  File "/home/ps3203/Research/classify/run_questions.py", line 250, in run_ordered
+    results_df = run_ordered_pipeline_with_questions(questions_dict[q], q, q_df, model, tokenizer)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ps3203/Research/classify/run_questions.py", line 128, in run_ordered_pipeline_with_questions
+    batch_results = pipe(
+                    ^^^^^
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/transformers/pipelines/text_generation.py", line 286, in __call__
+    return super().__call__(list(chats), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/transformers/pipelines/base.py", line 1349, in __call__
+    outputs = list(final_iterator)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/transformers/pipelines/pt_utils.py", line 124, in __next__
+    item = next(self.iterator)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/transformers/pipelines/pt_utils.py", line 125, in __next__
+    processed = self.infer(item, **self.params)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/transformers/pipelines/base.py", line 1275, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/transformers/pipelines/text_generation.py", line 385, in _forward
+    output = self.model.generate(input_ids=input_ids, attention_mask=attention_mask, **generate_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/transformers/generation/utils.py", line 2223, in generate
+    result = self._sample(
+             ^^^^^^^^^^^^^
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/transformers/generation/utils.py", line 3211, in _sample
+    outputs = self(**model_inputs, return_dict=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/accelerate/hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/transformers/models/mistral/modeling_mistral.py", line 843, in forward
+    outputs = self.model(
+              ^^^^^^^^^^^
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/transformers/models/mistral/modeling_mistral.py", line 566, in forward
+    layer_outputs = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/accelerate/hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/transformers/models/mistral/modeling_mistral.py", line 247, in forward
+    hidden_states, self_attn_weights = self.self_attn(
+                                       ^^^^^^^^^^^^^^^
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/accelerate/hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/transformers/models/mistral/modeling_mistral.py", line 184, in forward
+    attn_output, attn_weights = attention_interface(
+                                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/transformers/integrations/sdpa_attention.py", line 53, in sdpa_attention_forward
+    attn_output = torch.nn.functional.scaled_dot_product_attention(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 978.00 MiB. GPU 1 has a total capacity of 31.73 GiB of which 944.69 MiB is free. Including non-PyTorch memory, this process has 6.97 GiB memory in use. Process 30757 has 7.96 GiB memory in use. Process 30756 has 7.95 GiB memory in use. Process 30759 has 7.93 GiB memory in use. Of the allocated memory 6.54 GiB is allocated by PyTorch, and 64.90 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+W0309 14:49:39.862000 30630 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 30756 closing signal SIGTERM
+W0309 14:49:39.863000 30630 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 30757 closing signal SIGTERM
+W0309 14:49:39.865000 30630 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 30759 closing signal SIGTERM
+E0309 14:49:40.895000 30630 torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 2 (pid: 30758) of binary: /home/ps3203/.venv/bin/python3
+Traceback (most recent call last):
+  File "/home/ps3203/.venv/bin/accelerate", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/accelerate/commands/accelerate_cli.py", line 48, in main
+    args.func(args)
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/accelerate/commands/launch.py", line 1159, in launch_command
+    multi_gpu_launcher(args)
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/accelerate/commands/launch.py", line 793, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/torch/distributed/run.py", line 910, in run
+    elastic_launch(
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ps3203/.venv/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+run_questions.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-03-09_14:49:39
+  host      : kingcrab
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 30758)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

@@ -7,6 +7,7 @@ Dependencies: os, pypdf
 import os
 from pypdf import PdfReader
 
+
 def process_to_txt(pdf_dir, output_dir, to_txt):
     """
     Creates txt files in output_dir for each PDF in pdf_dir
@@ -49,7 +50,6 @@ if __name__ == "__main__":
     process_to_txt(ms_pdf_dir, ms_output_dir, to_txt)
     dnms_pdf_dir = "../cases_pdf/DNMS"
     dnms_output_dir = "../cases_txt/DNMS"
+
+
     process_to_txt(dnms_pdf_dir, dnms_output_dir, to_txt)
-
-
-

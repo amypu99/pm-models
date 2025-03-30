@@ -3,7 +3,7 @@ import re
 import json
 from pypdf import PdfReader
 
-directory = "/Users/begumgokmen/Downloads/cases_pdf_2"
+directory = "/pm-models/classify/cases_pdf_2"
 
 output_json = "labeled_results.json"
 

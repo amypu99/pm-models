@@ -3,6 +3,13 @@ import os
 import glob
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
 
+def flip_answers(answer):
+    if answer==1:
+        return 0
+    elif answer==0:
+        return 1
+    else:
+        return 99
 
 def evaluate_csv_file(file_path):
     """
@@ -12,12 +19,8 @@ def evaluate_csv_file(file_path):
         base_filename = os.path.basename(file_path).replace('.csv', '')
         df = pd.read_csv(file_path)
 
-        if base_filename not in df.columns or 'Response Label' not in df.columns:
-            print(f"Skipping {file_path} - Required columns not found")
-            return None
-
         # Drop uncertain labels (99)
-        df = df[(df[base_filename] != 99) & (df['Response Label'] != 99)]
+        df = df[df['Response Label'] != 99]
 
         gold_labels = df[base_filename].dropna().astype(int).tolist()
         response_labels = df['Response Label'].dropna().astype(int).tolist()
@@ -67,4 +70,7 @@ def evaluate_all_csvs_in_folder(folder_path="standards_csv"):
 
 
 if __name__ == "__main__":
+    df = pd.read_csv("aoe_none_filtered.csv")
+    df["Response Label"] = df["Response Label"].apply(flip_answers)
+    df.to_csv("aoe_none_filtered.csv", index=False)
     evaluate_all_csvs_in_folder("./")

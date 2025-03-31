@@ -16,21 +16,26 @@ def load_jsonl(filepath):
 
 
 def run_pipeline_with_questions(question, label, model, tokenizer, batch_size=4):
-    question_jsonl = load_jsonl("jsonl/dnms.jsonl")
+    dnms_jsonl = load_jsonl("jsonl/dnms.jsonl")
+    ms_jsonl = load_jsonl("jsonl/ms.jsonl")
+
+    dnms_sample = dnms_jsonl.sample(n=100, random_state=42)
+    ms_sample = ms_jsonl.sample(n=100, random_state=42)
 
     pipe = pipeline(
         "text-generation",
         model=model,
         torch_dtype=torch.bfloat16,
-        device_map='cuda',
-
         tokenizer=tokenizer
     )
-    pipe.model = pipe.model.to('cuda')
+
+    question_jsonl = pd.concat([dnms_sample, ms_sample]).reset_index(drop=True)
 
     results = []
 
-    for batch_start in range(0, 100, batch_size):
+    question_jsonl = pd.concat([dnms_sample, ms_sample]).reset_index(drop=True)
+
+    for batch_start in range(0, len(question_jsonl), batch_size):
         batch_end = min(batch_start + batch_size, len(question_jsonl))
         batch = question_jsonl.iloc[batch_start:batch_end]
 
@@ -173,12 +178,7 @@ def questions_setup():
         # "case_app": "Is the appellee the city? If the appelle is listed as a city, not the state, the appellee is the city."
         #           "If the state or another party is listed as the appellee, the appelle is not the city.",
         # "case_pros" : "Is the prosecutor in question a city prosecutor?",
-<<<<<<< HEAD
-        "aoe_none": "Identify and summarize each assignment of error. Are there any that mention prosecutorial misconduct or misconduct by the state?",
-=======
-        # "aoe_none": "Is there any mention of prosecutorial misconduct or misconduct by the state?",
-        "aoe_none": "Did the appellant in this case make any allegations of prosecutorial misconduct or misconduct by the state? If there is no information about any allegations, answer no.",
->>>>>>> bb8dea54864c8fd80b06b5887999ae7d87527eed
+        "aoe_none": "Identify and summarize each assignment of error. Do any of them mention prosecutorial misconduct/error or misconduct/error by the state?",
         # aoe_grandjury_q: "aoe_grandjury",
         # "aoe_court": "Is the allegation of error against the court, sometimes referred to as the 'trial court'?",
         # "aoe_defense": "Is the allegation of error against the defense attorney?",
@@ -213,19 +213,14 @@ def label_flipped_answers(answer):
 def run_specified():
     gc.collect()
     torch.cuda.empty_cache()
-    model, tokenizer = mistral_setup()
+    model, tokenizer = ministral_setup()
 
     question_dict = questions_setup()
     for q in question_dict:
         print(question_dict[q])
         results_df = run_pipeline_with_questions(question_dict[q], q, model, tokenizer)
-<<<<<<< HEAD
         results_df["Response Label"] = results_df["Response"].apply(label_answers)
-        results_df.to_csv(f"./standards_csv/{q}_10.csv", index=False)
-=======
-        results_df["Response Label"] = results_df["Response"].apply(label_flipped_answers)
-        results_df.to_csv(f"./mistral_questions/{q}.csv", index=False)
->>>>>>> bb8dea54864c8fd80b06b5887999ae7d87527eed
+        results_df.to_csv(f"./standards_csv/{q}_filtered.csv", index=False)
         gc.collect()
         torch.cuda.empty_cache()
         if torch.cuda.is_available():
@@ -284,11 +279,6 @@ def run_ordered():
     results_df.to_csv(f"./mistral_run/final.csv", index=False)
 
 
-
 if __name__ == "__main__":
-<<<<<<< HEAD
-=======
-    # run_ordered()
->>>>>>> bb8dea54864c8fd80b06b5887999ae7d87527eed
     run_specified()
 

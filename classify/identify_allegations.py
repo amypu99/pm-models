@@ -10,14 +10,12 @@ import math
 import os
 
 os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
-os.environ["CUDA_VISIBLE_DEVICES"] = "6"
+os.environ["CUDA_VISIBLE_DEVICES"] = "2"
 os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'
 
 CHUNK_LENGTH = 2000
 
-def apply_prompt(chunk_text):
-    question = "In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess."
-
+def apply_prompt(chunk_text, question):
     full_prompt = (
         f"Context information is below.\n---------------------\n{chunk_text}\n---------------------\nGiven the context information and not prior knowledge, answer the query.\nQuery: {question}\nAnswer:"
     )
@@ -25,17 +23,13 @@ def apply_prompt(chunk_text):
     return full_prompt
 
 
-def identify_allegations(batch_size=1):
+def identify_allegations(batch_size=4, question=None, label=None, label_func=None):
     gc.collect()
     torch.cuda.empty_cache()
     model, tokenizer = ministral_setup()
 
-<<<<<<< HEAD
-    question_jsonl = load_jsonl("another_example.jsonl")
-=======
+
     question_jsonl = load_jsonl("dnms_aoe_none_olmocr.jsonl")
-    # question_jsonl = load_jsonl("one_example.jsonl")
->>>>>>> bb8dea54864c8fd80b06b5887999ae7d87527eed
 
     pipe = pipeline(
         "text-generation",
@@ -51,41 +45,24 @@ def identify_allegations(batch_size=1):
 
     if torch.cuda.is_available():
         torch.cuda.synchronize()
-<<<<<<< HEAD
 
-    for batch_start in range(0, 100, batch_size):
-=======
-    
     # print(len(question_jsonl))
 
     for batch_start in range(0, len(question_jsonl), batch_size):
->>>>>>> bb8dea54864c8fd80b06b5887999ae7d87527eed
         batch_end = min(batch_start + batch_size, len(question_jsonl))
         batch = question_jsonl.iloc[batch_start:batch_end]
 
         batch_messages = []
 
-<<<<<<< HEAD
-        for i, content in enumerate(batch.Context.values):
-            cleaned_content = clean_text(content)
-            chunked_content = cleaned_content.split("\u00b6")
-            print([len(x) for x in chunked_content])
-            # print('\n\n\n\n\n\n\n'.join(chunked_content))
-            
-            all_prompts = [apply_prompt(chunk) for chunk in chunked_content]
-            all_messages = [[{"role": "user", "content": x}] for x in all_prompts]
-
-=======
         for i, content in enumerate(batch.olmocr_text.values):
             # cleaned_content = clean_text(content)
             chunked_content = content.split("\n\n")
             
-            all_prompts = [apply_prompt(chunk) for chunk in chunked_content]
+            all_prompts = [apply_prompt(chunk, question) for chunk in chunked_content]
             # print("\n\n\n".join(all_prompts))
             all_messages = [[{"role": "user", "content": x}] for x in all_prompts]
 
 
->>>>>>> bb8dea54864c8fd80b06b5887999ae7d87527eed
             num_chunks = min(5, len(chunked_content))
 
             example_outputs = []
@@ -99,18 +76,13 @@ def identify_allegations(batch_size=1):
                 )
                 example_outputs += batch_results
 
-            label = "aoe_none"
             flipped = 0
             for k, result in enumerate(example_outputs):
                 if label_answers(result[0]["generated_text"][1]["content"]) == 1:
                     results.append({
                         "Index": batch.Index.iloc[i],
                         "Response": result[0]["generated_text"][1]["content"],
-<<<<<<< HEAD
-                        # "Text": chunk,
-=======
                         "Text": result[0]['generated_text'][0]['content'],
->>>>>>> bb8dea54864c8fd80b06b5887999ae7d87527eed
                         label: batch[label].iloc[i]
                     })
                     flipped = 1
@@ -130,29 +102,12 @@ def identify_allegations(batch_size=1):
 
             if batch_start % (batch_size * 10) == 0:
                 temp_df = pd.DataFrame(results)
-                temp_df["Response Label"] = temp_df["Response"].apply(label_flipped_answers)
-<<<<<<< HEAD
-                temp_df.to_csv(f"./mistral_questions/{label}.csv.temp", index=False)
-
-    # results_df = pd.DataFrame(results)
-
-    # results_df["Response Label"] = results_df["Response"].apply(label_flipped_answers)
-    # results_df.to_csv(f"./mistral_questions/{label}.csv", index=False)
-    # gc.collect()
-    # torch.cuda.empty_cache()
-    # if torch.cuda.is_available():
-    #     torch.cuda.synchronize()
-
-
-if __name__ == "__main__":
-    from huggingface_hub import login
-    login()
-=======
+                temp_df["Response Label"] = temp_df["Response"].apply(label_func)
                 temp_df.to_csv(f"./ministral_olmocr_questions/{label}.csv.temp", index=False)
 
     results_df = pd.DataFrame(results)
 
-    results_df["Response Label"] = results_df["Response"].apply(label_flipped_answers)
+    results_df["Response Label"] = results_df["Response"].apply(label_func)
     results_df.to_csv(f"./ministral_olmocr_questions/{label}.csv", index=False)
     gc.collect()
     torch.cuda.empty_cache()
@@ -161,5 +116,11 @@ if __name__ == "__main__":
 
 
 if __name__ == "__main__":
->>>>>>> bb8dea54864c8fd80b06b5887999ae7d87527eed
-    identify_allegations()
+    # aoe_none_question = "In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess."
+    # identify_allegations(question=aoe_none_question, label = "aoe_none", label_func=label_flipped_answers)
+
+    # aoe_procbar_question = "If there is an alleged assignment of error in the text above, was it procedurally barred? For example, is it barred by res judicata because it was not raised during original trial and now it’s too late? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess."
+    # identify_allegations(question=aoe_procbar_question, label = "aoe_procbar", label_func=label_answers)
+
+    aoe_prochist_question = "Is the assignment of error in the procedural history, i.e., if there is prosecutorial misconduct mentioned, was it raised in a previous appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess."
+    identify_allegations(question=aoe_prochist_question, label="aoe_prochist", label_func=label_answers)

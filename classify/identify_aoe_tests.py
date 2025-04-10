@@ -42,17 +42,13 @@ def recursively_split_chunk(chunk: str, max_tokens: int, chunk_delimiter="\n\n")
     if len(tokenize(chunk)) <= max_tokens:
         return [chunk]
 
-    # Try to split by the delimiter first
     if chunk_delimiter in chunk:
         sub_chunks = chunk.split(chunk_delimiter)
-        # If after splitting, we still have chunks that are too large
         result = []
         for sub_chunk in sub_chunks:
-            # Recursively split any large sub-chunks
             result.extend(recursively_split_chunk(sub_chunk, max_tokens, chunk_delimiter))
         return result
 
-    # If there's no delimiter, try to split by sentences
     sentences = re.split(r'(?<=[.!?])\s+', chunk)
     if len(sentences) > 1:
         result = []
@@ -76,7 +72,7 @@ def recursively_split_chunk(chunk: str, max_tokens: int, chunk_delimiter="\n\n")
                 else:
                     current_chunk = sentence
 
-        if current_chunk:  # Don't forget to add the last chunk
+        if current_chunk:
             result.append(current_chunk)
         return result
 
@@ -135,15 +131,14 @@ def combine_chunks_with_no_minimum(
         max_tokens: int,
         chunk_delimiter="\n\n",
         header: Optional[str] = None,
-        add_ellipsis_for_overflow=False,
 ) -> Tuple[List[str], List[int], int]:
     """Combine chunks into larger chunks that don't exceed max_tokens."""
-    dropped_chunk_count = 0  # This will always be 0 with our approach
-    output = []  # list to hold the final combined chunks
-    output_indices = []  # list to hold the indices of the final combined chunks
+    dropped_chunk_count = 0
+    output = []
+    output_indices = []
     candidate = (
         [] if header is None else [header]
-    )  # list to hold the current combined chunk candidate
+    )
     candidate_indices = []
 
     for chunk_i, chunk in enumerate(chunks):
@@ -217,7 +212,7 @@ def combine_chunks_with_no_minimum(
     return output, output_indices, dropped_chunk_count
 
 
-def identify_allegations(batch_size=4, question=None, label=None, max_tokens=500):
+def identify_allegations(batch_size=4, question=None, label=None, max_tokens=800):
     """Process and identify allegations in text data using a language model."""
     gc.collect()
     torch.cuda.empty_cache()
@@ -227,7 +222,7 @@ def identify_allegations(batch_size=4, question=None, label=None, max_tokens=500
     global tokenizer
     tokenizer = global_tokenizer
 
-    question_jsonl = load_jsonl("dnms_aoe_none_olmocr.jsonl")
+    question_jsonl = load_jsonl("./jsonl/procbar_prochist_olmocr.jsonl")
 
     pipe = pipeline(
         "text-generation",
@@ -242,7 +237,7 @@ def identify_allegations(batch_size=4, question=None, label=None, max_tokens=500
     if torch.cuda.is_available():
         torch.cuda.synchronize()
 
-    test_len = 5
+    test_len = 20
 
     for batch_start in range(0, test_len, batch_size):
         batch_end = min(batch_start + batch_size, test_len)
@@ -300,4 +295,5 @@ if __name__ == "__main__":
     # identify_allegations(question=aoe_prochist_question, label="aoe_prochist", label_func=label_answers)
 
     aoe_noneprocbar_question = "If the text above is describing an assignment of error, is the error alleging that the prosecutor (sometimes referred to as the state) committed misconduct? Respond 'Yes' or 'No'."
-    identify_allegations(question=aoe_noneprocbar_question, label="aoe_test")
+    identify_allegations(question=aoe_noneprocbar_question, label="aoe_test_pm_exists")
+

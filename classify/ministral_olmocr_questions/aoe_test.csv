@@ -409,17 +409,24 @@ conducting the second day of trial on May 30, 2018 in his absence and by reappoi
 
 B. Trial Error Versus Structural Error
 
-...
 
-C. Continuation of Trial in Phillips's Absence
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: If the text above is describing an assignment of error, is the error alleging that the prosecutor (sometimes referred to as the state) committed misconduct? Respond 'Yes' or 'No'.
+Answer:"
+936-Phillips,No. The text is describing the types of constitutional errors that can occur in a criminal proceeding and how they are reviewed. It does not allege that the prosecutor committed misconduct.,"Context information is below.
+---------------------
+Phillips argues the alleged violations of his Sixth Amendment rights constituted structural error requiring automatic reversal of his conviction. Constitutional errors occurring in a criminal proceeding can be divided into two categories: (1) ""trial errors,"" which are reviewable for harmless error, and (2) ""structural errors,"" which are per se reversible. State v. Fisher, 99 Ohio St.3d 127, 2003-Ohio-2761, ¶ 9, citing Arizona v. Fulminante, 499 U.S. 279, 306-12 (1991). Structural errors affect the framework of the trial process, rather than simply being an error in that process; as a result of structural error, ""'a criminal trial cannot reliably serve its function as a vehicle for determination of guilt or innocence, and no criminal punishment may be regarded as fundamentally fair.' "" Fulminante at 310, quoting Rose v. Clark, 478 U.S. 570, 577-78 (1986). Structural error subject to automatic reversal has only been found in a very limited class of cases. State v. Wilks, 154 Ohio St.3d 359, 2018-Ohio-1562, ¶ 133. The United States Supreme Court has recognized that denial of the right to self-representation at trial is structural error. McKaskle v. Wiggins, 465 U.S. 168, 177 (1984), fn.8 (""Since the right of self-representation is a right that when exercised usually increases the likelihood of a trial outcome unfavorable to the defendant, its denial is not amenable to 'harmless error' analysis. The right is either respected or denied; its deprivation cannot be harmless.""). By contrast, the court has also held that violations of the Confrontation Clause are subject to harmless-error review. See Delaware v. Van Arsdall, 475 U.S. 673, 684 (1986) (""[W]e hold that the constitutionally improper denial of a defendant's opportunity to impeach a witness for bias, like other Confrontation Clause errors, is subject to Chapman [v. California, 386 U.S. 18 (1967)] harmless-error analysis.""). See also State v. Scott, 10th Dist. No. 05AP-1144, 2006-Ohio-4981, ¶ 11 fn. 4 (""Where preserved by objection, review of Confrontation Clause claims is for harmless error. Confrontation Clause claims not preserved by objection are reviewed for plain error under comparable Fed.R.Crim.P. 52.""). (Citations omitted.)
 
 
 ---------------------
 Given the context information and not prior knowledge, answer the query.
 Query: If the text above is describing an assignment of error, is the error alleging that the prosecutor (sometimes referred to as the state) committed misconduct? Respond 'Yes' or 'No'.
 Answer:"
-936-Phillips,"No. The text describes an assignment of error by the defendant, not the prosecutor. The defendant is arguing that the trial court erred in its handling of his absence from the trial.","Context information is below.
+936-Phillips,"No. The text describes an assignment of error by the defendant, not the prosecutor. The defendant is arguing that the trial court erred in continuing the trial without him being present, not that the prosecutor committed misconduct.","Context information is below.
 ---------------------
+C. Continuation of Trial in Phillips's Absence
+
 In addition to the right to be present provided under the Confrontation Clause of the Sixth Amendment, Article I, Section 10 of the Ohio Constitution states that
 ""[i]n any trial, in any court, the party accused shall be allowed to appear and defend in person and with counsel."" Crim.R. 43(A)(1) provides that ""[e]xcept as provided in Rule 10 of these rules and division (A)(2) of this rule, the defendant must be physically present at every stage of the criminal proceeding and trial."" Crim.R. 43(B) specifies that a defendant may be excluded from trial due to disruptive conduct when ""the hearing or trial cannot reasonably be conducted with the defendant's continued physical presence."" Crim.R. 43(A)(1) also provides that ""the defendant's voluntary absence after the trial has been commenced in the defendant's presence shall not prevent continuing the trial to and including the verdict."" As explained above, we review violations of the Confrontation Clause under the harmless error standard. Crim.R. 52(A) defines the doctrine of harmless error in criminal cases and provides that ""[a]ny error, defect, irregularity, or variance which does not affect substantial rights shall be disregarded.""
 
@@ -685,14 +692,22 @@ Answer:"
 Given the context information and not prior knowledge, answer the query.
 Query: If the text above is describing an assignment of error, is the error alleging that the prosecutor (sometimes referred to as the state) committed misconduct? Respond 'Yes' or 'No'.
 Answer:"
-371-Myers,"No. The text above is describing the application of a statute (R.C. 2953.21) and the legal principles surrounding postconviction relief, but it does not allege any misconduct by the prosecutor.","Context information is below.
+371-Myers,"No. The text above is describing the application of a statute (R.C. 2953.21) and the conditions for summary judgment in postconviction proceedings, but it does not allege any misconduct by the prosecutor.","Context information is below.
 ---------------------
 ¹. As stated earlier, R.C. 2953.21 was amended, effective April 6, 2017, and some of its provisions were renumbered. As pertinent here, former R.C. 2953.21(C), (D), and (E) were renumbered 2953.21(D), (E), and (F). We note that for purposes of this assignment of error, the language of the applicable renumbered statutory provisions is identical to the language of their pre-amendment counterparts. We therefore elect to apply the current version of R.C. 2953.21.
 entitled to summary judgment only if there is no genuine issue of material fact and reasonable minds can come to but one conclusion and that conclusion is adverse to the party against whom the motion for summary judgment is made. *State v. Francis*, 12th Dist. Butler No. CA2013-05-078, 2014-Ohio-443, ¶ 11. Summary judgment in postconviction proceedings is appropriate only if the right to summary judgment appears on the face of the record. R.C. 2953.21(E); *Id.*
 
 ¶ 25 Under R.C. 2953.21(D), ""a trial court properly denies a defendant's petition for postconviction relief without holding an evidentiary hearing where the petition, the supporting affidavits, the documentary evidence, the files, and the records do not demonstrate that petitioner set forth sufficient operative facts to establish substantive grounds for relief."" *Calhoun*, 86 Ohio St.3d 279 at paragraph two of the syllabus; *Francis* at ¶ 12.
 
-...
+
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: If the text above is describing an assignment of error, is the error alleging that the prosecutor (sometimes referred to as the state) committed misconduct? Respond 'Yes' or 'No'.
+Answer:"
+371-Myers,"No. The text is describing a legal decision regarding the trial court's handling of a postconviction relief (PCR) petition, not alleging any misconduct by the prosecutor.","Context information is below.
+---------------------
+¶ 26 We find that the trial court did not err in granting a summary dismissal of Myers' PCR petition under R.C. 2953.21(D) notwithstanding the state's motion for summary judgment and its failure to move for dismissal of the PCR petition under R.C. 2953.21(D). We have held that R.C. 2953.21(D) ""explicitly requires the trial court to look beyond the petition and examine the record in order to determine whether there are substantive grounds for relief. The trial court must independently review the record and address the substance of a petitioner's claims regardless of whether the state responds to his petition for postconviction relief."" *State v. Wallen*, 12th Dist. Clermont No. CA97-02-017, 1997 Ohio App. LEXIS 3647, *4 (Aug. 11, 1997). See also *State v. Hartman*, 2d Dist. Montgomery No. 27162, 2017-Ohio-7933 (a trial court has an independent duty to analyze a PCR petition under R.C. 2953.21[D]); *State v. McCabe*, 4th Dist. Washington No. 97CA32, 1998 Ohio App. LEXIS 4487 (Sept. 14, 1998) (it is well settled that, regardless of whether or not the state responds to a petition for postconviction relief, R.C. 2953.21[D] requires the trial court
+to sua sponte analyze the petition). Thus, the trial court was required to independently determine whether there were substantive grounds for relief and the pendency of the state's motion for summary judgment did not preclude the trial court from summarily dismissing the PCR petition under R.C. 2953.21(D). See State v. McKelton, 12th Dist. Butler No. CA2015-02-028, 2015-Ohio-4228; State v. Noling, 11th Dist. Portage No. 98-P-0049, 2003-Ohio-5008.
 
 
 ---------------------

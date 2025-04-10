@@ -1,181 +1,182 @@
 Index,Response,aoe_none,Text,Response Label
-073-Beedy,No.,1,,1
-154-Poe,No.,1,,1
-936-Phillips,No.,1,,1
+073-Beedy,No.,1,,0
+154-Poe,No.,1,,0
+936-Phillips,No.,1,,0
 371-Myers,Yes,0,"Context information is below.
 ---------------------
-1. Prosecutorial Misconduct
+{¶ 70} THE TRIAL COURT ERRED, AND DENIED MYERS DUE PROCESS AND AN ADEQUATE CORRECTIVE PROCESS, WHEN IT SUMMARILY DISMISSED, UNDER R.C. 2953.21(C) AND RULE 12, MYERS' CLAIMS OF PROSECUTORIAL MISCONDUCT (GROUNDS 50, 58), WITHOUT ALLOWING DISCOVERY OR AN EVIDENTIARY HEARING AND IN FAILING TO GRANT RELIEF.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-886-KHAMISI,No.,1,,1
-956-Graham,No.,0,,1
-199-Blair,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+886-KHAMISI,No.,1,,0
+956-Graham,No.,0,,0
+199-Blair,No.,1,,0
 319-YOUNG,Yes.,1,"Context information is below.
 ---------------------
-(2) Misconduct of the jury, prosecuting attorney, or the witnesses for the state;
+{¶100} Young asserts that he was entitled to detailed information relating to K.K.'s claim against the university as evidence favorable to him under Crim.R. 16(B)(5) and that the state's failure to disclose this information prior to trial, as well as the prosecutor's statement during closing arguments that K.K. had no pecuniary interest in the criminal proceedings, were ""irregularities in the proceeding"" entitling him to a new trial under Crim.R.
+33(A)(1). Young contends evidence of K.K.'s pecuniary interest provides K.K.'s motive for changing her trial testimony from that of her statement to the Hamilton detectives and that such evidence would have affected the outcome of trial as the state's case was entirely dependent upon K.K.'s credibility.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
 269-Roberts,Yes,1,"Context information is below.
 ---------------------
 {¶21} “II. THE TRIAL COURT ERRED IN ADMITTING VIDEOS RECORDED BY A DECEASED CONFIDENTIAL INFORMANT IN VIOLATION OF MR. ROBERTS’S SIXTH AMENDMENT RIGHTS.
 “III. THE TRIAL COURT ABUSED ITS DISCRETION IN DENYING A MOTION FOR MISTRIAL MADE AS A RESULT OF PROSECUTORIAL MISCONDUCT.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-909-Turner,No.,1,,1
-063-Mohammed Ali,No.,1,,1
-096-M.,No.,1,,1
-212-Stewart,No.,1,,1
-916-Campbell,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+909-Turner,No.,1,,0
+063-Mohammed Ali,No.,1,,0
+096-M.,No.,1,,0
+212-Stewart,No.,1,,0
+916-Campbell,No.,1,,0
 074-Norman,Yes,1,"Context information is below.
 ---------------------
 ¶ 3 Appellant appealed his convictions, raising 13 assignments of error. In them, appellant raised issues regarding prosecutorial misconduct, ineffective assistance of counsel, errors in evidentiary rulings and jury instructions, and sufficiency and manifest weight of the evidence. This court overruled all 13 assignments of error and affirmed appellant’s convictions. Norman I.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-165-FERRICCI,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+165-FERRICCI,No.,1,,0
 937-Shaner,Yes,0,"Context information is below.
 ---------------------
 {¶ 28} The decision to grant or deny a motion for a new trial pursuant to Crim.R. 33 is within the discretion of the trial court. State v. Brakeall, 12th Dist. Fayette Nos. CA2008-06-022 and CA2008-06-023, 2009-Ohio-3542, ¶ 9. An appellate court reviews the trial court's decision for an abuse of discretion. State v. Carroll, 12th Dist. Clermont Nos. CA2007-02-030 and CA2007-03-041, 2007-Ohio-7075, ¶ 64. A motion for new trial must be made within fourteen days of the jury's verdict. Crim.R. 33(B). Appellant's counsel filed a motion for new trial on June 25, 2018 which suggested prosecutorial misconduct, not juror misconduct. Appellant's motion was denied July 26, 2018. There was no formal motion for a new trial based on juror misconduct made within fourteen days of the jury's verdict and in any event, there were no supporting affidavits provided as required by Crim.R. 33(C). However, because the state does not assert these reasons for supporting the trial court's denial of a new trial, we will address the merits of appellant's argument.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-844-Brown,No.,1,,1
-082-Jarmon,No.,1,,1
-155-Smith,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+844-Brown,No.,1,,0
+082-Jarmon,No.,1,,0
+155-Smith,No.,1,,0
 095-Jordan,Yes,0,"Context information is below.
 ---------------------
 In his fourth assignment of error, Jordan maintains that his due process rights were violated when the state failed to disclose Brady material to him. See Brady v. Maryland, 373 U.S. 83, 83 S.Ct. 1194, 10 L.Ed.2d 215 (1963). In his
 direct appeal, Jordan argued that the prosecutors committed misconduct when they “failed to turn over to the defense information regarding Ladson’s gang and criminal activity.” *Jordan*, 8th Dist. Cuyahoga No. 106273, 2018-Ohio-4108, ¶ 46. In his petition for postconviction relief, he argues that the state should have disclosed the photos of Ladson evidencing his tattoos and the gang report showing that Ladson was a member of the Heartless Felons. According to Jordan, the same prosecutor who tried his case also tried Ladson’s murder case and admitted these exhibits in Ladson’s criminal cases.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-070-Stidhum,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+070-Stidhum,No.,1,,0
 286-Yee,Yes,0,"Context information is below.
 ---------------------
 ¶ 4 Thereafter, on October 11, 2016, appellant filed a “motion for leave to withdraw his ‘void’ guilty plea based on actual innocence, prosecutorial misconduct and newly discovered evidence” pursuant to Crim.R. 32.1. In his motion, appellant asserted that his conviction was void because he was lured into pleading guilty despite his innocence based upon the state’s pledge to seek the death penalty “with a 100% chance of acquiring it” based on “bogus” DNA evidence. In support of his argument, appellant stated that he had recently received documents the FBI sent to the Innocence Project on August 1, 2013, allegedly revealing that the federal government utilized misleading evidence to secure his convictions in federal court. Appellant insisted that, had he been aware of the use of such evidence, he would not have entered a guilty plea. Appellant
 further indicated that the state threatened to use the same “bogus” evidence as the federal authorities used to secure the convictions.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-310-Middleton,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+310-Middleton,No.,1,,0
 472-Snowden,Yes,1,"Context information is below.
 ---------------------
 ¶ 9 As indicated, Snowden appealed to our court, raising nine assignments of error. These matters included: (1) error in overruling Snowden’s motion to suppress; (2) error in overruling the motion to sever the bribery count from the trial for the other offenses; (3) error in various evidentiary rulings; (4) a claim the verdict was against the manifest weight of the evidence; (5) failure to make the findings needed for imposing consecutive sentences; (6) error in imposing restitution; (7) ineffective assistance of counsel; (8) prosecutorial misconduct; and (9) cumulative error.  
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-889-O’CONNELL II,No.,1,,1
-363-Jackson,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+889-O’CONNELL II,No.,1,,0
+363-Jackson,No.,1,,0
 346-Vance,Yes,0,"Context information is below.
 ---------------------
 ¶ 22 The trial court sentenced appellant to serve life in prison without parole on count one (aggravated murder) and thirty-six months on count 9 (tampering with evidence), with the sentences to be served consecutively to one another. At that point, appellant filed a pro se (1) Crim.R. 33 motion for new trial and argued that irregularities existed in the court proceedings, including jury and prosecutorial misconduct, and that new evidence supported his self-defense claim, and (2) a Crim.R. 29 motion for judgment of acquittal. This appeal followed.2
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-069-Johnson,No.,1,,1
-052-Owens,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+069-Johnson,No.,1,,0
+052-Owens,No.,1,,0
 085-Vance,Yes,0,"Context information is below.
 ---------------------
 ¶ 2 In 2016, a jury found appellant guilty of: (1) Count 1 aggravated murder R.C. 2903.01(D), (2) Count 2 murder R.C. 2903.02(A), (3) Count 3 murder R.C. 2903.02(B), (4) Count 4
 felonious assault R.C. 2903.11(A)(1), (5) Count 5 felonious assault R.C. 2903.11(A)(2), and (6) Count 9 tampering with evidence R.C. 2921.12(A). The jury also found appellant not guilty of: (1) Count 6 kidnapping R.C. 2905.01(A)(4), (2) Count 7 abduction R.C. 2905.02(A)(2), (3) Count 8 attempted rape R.C. 2923.02(A)/2907.02(A)(2), (4) Count 10 abduction R.C. 2905.02(A)(2), and (5) Count 11 kidnapping R.C. 2905.01(B)(2). The trial court sentenced appellant to serve life in prison without parole on count one (aggravated murder), and thirty-six months on count 9 (tampering with evidence). The court further ordered that the sentences be served consecutively to one another. At that point, appellant filed a pro se Crim.R. 33 motion for new trial and argued that (1) irregularities existed in the court proceedings, including jury and prosecutorial misconduct, and (2) new evidence supported his self-defense claim. Appellant also filed a Crim.R. 29 motion for judgment of acquittal. On direct appeal, this court affirmed in part, reversed in part, and remanded the cause to the trial court to include findings, if appropriate, to support consecutive sentences.\(^1\) While his appeal was pending, appellant also filed various pro se motions, including his March 18, 2017 pro se petition for postconviction relief and his June 30, 2017 pro se petition to vacate or set aside the judgment of conviction and motion for expert assistance (a forensic scientist). The trial court denied the postconviction relief petition and indicated that appellant did not attach materials to support his petition and that no substantive grounds for relief exists. In addition, on November 1, 2017, the trial court issued an entry that chronicled and denied all 21 of appellant’s motions. The court determined that it either lacked jurisdiction to consider certain motions, certain motions did not set forth a request that the court could grant, or certain motions are nonsensical. Thus, the trial court denied the postconviction relief request and concluded that appellant is not entitled to relief as
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-318-Hall,No.,0,,1
-114-Jones,No.,1,,1
-900-Crowell,No.,0,,1
-342-Petway,No.,1,,1
-024-Zaccone,No.,1,,1
-185-Hartman,No.,0,,1
-352-Blanton,No.,1,,1
-903-McGlown Jr,Yes,0,"Context information is below.
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+318-Hall,No.,0,,0
+114-Jones,No.,1,,0
+900-Crowell,No.,0,,0
+342-Petway,No.,1,,0
+024-Zaccone,No.,1,,0
+185-Hartman,No.,0,,0
+352-Blanton,No.,1,,0
+903-McGlown Jr,Yes.,0,"Context information is below.
 ---------------------
 “Inmates are prohibited from accessing otherwise public records absent a finding from their sentencing judge that the records are necessary to support a justiciable claim. Absent such a judicial finding, an action in mandamus against a public person responsible for public records is barred.” State v. Lather, 6th Dist. Sandusky No. S-08-036, 2009-Ohio-3215, ¶ 10 (Finding no abuse of discretion by lower court’s denial of request for records where inmate “filed his request in a civil forfeiture action, but he specifically claimed that the alleged public records are necessary to support his claims of ineffective assistance of counsel and prosecutorial misconduct related to his criminal
 trial. These claims are unrelated to the civil forfeiture action in which [the defendant] sought the records.”).
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
 908-Howard,Yes.,1,"Context information is below.
 ---------------------
 Howard argues that her attorney’s cumulative errors and failures violated her constitutional rights. However, because none of Howard’s individual claims of ineffective assistance has merit, she “cannot establish an entitlement to relief simply by joining those claims together.” *State v. Mammone*, 139 Ohio St.3d 467, 2014-Ohio-1942, 13 N.E.3d 1051, ¶ 173 (when defendant failed to establish an ineffective assistance of counsel claim on trial counsel’s voir dire technique, failure to object to exhibits and
 alleged prosecutorial misconduct, and mitigation investigation or preparation, defendant cannot establish cumulative error “simply by joining those claims together”).
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-474-Stahl-Francisco,No.,1,,1
-344-Grooms,No.,1,,1
-907-Banks,No.,1,,1
-702-Smith,No.,1,,1
-920-Edwards,No.,1,,1
-877-BAER,No.,1,,1
-680-Untied,No.,1,,1
-256-Ammons,No.,1,,1
-187-NEWMAN,No.,1,,1
-307-Miku,No.,1,,1
-224-Liggins,No.,1,,1
-100-Long,Yes,0,"Context information is below.
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+474-Stahl-Francisco,No.,1,,0
+344-Grooms,No.,1,,0
+907-Banks,No.,1,,0
+702-Smith,No.,1,,0
+920-Edwards,No.,1,,0
+877-BAER,No.,1,,0
+680-Untied,No.,1,,0
+256-Ammons,No.,1,,0
+187-NEWMAN,No.,1,,0
+307-Miku,No.,1,,0
+224-Liggins,No.,1,,0
+100-Long,Yes.,0,"Context information is below.
 ---------------------
 {¶3} In 2015, Long again filed with the common pleas court a petition for postconviction relief pursuant to R.C. 2953.21 et seq., seeking relief from his conviction on grounds of prosecutorial misconduct and ineffective assistance of trial counsel. In his 2015 postconviction petition, Long asserted that evidence outside the trial record, in the form of a stranger’s unsolicited letter to him and a written report submitted to his trial counsel by an investigator assigned to his case, revealed the existence of statements made by eyewitnesses to law enforcement that exonerated him in the murder. He sought relief from his conviction on the grounds of prosecutorial misconduct, in failing to disclose that exculpatory evidence in discovery, and ineffective assistance of counsel, in failing to discover the evidence and present it in his defense.
 Then, in 2016, in an effort to gain access to information contained in public records to support his pending postconviction claims, he filed with the common pleas court his “Request for Leave to Request Public Records.” The court denied the request upon its determination that Long “failed to demonstrate under R.C. 149.43(B)(8) that he is entitled to the records.”
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-935-Kunzer,No.,1,,1
-954-Travis,No.,1,,1
-325-Miday,Yes.,0,"Context information is below.
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+935-Kunzer,No.,1,,0
+954-Travis,Yes.,1,"Context information is below.
 ---------------------
-¹Pursuant to Civ.R. 25(D)(1), Judge Sherrie M. Miday is substituted for the judge that was originally assigned to preside over Cuyahoga C.P. No. CR-13-573242.
-prosecutorial misconduct, and trial court abused discretion, filed pro se on May 11, 2016. The motions filed on April 17, 2014, and May 11, 2016, were filed pro se by Young while represented by counsel. The docket maintained in CR-13-573242 demonstrates that on April 17, 2014, Young was represented by attorney Donald Butler, and on May 11, 2016, Young was represented by attorney John F. Corrigan.
+Assignment of Error No. 1
+The defendant was deprived of a fair trial when the court, at the sole suggestion of the prosecutor, appointed an attorney for a defense witness, without her requesting the same, and then have the witness invoke the fifth amendment and not testify for the defendant.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-279-Hollins,No.,1,,1
-062-Robinson,No.,1,,1
-245-Tomlinson,No.,1,,1
-130-Gray,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+325-Miday,No.,0,,0
+279-Hollins,No.,1,,0
+062-Robinson,No.,1,,0
+245-Tomlinson,No.,1,,0
+130-Gray,No.,1,,0
 887-Winfield,Yes,1,"Context information is below.
 ---------------------
 ¶ 8 At the plea hearing, appellant was informed by the trial court of the consequences of his plea in compliance with Crim.R. 11. The trial court reviewed the plea agreement with appellant, which in this case involved the standard plea form as well as two additional typed pages. The additional typed pages were signed and acknowledged on each page by appellant. These pages state that appellant will change his plea as to the second count and in return he would receive a specified sentence and appellee would nolle the other counts and specifications.
 There is also a paragraph which states “Nothing in this agreement shall act as a bar to the defendant perfecting any legal remedies he may otherwise have on appeal or collateral attack respecting claims of ineffective assistance of counsel or prosecutorial misconduct.” At the plea hearing, there appeared to be some confusion as to the purpose of the paragraph regarding appellant’s appellate rights. Upon discussion, it was explained to appellant that he was giving up certain appellate rights by entering an Alford plea and that the plea agreement did not limit the remaining appellate rights in any way. Appellant had an opportunity to speak with attorney to understand these aspects and indicated that he understood those rights.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-349-KOPCHAK,No.,1,,1
-850-Manicini,No.,1,,1
-365-Young,No.,1,,1
-975-State of Ohio,No.,1,,1
-860-Bowen,No.,1,,1
-225-Wright,No.,1,,1
-154-Wallace,No.,1,,1
-244-Price,No.,1,,1
-"254-Daniels, Sr",No.,1,,1
-192-Dennis,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+349-KOPCHAK,No.,1,,0
+850-Manicini,No.,1,,0
+365-Young,No.,1,,0
+975-State of Ohio,No.,1,,0
+860-Bowen,No.,1,,0
+225-Wright,No.,1,,0
+154-Wallace,No.,1,,0
+244-Price,No.,1,,0
+"254-Daniels, Sr",No.,1,,0
+192-Dennis,No.,1,,0
 596-Neil,Yes,0,"Context information is below.
 ---------------------
 **Assignment of error two:** Appellant was deprived of his fundamental right to due process and a fair trial in violation of the Sixth Amendment to the United States and Ohio Constitution, due to prosecutorial misconduct where the prosecutor submitted false testimony that he knew was false which clearly affected the judgment of the jury to convict appellant.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-079-Johnson,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+079-Johnson,No.,1,,0
 237-Newman,Yes,0,"Context information is below.
 ---------------------
 ¶ 1 On March 16, 2021, the applicant, Dazelle Newman, pursuant to
@@ -184,178 +185,171 @@ applied to reopen this court’s judgment in State v. Newman, 8th Dist. Cuyahoga
 107944, which this court dismissed as untimely on October 22, 2019. Newman now argues that his appellate counsel should have raised the following issues: (1) The trial court erred in proceeding to trial without holding a hearing or obtaining an evaluation as to Newman’s competency to represent himself. (2) There was insufficient evidence to convict Newman of attempted murder; the evidence could only allow simple assault and vehicular assault. (3) The kidnapping convictions were not supported by sufficient evidence and were against the manifest weight of the evidence. (4) His convictions generally were not supported by sufficient evidence and were against the manifest weight of the evidence. (5) His convictions were the result of police and prosecutorial misconduct. (6) The trial judge had predetermined Newman’s guilt. (7) The photo lineup was unduly suggestive. For the following reasons, this court denies the application to reopen.¹
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-091-Glenn,No.,1,,1
-284-HARRIS,No.,1,,1
-195-Calhoun,No.,1,,1
-212-Gatewood,No.,1,,1
-135-Johnson,No.,1,,1
-890-HARDING,No.,0,,1
-122-Shelton,No.,1,,1
-303-Moton,No.,1,,1
-326-West,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+091-Glenn,No.,1,,0
+284-HARRIS,No.,1,,0
+195-Calhoun,No.,1,,0
+212-Gatewood,No.,1,,0
+135-Johnson,No.,1,,0
+890-HARDING,No.,0,,0
+122-Shelton,No.,1,,0
+303-Moton,No.,1,,0
+326-West,No.,1,,0
 268-Hunt,Yes,0,"Context information is below.
 ---------------------
 In 2019, appellant was found guilty by a jury of two counts of child endangering, one violation of R.C. 2919.22(B)(1) and (E)(2)(d), a felony of the second degree, and one violation of R.C. 2919.22(A) and (E)(2)(c), a felony of the third degree. Appellant appealed his convictions and sentence to this Court, arguing: his convictions were against the manifest weight of the evidence; his convictions were based upon insufficient evidence; ineffectiveness of trial counsel for failing to object to Dr. Benton’s testimony regarding the pain the child would have experienced during and after appellant beat him; and prosecutorial misconduct, amounting to the denial of due process. In State v. Hunt, 5th Dist. Tuscarawas No. 2019 AP 07 0023, 2020-Ohio-1124, this Court overruled appellant’s assignments of error and affirmed appellant’s convictions and sentence. Appellant filed an application for reconsideration. This Court denied his application for reconsideration on January 6, 2021.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
 329-LaRosa,Yes.,1,"Context information is below.
 ---------------------
 [D.] The state offered facts not in evidence to discredit DYS and Dr. Stinson’s testimony.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-950-Smith,No.,1,,1
-328-Whitt,No.,1,,1
-622-Curtis,Yes,1,"Context information is below.
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+950-Smith,No.,1,,0
+328-Whitt,No.,1,,0
+622-Curtis,Yes.,1,"Context information is below.
 ---------------------
 “III. THE STATE ENGAGED IN PROSECUTORIAL MISCONDUCT IN VIOLATION OF THE SIXTH AND FOURTEENTH AMENDMENTS TO THE UNITED STATES AND OHIO CONSTITUTION DEPRIVING APPELLANT OF A FAIR TRIAL/PROCEEDING WHEN THE PROSECUTOR TOLD THE TRIAL COURT, AND COURT OF APPEALS, THAT THERE WAS ""A JOINT RECOMMENDATION OF SEVEN
 (7) YEARS"" DESPITE NO SUCH RECORD BEING IN EXISTENCE TO PERSUADE BOTH COURT'S TO DENY APPELLANT'S 2953.21.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
 340-Jones,Yes,0,"Context information is below.
 ---------------------
 ¶ 18 After considering the evidence presented, the jury found Jones guilty on one count of child endangering. The trial court imposed an eight-year prison sentence. This court affirmed on direct appeal, rejecting arguments challenging the manifest weight
 and legal sufficiency of the State's evidence and an argument alleging prosecutorial misconduct. With regard to the weight and sufficiency of the evidence, this court reasoned:
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-463-Baker,No.,1,,1
-199-MCLOUGHLIN,No.,1,,1
-253-Robinson,No.,1,,1
-221-MCNEIR,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+463-Baker,No.,1,,0
+199-MCLOUGHLIN,No.,1,,0
+253-Robinson,No.,1,,0
+221-MCNEIR,No.,1,,0
 285-Guy,Yes,0,"Context information is below.
 ---------------------
 Petitioner objects that a new trial is constitutionally required when denial of a new trial would leave a defendant convicted at a fundamentally unfair trial. (ECF No. 31, citing *Fleming v. Metrish*, 556 F.3d 520, 535 (6th Cir. 2009). He argues that the prosecutor engaged in misconduct by submitting inadmissible evidence despite the trial judge’s having excluded it and improperly impeaching Petitioner’s alibi witness. *Id.* at PageID 2679. In the Motion for New Trial, Guy labels as misconduct the submission of a Facebook page in which Guy used the racial slur “Honkies.” He also claims that the only proper way to impeach an alibi witness is by cross-
 examination and the prosecutor did so by attempting, unsuccessfully,\(^2\) to introduce a phone call allegedly coming from the alibi witness.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-161-COOPER,Yes.,1,"Context information is below.
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+161-COOPER,Yes,1,"Context information is below.
 ---------------------
 III. The trial court committed prejudicial error by allowing the prosecuting attorney, over objection, to elicit irrelevant and inflammatory prejudicial evidence.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-899-Duncan,No.,1,,1
-933-Edwards,Yes,1,"Context information is below.
----------------------
-¶ 52 Appellant moved for a new trial under Crim.R. 33(A)(2): ""A new trial may be granted on motion of the defendant for any of the following causes affecting materially his substantial rights: * * * (2) Misconduct of the jury, prosecuting attorney, or the witnesses for the state."" A new trial shall not be granted on this or any other of the allowed grounds of Crim.R. 33 ""unless it affirmatively appears from the record that the defendant was prejudiced thereby or was prevented from having a fair trial."" Crim.R. 33(E)(5). In addressing claims of juror misconduct, the court therefore must employ a two-step analysis. First, the court will determine whether juror misconduct occurred, and second, if juror misconduct is found, the court will determine whether the misconduct materially affected the defendant's substantial rights. State v. Taylor, 73 Ohio App.3d 827, 833 (4th Dist.1991); State v. Samatar, 152 Ohio App.3d 311, 2003-Ohio-1639, ¶ 35 (10th Dist.) The party complaining of alleged juror misconduct must establish prejudice. State v. Adams, 103 Ohio St.3d 508, 2004-Ohio-5845, ¶ 42. Crim.R. 33(A)(2) motions must be supported by affidavit as required by Crim.R. 33(C). State v. Gibson, 10th Dist. No. 10AP-1047, 2011-Ohio-5614, ¶ 39. ""A trial court does not abuse its discretion by denying a motion or a hearing on such motion for new trial on Crim.R. 33(A)(2) grounds if no affidavits are submitted with the motion."" Id. at ¶ 40, citing State v. Tolliver, 10th Dist. No. 02AP-811, 2004-Ohio-1603, ¶ 118.
-Initially, we note that, although Crim.R. 33(A)(2) motions should be supported with an affidavit, the trial court expressly noted the absence of such an affidavit in the present case but, nonetheless, proceeded with the hearing, apparently accepting that Sergeant Duffer's sworn testimony provided the requisite evidentiary basis to examine the issues raised.
----------------------
-Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-835-Rosa,No.,1,,1
-039-Woodford,Yes,1,"Context information is below.
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+899-Duncan,No.,1,,0
+933-Edwards,No.,1,,0
+835-Rosa,No.,1,,0
+039-Woodford,Yes.,1,"Context information is below.
 ---------------------
 1 The petition also claimed counsel did not adequately cross-examine Cool about his criminal record or his deal with the prosecution. It also set forth a brief, potential argument on prosecutorial misconduct if the state failed to produce unnamed evidence bearing on Cool’s credibility. The state responded by pointing out this witness was asked about his guilty plea arising out of this incident and about his criminal record. (Tr. 117, 123-127, 131). A June 29, 2016 judgment entry shows the parties agreed the state divulged any consideration and promises to prosecute witnesses in exchange to aid or testimony. In any event, these arguments are not maintained on appeal.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
 893-CARR,Yes,0,"Context information is below.
 ---------------------
 Carr, 2d Dist. Montgomery No. 28193, 2019-Ohio-3802, at ¶ 13, 19, 22, and 32-33.  The first two issues bear no potential relation to police handling of evidence, and the third issue involved alleged inconsistent witness testimony and alleged prosecutorial misconduct in adding a heroin charge after the first indictment was filed.  Id. at ¶ 26.  We see no possible way in which the requested material would be material to those issues.  The evidence would also be outside the record in relation to that case, as the trial court action had already been decided.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-074-Square,No.,1,,1
-226-Hoover,No.,1,,1
-895-PARRISH,No.,1,,1
-055-Teets,No.,1,,1
-926-Ericksen,No.,1,,1
-360-Ferguson,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+074-Square,No.,1,,0
+226-Hoover,No.,1,,0
+895-PARRISH,No.,1,,0
+055-Teets,No.,1,,0
+926-Ericksen,No.,1,,0
+360-Ferguson,No.,1,,0
 611-Somers,Yes,0,"Context information is below.
 ---------------------
 {¶10} Appellant filed a petition for postconviction relief on February 25, 2019, asking that the trial court grant a hearing on the petition and, ultimately, a new trial. Appellant alleged that his constitutional rights were violated as a result of prosecutorial misconduct and ineffective assistance of trial counsel. In support of his motion, Appellant supplied multiple references to transcripts of hearings before the trial court as well as his affidavit recounting his conversations with trial counsel before and during the hearings.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
 284-Armengau,Yes.,0,"Context information is below.
 ---------------------
 ¶ 46} In addition to his testimony addressing the specific accusations presented by the state's witnesses, appellant testified in his case-in-chief regarding his background. He stated that he graduated from Capital Law School in 1998 as an older, non-traditional student with a growing family. He clerked with an experienced criminal defense attorney in Marion, Ohio, during law school, and shared space in that office for one year after passing the bar. He then secured his own space and began his own practice in Marion and, eventually, in Columbus, Mansfield, and Cleveland. His practice, general at first, eventually focused on criminal defense with a smaller proportion of domestic and civil litigation. He testified that he believed the accusations against him were the result of a coordinated campaign by the Franklin County Prosecutor's Office, the Attorney General, and the Columbus police to remove him from the practice of law because of his effective advocacy in criminal cases.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-"869-COLSTON, JR",No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+"869-COLSTON, JR",No.,1,,0
 997-Desmond,Yes.,1,"Context information is below.
 ---------------------
 ¶ 4 On April 5, 2017, Gains terminated Desmond’s employment. Gains maintains that he did so because Desmond violated various statutes and rules of professional conduct by (1) engaging in communications with adverse parties; (2) knowingly making himself a witness to a lawsuit against the county, his superior, and a fellow assistant prosecutor; (3) uttering false claims of ethical violations against a fellow assistant prosecutor, causing a grievance to be filed against her; (4) wrongfully making false and misleading allegations against a fellow assistant prosecutor to adverse parties; (5) failing to communicate to the appropriate supervisor his belief that a fellow assistant prosecutor engaged in misconduct; and (6) using county equipment and assets to conduct research to assist parties adverse to his client, his superior, and a fellow assistant prosecutor.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-283-York,No.,1,,1
-160-Hill,No.,1,,1
-040-McDuffey,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+283-York,No.,1,,0
+160-Hill,No.,1,,0
+040-McDuffey,No.,1,,0
 883-BRIDGES,Yes,0,"Context information is below.
 ---------------------
 In July 2014, Bridges filed a petition for postconviction relief, arguing ineffective assistance of counsel, his convictions were not supported by sufficient evidence, and prosecutorial misconduct. While Bridges’s direct appeal was pending, the trial court denied his petition for postconviction relief without a hearing and issued findings of fact and conclusions of law supporting the denial. Bridges appealed these rulings in two cases, both of which were dismissed for failure to file the record. State v. Bridges, 8th Dist. Cuyahoga Nos. 101938 (Oct. 1, 2014), and 101942 (Oct. 31, 2014).
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-974-Ware,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+974-Ware,No.,1,,0
 679-A.,Yes.,1,"Context information is below.
 ---------------------
 ¶ 22 Following various unsuccessful state and federal challenges to his conviction, J.D. filed a writ of habeas corpus in the United States District Court for the Northern District of Ohio. The petition included a claim that the prosecution had failed to disclose exculpatory evidence in violation of *Brady v. Maryland*, 373 U.S. 83, 83 S.Ct. 1194, 10 L.Ed.2d 215 (1963). The district court granted his petition, finding that most of the evidence that J.D. introduced to support his *Brady* claim was withheld by the prosecution and that J.D.’s due process rights were in fact violated. The district court ordered the state to set aside J.D.’s conviction and sentence or conduct another trial within 180 days. The Sixth District Court of Appeals upheld the district court’s decision. *Id.* at ¶ 3.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-190-Smith,No.,1,,1
-252-Littlejohn,No.,1,,1
-316-Lamp,No.,1,,1
-870-MILLER,No.,1,,1
-911-Jones,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+190-Smith,No.,1,,0
+252-Littlejohn,No.,1,,0
+316-Lamp,No.,1,,0
+870-MILLER,No.,1,,0
+911-Jones,No.,1,,0
 104-Dixon,Yes,0,"Context information is below.
 ---------------------
 THE CONSTITUTIONAL RIGHT OF FAIR TRIAL, DUE PROCESS, AND EQUAL PROTECTION WAS DEPRIVED BY PROSECUTOR MISCONDUCT, WHICH VIOLATED THE 5TH, 6TH, 8TH, AND 14TH AMENDMENTS.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-951-Godoy,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+951-Godoy,No.,1,,0
 213-Bender,Yes,0,"Context information is below.
 ---------------------
 {¶4} On December 1, 2020, Bender filed a petition for post-conviction relief *pro se*. Doc. 116. In this petition, Bender raised an ineffective assistance of counsel claim and a prosecutorial misconduct claim. Doc. 116. On January 20, 2021, the trial court dismissed Bender’s petition without a hearing because this petition was not timely filed. Doc. 124. Bender filed his notice of appeal on February 1, 2021. Doc. 126. On appeal, Bender raises the following assignments of error:
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
 057-Hill,Yes,1,"Context information is below.
 ---------------------
 COLLEEN MARY O’TOOLE, J., dissents with a Dissenting Opinion.
 Based on the decision in *Hill v. Anderson*, 881 F.3d 483 (6th Cir.2018), I would dismiss the instant appeal as moot. In that case, the United States District Court for the Northern District of Ohio had dismissed Hill's petition for habeas corpus, which was premised on the contention that his low intelligence prevents the death penalty from being applied to him; ineffective assistance of trial counsel; prosecutorial misconduct; and violation of his due process rights. *Id.* at 486-487. On appeal, the Sixth Circuit affirmed the judgment of the district court regarding the last three claims, but reversed and remanded for the district court to grant Hill's petition on his claim his low intelligence prevents him from being executed. *Id.* at 487.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-249-Korbel,No.,1,,1
-356-Cobb,No.,1,,1
-373-Moore,No.,1,,1
-172-Lindsay,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+249-Korbel,No.,1,,0
+356-Cobb,No.,1,,0
+373-Moore,No.,1,,0
+172-Lindsay,No.,1,,0
 182-Clemmons,Yes.,0,"Context information is below.
 ---------------------
 On September 19, 2017, the trial court held a sentencing hearing to address post-release control. At the hearing, the court informed Clemmons that the resentencing was on post-release control only and that he had already been sentenced on the rape offense. The court allowed Clemmons to make a statement on his own behalf, and Clemmons expressed that the State used false testimony to obtain his conviction. Clemmons stated that there were “seven different versions” of the accusation against him, and he asserted that the jurors would not have convicted him had they known about the multiple versions.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-147-Lee,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+147-Lee,No.,1,,0
 238-Newman,Yes,0,"Context information is below.
 ---------------------
 ¶ 1 On March 16, 2021, the applicant, Dazelle Newman, pursuant to
@@ -364,53 +358,59 @@ applied to reopen this court’s judgment in State v. Newman, 8th Dist. Cuyahoga
 109182, 2020-Ohio-5087, in which this court affirmed Newman’s convictions for attempted murder, kidnapping, aggravated robbery, aggravated burglary, grand theft, aggravated menacing, having weapons while under disability, and criminal damaging. Newman now argues that his appellate counsel should have raised the following issues. (1) The trial court erred in proceeding to trial without holding a hearing or obtaining an evaluation as to Newman’s competency to represent himself. (2) There was insufficient evidence to convict Newman of attempted murder; the evidence could only allow simple assault and vehicular assault. (3) The kidnapping convictions were not supported by sufficient evidence and were against the manifest weight of the evidence. (4) His convictions generally were not supported by sufficient evidence and were against the manifest weight of the evidence. (5) His convictions were the result of police and prosecutorial misconduct. (6) The trial judge had predetermined Newman’s guilt. (7) The photo lineup was unduly suggestive. For the following reasons, this court denies the application to reopen.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-940-Bennett,No.,1,,1
-929-Crawford,No.,1,,1
-876-Wynn,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+940-Bennett,No.,1,,0
+929-Crawford,No.,1,,0
+876-Wynn,No.,1,,0
 134-Boler,Yes,0,"Context information is below.
 ---------------------
 ¶ 2 We first incorporate the statement of facts and prior procedural history as detailed in our decision in the direct appeal of this case. See State v. Boler, 4th Dist. Athens No. 09CA24, 2010-Ohio-3344. In our decision, we affirmed appellant’s convictions and sentence, finding: (1) no prosecutorial misconduct during closing argument, (2) the trial court did not abuse its discretion by allowing certain challenged evidence, and (3) the cumulative error doctrine did not apply. To supplement the facts and procedural history from Boler I, we add some relevant milestones and subsequent history.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-227-Gutierrez,No.,1,,1
-965-Evick,No.,1,,1
-969-MASSUCCI,No.,1,,1
-157-Pitts,No.,1,,1
-285-YOUNG,No.,1,,1
-118-Clark,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+227-Gutierrez,No.,1,,0
+965-Evick,No.,1,,0
+969-MASSUCCI,Yes,1,"Context information is below.
+---------------------
+¶89 Turning then to the issue of a reasonable probability that, but for counsel's unprofessional errors, the result of the proceeding would have been different, we are compelled to find admission of Exhibit 48 undermines our confidence in the outcome of the trial. In our examination of the second prong of the Strickland analysis, we agree with appellant’s characterization that the prosecutor touted appellant’s statements contained in Exhibit 48 as “linchpin evidence of guilt.” The linchpin of an argument is the piece holding myriad strands of the argument together, and the vision of appellant “popping seven benzos at a time” became appellee’s linchpin in arguing appellant was impaired at the time of the crash.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+157-Pitts,No.,1,,0
+285-YOUNG,No.,1,,0
+118-Clark,No.,1,,0
 168-Ross,Yes,1,"Context information is below.
 ---------------------
 {¶ 32} Ross argues that Lyons's testimony was suspect because she testified that Lake contacted her during the trial despite the trial court's order separating the witnesses. In support of his argument, Ross cites to *State v. Tilley*, 8th Dist. No. 96756, 2012-Ohio-1533. In *Tilley*, the court found that, prior to the trial court holding a hearing on the prosecution's allegations of witness tampering, the prosecution improperly posed questions suggesting that a witness's testimony was influenced by information she had obtained from the defendant's uncle.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-241-Sewell,No.,1,,1
-152-Riffle,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+241-Sewell,No.,1,,0
+152-Riffle,No.,1,,0
 901-DOWELL,Yes,0,"Context information is below.
 ---------------------
 ¶ 4 On June 7, 2019, Dowell filed an amended petition in which he set forth additional claims for post-conviction relief: 1) witness misconduct (regarding Amy Behm’s testimony); 2) witness misconduct (Detective Thomas’s allegedly false testimony); and 3) prosecutorial misconduct. On July 8, 2019, the trial court issued an order denying Dowell’s original petition and his amended petition to vacate or set aside his judgment of conviction without a hearing.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-190-Hopkins,No.,1,,1
-186-NEWELL,No.,1,,1
-299-Baugh,No.,1,,1
-356-Wilson JR.,Yes,0,"Context information is below.
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+190-Hopkins,No.,1,,0
+186-NEWELL,No.,1,,0
+299-Baugh,No.,1,,0
+356-Wilson JR.,Yes.,0,"Context information is below.
 ---------------------
 ¶ 124 At sentencing, the prosecutor asserted that the offenses did not merge. She argued that “[t]he felonious assault, the pouring the grease on her back[,] was at a different time than the wounds that were inflicted about her body. As she [C.H.] testified to the grand jury, those happened while Ashley was there. That was over the course of three days. And the abduction, he held her there until the 8th.” (Sentencing Tr. at 17.)
 The State improperly parsed the felonious assault and domestic violence offenses at sentencing. Count One of the indictment alleged that Wilson committed felonious assault “as a continuous course of conduct from on or about January 27, 2017 to on or about January 31, 2017.” Count Three of the indictment similarly alleged that Wilson committed domestic violence “as a continuous course of conduct from on or about January 27, 2017 to on or about January 31, 2017.” The bill of particulars, filed under Case No. 2017-CR-102, addressed the three charges in a single paragraph:
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-191-Winston,No.,0,,1
-999-Lewis,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+191-Winston,No.,0,,0
+999-Lewis,No.,1,,0
 286-Harris,Yes.,0,"Context information is below.
 ---------------------
 31 Id. at 51.
@@ -420,316 +420,310 @@ Answer:",0
 5. The state committed prosecutorial misconduct by comparing its personal experiences to the evidence at trial into comments during closing arguments.\textsuperscript{35}
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
 196-Boware,Yes,0,"Context information is below.
 ---------------------
 THE COMMON PLEAS COURT JUDGE ABUSED HER DISCRETION BECAUSE SHE WAS PRESENTED A SET OF FACTS THAT ARE MATERIALLY INDISTINGUISHABLE FROM A DECISION OF THE PRECEDENT CASE HAZEL-ATLAS GLASS CO. V. HARTFORD-EMPIRE CO., 322 U.S. 238 (1944) WHEN THE STATE’S FALSIFICATION CAME TO LIGHT WITH DIRECT EVIDENCE LETTER EXHIBIT I, A FALSE COURT ORDER DOCUMENT ISSUED BY AKRON POLICE LEGAL ADVISER DICAUDO AND JUDGE QUINN, THAT FABRICATED TO THE DEFENSE ATTORNEY KERRY O’BRIEN THAT THE STATE HAD PRESERVED APPARENTLY EXCULPATORY CRIME SCENE RAPE DNA, EVIDENCE, FROM THE STATE’S WITNESS [P.W.] AND THE COMMON PLEAS COURT JUDGE’S DECISION TO NOT REOPEN THE DEFENDANT’S CASE, AND NOT SANCTION THE PLAINTIFF THE STATE OF OHIO WITH DISMISSAL OF THE STATE’S CASE, WAS CONTRARY TO THE RULING IN THE PRECEDENT CASE. “A COURT MAY AT ANYTIME SET ASIDE A JUDGMENT FOR AFTER DISCOVERED FRAUD UPON THE COURT. HAZEL-ATLAS GLASS V. HARTFORD[,] RULE 60(B) EXPRESSLY DOES NOT LIMIT THE POWER OF A COURT TO ENTERTAIN AN ACTION FOR THAT PURPOSE.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-918-Groves,No.,1,,1
-104-LaRosa,No.,1,,1
-308-Rich,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+918-Groves,No.,1,,0
+104-LaRosa,No.,1,,0
+308-Rich,No.,1,,0
 606-Lopez-Tolentino,Yes.,1,"Context information is below.
 ---------------------
 I. The trial court erred and abused its discretion when it knowingly or not accepted the blatant lie made by the State's memorandum contra defendant motion to withdraw guilty plea.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
 159-Davis,Yes,1,"Context information is below.
 ---------------------
 ¶ 17 The Double Jeopardy Clause of the Fifth Amendment to the United States Constitution, made applicable to the states through the Fourteenth Amendment, protects a criminal defendant from multiple prosecutions for the same offense. State v. Truhlar, 8th Dist. Cuyahoga No. 103312, 2016-Ohio-5338, ¶ 33, citing Oregon v. Kennedy, 456 U.S. 667, 671, 102 S.Ct. 2083, 72 L.Ed.2d 416 (1982). The Double Jeopardy Clause does not, however, bar re-prosecution in every case. Truhlar at ¶ 34. Generally, retrial is permitted whenever a mistrial is declared at the request of or with the consent of the defendant, or the trial court sua sponte declares a mistrial, unless the request is precipitated by prosecutorial misconduct intended to provoke a defendant into seeking a mistrial. Id., citing N. Olmsted v. Himes, 8th Dist. Cuyahoga Nos. 84076 and 84078, 2004-Ohio-4241, ¶ 36-37; State v. Bogan, 8th Dist. Cuyahoga No. 106183, 2018-Ohio-4211, ¶ 22; see also State v. Truhlar, 8th Dist. Cuyahoga No. 105835, 2017-Ohio-9018, ¶ 7.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
 082-Dotson,Yes,0,"Context information is below.
 ---------------------
 {¶4} In his direct appeal, appellant’s counsel argued that: his motion to suppress should have been granted, multiple pieces of evidence were admitted improperly, his motion to dismiss should have been granted, his trial counsel was ineffective, his convictions were insufficient as a matter of law, his convictions were against the manifest weight of the evidence, the state committed prosecutorial misconduct, and his sentence was unauthorized by law.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-818-DEVAUGHNS,No.,0,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+818-DEVAUGHNS,No.,0,,0
 115-Lawrence,Yes,0,"Context information is below.
 ---------------------
 {¶20} As mentioned above, counsel's *Anders* brief contains fifteen potential assignments of error that might arguably support the appeal. The issues raised include the certification of expert witnesses, the admission of opinions regarding DNA, the admission of evidence collected by a relative of the sexual offense victim, issues involving the denial of cross-examination of the sexual offense victim regarding text messages she sent to Lawrence, jury instructions, the sufficiency and weight of the evidence, allied offenses, the vindictiveness of the sentence because Lawrence exercised his right to trial, classification as a Tier III sex offender, *prosecutorial misconduct*, and ineffective assistance of counsel.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-149-Meade,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+149-Meade,No.,1,,0
 123-Mobley,Yes,0,"Context information is below.
 ---------------------
 ¶ 5 On October 25, 2017, appellant filed a motion to withdraw his guilty plea pursuant to Crim.R. 32.1. In his affidavit in support of the motion, appellant averred that his plea was ""involuntary and unknowingly made,"" the prosecutor committed misconduct by ""misrepresentations in presenting an illusory promise in an agreement that recommended an illegal sentence,"" and his trial counsel was ""ineffective in not evaluating the application of the sentence."" (Appellant's Aff. at ¶ 2-4, attached to Mot. to Withdraw Guilty Plea.) The substance of appellant's argument in support of his motion to withdraw his guilty plea is that the convictions of aggravated arson and criminal use of an explosive device were allied offenses of similar import and that R.C. 2941.25 required the trial court to merge the two counts for purposes of conviction and sentence.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
 171-Shuster,Yes,0,"Context information is below.
 ---------------------
 {¶7} On November 4, 2016, appellant filed a Motion for Leave to File Motion for New Trial Instanter with Verified Motion for New Trial premised upon allegations of prosecutorial misconduct and “abuse of discretion” by the trial court. Appellee responded with a memorandum in opposition on November 17, 2016, and the trial court overruled appellant’s motion by judgment entries dated November 28, 2016 and December 7, 2016. This Court affirmed the decision of the trial court in State v. Shuster, 5th Dist. Morgan No. 16AP0012, 2017-Ohio-2776 [Shuster IV].
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-183-Morton,No.,1,,1
-842-West,No.,1,,1
-257-Harrison,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+183-Morton,No.,1,,0
+842-West,No.,1,,0
+257-Harrison,No.,1,,0
 230-Jackson,Yes.,1,"Context information is below.
 ---------------------
 {¶ 5} In his supporting memorandum, Jackson asserted that the State had failed to obtain a search warrant before obtaining “his call detail records containing Cell Site Location Information (“CSLI”)” and used the information from his phone records to obtain his conviction. Citing the testimony of Detective Pigman at trial, Jackson asserted that Exhibit 01 had not been “part of discovery” and that the exhibit established that “a search and seizure ha[d] taken place.” According to Jackson, disclosure of the phone records in discovery would have allowed trial counsel to review the phone records and to recall witnesses “to challenge their credibility, as to their actual locations during this crime.” Jackson argued that the State used these phone records to place him in the vicinity of the crime, “which weighed heavily on the minds of the jurors.”
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-078-Hough,No.,1,,1
-947-Thompson,No.,1,,1
-113-Jones,No.,1,,1
-302-Klafczynski,No.,1,,1
-848-Brooks,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+078-Hough,No.,1,,0
+947-Thompson,No.,1,,0
+113-Jones,No.,1,,0
+302-Klafczynski,No.,1,,0
+848-Brooks,No.,1,,0
 303-Snowden Jr.,Yes,1,"Context information is below.
 ---------------------
 {¶8} On November 17, 2020, Snowden filed a Motion to Vacate Void Judgment. Snowden argued that the judgment against him was void inasmuch as it “was a direct result of prosecutor misconduct and a violation of Brady [v.] Maryland, 373 U.S. 83 (1963).”
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
 109-Dunn,Yes,0,"Context information is below.
 ---------------------
 {¶2} Dunn was indicted in Cuyahoga C.P. No. CR-12-568849-A and convicted of crimes related to the murder of Kenneth Adams. He appealed, arguing three assigned errors: The denial of a motion to dismiss based on prosecutorial misconduct, the admission of testimony from a representative of a cell phone company, and the court’s use of a flight jury instruction.
 Dunn’s convictions were affirmed on appeal.  *State v. Dunn*, 8th Dist. Cuyahoga No. 101648, 2015-Ohio-3138.¹
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-144-Kouame,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+144-Kouame,No.,1,,0
 454-Smith,Yes.,1,"Context information is below.
 ---------------------
 Rasheka Smith averred in her affidavit that she had been “coerced by the Detectives and the State to testify,” that her testimony was “the product of coercion by the prosecution,” that the state and police “threatened [her] both directly and indirectly,” and that the police “continued to come to [her] job and harass [her] concerning appearing at court and testifying for their cause.” She also asserted that she had not seen “the disturbance” between defendant and Gorley, because of “the
 darkness,” and because the porch light had not been on and she had been “drinking.” She further asserted that she had been “[un]aware of what was transpiring [but] just knew there was a disturbance” because she could hear it. Yet, she insisted that she “[had seen] the hands of Roger Smith at the time of the incident * * * and there was no weapon of any kind in either of [his] hands.”
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-201-Pelfrey,No.,1,,1
-194-Allison,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+201-Pelfrey,No.,1,,0
+194-Allison,No.,1,,0
 169-Littlepage,Yes,0,"Context information is below.
 ---------------------
 ¶14 No common pleas court jurisdiction. Littlepage submitted his motion “pursuant to [R.C.] 2939.19 and Crim.R. 6(E)” and characterized his request for disclosure of grand jury proceedings as “the equivalent of a demand for discovery * * * in accordance with Crim.R. 16.” To demonstrate his “particularized need” for the record of those proceedings, he alleged that his conviction had been the product of his trial counsel’s ineffectiveness, prosecutorial misconduct, and other due-process violations, and that he was actually innocent of the offense to which he had pled guilty.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-218-Gillispie,No.,0,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+218-Gillispie,No.,0,,0
 955-Dixon,Yes,0,"Context information is below.
 ---------------------
 {¶ 4} Over the years, Dixon has filed many motions for postconviction relief. Following adverse trial court judgments, Dixon pursued five separate appeals, all of which were unsuccessful. *See State v. Dixon*, 2d Dist. Montgomery No. 27991, 2019-Ohio-230, ¶ 2-12 (“Dixon VI”) for a synopsis of Dixon II, Dixon III, Dixon IV, and Dixon V.
 Dixon simultaneously pursued habeas relief. On March 6, 2018, Dixon filed a petition for a writ of habeas corpus against a former warden of the Toledo Correctional Institution. *State ex rel. Dixon v. Coleman, Warden, 6th Dist. Lucas No. L-18-1042* (Mar. 13, 2018). Dixon asserted claims relating to the length of his sentence, appointment of trial counsel, trial judge bias, discovery errors and misconduct by the prosecution. We denied the writ, and the Ohio Supreme Court affirmed our decision. *State ex rel. Dixon v. Bowerman*, Slip Opinion No. 2018-0621, 2019-Ohio-716, ¶ 5.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-027-Diestler,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+027-Diestler,No.,1,,0
 142-Obermiller,Yes,0,"Context information is below.
 ---------------------
 ¶4 The panel subsequently sentenced Obermiller to death for the aggravated murders plus 32.5 years in prison for his noncapital offenses. On direct appeal to the Ohio Supreme Court, Obermiller raised ten propositions of law that challenged the voluntariness of his plea, the effectiveness of his trial counsel, prosecutorial misconduct, and other issues. The Ohio Supreme Court affirmed the convictions, and, after conducting an independent review, also affirmed the imposition of the death penalty. Id.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-885-COOPER,No.,1,,1
-309-Houk,Yes,1,"Context information is below.
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+885-COOPER,No.,1,,0
+309-Houk,Yes.,1,"Context information is below.
 ---------------------
 ¶ 4 Prior to the start of the February 5, 2019 jury trial, the parties discussed with the court issues concerning the appellee’s prior OVI convictions. During that conference, the prosecutor stated that he would not discuss the prior OVI evidence during opening statement. Apparently, the parties and the court planned to address the issue when Muntz testified. However, after the court empaneled the jury and during opening statement, the prosecutor mentioned Muntz’s anticipated testimony and explicitly stated “Mr. Muntz tells the Trooper that the woman tells him not to call the police because she cannot afford another DUI.” Appellee thereupon requested a mistrial. The prosecutor responded “I did not agree not to mention the prior convictions from her statements, which are statements against interest, which may be proved by extrinsic evidence when it comes up.”
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
 271-Turner,Yes.,0,"Context information is below.
 ---------------------
 {¶6} [1.] The prosecution of Lake County violated defendant’s due process of law and his equal protection of the laws, by nolle prosequi a theft charge to deprive defendant his right to confront that witness about the crime against him. See (exhibit A).
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-946-Abdullah,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+946-Abdullah,No.,1,,0
 031-HOUDESHELL,Yes.,1,"Context information is below.
 ---------------------
 (Jan. 9, 2018 Tr. at 459). Houdeshell objected to this testimony and a side-bar bench conference was held during which the State informed the trial court that it had “purposely and properly admonished [Cacy] that she’s not to talk about cocaine several days in a row [but] she must have forgot [and the State] wanted the Court to know that [it] did not do that, elicit that at all.” (Id. at 460). The State further offered that it would not object to a limiting instruction to correct the error. Houdeshell moved for a mistrial. The trial court deferred ruling on Houdeshell’s motion and instructed the jury as follows:
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-023-Douglas,No.,1,,1
-307-Mathis,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+023-Douglas,No.,1,,0
+307-Mathis,No.,1,,0
 312-Ramey,Yes.,1,"Context information is below.
 ---------------------
 3). Failure to object to Prosecutors’ appeal to the passion and prejudice of the jury during closing argument.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
 941-Sands,Yes.,1,"Context information is below.
 ---------------------
 ""[2.] The trial court for Lake County Painesville Ohio, has committed prejudicial error, against the appellant, by allowing the prosecutor to solicit[], what the prosecutor knew to be perjured testimony of the state[‘s] only key witness, caus[ing the state[‘s] trial proceeding to be tainted and unfair which divested the trial court of jurisdiction to pronounce sentence on case no. 06-CR-000401.""
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
 685-Coogan,Yes.,0,"Context information is below.
 ---------------------
-GROUND II: Joseph Coogan's convictions and sentences are void and/or voidable because the State provided false or misleading information to the jury or created a false impression and failed to correct the record. The State permitted the evidence presented to the jury to indicate that the Y-STR profile, from which Mr. Coogan could not be excluded, came from the crotch area of the victim's underwear when the DNA swab which produced those results could have been from the waistband of the underwear and consistent with Mr. Coogan's testimony. Napue v. Illinois, 360 U.S. 264, 272, 79 S.Ct. 1173, 3 L.Ed.2d 1217 (1959); Giglio v. United States, 405 U.S. 150, 151, 92 S.Ct. 763, 31 L.Ed.2d 104 (1972). U.S. Const. Amends. VI, XIV; Ohio Const. Sections 1 & 10, Art. I. Exhibits B, E, F, and G.
+GROUND I: Joseph Coogan's convictions and sentences are void and/or voidable because the State failed to disclose to trial counsel the underlying lab notes and data, which provided critical information necessary to impeach the State's experts. Brady v. Maryland, 373 U.S. 83, 83 S.Ct. 1194, 10 L. Ed.2d 215 (1963); Kyles v. Whitley, 514 U.S. 419, 433, 115 S.Ct. 1555, 131 L.Ed.2d 490 (1995). U.S. Const. Amends. VI, XIV; Ohio Const. Sections 1 & 10, Art. I. Exhibits B, E, F, and G.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-971-REED,Yes,1,"Context information is below.
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+971-REED,Yes.,1,"Context information is below.
 ---------------------
 ""PLAIN ERROR OCCURRED WHEN THE TRIAL COURT ALLOWED THE STATE TO SATURATE REED'S TRIAL WITH EVIDENCE BOTH IRRELEVANT AND UNFAIRLY PREJUDICIAL TO THE OFFENSES FOR WHICH REED WAS TRIED.""
 IV
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
 892-Desmond,Yes,1,"Context information is below.
 ---------------------
 {¶ 3} Additionally, Desmond moved to disqualify attorney Matthew Meyer, an assistant Cuyahoga County prosecuting attorney who was appointed by Gains to represent the state in this matter. Desmond maintained that because he alleged misconduct by the attorneys in Gains’s office, Gains had a conflict of interest that was not cured by appointing Meyer as an assistant. The trial court concluded that because Meyer was subject to discharge by Gains, there existed an arguable appearance of impropriety, and it voided Gains’s appointment. However, because it found that Meyer’s involvement posed no actual prejudice to Desmond, it appointed Meyer itself to act as an independent special prosecutor on behalf of the state. Because we find no error in the trial court’s appointment of Meyer, we affirm the trial court judgment.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-059-Henderson,No.,1,,1
-056-Brown,No.,1,,1
-845-Bechtel,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+059-Henderson,No.,1,,0
+056-Brown,No.,1,,0
+845-Bechtel,No.,1,,0
 344-Robinson,Yes,0,"Context information is below.
 ---------------------
 Although not expressly articulated, having reviewed his brief it appears appellant asserts a single assignment of error: that the trial court erred in denying his motion for new trial. In support, he makes several arguments including: (1) the verdicts of guilty of sexual battery and aggravated burglary were not supported by sufficient evidence, (2) the judge abused its discretion by not instructing jurors on lesser-included offenses, (3) the judge abused its discretion by admitting certain evidence which was prejudicial to appellant in violation of the Rules of Evidence, (4) the prosecutor engaged in misconduct, and (5) his trial counsel was ineffective in not timely bringing this motion for new trial.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-301-Jones,No.,1,,1
-099-Hughes,No.,1,,1
-066-Hill,No.,1,,1
-252-MASTON,No.,1,,1
-177-Thomas,No.,0,,1
-159-Campbell,No.,1,,1
-968-Jones,No.,1,,1
-678-Robinson,No.,0,,1
-148-Davis,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+301-Jones,No.,1,,0
+099-Hughes,No.,1,,0
+066-Hill,No.,1,,0
+252-MASTON,No.,1,,0
+177-Thomas,No.,0,,0
+159-Campbell,No.,1,,0
+968-Jones,No.,1,,0
+678-Robinson,No.,0,,0
+148-Davis,No.,1,,0
 217-Gibson,Yes.,0,"Context information is below.
 ---------------------
-PROSECUTORIAL MISCONDUCT/FRAUD.
+PROSECUTORIAL MISCONDUCT. FILING FRAUDULENT DOCUMENTS
+WITH THE COURT WITH THE INTENT TO MISLEAD.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-153-Bennett,No.,1,,1
-915-Altman,No.,1,,1
-343-Thomas,No.,1,,1
-820-MARTIN,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+153-Bennett,No.,1,,0
+915-Altman,No.,1,,0
+343-Thomas,No.,1,,0
+820-MARTIN,No.,1,,0
 578-Pieronek,Yes,1,"Context information is below.
 ---------------------
 [Mr. Pieronek] was denied due process and a fair trial due to the prosecutorial misconduct of the state of Ohio.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
 669-Brunson,Yes,1,"Context information is below.
 ---------------------
 {¶ 33} Brunson argues that this testimony violates Evid.R. 701 and constitutes both improper vouching of the state’s case and opinion testimony of guilt, which robs the jury of its fact-finding function. Further, Brunson relies on State v. Dzelajlija, 8th Dist. Cuyahoga No. 88805, 2007-Ohio-4050. In Dzelajlija, ¹ We note that Hollins raised this issue in her direct appeal, arguing specifically that Lake’s statement was subject to the crime-fraud exception, and we similarly found “nothing in the record from which we can conclude that [Lake’s attorney-client privilege] was waived or otherwise vitiated.” Hollins, 8th Dist. Cuyahoga No. 107642, 2020-Ohio-4290, at ¶ 57.
 this court found that the prosecutor elicited improper opinion testimony from a police lieutenant where the lieutenant testified that he believed the state's main witness was being truthful. *Id.* at ¶ 33. In response, the state argues that Detective Carlin's testimony was not improper because she was not offering an opinion as to Brunson's guilt. Instead, according to the state, she testified that based on her investigation, including review of the surveillance footage, she was able to identify Brunson as a suspect.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-242-Harian,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+242-Harian,No.,1,,0
 317-McKNIGHT,Yes,1,"Context information is below.
 ---------------------
 Misconduct of the jury, the prosecuting attorney or witnesses for the state are particularly susceptible to nondiscovery within fourteen days after the verdict where the misconduct did not consist of affirmative acts at trial but, instead, involve matters not occurring in open court and generally not known to either the court or counsel at the time of the occurrence.
 Walden at 146 (finding that the trial court should have granted defendant’s motion for leave to file a motion for a new trial and remanded to the trial court to address the merits of the motion for new trial, which was based on jury and prosecutorial misconduct).
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-099-Hart,No.,1,,1
-094-Austin,No.,1,,1
-287-JOHNSON,No.,1,,1
-092-George,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+099-Hart,No.,1,,0
+094-Austin,No.,1,,0
+287-JOHNSON,No.,1,,0
+092-George,No.,1,,0
 101-Feagin,Yes,0,"Context information is below.
 ---------------------
 On March 25, 2010, a new sentencing entry was entered in order to impose a mandatory term of post-release control. The trial court sentenced appellant to the original sentence and added a five year term of mandatory post-release control. Appellant filed an appeal, raising in part prosecutorial misconduct. This court affirmed the resentencing, and noted the arguments relative to prosecutorial misconduct were res judicata as they could have been raised in the direct appeal. State v. Feagin, 5th Dist. Richland No. 10CA46, 2011-Ohio-2025.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-227-Everson,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+227-Everson,No.,1,,0
 289-Redic,Yes.,0,"Context information is below.
 ---------------------
 **Supporting Facts:** The prosecutor failed in his duty to refrain from improper methods of obtaining a rape(s) charges against the Appellant, rather than bring a lesser included sexual assault, such as sexual battery. (b) Trial court failed to motion to the court for a pre-trial preliminary hearing. (c) Trial counsel failed to renew his Crim.R. 29 motion to dismiss the State’s case at the conclusion of trial. (d) Trial court abused its discretion in objecting the defense Crim.R. 29 motion to dismiss charges. The record clearly provides the State’s evidence was wholly insufficient to support either rape charges.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-830-RAMEY,Yes.,1,"Context information is below.
----------------------
-Mr. Ramey ultimately agreed to plead guilty to reduced charges. He and the prosecutor signed both a written plea agreement and an extensive sentencing agreement encompassing the terms of his plea and agreed upon sentence. The parties agreed that Mr. Ramey
-would plead guilty to the amended charges of involuntary manslaughter with a three-year firearm specification, improperly discharging a firearm at a habitation with a three-year firearm specification, tampering with evidence with a one-year firearm specification, and felonious assault with a three-year firearm specification. The parties agreed that only the counts for involuntary manslaughter and felonious assault would merge as allied offenses of similar import. On his remaining counts and specifications, Mr. Ramey would be sentenced to an aggregate prison term of 21 years with “credit for all time served as required by law.” In exchange for the benefits he received, Mr. Ramey agreed not to pursue any direct appeals, “subject only to the ethical limitations regarding prosecutorial misconduct or ineffectiveness of counsel * * *.”
----------------------
-Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+830-RAMEY,No.,1,,0
 051-Kitchen,Yes,0,"Context information is below.
 ---------------------
 {¶1} Following a declaration of a mistrial based on prosecutorial misconduct and scheduling of a new jury trial, the Ross County Court of Common Pleas denied Kitchen’s motions to dismiss the charge against him based on double-jeopardy and constitutional speedy-trial claims.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-173-Whitman,No.,1,,1
-939-Green,No.,1,,1
-336-Johnson,No.,1,,1
-032-Maurent,No.,1,,1
-125-Lemons,Yes.,1,"Context information is below.
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+173-Whitman,No.,1,,0
+939-Green,No.,1,,0
+336-Johnson,No.,1,,0
+032-Maurent,No.,1,,0
+125-Lemons,Yes,1,"Context information is below.
 ---------------------
 ¶ 6 The criminal trial judge then noted that the state never disclosed to Lemons that several days after Adamcik identified him in an April 1995 physical lineup, Adamcik stated to one of the detectives that she was positive she identified the correct person because after she chose him in the lineup, she noticed his shoes, and they were the same shoes that he had been wearing on the night of the murder. The state also did not tell Lemons that the detectives seized Lemons’s shoes after Adamcik’s claim, and subsequently discovered from a Nike representative that the shoes Lemons had been wearing in the lineup could not have been the same shoes that he was wearing at the time of the murder because the shoes had not been manufactured until at least January 1995. The criminal trial judge further noted that although Adamcik testified at trial that the shooter was wearing certain tennis shoes, no testimony was elicited from her about her claim of recognizing those shoes at the lineup over a year later.
 Adamcik passed away of natural causes in November 1996. Because she was the state’s only evidence at Lemons’s trial that linked him to the crimes, the state filed a notice of dismissal without prejudice on January 24, 2014. On that same date, the state moved for leave to dismiss the indictment without prejudice. The state informed the court that it wished to continue its investigation into Sims’s murder to look for discoverable evidence that could lead to reprosecution. Lemons also moved to dismiss his criminal case with prejudice.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-068-Buk-Shul,No.,1,,1
-003-Young,No.,1,,1
-141-Stewart,No.,1,,1
-044-Glass,No.,0,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+068-Buk-Shul,No.,1,,0
+003-Young,No.,1,,0
+141-Stewart,No.,1,,0
+044-Glass,No.,0,,0
 913-Prescott,Yes.,1,"Context information is below.
 ---------------------
 (Citations omitted.) (Karpinski, J., concurring). Id. at ¶ 40.
 The Kartsone court found that it was improper for the prosecution to reference the specific disposition of the codefendant’s case and concluded that the prosecutor’s actions prejudicially affected the appellant’s substantial rights. *Id.*
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
 043-Sparks,Yes,0,"Context information is below.
 ---------------------
 In his motion to compel, Mr. Sparks argued that he was improperly sentenced based on the wrong statute and an element not included in the indictment. He also contends that he was denied due process based on alleged prosecutorial misconduct and ineffective assistance of counsel. “A vaguely titled motion * * * may be construed as a petition for post-conviction
 relief under R.C. 2953.21(A)(1) where (1) the motion was filed subsequent to a direct appeal, (2) claimed a denial of constitutional rights, (3) sought to render the judgment void [or voidable], and (4) asked for a vacation of the judgment and sentence.” State v. Gordon, 9th Dist. Summit No. 29009, 2018-Ohio-4311, ¶ 5, quoting State v. Davis, 9th Dist. Medina No. 15C0004-M, 2015-Ohio-5182, ¶ 6. We conclude that Mr. Sparks’s motion meets these requirements. Accordingly, we construe his motion to compel as a petition for postconviction relief.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-335-James,No.,1,,1
-897-HECKATHORN,Yes.,1,"Context information is below.
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+335-James,No.,1,,0
+897-HECKATHORN,Yes,1,"Context information is below.
 ---------------------
 {¶21} Appellant filed a motion for post-conviction relief requesting an evidentiary hearing on October 30, 2018 and November 2, 2018. In addition to other arguments, Appellant asserted trial counsel was ineffective for failing to move for a change of venue based on the amount of pretrial publicity, for failing to introduce Brandi Cope’s criminal record, and for failing to demonstrate how the prosecution engaged in misconduct as to the text messages that showcased the victim’s drug use, which she claimed was in direct conflict with the coroner’s report. Attached were statements of dates when media covered the murder, Brandi Cope’s record, and text messages that were allegedly not disclosed that purportedly demonstrated the victim’s drug use. Appellant requested an investigator to help her support her petition with evidence. Appellant also moved to have counsel appointed to represent her on her petition. 11/2/18 Motion.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
 "244-Thorpe, Jr.",Yes,0,"Context information is below.
 ---------------------
 ¶ 1 On October 14, 2021, the applicant, Alonzo Thorpe, J r., pursuant to
@@ -738,179 +732,179 @@ Cuyahoga No. 109238, 2021-Ohio-1295, in which this court affirmed his conviction
 for reckless homicide. He now argues that his appellate counsel should have raised the following: (1) the trial court erred in instructing the jury on the lesser included offense of reckless homicide, (2) prosecutorial misconduct denied him his right to a fair trial, and (3) appellate counsel failed to secure a complete record, especially regarding a juvenile's testimony. On November 12, 2021, the state of Ohio filed its brief in opposition. For the following reasons, this court denies the application.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-984-CAMPBELL,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+984-CAMPBELL,No.,1,,0
 273-Green,Yes,0,"Context information is below.
 ---------------------
 Green first raised related claims in his first post-conviction Motion to Withdraw Guilty Plea filed June 29, 2014 (State Court Record, ECF No. 6, Ex. 26). He reiterated the arguments he had made in his post-conviction Motion to Dismiss Indictment about the vagueness of the Indictment. Id. at PageID 147. He complains that on the day of the hearing on the motion to withdraw, he was only allowed to see a small portion of the WCCS file and given only twenty minutes to make up his mind about whether to go forward. Id. at PageID 148. He structured a
 large part of his argument around the claim that he was entitled to relief under *State v. Mancini*, 1993 Ohio App. LEXIS 17 (8th Dist. 1993). *Id.* at PageID 149-51. Next he accused his attorney of ineffective assistance of trial counsel for not sharing the WCCS file with him until January 2014. *Id.* at PageID 152. He also accused the prosecutor of misconduct under *Brady v. Maryland*, 373 U.S. 83 (1963). Significantly, neither the Motion nor Green’s supporting Affidavit contains any allegations of threats by the trial judge of the sort alleged in the Petition.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-036-Craciun,No.,1,,1
-127-Miller,No.,1,,1
-995-Miller,No.,1,,1
-962-Sheldon,No.,1,,1
-250-Mobley,No.,0,,1
-894-Sayles,No.,1,,1
-902-BUTCHER,No.,0,,1
-837-RULONG,No.,1,,1
-243-Robinson,No.,1,,1
-452-Kapitula,No.,1,,1
-959-Herron,No.,1,,1
-223-Hill,No.,1,,1
-821-MCHENRY,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+036-Craciun,No.,1,,0
+127-Miller,No.,1,,0
+995-Miller,No.,1,,0
+962-Sheldon,No.,1,,0
+250-Mobley,No.,0,,0
+894-Sayles,No.,1,,0
+902-BUTCHER,No.,0,,0
+837-RULONG,No.,1,,0
+243-Robinson,No.,1,,0
+452-Kapitula,No.,1,,0
+959-Herron,No.,1,,0
+223-Hill,No.,1,,0
+821-MCHENRY,No.,1,,0
 189-Shine-Johnson,Yes,0,"Context information is below.
 ---------------------
 In his First Ground for Relief, Petitioner asserts his trial was rendered unfair by prosecutorial misconduct. The Court rejected this claim as procedurally defaulted and also without merit, deferring to the Tenth District’s decision that the prosecutor did not misstate Ohio law. Petitioner had claimed this Court was not bound by an intermediate court of appeals’ decision when it was contrary to Supreme Court of Ohio decisions. The Court accepted that claim, but noted Petitioner had cited no Supreme Court of Ohio decision which was to the contrary of what the Tenth District decided (Opinion, ECF No. 96, PageID 6629).
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-829-GILCREAST,No.,1,,1
-932-Schnabel,No.,1,,1
-332-Rich,No.,1,,1
-825-MARTIN,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+829-GILCREAST,No.,1,,0
+932-Schnabel,No.,1,,0
+332-Rich,No.,1,,0
+825-MARTIN,No.,1,,0
 046-Hardman,Yes,0,"Context information is below.
 ---------------------
 The state committed prosecutorial misconduct by deliberately violating appellant’s [rights under] 5th, 6th, and 14th Amendments of the U.S. Constitution and admitting inadmissible hearsay evidence to the jury only to withdraw that evidence once inadmissible hearsay testimony had been elicited regarding the same.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-080-West,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+080-West,No.,1,,0
 931-Cole,Yes,1,"Context information is below.
 ---------------------
 While his appeal was pending, appellant filed a petition for postconviction relief on April 7, 2016. In his petition for postconviction relief, captioned “petition to vacate or set aside judgment of conviction or sentence,” appellant asserted that he was entitled to relief under R.C. 2953.21 based on (1) prosecutorial misconduct and (2) ineffective assistance of counsel.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-335-Thomas,No.,1,,1
-924-Powell,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+335-Thomas,No.,1,,0
+924-Powell,No.,1,,0
 334-Hundley,Yes,1,"Context information is below.
 ---------------------
 {¶ 150} Hundley declined to give an unsworn statement. However, he did make a closing argument at the mitigation hearing, during which he accused the prosecutors of manipulating evidence, contested his conviction, and rued his decision to have counsel for the guilt phase. And in allocution, Hundley simply stated that he intended to appeal his conviction and death sentence. He exhibited no remorse for his conduct.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
 000-Edwards,Yes.,1,"Context information is below.
 ---------------------
 ¶ 6 On February 14, 2017, Edwards filed a petition for postconviction relief, alleging the state used false testimony to obtain his conviction. Edwards alleged in his petition that during the investigation and at the time the officers searched Edwards' home, the officers had both been engaged in a longstanding conspiracy to violate the rights of Reynoldsburg residents. Edwards supported his petition for postconviction relief with the judgment entry from his criminal case, the criminal complaint in Downard's federal criminal case, the information in Mauger's criminal case, the United States' sentencing memorandum in Mauger's criminal case, the February 24, 2016 letter from the State, and Edwards' own affidavit.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
 301-Steiner,Yes,0,"Context information is below.
 ---------------------
 On September 21, 2016, appellant filed a pro se “petition to vacate or set aside judgment of conviction or sentence,” citing R.C. 2953.21. Appellant therein claimed ineffective assistance of trial counsel, a Miranda violation, prosecutorial misconduct, and illegal sentencing. The State of Ohio filed a memorandum in opposition and motion to dismiss the petition on October 19, 2016, arguing inter alia that appellant's claims were barred by res judicata. The trial court granted appellee's motion to dismiss on October 25, 2016.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-334-Marcum,No.,1,,1
-047-Mcintosh,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+334-Marcum,No.,1,,0
+047-Mcintosh,No.,1,,0
 302-Lloyd,Yes,0,"Context information is below.
 ---------------------
 ¶ 17 On November 4, 2014, the Fourth District Court of Appeals affirmed the decision of the Ross County Court of Common Pleas dismissing Lloyd's petition seeking a writ of habeas corpus, wherein Lloyd claimed his conviction and sentence were illegal because he was indicted based on the unlawful testimony of his wife during the grand jury proceedings. *Lloyd v. Robinson*, 4th Dist. Ross No. 14CA3452, 2014-Ohio-4977. Shortly thereafter, on March 31, 2015, the Fourth District Court of Appeals affirmed the decision of the Ross County Court of Common Pleas dismissing Lloyd's second, successive petition seeking a writ of habeas corpus, wherein Lloyd claimed his conviction was unlawful and against the manifest weight of the evidence because of judicial misconduct, prosecutorial misconduct, and the ineffective assistance of trial counsel. *Lloyd v. Robinson*, 4th Dist. Ross No. 14CA3462, 2015-Ohio-1331. The Ohio Supreme Court denied review of both decisions. *Lloyd v. Robinson*, 142 Ohio St.3d 1450, 2015-Ohio-1591; and *Lloyd v. Robinson*, 143 Ohio St.3d 1419, 2015-Ohio-2911.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
 291-YEAGER,Yes,1,"Context information is below.
 ---------------------
 {¶10} Four months ultimately elapsed between Mr. Yeager’s initial request to represent himself and his trial. During that time, he filed a wealth of motions pertaining to discovery, potential *Brady v. Maryland* violations, prosecutorial misconduct, and suppression. The court conducted multiple pre-trials and, at the majority of them, spoke to Mr. Yeager about his decision to waive counsel. The court informed Mr. Yeager that he was placing himself at a disadvantage by not having counsel who could locate witnesses, timely file the proper motions, and sort out discovery matters on his behalf. Nevertheless, Mr. Yeager repeatedly rejected the court’s offer to appoint him new counsel.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-986-Bugara,No.,1,,1
-204-Baldwin,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+986-Bugara,No.,1,,0
+204-Baldwin,No.,1,,0
 873-Armengau,Yes.,0,"Context information is below.
 ---------------------
 [II.] Mr. Armengau's rights to due process and a fair trial were violated when the trial court allowed the State to present irrelevant, cumulative, overly prejudicial evidence about prior bad acts through additional non-victim witnesses, whose testimony also violated the Ohio Rape Shield Statute, as well as testimony of hundreds of unindicted offenses.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-374-Romy,No.,1,,1
-867-JONES,No.,1,,1
-175-Page,No.,1,,1
-312-Lamb,No.,1,,1
-097-Bogan,No.,1,,1
-351-Harris,No.,1,,1
-684-Scullin,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+374-Romy,No.,1,,0
+867-JONES,No.,1,,0
+175-Page,No.,1,,0
+312-Lamb,No.,1,,0
+097-Bogan,No.,1,,0
+351-Harris,No.,1,,0
+684-Scullin,No.,1,,0
 005-Carr,Yes,0,"Context information is below.
 ---------------------
 {¶ 26} In his fourth assignment of error, Carr again argues that the trial court violated his constitutional right to substantive and procedural due process – in this instance, by denying Carr’s motion for a transcript of the grand jury testimony. Carr claims to have demonstrated a “particularized need” for that evidence through his assertions that the grand jury testimony of “unidentified witnesses” differed from their trial testimony, that his second indictment (for heroin possession) resulted from “[p]rosecutorial [m]isconduct,” and that the prosecution “coach[ed]” certain “unidentified witnesses.” (Appellant’s Merit Brief, p. 16.)
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-957-Line,No.,1,,1
-922-Lincoln,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+957-Line,No.,1,,0
+922-Lincoln,No.,1,,0
 288-Makin,Yes,0,"Context information is below.
 ---------------------
 7. Prosecutorial misconduct during closing arguments deprived Mr. Makin of a fair trial in violation of his rights under the Fifth, Sixth, Eighth, and Fourteenth Amendments to the United States Constitution and the corresponding provisions of the Ohio Constitution. (Tr. 1587)
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
 106-Bridges,Yes,0,"Context information is below.
 ---------------------
 In July 2014, Bridges filed a petition for postconviction relief, arguing ineffective assistance of counsel, his convictions were not supported by sufficient evidence, and prosecutorial misconduct. While Bridges’s direct appeal was pending, the trial court denied his petition for postconviction relief without a hearing and issued findings of fact and conclusions of law supporting the denial. Bridges appealed these rulings in two cases, both of which were dismissed for failure to file the record. State v. Bridges, 8th Dist. Cuyahoga Nos. 101938 (Oct. 1, 2014), and 101942 (Oct. 31, 2014).
 In March 2015, Bridges filed a petition to vacate or set aside his judgment of conviction or sentence, arguing ineffective assistance of counsel, the trial court lacked subject matter jurisdiction, speedy trial violations, and prosecutorial misconduct. The trial court denied Bridges’s petition without a hearing. In May 2015, Bridges filed a motion for new trial, arguing his convictions were not supported by sufficient evidence, the trial court abused its discretion by admitting prejudicial photographic evidence, and his $5 million bond was unconstitutional. The trial court denied Bridges’s motion without a hearing.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-094-Todd,No.,1,,1
-875-HARGRAVES,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+094-Todd,No.,1,,0
+875-HARGRAVES,No.,1,,0
 461-Tellis,Yes.,1,"Context information is below.
 ---------------------
 ¶ 28 The state next played the video recording of Jones’s interview with Tellis. Jones read Tellis his Miranda rights, and Tellis initially waived his rights. The brief interview primarily consisted of Jones telling Tellis his theory about what happened the night of January 30, 2018. Less than five minutes into the interview, after Jones told Tellis that his DNA had been found “on the sticky part” of some of the duct tape used to tie up L.H. and that he knew that Tellis was at the scene, but wanted to know what Tate’s 11.
 role in the crime was, Tellis said that he did not want to “incriminate” himself or “put [himself] in jeopardy” because he did not really know what was going on and did not know Jones’s motives. He said that he would be willing to talk to them “in front of a lawyer,” but he needed to “take care of” himself. The state played this portion of the video for the court. Again, unprompted by defense counsel, the trial court chastised the prosecutor for allowing evidence commenting upon Tellis’s silence into the record:
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-"925-The State ex rel. The Cincinnati Enquirer, A Division of Gannett GP Media, Inc.,",No.,1,,1
-942-Kirk,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+"925-The State ex rel. The Cincinnati Enquirer, A Division of Gannett GP Media, Inc.,",No.,1,,0
+942-Kirk,No.,1,,0
 278-Clay,Yes,1,"Context information is below.
 ---------------------
 ¶4 The jury found Appellant guilty as charged. The court sentenced him to thirty years to life for aggravated murder consecutive to five years for the firearm specification. Appellant filed a timely notice of appeal from the December 20, 2007 sentencing entry. New counsel was appointed for the appeal. Sixteen assignments of error were presented on appeal, dealing with speedy trial, impeachment, photographs, discovery, sufficiency and weight of the evidence, exculpatory evidence, prosecutorial misconduct, ineffective assistance of counsel, jury instructions, sentencing, and cumulative error. This court overruled Appellant’s assignments of error and affirmed the trial court’s judgment. State v. Clay, 7th Dist. No. 08 MA 2, 2009-Ohio-1204.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-355-Kerens,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+355-Kerens,No.,1,,0
 259-Flagg,Yes,1,"Context information is below.
 ---------------------
 {¶28} Flagg argues that admitting the kitchen knives into evidence, where it was undisputed that none were the murder weapon, was prejudicial error. She cites to State v. Thomas, 152 Ohio St.3d 15, 2017-Ohio-8011, 92 N.E.3d 821, in support. In Thomas, the defendant was found guilty of stabbing to death a woman outside of the bar where she had been employed and disposing of her body in the woods behind the bar. The Ohio Supreme Court held that the admission of the set of knives that had been found in the defendant’s home contravened Evid.R. 404(B) and amounted to plain error where the state knew that the knives had not been used in connection with the murder and where the prosecutor had relied on the knives to “describe Thomas as an owner of ‘full Rambo combat knives’ with the intent to have the jury infer that Thomas is a dangerous person of violent character.” Id. at ¶ 45.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-341-Wright,Yes.,1,"Context information is below.
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+341-Wright,Yes,1,"Context information is below.
 ---------------------
 A. The trial court erred in failing to declare a mistrial based on the prosecution’s tampering with evidence before and during closing arguments.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-828-JOHNSON,No.,1,,1
-238-Wilson,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+828-JOHNSON,No.,1,,0
+238-Wilson,No.,1,,0
 871-LEMONS III,Yes.,0,"Context information is below.
 ---------------------
 “Prosecutorial misconduct by withholding exculpatory evidence in violation of Brady v. Maryland, 373 U.S. 83, 87, 88.”
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-232-BRIDGES,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+232-BRIDGES,No.,1,,0
 880-Hall,Yes,0,"Context information is below.
 ---------------------
 ¶ 1 On December 6, 2019, the applicant, Milton Hall, pursuant to App.R.
@@ -919,98 +913,104 @@ to reopen this court’s judgment in State v. Hall, 8th Dist. Cuyahoga No. 10694
 2019-Ohio-341, in which this court affirmed Hall’s convictions and sentences for rape, sexual battery, endangering children, domestic violence, and importuning.\(^1\) Hall now asserts that his appellate counsel should have argued that (1) his convictions were against the manifest weight of the evidence, (2) prosecutorial misconduct denied him due process, (3) denial of access to the proceedings denied him due process, (4) the trial court erred by not commencing trial in a timely fashion, (5) he was denied the effective assistance of trial counsel and (6) the cumulative impact of errors amounted to a denial of due process. The state of Ohio filed its brief in opposition on January 2, 2020. For the following reasons, this court denies the application to reopen.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-176-Carter,No.,1,,1
-332-O' Neal,No.,1,,1
-831-BENSON,No.,1,,1
-"898-Dewberry, Sr",No.,1,,1
-295-Webster,No.,0,,1
-462-KRATOCHVILL,No.,1,,1
-118-Jacinto,No.,1,,1
-858-Salyers,No.,1,,1
-361-Pariscoff,No.,1,,1
-327-Gregoire,No.,1,,1
-960-Hammond,No.,1,,1
-333-Marcum,No.,1,,1
-132-Johnson,No.,1,,1
-288-Maranger,No.,1,,1
-245-McCullough,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+176-Carter,No.,1,,0
+332-O' Neal,No.,1,,0
+831-BENSON,No.,1,,0
+"898-Dewberry, Sr",No.,1,,0
+295-Webster,No.,0,,0
+462-KRATOCHVILL,No.,1,,0
+118-Jacinto,No.,1,,0
+858-Salyers,No.,1,,0
+361-Pariscoff,No.,1,,0
+327-Gregoire,No.,1,,0
+960-Hammond,No.,1,,0
+333-Marcum,No.,1,,0
+132-Johnson,No.,1,,0
+288-Maranger,No.,1,,0
+245-McCullough,No.,1,,0
 917-Hodges,Yes,1,"Context information is below.
 ---------------------
 ¶10 On January 23, 2017, with leave of court, Appellant filed a motion to dismiss the charges against him on double jeopardy grounds. He argued that the mistrial was the result of prosecutorial misconduct. The trial court overruled the motion on February 3, 2017. On January 30, 2018, we agreed that the prohibition against double jeopardy did not bar Appellant’s retrial. State v. Hodges, 7th Dist. Mahoning No. 17 MA 0025, 2018-Ohio-447, 105 N.E.3d 543.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-683-Glowney,No.,1,,1
-314-Jones,No.,1,,1
-201-Barnes,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+683-Glowney,No.,1,,0
+314-Jones,No.,1,,0
+201-Barnes,No.,1,,0
 491-Spirnak,Yes,1,"Context information is below.
 ---------------------
 1 Crim.R. 33(B) requires, with certain exceptions for being unavoidably prevented from filing and for newly discovered evidence, that a motion for new trial be filed within 14 days after the verdict was rendered. Here, the verdict was rendered on February 7, 2019. Fourteen days after the verdict was rendered was February 21, 2019. Appellant filed his motion well after this deadline. Appellant also filed his motion after the trial court had sentenced appellant and rendered its final judgment. Appellant alleged four claims in his motion for new trial: (1) trial counsel's lack of attentiveness, (2) the state's use of 9-1-1 call and trial court not permitting recross-examination, (3) prosecutorial misconduct, and (4) being shackled during trial. In support of his first claim, appellant asserted new trial was warranted on grounds of an irregularity in the proceeding; however, appellant did not assert any specific grounds for new trial in support of his remaining claims. He did not allege unavoidable prevention or newly discovered evidence. The record does not reflect that the trial court ruled on the motion. Nevertheless, as the motion was untimely filed and filed after the trial court rendered final judgment, we proceed with this appeal.
 & 16, Article I of the Ohio Constitution, and his right to a fair trial, as guaranteed by the Sixth Amendment to the United States Constitution and Section 16, Article I of the Ohio Constitution.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-091-McKenzie,No.,1,,1
-298-Williams,No.,1,,1
-150-Simmons,No.,1,,1
-358-Porter,No.,1,,1
-260-Williams,No.,1,,1
-001-Verhoff,No.,1,,1
-255-Trussell,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+091-McKenzie,No.,1,,0
+298-Williams,No.,1,,0
+150-Simmons,No.,1,,0
+358-Porter,No.,1,,0
+260-Williams,No.,1,,0
+001-Verhoff,No.,1,,0
+255-Trussell,No.,1,,0
 045-Harding,Yes,0,"Context information is below.
 ---------------------
 ¶ 8 THE TRIAL COURT ERRED AND ABUSED ITS DISCRETION; WHEN IT DENIED AND DISMISSED PETITIONER'S PROPERLY FILED PETITION TO VACATE OR SET ASIDE JUDGMENT OF CONVICTION OR SENTENCE ALLEGING ISSUES OUTSIDE THE RECORD, WITHOUT ANY REAL REVIEW OR HOLDING A HEARING; BY
 INCORRECTLY RULING THAT THE MULTIPLE INSTANCES OF PROSECUTORIAL MISCONDUCT, FULLY DISCOVERED AFTER TRIAL AND DIRECT APPEAL, ESPECIALLY WITHHOLDING OF DISCOVERY AND BRADY MATERIALS; AND ARE ISSUES THAT HAVE BEEN PREVIOUSLY LITIGATED OR COULD HAVE BEEN, AND SUCH MATTERS ARE BARRED BY DOCTRINE OF RES JUDICATA.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-699-Daviduk,No.,0,,1
-038-Williams,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+699-Daviduk,No.,0,,0
+038-Williams,No.,1,,0
 996-Koch,Yes,1,"Context information is below.
 ---------------------
 Izmir was present for trial on March 22, 2018. Izmir’s counsel moved for a mistrial after it was discovered that the U.S. Attorney’s Office had issued a press release regarding Izmir’s arrest in Cincinnati, which had been reported on by several local media outlets.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-985-Murphy,No.,1,,1
-353-Reed,Yes,1,"Context information is below.
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+985-Murphy,Yes.,1,"Context information is below.
 ---------------------
-¶ 7 In October 2014, Reed filed another motion for leave to file a new-trial motion. He alleged misconduct by the prosecutor and two prosecution witnesses, Shoemaker and Holloway. Reed claimed the two witnesses falsely had testified that they did not receive leniency or concessions in exchange for their testimony. Reed further claimed he had been prejudiced by this “false and perjured” testimony and that he had been unavoidably prevented from filing a timely motion due to ineffective assistance of counsel and the prohibition on hybrid representation. In November 2014, the trial court overruled the motion for leave. It rejected Reed’s “unavoidably prevented” argument, reasoning that his counsel did not seek a new trial because there was “no good ground for it.” The trial court found no evidence that Holloway and Shoemaker had given false testimony. The trial court also applied res judicata. It reasoned that Reed could have raised on direct appeal or in a post-conviction relief petition any issue he had concerning the trial court’s ruling with respect to the prosecutor’s agreements with Holloway and Shoemaker. The trial court thus held that res judicata barred Reed’s successive motion for a new trial. The trial court also found no ineffective assistance of counsel for failing to file a timely new-trial motion. This court affirmed that ruling on direct appeal. State v. Reed, 2d Dist. Montgomery No. 26529, 2015-Ohio-3051 (Reed III).
+As discussed above, Murphy’s counsel moved for a mistrial after the prosecution failed to disclose a detective’s report concerning a witness statement by C.C. and the recorded statement of that witness. Notably, the prosecution asserted that it did not possess that evidence until shortly before it provided it to the defense.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-124-Parks,No.,1,,1
-904-MAPES,No.,1,,1
-103-Gearhart,No.,1,,1
-200-Beall,No.,1,,1
-840-Crist,No.,1,,1
-305-Williams,No.,1,,1
-460-Hover,No.,1,,1
-075-Russell,No.,1,,1
-209-Gordon,No.,1,,1
-872-LEITWEIN,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+353-Reed,Yes.,1,"Context information is below.
+---------------------
+{¶ 10} Reed claimed the foregoing exhibits demonstrated, among other things, that Steele was a suspect in Smith's homicide and that various individuals, some of whom testified against Reed, had entered plea agreements with the State and had received benefits for their cooperation. Reed asserted that he had been unavoidably prevented from discovering the documents because the State had denied the existence of plea agreements or an alternative suspect. Reed also claimed that the State knowingly had offered false testimony from witnesses.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+124-Parks,No.,1,,0
+904-MAPES,No.,1,,0
+103-Gearhart,No.,1,,0
+200-Beall,No.,1,,0
+840-Crist,No.,1,,0
+305-Williams,No.,1,,0
+460-Hover,No.,1,,0
+075-Russell,No.,1,,0
+209-Gordon,No.,1,,0
+872-LEITWEIN,No.,1,,0
 943-Rosa,Yes.,1,"Context information is below.
 ---------------------
 However, a Doyle violation can also occur when the state uses other witness testimony about a defendant’s silence as implicit evidence or inference of a defendant’s guilt. See, e.g., State v. Froe, 4th Dist. Scioto No. 02CA2860, 2003-Ohio-7334 (prosecutor can implicitly imply the defendant’s silence is evidence of guilt through police testimony about the defendant invoking his right to remain silent or to consult an attorney); State v. Jones, 1st Dist. Hamilton No. C-970043, 1998 Ohio App. LEXIS 3938 (Aug. 28, 1998). “[T]he test under Doyle is to determine whether the prosecutor’s comment was extensive — ‘whether an inference of guilt from silence is stressed to the jury * * * as a basis of conviction.” State v. Lanier, 6th Dist. Ottawa No. OT-95-051, 1996 Ohio App. LEXIS 3286, 11 (Aug. 2, 1996), quoting United States v. Newman, 943 F.2d 1155, 1158 (9th Cir.1991).
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-338-Hazel,Yes,0,"Context information is below.
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+338-Hazel,Yes.,0,"Context information is below.
 ---------------------
 ¶ 12 We appointed counsel to represent Hazel. Hazel's appellate counsel, on August 28, 2017, filed a brief under the authority of Anders v. California, 386 U.S. 738, 87 S.Ct. 1396, 18 L.Ed.2d 493 (1967). Counsel stated that she could “find no error by the trial court prejudicial to the rights of [Hazel] which may be argued to this court on this particular appeal.” Counsel further noted that a number of errors suggested to her by Hazel have no potential merit based upon the doctrine of res judicata. Counsel, specifically, stated that the pending appeal is not a direct appeal, and, thus, “[m]any potential Assignments of Error proposed by [Hazel] are not available on this appeal including but not limited to: adverse pretrial rulings; adverse rulings during trial on objections or motions; jury selection and instructions; plea issues; sufficiency of the evidence; etc.” Counsel, consistent with her duty under Anders and based upon her receipt of a brief Hazel prepared and sent to her, set forth the following potential errors: the trial court abused its discretion and committed prejudicial error by its failure to “conduct an evidentiary hearing and a Basurto test based upon newly discovered evidence”; Hazel's due process and equal rights were violated based upon “prosecutorial misconduct of a witness of the State and misconduct of the jury”; Hazel was denied
 effective assistance of counsel based upon trial counsel's “mishandling of evidence” in the 2003 case; the evidence used to enhance Hazel's domestic violence convictions in the 2010 cases was “insufficient because the... enhancement tool was based upon a prior conviction that was not committed against a family or household member”; and Hazel's domestic violence convictions in the 2010 cases should have remained fourth degree felonies.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
 092-Armengau,Yes,0,"Context information is below.
 ---------------------
 ¶ 5 The majority decision rejected appellant’s assignments of error alleging that
@@ -1020,123 +1020,45 @@ of conviction and sentence and appellant’s eighth assignment of error alleging
 court erred by improperly classifying him as a Tier III sex offender. *Id.* at ¶129, 134.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-181-Snyder,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+181-Snyder,No.,1,,0
 891-Lindsay,Yes,0,"Context information is below.
 ---------------------
 {¶2} In 2010, Lindsay was convicted of rape, sexual battery, and gross sexual imposition. State v. Lindsay, 5th Dist. Richland No. 18CA87, 2019-Ohio-157, ¶ 5. Lindsay, at the time he filed this appeal, was an inmate at the North Central Correctional Complex in Marion County. Doc. 1. On May 13, 2019, he filed a petition for a writ of habeas corpus (“petition”) with the trial court. Doc. 1. In the memorandum attached to his petition, Lindsay argued that the trial court lost jurisdiction over his case after the trial court permitted amendments to his indictment that changed the identity of the charges against him. Doc. 1. Lindsay also alleges that the State engaged in prosecutorial misconduct; that the trial court’s determination violated the prohibition on double jeopardy; and that the trial court did not have the authority to sentence him. Doc. 1.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
 281-DeVaughns,Yes.,0,"Context information is below.
 ---------------------
 In April 2015, DeVaughns filed a petition for post-conviction relief pursuant to R.C. 2953.21 and R.C. 2953.23, along with several other motions to supplement his petition. The petition and motions included claims of ineffective assistance of counsel and prosecutorial misconduct. Specifically, DeVaughns argued that his trial counsel failed to properly object to the admissibility of certain blood evidence and that the prosecutor offered into evidence and discussed during closing argument inadmissible blood evidence. The trial court denied DeVaughns' petition on grounds that it was untimely and that his allegations “do not address complaints outside the record that could not be attacked on direct appeal.” On June 30, 2015, DeVaughns appealed that ruling, but then voluntarily dismissed the appeal. Decision and Final Judgment Entry (Feb. 19, 2016), 2d Dist. Montgomery App. Case No. 26745.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-852-Harrison,No.,1,,1
-878-CAYAVEC,No.,1,,1
-938-Starks,No.,1,,1
-853-Branam,No.,0,,1
-983-Walls,No.,1,,1
-197-Boaston,No.,0,,1
-843-Brantweiner,No.,1,,1
-100-LAZZERINI,No.,1,,1
-681-Devore,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+852-Harrison,No.,1,,0
+878-CAYAVEC,No.,1,,0
+938-Starks,No.,1,,0
+853-Branam,No.,0,,0
+983-Walls,No.,1,,0
+197-Boaston,No.,0,,0
+843-Brantweiner,No.,1,,0
+100-LAZZERINI,No.,1,,0
+681-Devore,No.,1,,0
 169-Mock,Yes.,1,"Context information is below.
 ---------------------
 ¶ 4 Attorney Patterson then contacted the confidential informant’s attorney, Mitchell J. Yelsky (“Attorney Yelsky”). From this conversation, Attorney Patterson determined that the confidential informant had not signed a proffer letter nor had she identified appellant from a photo lineup. Attorney Patterson surmised that the detectives and the state intentionally withheld relevant and material evidence from appellant and falsified facts and events in the affidavits for the search warrant in order to mislead the court.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-934-Grimm,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+934-Grimm,No.,1,,0
 275-Alvarado,Yes,0,"Context information is below.
 ---------------------
 I. Prosecutorial misconduct occurred in the State’s rebuttal closing when the State impermissibly referred to the content of Appellant’s character and the Appellant acting in conformity with that character.
 ---------------------
 Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-028-Southam,No.,1,,1
-375-Lucas,No.,1,,1
-919-Sims,No.,1,,1
-048-Wolford-Lee,Yes,0,"Context information is below.
----------------------
-1. Prosecutorial misconduct deprived the defendant-appellant of his right to Due Process of Law and a fair trial as guaranteed by the 14th Amendment to the Constitution of the United States and Article I, Section 10 of the Constitution of the State of Ohio.
----------------------
-Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-958-Watson,No.,1,,1
-209-Feathers,Yes,0,"Context information is below.
----------------------
-{¶8} “[1.] The trial court abused its discretion in not properly reviewing jurisdictional defects addressed in the appellant’s motion to withdraw his guilty plea to a void offense to the prejudice of appellant in failing to take corrective measures and to dismiss the indictment after defendant successfully demonstrated that the original indictment was obtained on the basis of false or misleading information and an abuse of grand jury by the prosecution, as
-well as prosecutorial misconduct during the course of the pre trial and trial adjudications, the net effect of which permeated the entire course of the proceedings in the trial court including but not limited to the following appeals on remand, and following the guilty plea, conviction and sentence.
----------------------
-Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-299-Montgomery,Yes.,0,"Context information is below.
----------------------
-v. Ground 4 – Prosecutorial Misconduct
----------------------
-Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-290-Rock,Yes.,0,"Context information is below.
----------------------
-Ground Three: The state withheld, in violation of Brady v. Maryland, 373 U.S. 83 (1963), evidence that two of Rock’s prior OVI convictions were uncounseled (ECF Doc. 1 at 8; ECF Doc. 1-2 at 13-15).
----------------------
-Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-255-Lawson,No.,1,,1
-214-Furr,No.,1,,1
-978-Young,No.,1,,1
-841-Biggs,No.,1,,1
-455-Jones,No.,1,,1
-232-Lewis,No.,1,,1
-362-Johnson,Yes,0,"Context information is below.
----------------------
-{¶2} Johnson was convicted of one count of rape of a child under the age of ten and sentenced to a prison term of 25 years to life. He appealed that conviction to this court claiming that it was against the manifest weight of the evidence, the court erred in failing to provide him with two attorneys at trial, prosecutorial misconduct occurred at trial when the state commented on his post-arrest silence, and trial counsel was constitutionally ineffective. Id. at __ 1. This
-court overruled Johnson’s assigned errors and affirmed his conviction and sentence on April 21, 2016.  *Id.* at _ 38.
----------------------
-Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-366-Baskin,No.,1,,1
-496-Jencson,No.,1,,1
-198-Blanton,No.,1,,1
-158-Sibole,No.,1,,1
-961-Shuster,Yes,1,"Context information is below.
----------------------
-Shuster filed a Motion for a new trial on February 16, 2018 [Docket Number 210]. In his motion, Shuster alleged prosecutorial misconduct for eliciting victim impact testimony during trial and that the jurors were influenced by a non-existent confession by Shuster. The trial court overruled the motion without a hearing by Judgment Entry filed June 13, 2018. [Docket Number 231].
----------------------
-Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-330-Hill,Yes,0,"Context information is below.
----------------------
-¶ 13 ""APPELLANT WAS CONVICTED OF A FELONY AND DNA TESTING ESTABLISHED BY CLEAR AND CONVINCING EVIDENCE, ACTUAL INNOCENCE, AND HE WAS DENIED DUE PROCESS OF LAW BY WAY OF PROSECUTORIAL MISCONDUCT RENDERING HIS GUILTY PLEAS VOID, AND PCRA COURT
-ERRED/ABUSED ITS DISCRETION BY DENYING HIS PETITION W/OUT HEARING AND W/OUT ISSUING FINDINGS OF FACT REGARDING NEW EVIDENCE RECENTLY OBTAINED AND DNA EVIDENCE WHICH PROVES HIS ACTUAL INNOCENCE.""
----------------------
-Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-049-Butcher,No.,1,,1
-953-Johnson,No.,1,,1
-261-Grate,Yes,1,"Context information is below.
----------------------
-¶ 150 Grate argues that defense counsel were ineffective for failing to object to the prosecutor’s mitigation-phase argument that there were four aggravating circumstances. Although the prosecutor made a misstatement, the trial court informed the prosecutor of his misstatement. The prosecutor then correctly told the jury that there are “two counts and two specifications of each count.” Under these circumstances, Grate suffered no prejudice from defense counsel’s failure to make a timely objection.
----------------------
-Given the context information and not prior knowledge, answer the query.
-Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
-Answer:",0
-343-POWELL,No.,1,,1
-283-Hundley,No.,1,,1
-240-Jones,No.,1,,1
-949-Williams,No.,1,,1
+Query: In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+028-Southam,No.,1,,0

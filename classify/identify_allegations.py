@@ -39,7 +39,7 @@ def identify_allegations(batch_size=4, question=None, label=None, label_func=Non
         device_map='cuda',
         tokenizer=tokenizer
     )
-    pipe.model = pipe.model.to('cuda')
+    # pipe.model = pipe.model.to('cuda')
 
     results = []
 
@@ -122,5 +122,8 @@ if __name__ == "__main__":
     # aoe_procbar_question = "If there is an alleged assignment of error in the text above, was it procedurally barred? For example, is it barred by res judicata because it was not raised during original trial and now it’s too late? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess."
     # identify_allegations(question=aoe_procbar_question, label = "aoe_procbar", label_func=label_answers)
 
-    aoe_prochist_question = "Is the assignment of error in the procedural history, i.e., if there is prosecutorial misconduct mentioned, was it raised in a previous appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess."
-    identify_allegations(question=aoe_prochist_question, label="aoe_prochist", label_func=label_answers)
+    # aoe_prochist_question = "Is the assignment of error in the procedural history, i.e., if there is prosecutorial misconduct mentioned, was it raised in a previous appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess."
+    # identify_allegations(question=aoe_prochist_question, label="aoe_prochist", label_func=label_answers)
+
+    aoe_noneprocbar_question = "In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess."
+    identify_allegations(question=aoe_noneprocbar_question, label="aoe_none", label_func=label_answers)

@@ -161,7 +161,6 @@ def run_ordered_pipeline_with_questions(question, label, q_df, model, tokenizer,
 
 
 
-
 def questions_setup():
     # Question to variable mapping
     questions = {
@@ -186,6 +185,22 @@ def questions_setup():
         #          "raised during original trial and now it’s too late?",
         # "aoe_prochist": "Is the allegation in procedural history, i.e., was the prosecutorial misconduct in question raised"
         #               " in a previous appeal?"
+    }
+    return questions
+
+def questions_setup():
+    # Question to variable mapping
+    questions = {
+        "case_2001": "What is the year of the original trial case? Look for the year of the crime or the year of "
+                     "conviction or the year of indictment. The trial year will be before the conviction year. The trial "
+                     "year will be after the year of the crime and also before the year of indictment. Do NOT respond "
+                     "with the date of a citation.",
+        "aoe_procbar1": "Does the text above indicate that the assignments of error were procedurally barred because the"
+                        " appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine"
+                        " the answer, provide your best yes or no guess."
+        "aoe_procbar2" "Does the text above indicate that the assignments of error were procedurally barred because the "
+                        "appellant failed to properly file for appeal? Answer with only a 'Yes' or 'No'.  If you cannot "
+                        "determine the answer, provide your best yes or no guess."
     }
     return questions
 

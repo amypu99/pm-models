@@ -3,7 +3,7 @@ import torch
 from transformers import pipeline
 import gc
 from run_baseline import ministral_setup
-from run_questions import label_answers, load_jsonl
+from run_questions import label_answers, load_jsonl, questions_setup
 import os
 import json
 
@@ -139,28 +139,7 @@ def filter_jsonl(df):
     return pd.DataFrame(filtered_json)
 
 
-def run_ordered():
-    questions_dict = questions_setup()
-    results_df = pd.DataFrame()
 
-    filtered_jsonl = "jsonl/procbar_prochist_olmocr.jsonl"
-    for q in questions:
-        print(f"\nRunning question: {questions_dict[q]}")
-
-
-        results_df = identify_allegations(jsonl_file=filtered_jsonl, question=aoe_procbar1_question,
-                             label="aoe_procbar", label_func=label_answers)
-
-
-        # Filter rows where Response Label == 0 for the next iteration
-        filtered_jsonl = filter_jsonl(results_df)
-        filtered_df_size = len(results_df[results_df['Response Label'] == 0])
-        print(f"New q_df size after filtering: {filtered_df_size}")
-
-        gc.collect()
-        torch.cuda.empty_cache()
-        if torch.cuda.is_available():
-            torch.cuda.synchronize()
 
 if __name__ == "__main__":
     # aoe_none_question = "In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess."

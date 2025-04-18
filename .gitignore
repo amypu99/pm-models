@@ -38,3 +38,5 @@ cases_olmocr/DNMS/results/
 cases_olmocr/DNMS/results/*
 cases_olmocr/MS/results/
 cases_olmocr/MS/results/*
+
+classify/filter_olmocr.py

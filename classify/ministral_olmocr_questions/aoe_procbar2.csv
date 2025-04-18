@@ -508,3 +508,60 @@ Answer:",1
 934-Grimm,No.,0,,0
 275-Alvarado,No.,1,,0
 028-Southam,No.,0,,0
+375-Lucas,No.,0,,0
+919-Sims,No.,0,,0
+048-Wolford-Lee,No.,0,,0
+958-Watson,No.,0,,0
+209-Feathers,No.,1,,0
+299-Montgomery,Yes,0,"Context information is below.
+---------------------
+58 See Doc. 102.
+59 Id. at 21–22.
+60 Id.
+61 Doc. 100 at 13–14.
+62 Id. at 13 (citing Doc. 88 at 11–13).
+As before, Montgomery did not raise these issues on direct appeal. They are procedurally defaulted. Even if these issues were not procedurally defaulted, Defendant’s first two examples are instances where the Court made an extra effort to ensure Defendant’s due process and confrontation rights, not violate them.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant failed to properly file for appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+290-Rock,Yes.,1,"Context information is below.
+---------------------
+On July 21, 2017, the Ohio Court of Appeals denied Rock’s second application to reopen as untimely and because he failed to demonstrate good cause for the late filing. ECF Doc. 12-1 at 295-96. Rock did not further appeal the decision to the Ohio Supreme Court. Docket for Ohio App. Ct., 11th Dist. Case Nos. 2015-L-047, 2016-L-011.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant failed to properly file for appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+255-Lawson,No.,0,,0
+214-Furr,No.,0,,0
+978-Young,No.,0,,0
+841-Biggs,No.,0,,0
+455-Jones,No.,0,,0
+232-Lewis,No.,0,,0
+362-Johnson,No.,0,,0
+366-Baskin,No.,0,,0
+496-Jencson,No.,0,,0
+198-Blanton,No.,0,,0
+158-Sibole,No.,0,,0
+961-Shuster,No.,1,,0
+330-Hill,Yes,1,"Context information is below.
+---------------------
+On August 27, 2014, appellant filed a pro se direct appeal to this court which was dismissed for failure to prosecute. A subsequent motion for leave to file delayed appeal was denied.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant failed to properly file for appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+049-Butcher,No.,0,,0
+953-Johnson,No.,0,,0
+261-Grate,No.,0,,0
+343-POWELL,No.,0,,0
+283-Hundley,Yes,0,"Context information is below.
+---------------------
+As the rule specifies, the application must be filed within 90 days. The appellate decision in this case was journalized on September 6, 2018. Hundley filed the present application on December 10, 2018. The application is therefore untimely as it was filed with the clerk on the 95th day. A showing of good cause is required.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant failed to properly file for appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+240-Jones,No.,0,,0
+949-Williams,No.,0,,0
+357-Donlow,No.,0,,0

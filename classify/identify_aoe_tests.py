@@ -1,13 +1,10 @@
 import pandas as pd
 import torch
 from transformers import pipeline
-import json
 import gc
 import re
 from run_baseline import clean_text, mistral_setup, ministral_setup, llama_setup
 from run_questions import label_flipped_answers, label_answers, load_jsonl
-import math
-import os
 from typing import List, Tuple, Optional
 
 CHUNK_LENGTH = 2000
@@ -19,7 +16,6 @@ def apply_prompt(chunk_text, question):
     )
 
     return full_prompt
-
 
 
 # Global tokenizer variable that will be set in identify_allegations
@@ -294,6 +290,6 @@ if __name__ == "__main__":
     # aoe_prochist_question = "Is the assignment of error in the procedural history, i.e., if there is prosecutorial misconduct mentioned, was it raised in a previous appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess."
     # identify_allegations(question=aoe_prochist_question, label="aoe_prochist", label_func=label_answers)
 
-    aoe_noneprocbar_question = "If the text above is describing an assignment of error, is the error alleging that the prosecutor (sometimes referred to as the state) committed misconduct? Respond 'Yes' or 'No'."
-    identify_allegations(question=aoe_noneprocbar_question, label="aoe_test_pm_exists")
+    aoe_noneprocbar_question = "If the text above is describing an assignment of error, is the error alleging that the prosecutor (sometimes referred to as the state)---NOT the trial court or defense attorney---committed misconduct? Respond 'No' or with a summary of the allegation against the prosecutor."
+    identify_allegations(question=aoe_noneprocbar_question, label="aoe_test_pm_summary")
 

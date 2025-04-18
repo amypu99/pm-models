@@ -3,11 +3,11 @@ import re
 import json
 from pypdf import PdfReader
 
-directory = "/pm-models/classify/cases_pdf_2"
-
+directory = "/Users/begumgokmen/Downloads/cases_pdf_2"
 output_json = "labeled_results.json"
 
-pattern = re.compile(r"^State v\.\s*(.+)", re.IGNORECASE)
+# Allows optional period after 'v' and handles leading whitespace
+standard_pattern = re.compile(r"^\s*State v\.?\s*(.+)", re.IGNORECASE)
 
 results = []
 
@@ -16,6 +16,7 @@ for gold_label in ["MS", "DNMS"]:
     if not os.path.isdir(subdirectory):
         print(f"Subdirectory '{subdirectory}' does not exist. Skipping.")
         continue
+
     for filename in os.listdir(subdirectory):
         file_path = os.path.join(subdirectory, filename)
         if os.path.isfile(file_path) and filename.lower().endswith('.pdf'):
@@ -23,28 +24,62 @@ for gold_label in ["MS", "DNMS"]:
                 reader = PdfReader(file_path)
                 meta = reader.metadata
                 title = meta.title if meta.title else ""
-                
-                # initialize predicted label and comment
-                predicted_label = "MS"  # default to MS (false positives prioritized)
+
+                # If metadata title is empty, label as MS and skip processing.
+                if title == "":
+                    results.append({
+                        "filename": filename,
+                        "gold_label": gold_label,
+                        "predicted_label": "MS",
+                        "title": "",
+                        "comment": "Empty metadata title; defaulted to MS."
+                    })
+                    continue
+
+                # Check if title contains " v " or " v. " (case insensitive)
+                if not (" v " in title.lower() or " v. " in title.lower()):
+                    results.append({
+                        "filename": filename,
+                        "gold_label": gold_label,
+                        "predicted_label": "MS",
+                        "title": title,
+                        "comment": "Title doesn't contain ' v ' or ' v.'; defaulted to MS."
+                    })
+                    continue
+
+                # Extract text from first page
+                first_page_text = ""
+                if len(reader.pages) > 0:
+                    first_page_text = reader.pages[0].extract_text() or ""
+
+                # Juvenile check:
+                # Match exactly the word "juvenile" (word boundaries), case-insensitive.
+                juvenile_match = re.search(r"\bjuvenile\b", first_page_text, re.IGNORECASE)
+                juvenile_mentioned = bool(juvenile_match)
+
+                # Initialize predicted label and comment
+                predicted_label = "MS"  # default label.
                 comment = ""
-                
-                # check if title meets the standard format "State v. Appellant"
-                match = pattern.match(title)
+
+                # Check if title meets the standard format "State v. Appellant"
+                match = standard_pattern.match(title)
                 if match:
-                    comment += "Title meets form."
-                    # extract appellant name
+                    comment += "Title meets form. "
                     appellant = match.group(1).strip()
-                    # check juvenile: if more than one period in appellant, label as DNMS.
-                    if appellant.count('.') > 1:
-                        comment = "Juvenile (appellant name in initials)."
+                    # Check if the appellant name is in initials (assumed if contains more than one period).
+                    appellant_is_initials = appellant.count('.') > 1
+
+                    # Both conditions must be met: juvenile mentioned AND appellant name in initials.
+                    if juvenile_mentioned and appellant_is_initials:
+                        comment += "Juvenile mentioned and appellant name in initials."
                         predicted_label = "DNMS"
                     else:
-                        comment += " No error."
+                        comment += "Not juvenile or appellant name not in initials."
                         predicted_label = "MS"
                 else:
                     comment += "Appellee not state; does not meet form."
                     predicted_label = "DNMS"
-                
+
                 results.append({
                     "filename": filename,
                     "gold_label": gold_label,
@@ -52,6 +87,7 @@ for gold_label in ["MS", "DNMS"]:
                     "title": title,
                     "comment": comment
                 })
+
             except Exception as e:
                 print(f"Error processing file {filename} in {gold_label}: {e}")
 
@@ -76,7 +112,6 @@ metrics = {
     "false_negative": fn
 }
 
-# store labeled results
 with open(output_json, mode='w', encoding='utf-8') as jsonfile:
     json.dump(results, jsonfile, indent=4)
 

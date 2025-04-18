@@ -1,13 +1,11 @@
 import pandas as pd
 import torch
 from transformers import pipeline
-import json
 import gc
-import re
-from run_baseline import clean_text, mistral_setup, ministral_setup, llama_setup
-from run_questions import label_flipped_answers, label_answers, load_jsonl
-import math
+from run_baseline import ministral_setup
+from run_questions import label_answers, load_jsonl
 import os
+import json
 
 os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
 os.environ["CUDA_VISIBLE_DEVICES"] = "2"
@@ -23,13 +21,12 @@ def apply_prompt(chunk_text, question):
     return full_prompt
 
 
-def identify_allegations(batch_size=4, question=None, label=None, label_func=None):
+def identify_allegations(jsonl_file=None, batch_size=4, question=None, label=None, label_func=None):
     gc.collect()
     torch.cuda.empty_cache()
     model, tokenizer = ministral_setup()
 
-
-    question_jsonl = load_jsonl("dnms_aoe_none_olmocr.jsonl")
+    question_jsonl = load_jsonl(jsonl_file)
 
     pipe = pipeline(
         "text-generation",
@@ -39,14 +36,16 @@ def identify_allegations(batch_size=4, question=None, label=None, label_func=Non
         device_map='cuda',
         tokenizer=tokenizer
     )
-    # pipe.model = pipe.model.to('cuda')
 
     results = []
 
     if torch.cuda.is_available():
         torch.cuda.synchronize()
 
-    # print(len(question_jsonl))
+    # test_len = 20
+    # for batch_start in range(0, test_len, batch_size):
+    #     batch_end = min(batch_start + batch_size, test_len)
+    #     batch = question_jsonl.iloc[batch_start:batch_end]
 
     for batch_start in range(0, len(question_jsonl), batch_size):
         batch_end = min(batch_start + batch_size, len(question_jsonl))
@@ -55,11 +54,9 @@ def identify_allegations(batch_size=4, question=None, label=None, label_func=Non
         batch_messages = []
 
         for i, content in enumerate(batch.olmocr_text.values):
-            # cleaned_content = clean_text(content)
             chunked_content = content.split("\n\n")
             
             all_prompts = [apply_prompt(chunk, question) for chunk in chunked_content]
-            # print("\n\n\n".join(all_prompts))
             all_messages = [[{"role": "user", "content": x}] for x in all_prompts]
 
 
@@ -114,6 +111,56 @@ def identify_allegations(batch_size=4, question=None, label=None, label_func=Non
     if torch.cuda.is_available():
         torch.cuda.synchronize()
 
+    return results_df
+
+
+
+def filter_jsonl(df):
+
+    filtered_df = df[df['Response Label'] == 0]
+
+    filtered_idx = filtered_df["Index"].astype(str).tolist()
+
+    filtered_json = []
+
+    with open("jsonl/procbar_prochist_olmocr.jsonl", 'r') as jsonl_file:
+    #with open(jsonl_path, 'r') as jsonl_file, open(output_path, 'w') as output_file:
+        for line in jsonl_file:
+            try:
+                json_obj = json.loads(line.strip())
+                if 'Index' in json_obj and str(json_obj['Index']) in filtered_idx:
+                    # output_file.write(line)
+                    filtered_json.append(json_obj)
+            except json.JSONDecodeError:
+                continue
+
+    print(f"Filtered JSONL written")
+
+    return pd.DataFrame(filtered_json)
+
+
+def run_ordered():
+    questions_dict = questions_setup()
+    results_df = pd.DataFrame()
+
+    filtered_jsonl = "jsonl/procbar_prochist_olmocr.jsonl"
+    for q in questions:
+        print(f"\nRunning question: {questions_dict[q]}")
+
+
+        results_df = identify_allegations(jsonl_file=filtered_jsonl, question=aoe_procbar1_question,
+                             label="aoe_procbar", label_func=label_answers)
+
+
+        # Filter rows where Response Label == 0 for the next iteration
+        filtered_jsonl = filter_jsonl(results_df)
+        filtered_df_size = len(results_df[results_df['Response Label'] == 0])
+        print(f"New q_df size after filtering: {filtered_df_size}")
+
+        gc.collect()
+        torch.cuda.empty_cache()
+        if torch.cuda.is_available():
+            torch.cuda.synchronize()
 
 if __name__ == "__main__":
     # aoe_none_question = "In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess."
@@ -125,5 +172,8 @@ if __name__ == "__main__":
     # aoe_prochist_question = "Is the assignment of error in the procedural history, i.e., if there is prosecutorial misconduct mentioned, was it raised in a previous appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess."
     # identify_allegations(question=aoe_prochist_question, label="aoe_prochist", label_func=label_answers)
 
-    aoe_noneprocbar_question = "In the text above, is there any mention of prosecutorial misconduct, misconduct by the prosecutor or misconduct by the state that is not not barred by res judicata? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess."
-    identify_allegations(question=aoe_noneprocbar_question, label="aoe_none", label_func=label_answers)
+    aoe_procbar1_question = "Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess."
+    identify_allegations(jsonl_file = "jsonl/procbar_prochist_olmocr.jsonl", question=aoe_procbar1_question, label="aoe_procbar", label_func=label_answers)
+
+    aoe_procbar2_question = "Does the text above indicate that the assignments of error were procedurally barred because the appellant failed to properly file for appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess."
+    identify_allegations(jsonl_file="jsonl/dnms_aoe_none_olmocr.jsonl", question=aoe_procbar2_question, label="aoe_procbar", label_func=label_answers)

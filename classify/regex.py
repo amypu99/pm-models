@@ -57,29 +57,28 @@ for gold_label in ["MS", "DNMS"]:
                     
                 all_text = first_page_text + "\n" + second_page_text
 
+                text = meta.title or full_case_text
+                match = re.match(r"^\s*State v\.?\s*(.+)", text, re.IGNORECASE)
                 juvenile_mentioned = bool(re.search(r"\bjuvenile\b", all_text, re.IGNORECASE))
                 city_prosecutor = bool(re.search(r"\bCity\s+Prosecutor\b", all_text, re.IGNORECASE))
+                municipal_court = bool(re.search(r'\bmunicipal court\b', text, re.IGNORECASE))
 
-                match = standard_pattern.match(title)
                 if not match:
-                    # not even State v. … so DNMS and skip
                     predicted_label = "DNMS"
                     comment = "Does not match State v."
+                elif city_prosecutor:
+                    predicted_label = "DNMS"
+                    comment = "Title meets form. Prosecutor is a city prosecutor."
+                elif municipal_court:
+                    predicted_label = "DNMS"
+                    comment = "Title meets form. Case originated in a Municipal Court (city prosecutor)."
+                elif juvenile_mentioned and match.group(1).count('.') > 1:
+                    predicted_label = "DNMS"
+                    comment = "Title meets form. Juvenile mention and name in initials."
                 else:
-                    comment = "Title meets form. "
-
-                    # check city prosecutor
-                    if city_prosecutor:
-                        predicted_label = "DNMS"
-                        comment += "Prosecutor is a city prosecutor."
-                    # check juvenile+initials
-                    elif juvenile_mentioned and match.group(1).count('.') > 1:
-                        predicted_label = "DNMS"
-                        comment += "Juvenile mention and name in initials."
-                    else:
-                        predicted_label = "MS"
-                        comment += "Neither city prosecutor nor juvenile."
-
+                    predicted_label = "MS"
+                    comment = "Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+                    
                 results.append({
                     "filename": filename,
                     "gold_label": gold_label,

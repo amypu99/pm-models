@@ -18,17 +18,20 @@ def run_pipeline(model_setup, pdf_dir):
     filtered_jsonl = filter_jsonl(regex_results, full_jsonl)
 
     results_df = pd.DataFrame()
+    # For each case-specific question, case_2001, and whether untimely or improper paperwork
     for q in questions_dict:
         print(f"\nRunning question: {q}")
+        # Run without chunking, but not whole case
         if q =="case_2001":
             results_df = run_question(question=questions_dict[q], cases_jsonl=filtered_jsonl,
                                       prompt_func=prompt_case_head, label=q, label_func=label_answers, model=model,
                                       tokenizer=tokenizer)
+        # Run with chunking
         else:
             results_df = run_question(question=questions_dict[q], cases_jsonl=filtered_jsonl,
                                       prompt_func=prompt_case_chunks, label=q, label_func=label_answers, model=model,
                                       tokenizer=tokenizer)
-        # Filter rows where Response Label == 0 for the next iteration
+        # Filter rows where Response Label == 0 (MS) to run the next iteration
         filtered_jsonl = filter_jsonl(results_df, filtered_jsonl)
         filtered_df_size = len(filtered_jsonl)
         print(f"New q_df size after filtering: {filtered_df_size}")

@@ -4,7 +4,7 @@ from transformers import pipeline
 import json
 import gc
 import re
-from run_baseline import clean_text, mistral_setup, ministral_setup, llama_setup
+from run_baseline import clean_text, mistral_setup, ministral_setup
 
 
 def load_jsonl(filepath):
@@ -15,12 +15,10 @@ def load_jsonl(filepath):
     return pd.DataFrame(data)
 
 
-def run_pipeline_with_questions(question, label, model, tokenizer, batch_size=4):
-    dnms_jsonl = load_jsonl("jsonl/dnms.jsonl")
-    ms_jsonl = load_jsonl("jsonl/ms.jsonl")
-
-    dnms_sample = dnms_jsonl.sample(n=100, random_state=42)
-    ms_sample = ms_jsonl.sample(n=100, random_state=42)
+def run_question(question=None, cases_jsonl=None, prompt_func=None, label=None, label_func=None, model=None, tokenizer=None, batch_size=4):
+    label1 = label
+    if label=="aoe_procbar1" or label=="aoe_procbar2":
+        label1 = "aoe_procbar"
 
     pipe = pipeline(
         "text-generation",
@@ -29,44 +27,20 @@ def run_pipeline_with_questions(question, label, model, tokenizer, batch_size=4)
         tokenizer=tokenizer
     )
 
-    question_jsonl = pd.concat([dnms_sample, ms_sample]).reset_index(drop=True)
-
     results = []
 
-    question_jsonl = pd.concat([dnms_sample, ms_sample]).reset_index(drop=True)
+    for batch_start in range(0, len(cases_jsonl), batch_size):
+        batch_end = min(batch_start + batch_size, len(cases_jsonl))
+        batch = cases_jsonl.iloc[batch_start:batch_end]
 
-    for batch_start in range(0, len(question_jsonl), batch_size):
-        batch_end = min(batch_start + batch_size, len(question_jsonl))
-        batch = question_jsonl.iloc[batch_start:batch_end]
-
-        batch_messages = []
-        for content in batch.Context.values:
-            cleaned_content = clean_text(content)
-            tokenized_content = tokenizer(
-                cleaned_content,
-                max_length=20000,
-                return_tensors='pt'
-            ).to('cuda')
-            decoded_content = tokenizer.decode(tokenized_content["input_ids"][0][1:-1])
-            full_prompt = (
-                f"{decoded_content}\n\n"
-                "Above is the appellate case. Read over the case carefully and think step-by-step through "
-                f"the following question, answering with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess: {question}"
-            )
-            batch_messages.append([{"role": "user", "content": full_prompt}])
-
-        batch_results = pipe(
-            batch_messages,
-            max_new_tokens=300,
-            do_sample=False
+        prompt_func(
+            batch=batch,
+            pipe=pipe,
+            question=question,
+            label=label1,
+            tokenizer=tokenizer,
+            results=results
         )
-
-        for i, result in enumerate(batch_results):
-            results.append({
-                "Index": batch.Index.iloc[i],
-                "Response": result[0]["generated_text"][1]["content"],
-                label: batch[label].iloc[i]
-            })
 
         if batch_start % (batch_size * 5) == 0:
             gc.collect()
@@ -76,12 +50,54 @@ def run_pipeline_with_questions(question, label, model, tokenizer, batch_size=4)
 
         if batch_start % (batch_size * 10) == 0:
             temp_df = pd.DataFrame(results)
-            temp_df.to_csv(f"./standards_csv/{label}.csv.temp", index=False)
+            temp_df["Predicted Label"] = temp_df["Response"].apply(label_func)
+            temp_df.to_csv(f"./pipeline_test/{label}.csv.temp", index=False)
 
     results_df = pd.DataFrame(results)
+    results_df["Predicted Label"] = results_df["Response"].apply(label_func)
+    results_df.to_csv(f"./pipeline_test/{label}.csv", index=False)
+
+    gc.collect()
+    torch.cuda.empty_cache()
+    if torch.cuda.is_available():
+        torch.cuda.synchronize()
+
     return results_df
 
-def run_ordered_pipeline_with_questions(question, label, q_df, model, tokenizer, batch_size=4):
+
+def prompt_case_head(batch, pipe, question, label, tokenizer, results):
+    batch_messages = []
+
+    for content in batch.Context.values:
+        cleaned_content = clean_text(content)
+        tokenized_content = tokenizer(
+            cleaned_content,
+            max_length=10000,
+            return_tensors='pt'
+        ).to('cuda')
+        decoded_content = tokenizer.decode(tokenized_content["input_ids"][0][1:-1])
+        full_prompt = (
+            f"{decoded_content}\n\n"
+            "Above is the appellate case. Read over the case carefully and think step-by-step through "
+            f"the following question, answering with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess: {question}"
+        )
+        batch_messages.append([{"role": "user", "content": full_prompt}])
+
+    batch_results = pipe(
+        batch_messages,
+        max_new_tokens=300,
+        do_sample=False
+    )
+
+    for i, result in enumerate(batch_results):
+        results.append({
+            "Index": batch.Index.iloc[i],
+            "Gold Label": batch[label].iloc[i],
+            "Response": result[0]["generated_text"][1]["content"]
+        })
+
+
+def run_ordered_question_pipeline(question, label, q_df, model, tokenizer, batch_size=4):
     dnms_jsonl = load_jsonl("jsonl/dnms.jsonl")
     ms_jsonl = load_jsonl("jsonl/ms.jsonl")
 
@@ -144,8 +160,8 @@ def run_ordered_pipeline_with_questions(question, label, q_df, model, tokenizer,
 
             results.append({
                 "Index": batch.Index.iloc[i],
-                "Response": result[0]["generated_text"][1]["content"],
-                label: matched_row[label].iloc[0]  # Get label from the matched row
+                "Gold Label": matched_row[label].iloc[0],  # Get label from the matched row
+                "Response": result[0]["generated_text"][1]["content"]
             })
 
         if batch_start % (batch_size * 5) == 0:
@@ -160,10 +176,9 @@ def run_ordered_pipeline_with_questions(question, label, q_df, model, tokenizer,
     return results_df
 
 
-
-def questions_setup():
+# def questions_setup():
     # Question to variable mapping
-    questions = {
+    # questions = {
         # "case_juv": "Is the defendant a juvenile (i.e. is the defendant younger than 18 years of age)? Some hints that the"
         #           " defendant is not juvenile are if the defendant's name is given as initials, if the appellant is "
         #           "referred to as minor, or if the case is from juvenile court. If you cannot determine the answer or no"
@@ -177,7 +192,7 @@ def questions_setup():
         # "case_app": "Is the appellee the city? If the appelle is listed as a city, not the state, the appellee is the city."
         #           "If the state or another party is listed as the appellee, the appelle is not the city.",
         # "case_pros" : "Is the prosecutor in question a city prosecutor?",
-        "aoe_none": "Identify and summarize each assignment of error. Do any of them mention prosecutorial misconduct/error or misconduct/error by the state?",
+        # "aoe_none": "Identify and summarize each assignment of error. Do any of them mention prosecutorial misconduct/error or misconduct/error by the state?",
         # aoe_grandjury_q: "aoe_grandjury",
         # "aoe_court": "Is the allegation of error against the court, sometimes referred to as the 'trial court'?",
         # "aoe_defense": "Is the allegation of error against the defense attorney?",
@@ -185,8 +200,8 @@ def questions_setup():
         #          "raised during original trial and now it’s too late?",
         # "aoe_prochist": "Is the allegation in procedural history, i.e., was the prosecutorial misconduct in question raised"
         #               " in a previous appeal?"
-    }
-    return questions
+    # }
+    # return questions
 
 def questions_setup():
     # Question to variable mapping
@@ -197,15 +212,17 @@ def questions_setup():
                      "with the date of a citation.",
         "aoe_procbar1": "Does the text above indicate that the assignments of error were procedurally barred because the"
                         " appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine"
-                        " the answer, provide your best yes or no guess."
-        "aoe_procbar2" "Does the text above indicate that the assignments of error were procedurally barred because the "
+                        " the answer, provide your best yes or no guess.",
+        "aoe_procbar2": "Does the text above indicate that the assignments of error were procedurally barred because the "
                         "appellant failed to properly file for appeal? Answer with only a 'Yes' or 'No'.  If you cannot "
                         "determine the answer, provide your best yes or no guess."
     }
     return questions
 
+
 def find_whole_word(w):
     return re.compile(r'\b({0})\b'.format(w), flags=re.IGNORECASE).search
+
 
 def label_answers(answer):
     answer = answer.replace(".", "")
@@ -216,6 +233,7 @@ def label_answers(answer):
     else:
         return 99
 
+
 def label_flipped_answers(answer):
     answer.replace(".", "")
     if find_whole_word("Yes")(answer) or find_whole_word("Answer: Yes")(answer):
@@ -225,16 +243,22 @@ def label_flipped_answers(answer):
     else:
         return 99
 
+
 def run_specified():
+    dnms_jsonl = load_jsonl("jsonl/dnms.jsonl")
+    ms_jsonl = load_jsonl("jsonl/ms.jsonl")
+    dnms_sample = dnms_jsonl.sample(n=100, random_state=42)
+    ms_sample = ms_jsonl.sample(n=100, random_state=42)
+    question_jsonl = pd.concat([dnms_sample, ms_sample]).reset_index(drop=True)
+
     gc.collect()
     torch.cuda.empty_cache()
     model, tokenizer = ministral_setup()
-
     question_dict = questions_setup()
     for q in question_dict:
         print(question_dict[q])
-        results_df = run_pipeline_with_questions(question_dict[q], q, model, tokenizer)
-        results_df["Response Label"] = results_df["Response"].apply(label_answers)
+        results_df = run_question(question_dict[q], question_jsonl, q, model, tokenizer)
+        results_df["Predicted Label"] = results_df["Response"].apply(label_answers)
         results_df.to_csv(f"./standards_csv/{q}_filtered.csv", index=False)
         gc.collect()
         torch.cuda.empty_cache()
@@ -243,7 +267,7 @@ def run_specified():
 
 
 def flip_binary(df):
-    df["Response Label"] = df["Response Label"].apply(lambda x: 0 if x == 1 else 1)
+    df["Predicted Label"] = df["Predicted Label"].apply(lambda x: 0 if x == 1 else 1)
     return df
 
 
@@ -261,17 +285,17 @@ def run_ordered():
     dnms_df = pd.read_csv("standards_csv/case_app_regex.csv")
     ms_df = pd.read_csv("standards_csv/ms_case_app_regex.csv")
     q_df = pd.concat([dnms_df, ms_df], axis=0, ignore_index=True)
-    q_df = q_df[q_df['Response Label'] == 0]
+    q_df = q_df[q_df['Predicted Label'] == 0]
 
     questions_dict = questions_setup()
     results_df = pd.DataFrame()
 
     for q in questions:
         print(f"\nRunning question: {questions_dict[q]}")
-        results_df = run_ordered_pipeline_with_questions(questions_dict[q], q, q_df, model, tokenizer)
+        results_df = run_ordered_question_pipeline(questions_dict[q], q, q_df, model, tokenizer)
 
         # Update response label
-        results_df["Response Label"] = results_df["Response"].apply(label_answers)
+        results_df["Predicted Label"] = results_df["Response"].apply(label_answers)
 
 
         if q=="case_crim" or q=="aoe_none":
@@ -281,8 +305,8 @@ def run_ordered():
         results_df.to_csv(f"./mistral_run/{q}.csv", index=False)
 
         # Filter rows where Response Label == 0 for the next iteration
-        q_df = results_df[results_df['Response Label'] == 0]
-        new_q_df_size = len(results_df[results_df['Response Label'] == 0])
+        q_df = results_df[results_df['Predicted Label'] == 0]
+        new_q_df_size = len(results_df[results_df['Predicted Label'] == 0])
         print(f"New q_df size after filtering: {new_q_df_size}")
 
         # Free up GPU memory

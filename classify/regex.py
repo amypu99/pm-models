@@ -87,7 +87,6 @@ def identify_regex_dnms(directory):
                         predicted_label = 0
                         comment = "Title meets form. Neither city prosecutor, municipal court, nor juvenile."
 
-
                     results.append({
                         "Index": index_val,
                         "Gold Label": gold_label,

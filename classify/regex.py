@@ -3,7 +3,7 @@ import re
 import json
 from pypdf import PdfReader
 
-directory = "/Users/begumgokmen/Downloads/cases_pdf_2"
+directory = "../../cases_pdf_2"
 output_json = "labeled_results.json"
 
 # Allows optional period after 'v' and handles leading whitespace
@@ -47,39 +47,38 @@ for gold_label in ["MS", "DNMS"]:
                     })
                     continue
 
-                # Extract text from first page
                 first_page_text = ""
                 if len(reader.pages) > 0:
                     first_page_text = reader.pages[0].extract_text() or ""
 
-                # Juvenile check:
-                # Match exactly the word "juvenile" (word boundaries), case-insensitive.
-                juvenile_match = re.search(r"\bjuvenile\b", first_page_text, re.IGNORECASE)
-                juvenile_mentioned = bool(juvenile_match)
+                second_page_text = ""
+                if len(reader.pages) > 1:
+                    second_page_text = reader.pages[1].extract_text() or ""
+                    
+                all_text = first_page_text + "\n" + second_page_text
 
-                # Initialize predicted label and comment
-                predicted_label = "MS"  # default label.
-                comment = ""
+                text = meta.title or full_case_text
+                match = re.match(r"^\s*State v\.?\s*(.+)", text, re.IGNORECASE)
+                juvenile_mentioned = bool(re.search(r"\bjuvenile\b", all_text, re.IGNORECASE))
+                city_prosecutor = bool(re.search(r"\bCity\s+Prosecutor\b", all_text, re.IGNORECASE))
+                municipal_court = bool(re.search(r'\bmunicipal court\b', text, re.IGNORECASE))
 
-                # Check if title meets the standard format "State v. Appellant"
-                match = standard_pattern.match(title)
-                if match:
-                    comment += "Title meets form. "
-                    appellant = match.group(1).strip()
-                    # Check if the appellant name is in initials (assumed if contains more than one period).
-                    appellant_is_initials = appellant.count('.') > 1
-
-                    # Both conditions must be met: juvenile mentioned AND appellant name in initials.
-                    if juvenile_mentioned and appellant_is_initials:
-                        comment += "Juvenile mentioned and appellant name in initials."
-                        predicted_label = "DNMS"
-                    else:
-                        comment += "Not juvenile or appellant name not in initials."
-                        predicted_label = "MS"
-                else:
-                    comment += "Appellee not state; does not meet form."
+                if not match:
                     predicted_label = "DNMS"
-
+                    comment = "Does not match State v."
+                elif city_prosecutor:
+                    predicted_label = "DNMS"
+                    comment = "Title meets form. Prosecutor is a city prosecutor."
+                elif municipal_court:
+                    predicted_label = "DNMS"
+                    comment = "Title meets form. Case originated in a Municipal Court (city prosecutor)."
+                elif juvenile_mentioned and match.group(1).count('.') > 1:
+                    predicted_label = "DNMS"
+                    comment = "Title meets form. Juvenile mention and name in initials."
+                else:
+                    predicted_label = "MS"
+                    comment = "Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+                    
                 results.append({
                     "filename": filename,
                     "gold_label": gold_label,
@@ -87,6 +86,7 @@ for gold_label in ["MS", "DNMS"]:
                     "title": title,
                     "comment": comment
                 })
+
 
             except Exception as e:
                 print(f"Error processing file {filename} in {gold_label}: {e}")

@@ -5,8 +5,8 @@ from run_questions import load_jsonl
 
 
 def check_text_files_for_pattern(df, folder_path="../cases_txt/MS"):
-    if "Response Label" not in df.columns:
-        df["Response Label"] = None
+    if "Predicted Label" not in df.columns:
+        df["Predicted Label"] = None
 
     # Ensure folder path exists
     if not os.path.exists(folder_path):
@@ -39,15 +39,15 @@ def check_text_files_for_pattern(df, folder_path="../cases_txt/MS"):
                 if city_matches and appellee_matches:
                     # If both phrases exist, check if any "city of" comes before any "appellee"
                     if min(city_matches) < min(appellee_matches):
-                        df.at[idx, "Response Label"] = 1
+                        df.at[idx, "Predicted Label"] = 1
                     else:
-                        df.at[idx, "Response Label"] = 0
+                        df.at[idx, "Predicted Label"] = 0
                 else:
                     # If one or both phrases don't exist, mark as 0
-                    df.at[idx, "Response Label"] = 0
+                    df.at[idx, "Predicted Label"] = 0
             except Exception as e:
                 print(f"Error processing file {file_name}: {str(e)}")
-                df.at[idx, "Response Label"] = 0
+                df.at[idx, "Predicted Label"] = 0
         else:
             # If file doesn't exist, leave as None or set to a default value
             print(f"File {file_name} not found in {folder_path}")

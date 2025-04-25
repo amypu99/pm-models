@@ -16,7 +16,7 @@ from run_questions import label_flipped_answers, label_answers, load_jsonl
 
 
 os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+os.environ["CUDA_VISIBLE_DEVICES"] = "2"
 os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'
 
 
@@ -81,8 +81,15 @@ if __name__ == "__main__":
         ).to('cuda')
         decoded_text = tokenizer.decode(tokenized_text["input_ids"][0][1:-1])
         before, found_delimiter, after = all_text.rpartition("\n\n")
+        # print("\n\nlen")
+        generated_text = query_model(model, tokenizer, query, before)[0]['generated_text']
+        # print(len(generated_text))
+        # print("\n\ngenerated text")
+        # print(generated_text)
         # print(query_model(model, tokenizer, query, before)[0]['generated_text'][2]['content'])
-        results[key] = query_model(model, tokenizer, query, before)[0]['generated_text'][2]['content']
+        results[key] = generated_text[2]['content']
+        # print("\n\nresults")
+        # print(results[key])
         with open("list_of_allegations.jsonl", "a") as f:
             json_record = json.dumps({"index": key, "allegations": results[key]})
             f.write(json_record + "\n")

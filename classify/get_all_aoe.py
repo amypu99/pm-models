@@ -1,4 +1,5 @@
 import os
+import gc
 import torch
 import json
 from transformers import (
@@ -16,7 +17,7 @@ from run_questions import label_flipped_answers, label_answers, load_jsonl
 
 
 os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
-os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'
 
 
@@ -36,7 +37,7 @@ def apply_prompt(query, text):
 
 
 def query_model(model, tokenizer, query, text):
-    pipe = pipeline("text-generation", model=model, max_new_tokens=200, torch_dtype=torch.bfloat16, device_map='cuda', tokenizer=tokenizer)
+    pipe = pipeline("text-generation", model=model, max_new_tokens=256, torch_dtype=torch.bfloat16, device_map='cuda', tokenizer=tokenizer)
     pipe.model = pipe.model.to('cuda')
 
     full_prompt = apply_prompt(query, text)
@@ -47,7 +48,11 @@ def query_model(model, tokenizer, query, text):
 
 
 if __name__ == "__main__":
-    filepath = "../cases_olmocr/DNMS/dnms_olmocr.jsonl"
+    from huggingface_hub import login
+    login()
+    gc.collect()
+    torch.cuda.empty_cache()
+    filepath = "../cases_olmocr/DNMS/dnms_olmocr_leftover.jsonl"
     all_jsonl = load_jsonl(filepath)
     results = {}
     temp_results = {}
@@ -93,3 +98,5 @@ if __name__ == "__main__":
         with open("list_of_allegations.jsonl", "a") as f:
             json_record = json.dumps({"index": key, "allegations": results[key]})
             f.write(json_record + "\n")
+        gc.collect()
+        torch.cuda.empty_cache()

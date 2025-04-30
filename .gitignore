@@ -38,3 +38,7 @@ cases_olmocr/DNMS/results/
 cases_olmocr/DNMS/results/*
 cases_olmocr/MS/results/
 cases_olmocr/MS/results/*
+
+classify/modify_aoe_none.py
+
+classify/__pycache__

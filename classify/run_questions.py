@@ -223,7 +223,6 @@ def questions_setup():
 def find_whole_word(w):
     return re.compile(r'\b({0})\b'.format(w), flags=re.IGNORECASE).search
 
-
 def label_answers(answer):
     answer = answer.replace(".", "")
     if find_whole_word("Yes")(answer) or find_whole_word("Answer: Yes")(answer):

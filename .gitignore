@@ -39,6 +39,10 @@ cases_olmocr/DNMS/results/*
 cases_olmocr/MS/results/
 cases_olmocr/MS/results/*
 
+<<<<<<< HEAD
 classify/modify_aoe_none.py
 
 classify/__pycache__
+=======
+classify/filter_olmocr.py
+>>>>>>> ea0ac3d01f1f73ea99a40ee9e7e77973d7ca154c

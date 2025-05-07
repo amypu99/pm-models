@@ -1,7 +1,7 @@
 import json
 
-input_file_path = "../cases_olmocr/DNMS/dnms_olmocr.jsonl"
-output_file_path = "../cases_olmocr/DNMS/dnms_olmocr-converted.jsonl"
+input_file_path = "../cases_olmocr/MS/ms_olmocr.jsonl"
+output_file_path = "../cases_olmocr/MS/ms_olmocr-converted.jsonl"
 
 # Open the file and process line by line
 with open(input_file_path, 'r', encoding='utf-8') as input_file:
@@ -12,6 +12,8 @@ with open(input_file_path, 'r', encoding='utf-8') as input_file:
                 context = data['text']
                 filename = data['metadata']['Source-File']
                 index = filename.replace('.pdf', '')
+                index = index.replace('cases_pdf/MS/', '')
+                index = index.replace('cases_temp/MS/', '')
                 print(index)
                 json_data = {}
                 json_data['Index'] = index

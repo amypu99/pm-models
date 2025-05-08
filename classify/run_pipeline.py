@@ -37,12 +37,16 @@ def run_pipeline(model_setup, pdf_dir, ms_jsonl, dnms_jsonl):
         print(f"New q_df size after filtering: {filtered_df_size}")
 
 
+
 def combine_jsonl(dnms_jsonl_fp, ms_jsonl_fp):
-    dnms_jsonl = load_jsonl(dnms_jsonl_fp)
-    ms_jsonl = load_jsonl(ms_jsonl_fp)
-    dnms_sample = dnms_jsonl.sample(n=5, random_state=42)
-    ms_sample = ms_jsonl.sample(n=5, random_state=42)
-    combined_jsonl = pd.concat([dnms_sample, ms_sample]).reset_index(drop=True)
+    # dnms_jsonl = load_jsonl(dnms_jsonl_fp)
+    # ms_jsonl = load_jsonl(ms_jsonl_fp)
+    dnms_jsonl = pd.read_json(dnms_jsonl_fp, lines=True)
+    ms_jsonl = pd.read_json(ms_jsonl_fp, lines=True)
+    # dnms_sample = dnms_jsonl.sample(n=5, random_state=42)
+    # ms_sample = ms_jsonl.sample(n=5, random_state=42)
+    # combined_jsonl = pd.concat([dnms_sample, ms_sample]).reset_index(drop=True)
+    combined_jsonl = pd.concat([dnms_jsonl, ms_jsonl])
 
     return combined_jsonl
 
@@ -59,6 +63,6 @@ def filter_jsonl(df, jsonl_df):
     return pd.DataFrame(filtered_json)
 
 if __name__ == "__main__":
-    ms_path = "../cases_olmocr/MS/ms_olmocr-converted.jsonl"
-    dnms_path = "../cases_olmocr/DNMS/dnms_olmocr-converted.jsonl"
+    ms_path = "../cases_olmocr/MS/ms_olmocr_converted.jsonl"
+    dnms_path = "../cases_olmocr/DNMS/dnms_olmocr_converted.jsonl"
     run_pipeline(ministral_setup, "cases_pdf_2", ms_path, dnms_path)

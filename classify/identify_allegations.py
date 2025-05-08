@@ -7,7 +7,7 @@ from run_questions import label_answers, load_jsonl, questions_setup
 import os
 
 os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
-os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'
 
 CHUNK_LENGTH = 2000
@@ -21,7 +21,7 @@ def apply_prompt(chunk_text, question):
 
 
 def prompt_case_chunks(batch, pipe, question, label, tokenizer, results):
-    for i, content in enumerate(batch.olmocr_text.values):
+    for i, content in enumerate(batch.Context.values):
         chunked_content = content.split("\n\n")
 
         all_prompts = [apply_prompt(chunk, question) for chunk in chunked_content]

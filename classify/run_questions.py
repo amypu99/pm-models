@@ -33,6 +33,7 @@ def run_question(question=None, cases_jsonl=None, prompt_func=None, label=None, 
         batch_end = min(batch_start + batch_size, len(cases_jsonl))
         batch = cases_jsonl.iloc[batch_start:batch_end]
 
+
         prompt_func(
             batch=batch,
             pipe=pipe,

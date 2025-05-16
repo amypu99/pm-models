@@ -46,6 +46,47 @@ def query_model(model, tokenizer, query, text):
     results = pipe(messages, max_new_tokens=256)
     return results
 
+def full_query(model, tokenizer, all_text, results):
+    query = """
+            Read the attached legal case and complete the following tasks:
+
+            ────────────────────
+            ### 1. Name and list all the assignments of error or allegations claimed by the appellant/defendant.
+
+            ────────────────────
+            ### 2. Output format
+            Return **only** this JSON block—nothing else:
+            ```json
+            {
+            "allegation_1": "<full text of assignment of error>",
+            "allegation_2": "<full text of second assignment of error>"
+            "allegation_3": "<full text of third assignment of error>"
+            ...
+            "allegation_n": "<full text of last assignment of error>"
+            }
+            ```
+            """
+    tokenized_text = tokenizer(
+        all_text,
+        max_length=20000,
+        return_tensors='pt'
+    ).to('cuda')
+    decoded_text = tokenizer.decode(tokenized_text["input_ids"][0][1:-1])
+    before, found_delimiter, after = all_text.rpartition("\n\n")
+    # print("\n\nlen")
+    generated_text = query_model(model, tokenizer, query, before)[0]['generated_text']
+    # print(len(generated_text))
+    # print("\n\ngenerated text")
+    # print(generated_text)
+    # print(query_model(model, tokenizer, query, before)[0]['generated_text'][2]['content'])
+    # results[key] = generated_text[2]['content']
+    # print("\n\nresults")
+    # print(results[key])
+
+    return generated_text[2]['content']
+
+
+
 
 if __name__ == "__main__":
     from huggingface_hub import login
@@ -59,44 +100,9 @@ if __name__ == "__main__":
 
     model, tokenizer = ministral_setup()
     for i, key in enumerate([x['Source-File'].replace(".pdf", "") for x in all_jsonl.metadata]):
-        query = """
-        Read the attached legal case and complete the following tasks:
-
-        ────────────────────
-        ### 1. Name and list all the assignments of error or allegations claimed by the appellant/defendant.
-
-        ────────────────────
-        ### 2. Output format
-        Return **only** this JSON block—nothing else:
-        ```json
-        {
-        "allegation_1": "<full text of assignment of error>",
-        "allegation_2": "<full text of second assignment of error>"
-        "allegation_3": "<full text of third assignment of error>"
-        ...
-        "allegation_n": "<full text of last assignment of error>"
-        }
-        ```
-        """
-        all_text = all_jsonl.text[i]
-        tokenized_text = tokenizer(
-            all_text,
-            max_length=20000,
-            return_tensors='pt'
-        ).to('cuda')
-        decoded_text = tokenizer.decode(tokenized_text["input_ids"][0][1:-1])
-        before, found_delimiter, after = all_text.rpartition("\n\n")
-        # print("\n\nlen")
-        generated_text = query_model(model, tokenizer, query, before)[0]['generated_text']
-        # print(len(generated_text))
-        # print("\n\ngenerated text")
-        # print(generated_text)
-        # print(query_model(model, tokenizer, query, before)[0]['generated_text'][2]['content'])
-        results[key] = generated_text[2]['content']
-        # print("\n\nresults")
-        # print(results[key])
+        allegation_list = full_query(model, tokenizer)
         with open("list_of_allegations.jsonl", "a") as f:
-            json_record = json.dumps({"index": key, "allegations": results[key]})
+            json_record = json.dumps({"index": key, "allegations": allegation_list})
             f.write(json_record + "\n")
         gc.collect()
         torch.cuda.empty_cache()

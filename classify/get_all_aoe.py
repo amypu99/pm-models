@@ -96,7 +96,7 @@ if __name__ == "__main__":
         key = row['Index']
         allegation_list = full_query(pipe, tokenizer, row["Context"])
         with open("list_of_allegations_20250220.jsonl", "a") as f:
-            json_record = json.dumps({"index": key, "allegations": allegation_list})
+            json_record = json.dumps({"Index": key, "allegations": allegation_list})
             f.write(json_record + "\n")
         gc.collect()
         torch.cuda.empty_cache()

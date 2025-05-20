@@ -24,7 +24,7 @@ if __name__ == "__main__":
     # login()
     gc.collect()
     torch.cuda.empty_cache()
-    filepath = "./list_of_allegations_20250520.jsonl"
+    filepath = '../cases_olmocr/MS/ms_olmocr_converted.jsonl'
     all_jsonl = load_jsonl(filepath)
     print(all_jsonl)
     # results = {}
@@ -33,7 +33,7 @@ if __name__ == "__main__":
     import json
 
     # input_file = 'input.jsonl'   # Change this to your input file path
-    output_file = './list_of_allegations_20250520_2.jsonl' # Change this to your desired output file path
+    output_file = '../cases_olmocr/MS/ms_olmocr_converted_2.jsonl' # Change this to your desired output file path
 
     prefix_to_remove = "cases_temp/MS/"
 
@@ -44,8 +44,8 @@ if __name__ == "__main__":
             record = json.loads(line)
             
             # Modify index if it starts with the prefix
-            if record.get('index', '').startswith(prefix_to_remove):
-                record['index'] = record['index'][len(prefix_to_remove):]
+            if record.get('Index', '').startswith(prefix_to_remove):
+                record['Index'] = record['Index'][len(prefix_to_remove):]
             
             # Write the modified (or unmodified) record to the output file
             outfile.write(json.dumps(record) + '\n')

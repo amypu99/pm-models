@@ -39,8 +39,6 @@ def run_pipeline(model_setup, pdf_dir, ms_jsonl, dnms_jsonl):
 
 
 def combine_jsonl(dnms_jsonl_fp, ms_jsonl_fp):
-    # dnms_jsonl = load_jsonl(dnms_jsonl_fp)
-    # ms_jsonl = load_jsonl(ms_jsonl_fp)
     dnms_jsonl = pd.read_json(dnms_jsonl_fp, lines=True)
     ms_jsonl = pd.read_json(ms_jsonl_fp, lines=True)
     # dnms_sample = dnms_jsonl.sample(n=5, random_state=42)

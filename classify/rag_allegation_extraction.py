@@ -100,5 +100,7 @@ if __name__ == "__main__":
             with open("allegations_evidence_20250220.jsonl", "a") as f:
                 json_record = json.dumps({"index": key, "allegation": allegation, "evidence": retrieved_docs})
                 f.write(json_record + "\n")
+        if i == 10:
+            break
         gc.collect()
         torch.cuda.empty_cache()

@@ -63,4 +63,4 @@ def filter_jsonl(df, jsonl_df):
 if __name__ == "__main__":
     ms_path = "../cases_olmocr/MS/ms_olmocr_converted.jsonl"
     dnms_path = "../cases_olmocr/DNMS/dnms_olmocr_converted.jsonl"
-    run_pipeline(ministral_setup, "cases_pdf_2", ms_path, dnms_path)
+    run_pipeline(ministral_setup, "../cases_pdf", ms_path, dnms_path)

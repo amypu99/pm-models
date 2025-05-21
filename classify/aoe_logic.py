@@ -52,6 +52,7 @@ if __name__ == "__main__":
     pipe.model = pipe.model.to('cuda')
 
 
+    # For each case
     for index, row in all_jsonl.iterrows():
         if "Context" in row:
             print(str(row["Index"]))
@@ -79,6 +80,7 @@ if __name__ == "__main__":
                     except json.decoder.JSONDecodeError:
                         if attempts >= max_attempts:
                             print(f"Failed after 5 attempts. Giving up.")
+
 
             # Marker for meeting standards
             meets_standards = False

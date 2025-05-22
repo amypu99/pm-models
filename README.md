@@ -15,30 +15,32 @@ Code for the tasks associated with automating the extraction of information from
 
 
 ## Directory Structure
-├── cases_olmocr\
-│   ├── DNMS\
-│   │   ├── dnms_olmocr_converted.jsonl\
-│   │   ├── dnms_olmocr.jsonl\
-│   │   └── test_dnms.jsonl\
-│   ├── MS\
-│       ├── ms_olmocr_converted.jsonl\
-│       └── ms_olmocr.jsonl\
-├── cases_pdf\
-│   ├── DNMS\ 
-│   ├── MS\ 
-├── classify\
-│   ├── aoe_logic.py\
-│   ├── filtered_jsonl/\
-│   ├── get_all_aoe.py\
-│   ├── old/\
-│   ├── regex.py\
-│   ├── results/\
-│   ├── run_baseline.py\
-│   ├── run_pipeline.py\
-│   └── run_questions.py \
-├── misc_tasks/\
-├── read\
-│   ├── analyze_text.py\
-│   ├── cases_coded.csv\
-│   ├── gemini/\
+```
+├── cases_olmocr
+│   ├── DNMS
+│   │   ├── dnms_olmocr_converted.jsonl
+│   │   ├── dnms_olmocr.jsonl
+│   │   └── test_dnms.jsonl
+│   ├── MS
+│       ├── ms_olmocr_converted.jsonl
+│       └── ms_olmocr.jsonl
+├── cases_pdf
+│   ├── DNMS
+│   ├── MS
+├── classify
+│   ├── aoe_logic.py
+│   ├── filtered_jsonl/
+│   ├── get_all_aoe.py
+│   ├── old/
+│   ├── regex.py
+│   ├── results/
+│   ├── run_baseline.py
+│   ├── run_pipeline.py
+│   └── run_questions.py 
+├── misc_tasks/
+├── read
+│   ├── analyze_text.py
+│   ├── cases_coded.csv
+│   ├── gemini/
 │   └── read_pdf.py
+```

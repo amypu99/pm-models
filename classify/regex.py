@@ -6,7 +6,6 @@ from pypdf import PdfReader
 directory = "../../cases_pdf_2"
 output_json = "labeled_results.json"
 
-# Allows optional period after 'v' and handles leading whitespace
 standard_pattern = re.compile(r"^\s*State v\.?\s*(.+)", re.IGNORECASE)
 
 results = []
@@ -25,7 +24,6 @@ for gold_label in ["MS", "DNMS"]:
                 meta = reader.metadata
                 title = meta.title if meta.title else ""
 
-                # If metadata title is empty, label as MS and skip processing.
                 if title == "":
                     results.append({
                         "filename": filename,
@@ -36,7 +34,6 @@ for gold_label in ["MS", "DNMS"]:
                     })
                     continue
 
-                # Check if title contains " v " or " v. " (case insensitive)
                 if not (" v " in title.lower() or " v. " in title.lower()):
                     results.append({
                         "filename": filename,
@@ -47,37 +44,42 @@ for gold_label in ["MS", "DNMS"]:
                     })
                     continue
 
-                first_page_text = ""
-                if len(reader.pages) > 0:
-                    first_page_text = reader.pages[0].extract_text() or ""
+                first_page_text = reader.pages[0].extract_text() if reader.pages else ""
+                second_page_text = reader.pages[1].extract_text() if len(reader.pages) > 1 else ""
+                first_two = first_two = (first_page_text or "") + "\n" + (second_page_text or "")
+                text = "".join((page.extract_text() or "") + "\n" for page in reader.pages)
 
-                second_page_text = ""
-                if len(reader.pages) > 1:
-                    second_page_text = reader.pages[1].extract_text() or ""
-                    
-                all_text = first_page_text + "\n" + second_page_text
+                match = re.match(r"^\s*State v\.?\s*(.+)", title, re.IGNORECASE)
+                
+                juvenile_mentioned = bool(re.search(r"\bjuvenile\b", first_two, re.IGNORECASE))
+                juvenile_phrase = bool(re.search(r"\bjuvenile court\b.*\btransfer jurisdiction to\b", first_two, re.IGNORECASE))
+                
+                city_prosecutor = bool(re.search(r"\bcity\b.*\bprosecutor\b", text, re.IGNORECASE))
+               
+                municipal = bool(re.search(r"\bmunicipal\s+court\b", text, re.IGNORECASE))
+                county_pros1 = bool(re.search(r"\bcounty\s+prosecutor(?:'s)?\b", first_two, re.IGNORECASE))
+                county_pros2 = bool(re.search(r"\bcounty\s+prosecuting\s+attorney(?:'s)?\b", first_two, re.IGNORECASE))
+                county_pros3 = bool(re.search(r"\bspecial\b.*\bprosecutors\b", first_two, re.IGNORECASE))
+                common_pleas = bool(re.search(r"\bcommon\s+pleas\b", first_two, re.IGNORECASE))
+                county_level = county_pros1 or county_pros2 or county_pros3 or common_pleas
 
-                text = meta.title or full_case_text
-                match = re.match(r"^\s*State v\.?\s*(.+)", text, re.IGNORECASE)
-                juvenile_mentioned = bool(re.search(r"\bjuvenile\b", all_text, re.IGNORECASE))
-                city_prosecutor = bool(re.search(r"\bCity\s+Prosecutor\b", all_text, re.IGNORECASE))
-                municipal_court = bool(re.search(r'\bmunicipal court\b', text, re.IGNORECASE))
+                municipal_court = municipal and not county_level
 
                 if not match:
                     predicted_label = "DNMS"
                     comment = "Does not match State v."
-                elif city_prosecutor:
+                elif city_prosecutor and not common_pleas:        
                     predicted_label = "DNMS"
-                    comment = "Title meets form. Prosecutor is a city prosecutor."
+                    comment = "Prosecutor is a city prosecutor."
                 elif municipal_court:
                     predicted_label = "DNMS"
-                    comment = "Title meets form. Case originated in a Municipal Court (city prosecutor)."
-                elif juvenile_mentioned and match.group(1).count('.') > 1:
+                    comment = "Case originated in a municipal court."
+                elif (juvenile_mentioned and match.group(1).count('.') > 1) and (not juvenile_phrase):
                     predicted_label = "DNMS"
-                    comment = "Title meets form. Juvenile mention and name in initials."
+                    comment = "Case is juvenile."
                 else:
                     predicted_label = "MS"
-                    comment = "Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+                    comment = "Case meets standards."
                     
                 results.append({
                     "filename": filename,
@@ -86,7 +88,6 @@ for gold_label in ["MS", "DNMS"]:
                     "title": title,
                     "comment": comment
                 })
-
 
             except Exception as e:
                 print(f"Error processing file {filename} in {gold_label}: {e}")

@@ -35,10 +35,10 @@ Code for the tasks associated with automating the extraction of information from
 │   ├── results/ \
 │   ├── run_baseline.py \
 │   ├── run_pipeline.py \
-│   └── run_questions.py
-├── misc_tasks/
-├── read
-│   ├── analyze_text.py
-│   ├── cases_coded.csv
-│   ├── gemini/
+│   └── run_questions.py \
+├── misc_tasks/ \
+├── read \
+│   ├── analyze_text.py \
+│   ├── cases_coded.csv \
+│   ├── gemini/ \
 │   └── read_pdf.py

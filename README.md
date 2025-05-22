@@ -15,11 +15,11 @@ Code for the tasks associated with automating the extraction of information from
 
 
 ## Directory Structure
-├── cases_olmocr \
-│   ├── DNMS \
-│   │   ├── dnms_olmocr_converted.jsonl \
-│   │   ├── dnms_olmocr.jsonl \
-│   │   └── test_dnms.jsonl \
+├── cases_olmocr\
+│   ├── DNMS\
+│   │   ├── dnms_olmocr_converted.jsonl\
+│   │   ├── dnms_olmocr.jsonl\
+│   │   └── test_dnms.jsonl\
 │   └── MS \ 
 │       ├── ms_olmocr_converted.jsonl \
 │       └── ms_olmocr.jsonl \

@@ -4,7 +4,7 @@ Code for the tasks associated with automating the extraction of information from
 
 
 ## Directory Setup 
-* **cases_olmocr** DNMS and MS cases from 2018-2021 converted to plaintext with AllenAI's Olmocr
+* ```cases_olmocr``` DNMS and MS cases from 2018-2021 converted to plaintext with AllenAI's Olmocr
 * **cases_pdf** DNMS and MS case PDFs from 2018-2021 for classify/regex.py
 * **classify** code for the full pipeline for classifying cases as MS and DNMS (see attached diagrams for pipeline logic)
     * **classify/old** code, results, and inputs from past classification attempts

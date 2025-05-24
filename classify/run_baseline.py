@@ -2,15 +2,12 @@ import os
 import pandas as pd
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline, LlamaForCausalLM, LlamaTokenizer
 import torch
-import json
 import gc
-import re
 # from vllm import LLM
 # from vllm.sampling_params import SamplingParams
 
-
 os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+os.environ["CUDA_VISIBLE_DEVICES"] = "3"
 os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'
 
 def saul_setup():
@@ -78,7 +75,6 @@ def clean_text(text):
     return text
 
 
-
 def run_generate(inference_df, filepath, model, tokenizer):
     for i in range(10):
         content = inference_df.Prompt.values[i] +  clean_text(inference_df.Context.values[i])
@@ -108,7 +104,7 @@ def run_generate(inference_df, filepath, model, tokenizer):
         torch.cuda.empty_cache()
 
 # Run model with pipeline
-def run_pipeline(inference_df, filepath, model, tokenizer):
+def run_model(inference_df, filepath, model, tokenizer):
 
     pipe = pipeline("text-generation", model=model, torch_dtype=torch.bfloat16, device='cuda', tokenizer=tokenizer)
     pipe.model = pipe.model.to('cuda')
@@ -131,7 +127,7 @@ def run_pipeline(inference_df, filepath, model, tokenizer):
             f.write(f"\n\n\n<LABEL>: {inference_df.Response.values[i]}")
 
 # Run model with pipeline with closing reminder
-def run_pipeline_with_closing_reminder(inference_df, filepath, model, tokenizer):
+def run_with_closing_reminder(inference_df, filepath, model, tokenizer):
 
     pipe = pipeline("text-generation", model=model, torch_dtype=torch.bfloat16, device='cuda', tokenizer=tokenizer)
     pipe.model = pipe.model.to('cuda')
@@ -161,11 +157,10 @@ def main():
 
     path = "/home/amy_pu/pm-models/classify/inference.jsonl"
     inference_df = pd.read_json(path, lines=True)
-    run_pipeline(inference_df, "pipeline_baseline_procedurally_barred.txt", model, tokenizer)
-    run_pipeline(inference_df, "outputs_baseline_truncated.txt", model, tokenizer)
-    run_pipeline_with_closing_reminder(inference_df, "outputs_baseline_closing_reminder.txt", model, tokenizer)
+    run_model(inference_df, "pipeline_baseline_procedurally_barred.txt", model, tokenizer)
+    run_model(inference_df, "outputs_baseline_truncated.txt", model, tokenizer)
+    run_with_closing_reminder(inference_df, "outputs_baseline_closing_reminder.txt", model, tokenizer)
     run_generate(inference_df, "generate_baseline.txt", model, tokenizer)
-
 
 if __name__ == "__main__":
     main()

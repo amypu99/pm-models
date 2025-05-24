@@ -7,7 +7,6 @@ Dependencies: os, pypdf
 import os
 from pypdf import PdfReader
 
-
 def process_to_txt(pdf_dir, output_dir, to_txt):
     """
     Creates txt files in output_dir for each PDF in pdf_dir
@@ -45,11 +44,12 @@ def extract_text(pdf_dir, pdf):
 
 
 if __name__ == "__main__":
-    ms_pdf_dir = "../cases_pdf/MS"
-    ms_output_dir = "../cases_txt/MS"
+    ms_pdf_dir = "../cases_pdf/MS_2017"
+    ms_output_dir = "/Users/prishasamdarshi/Documents/School/Year 5/DL/cases_txt/MS_2017"
     process_to_txt(ms_pdf_dir, ms_output_dir, to_txt)
-    dnms_pdf_dir = "../cases_pdf/DNMS"
-    dnms_output_dir = "../cases_txt/DNMS"
+    # dnms_pdf_dir = "../cases_pdf/DNMS"
+    # dnms_output_dir = "../cases_txt/DNMS"
+    # process_to_txt(dnms_pdf_dir, dnms_output_dir, to_txt)
 
 
-    process_to_txt(dnms_pdf_dir, dnms_output_dir, to_txt)
+

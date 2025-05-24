@@ -11,13 +11,15 @@ def identify_regex_dnms(directory):
 
     for gold_label in ["MS", "DNMS"]:
         subdirectory = os.path.join(directory, gold_label)
-
+        
         if not os.path.isdir(subdirectory):
             print(f"Subdirectory '{subdirectory}' does not exist. Skipping.")
             continue
 
         for filename in os.listdir(subdirectory):
             file_path = os.path.join(subdirectory, filename)
+
+
             if os.path.isfile(file_path) and filename.lower().endswith('.pdf'):
                 try:
                     reader = PdfReader(file_path)
@@ -25,6 +27,7 @@ def identify_regex_dnms(directory):
                     title = meta.title if meta.title else ""
                     index_val = filename.replace(".pdf", "")
 
+                    # If metadata title is empty, label as MS and skip processing.
                     if title == "":
                         results.append({
                             "Index": index_val,
@@ -128,3 +131,4 @@ if __name__ == "__main__":
     directory = "/Users/begumgokmen/Downloads/cases_pdf_2"
     results = identify_regex_dnms(directory)
     evaluate_regex(results)
+

@@ -1,0 +1,40 @@
+Index,Response,aoe_procbar,Text,Response Label
+073-Beedy,No.,0,,0
+154-Poe,No.,0,,0
+936-Phillips,No.,0,,0
+371-Myers,No.,1,,0
+886-KHAMISI,Yes,0,"Context information is below.
+---------------------
+Property at 215 Mitchell Avenue was owned by Ruby Red Services, LLC, a business incorporated by Melissa Meade. Meade later died in a car accident, and the house was vacant. Visio Mortgage Services held a mortgage on the property and began foreclosure proceedings. Claiming the property was abandoned, Jelani occupied the property. Subsequently, he and Kimberly filed multiple documents asserting an interest in the property, including a quit-claim deed. Several of the documents were filed after a court had refused to let them intervene in the foreclosure proceedings.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: In the text above, did the appellant fail to properly file for appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+956-Graham,No.,0,,0
+199-Blair,No.,0,,0
+319-YOUNG,No.,0,,0
+269-Roberts,No.,0,,0
+909-Turner,Yes,0,"Context information is below.
+---------------------
+1. Failure to file a Motion to Withdraw Plea
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: In the text above, did the appellant fail to properly file for appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+063-Mohammed Ali,No.,0,,0
+096-M.,No.,0,,0
+212-Stewart,No.,0,,0
+916-Campbell,No.,0,,0
+074-Norman,No.,0,,0
+165-FERRICCI,No.,0,,0
+937-Shaner,No.,0,,0
+844-Brown,Yes,0,"Context information is below.
+---------------------
+{¶2} Tom and Judith Brown are the owners of Caroline's Kids Pet Rescue, a cat rescue shelter in Concord, Ohio. In 2018, we affirmed their 24 convictions of cruelty against companion animals. State v. Wolford-Lee, 11th Dist. Lake No. 2017-L-122, 2018-Ohio-5064, appeal not allowed, 155 Ohio St.3d 1421, 2019-Ohio-1421, 120 N.E.3d 868.
+They were both sentenced to 90 days on each count, suspended; fined $500 on each count, suspended; and ordered to serve 36 months of community control.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: In the text above, did the appellant fail to properly file for appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+082-Jarmon,No.,0,,0
+155-Smith,No.,0,,0

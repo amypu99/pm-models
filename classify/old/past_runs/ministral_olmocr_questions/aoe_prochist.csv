@@ -1,0 +1,488 @@
+Index,Response,aoe_prochist,Text,Response Label
+073-Beedy,No.,0,,0
+154-Poe,No.,0,,0
+936-Phillips,No.,0,,0
+371-Myers,Yes.,0,"Context information is below.
+---------------------
+¶ 79 Furthermore, the trial court repeatedly admonished the jurors not to view or listen to any news reports in any form. We presume the jury followed the trial court's admonitions unless it is demonstrated otherwise. State v. Miller, 12th Dist. Preble No. CA2019-11-010, 2021-Ohio-162, ¶ 50. Myers has not introduced any evidence to the contrary. Prejudice to a defendant will not be presumed in the absence of proof of jury exposure to possibly prejudicial news reports, or in this case, the prosecutor's social media posts. See State v. Wright, 3d Dist. Crawford No. 3-92-24, 1994 Ohio App. LEXIS 6090 (Dec. 30, 1994).
+Finally, this issue could have been raised by Myers in his direct appeal to the Ohio Supreme Court. We note that Myers actually did allege claims of prosecutorial misconduct as part of his direct appeal under his tenth proposition of law. Res judicata applies to any issue that could have been raised on direct appeal, including a claim alleging prosecutorial misconduct. *McKelton*, 2015-Ohio-4228 at ¶ 23, citing *State v. Zych*, 12th Dist. Clermont No. CA97-02-012, 1997 Ohio App. LEXIS 4731 (Oct. 27, 1997). Myers fails to identify any reason why this claim of prosecutorial misconduct could not have been raised on direct appeal. Myers does not assert he learned about the prosecutor's social media posts after filing his direct appeal. Nor does he allege the posts were not known or available at the time of trial or his direct appeal. *Dillingham*, 2012-Ohio-5841 at ¶ 10.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Is the assignment of error in the procedural history, i.e., if there is prosecutorial misconduct mentioned, was it raised in a previous appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+886-KHAMISI,No.,0,,0
+956-Graham,No.,0,,0
+199-Blair,No.,0,,0
+319-YOUNG,No.,0,,0
+269-Roberts,No.,0,,0
+909-Turner,No.,0,,0
+063-Mohammed Ali,No.,0,,0
+096-M.,No.,0,,0
+212-Stewart,No.,0,,0
+916-Campbell,No.,0,,0
+074-Norman,Yes,0,"Context information is below.
+---------------------
+{¶ 9} The trial court denied appellant’s motion without a hearing. The court noted that ""the Defendant makes essentially the same arguments he made in the motion to vacate he filed July 18, 2018. This Court denied that motion which was appealed to the Tenth District Court of Appeals which affirmed the decision."" (Aug. 5, 2020 Entry at 1.) The court
+further found that based on the evidence presented at trial, ""venue was proper in Franklin County. Likewise, the Court had subject matter jurisdiction."" *Id.* Finally, the trial court observed that ""Defendant's argument regarding newly discovered evidence is the same argument with regard[] to prosecutorial misconduct he raised in his last motion. The evidence that he presents is not newly discovered."" *Id.*
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Is the assignment of error in the procedural history, i.e., if there is prosecutorial misconduct mentioned, was it raised in a previous appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+165-FERRICCI,No.,0,,0
+937-Shaner,No.,1,,0
+844-Brown,No.,0,,0
+082-Jarmon,No.,0,,0
+155-Smith,No.,0,,0
+095-Jordan,Yes.,0,"Context information is below.
+---------------------
+¶ 21 The trial court found that Jordan’s claim for ineffective assistance of counsel is barred by res judicata because he raised the same issue in his direct appeal. Additionally, the trial court addressed the merits of Jordan’s claim and found it to be meritless.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Is the assignment of error in the procedural history, i.e., if there is prosecutorial misconduct mentioned, was it raised in a previous appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+070-Stidhum,No.,0,,0
+286-Yee,No.,1,,0
+310-Middleton,No.,0,,0
+472-Snowden,No.,0,,0
+889-O’CONNELL II,No.,0,,0
+363-Jackson,No.,0,,0
+346-Vance,No.,1,,0
+069-Johnson,No.,0,,0
+052-Owens,No.,0,,0
+085-Vance,No.,1,,0
+318-Hall,No.,0,,0
+114-Jones,No.,0,,0
+900-Crowell,No.,0,,0
+342-Petway,No.,0,,0
+024-Zaccone,No.,0,,0
+185-Hartman,No.,0,,0
+352-Blanton,No.,0,,0
+903-McGlown Jr,No.,0,,0
+908-Howard,No.,0,,0
+474-Stahl-Francisco,No.,0,,0
+344-Grooms,No.,0,,0
+907-Banks,No.,0,,0
+702-Smith,No.,0,,0
+920-Edwards,No.,0,,0
+877-BAER,No.,0,,0
+680-Untied,No.,0,,0
+256-Ammons,No.,0,,0
+187-NEWMAN,No.,0,,0
+307-Miku,No.,0,,0
+224-Liggins,No.,0,,0
+100-Long,No.,1,,0
+935-Kunzer,No.,0,,0
+954-Travis,No.,0,,0
+325-Miday,No.,0,,0
+279-Hollins,No.,0,,0
+062-Robinson,No.,0,,0
+245-Tomlinson,No.,0,,0
+130-Gray,No.,0,,0
+887-Winfield,No.,0,,0
+349-KOPCHAK,No.,0,,0
+850-Manicini,No.,0,,0
+365-Young,No.,0,,0
+975-State of Ohio,No.,0,,0
+860-Bowen,No.,0,,0
+225-Wright,No.,0,,0
+154-Wallace,No.,0,,0
+244-Price,No.,0,,0
+"254-Daniels, Sr",No.,0,,0
+192-Dennis,No.,0,,0
+596-Neil,No.,0,,0
+079-Johnson,No.,0,,0
+237-Newman,No.,1,,0
+091-Glenn,No.,0,,0
+284-HARRIS,No.,0,,0
+195-Calhoun,No.,0,,0
+212-Gatewood,No.,0,,0
+135-Johnson,No.,0,,0
+890-HARDING,No.,1,,0
+122-Shelton,No.,0,,0
+303-Moton,No.,0,,0
+326-West,No.,0,,0
+268-Hunt,No.,1,,0
+329-LaRosa,No.,0,,0
+950-Smith,No.,0,,0
+328-Whitt,No.,0,,0
+622-Curtis,No.,0,,0
+340-Jones,No.,1,,0
+463-Baker,No.,0,,0
+199-MCLOUGHLIN,No.,0,,0
+253-Robinson,No.,0,,0
+221-MCNEIR,No.,0,,0
+285-Guy,No.,0,,0
+161-COOPER,No.,0,,0
+899-Duncan,No.,0,,0
+933-Edwards,No.,0,,0
+835-Rosa,No.,0,,0
+039-Woodford,No.,0,,0
+893-CARR,No.,1,,0
+074-Square,No.,0,,0
+226-Hoover,No.,0,,0
+895-PARRISH,No.,0,,0
+055-Teets,No.,0,,0
+926-Ericksen,No.,0,,0
+360-Ferguson,No.,0,,0
+611-Somers,No.,0,,0
+284-Armengau,Yes,0,"Context information is below.
+---------------------
+{¶ 18} Finally, we note appellant has made another attempt to raise the same issues raised in this appeal and in his direct appeal in his appeal of the resentencing now pending before this court in *State v. Armengau*, 10th Dist. No. 18AP-300.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Is the assignment of error in the procedural history, i.e., if there is prosecutorial misconduct mentioned, was it raised in a previous appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+"869-COLSTON, JR",No.,0,,0
+997-Desmond,No.,0,,0
+283-York,No.,0,,0
+160-Hill,No.,0,,0
+040-McDuffey,No.,0,,0
+883-BRIDGES,No.,1,,0
+974-Ware,No.,0,,0
+679-A.,No.,0,,0
+190-Smith,No.,0,,0
+252-Littlejohn,No.,0,,0
+316-Lamp,No.,0,,0
+870-MILLER,No.,0,,0
+911-Jones,No.,0,,0
+104-Dixon,Yes.,0,"Context information is below.
+---------------------
+¶ 9 In his fourth assignment, Dixon argues that the trial court was biased against him because it falsely believed that he was anti-Semitic based upon a statement made during sentencing; however, this issue could have been raised on direct appeal and is now barred by res judicata. Res judicata also bars Dixon’s argument regarding a sentencing disparity between himself and his co-defendants. Lastly, Dixon’s claim regarding prosecutorial misconduct was argued and thoroughly addressed by this Court in Dixon III, and is therefore barred by res judicata.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Is the assignment of error in the procedural history, i.e., if there is prosecutorial misconduct mentioned, was it raised in a previous appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+951-Godoy,No.,0,,0
+213-Bender,No.,0,,0
+057-Hill,No.,0,,0
+249-Korbel,No.,0,,0
+356-Cobb,No.,0,,0
+373-Moore,No.,0,,0
+172-Lindsay,No.,0,,0
+182-Clemmons,No.,0,,0
+147-Lee,No.,0,,0
+238-Newman,No.,0,,0
+940-Bennett,No.,0,,0
+929-Crawford,No.,0,,0
+876-Wynn,No.,0,,0
+134-Boler,No.,1,,0
+227-Gutierrez,No.,0,,0
+965-Evick,No.,0,,0
+969-MASSUCCI,No.,0,,0
+157-Pitts,No.,0,,0
+285-YOUNG,No.,0,,0
+118-Clark,No.,0,,0
+168-Ross,No.,0,,0
+241-Sewell,No.,0,,0
+152-Riffle,No.,0,,0
+901-DOWELL,No.,0,,0
+190-Hopkins,No.,0,,0
+186-NEWELL,No.,0,,0
+299-Baugh,No.,0,,0
+356-Wilson JR.,No.,0,,0
+191-Winston,No.,0,,0
+999-Lewis,No.,0,,0
+286-Harris,No.,0,,0
+196-Boware,No.,0,,0
+918-Groves,No.,0,,0
+104-LaRosa,No.,0,,0
+308-Rich,No.,0,,0
+606-Lopez-Tolentino,No.,0,,0
+159-Davis,No.,0,,0
+082-Dotson,No.,1,,0
+818-DEVAUGHNS,No.,0,,0
+115-Lawrence,No.,0,,0
+149-Meade,No.,0,,0
+123-Mobley,No.,1,,0
+171-Shuster,No.,1,,0
+183-Morton,No.,0,,0
+842-West,No.,0,,0
+257-Harrison,No.,0,,0
+230-Jackson,No.,0,,0
+078-Hough,No.,0,,0
+947-Thompson,No.,0,,0
+113-Jones,No.,0,,0
+302-Klafczynski,No.,0,,0
+848-Brooks,No.,0,,0
+303-Snowden Jr.,No.,0,,0
+109-Dunn,No.,1,,0
+144-Kouame,No.,0,,0
+454-Smith,No.,0,,0
+201-Pelfrey,No.,0,,0
+194-Allison,No.,0,,0
+169-Littlepage,No.,0,,0
+218-Gillispie,No.,1,,0
+955-Dixon,No.,1,,0
+027-Diestler,No.,0,,0
+142-Obermiller,No.,0,,0
+885-COOPER,No.,0,,0
+309-Houk,No.,0,,0
+271-Turner,No.,0,,0
+946-Abdullah,No.,0,,0
+031-HOUDESHELL,No.,0,,0
+023-Douglas,No.,0,,0
+307-Mathis,No.,0,,0
+312-Ramey,No.,0,,0
+941-Sands,No.,0,,0
+685-Coogan,No.,0,,0
+971-REED,No.,0,,0
+892-Desmond,No.,0,,0
+059-Henderson,No.,0,,0
+056-Brown,No.,0,,0
+845-Bechtel,No.,0,,0
+344-Robinson,No.,0,,0
+301-Jones,No.,0,,0
+099-Hughes,No.,0,,0
+066-Hill,No.,0,,0
+252-MASTON,No.,0,,0
+177-Thomas,No.,0,,0
+159-Campbell,No.,0,,0
+968-Jones,No.,0,,0
+678-Robinson,No.,0,,0
+148-Davis,No.,0,,0
+217-Gibson,No.,0,,0
+153-Bennett,No.,0,,0
+915-Altman,No.,0,,0
+343-Thomas,No.,0,,0
+820-MARTIN,No.,0,,0
+578-Pieronek,No.,0,,0
+669-Brunson,Yes.,0,"Context information is below.
+---------------------
+{¶ 33} Brunson argues that this testimony violates Evid.R. 701 and constitutes both improper vouching of the state’s case and opinion testimony of guilt, which robs the jury of its fact-finding function. Further, Brunson relies on State v. Dzelajlija, 8th Dist. Cuyahoga No. 88805, 2007-Ohio-4050. In Dzelajlija, ¹ We note that Hollins raised this issue in her direct appeal, arguing specifically that Lake’s statement was subject to the crime-fraud exception, and we similarly found “nothing in the record from which we can conclude that [Lake’s attorney-client privilege] was waived or otherwise vitiated.” Hollins, 8th Dist. Cuyahoga No. 107642, 2020-Ohio-4290, at ¶ 57.
+this court found that the prosecutor elicited improper opinion testimony from a police lieutenant where the lieutenant testified that he believed the state's main witness was being truthful. *Id.* at ¶ 33. In response, the state argues that Detective Carlin's testimony was not improper because she was not offering an opinion as to Brunson's guilt. Instead, according to the state, she testified that based on her investigation, including review of the surveillance footage, she was able to identify Brunson as a suspect.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Is the assignment of error in the procedural history, i.e., if there is prosecutorial misconduct mentioned, was it raised in a previous appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+242-Harian,No.,0,,0
+317-McKNIGHT,No.,0,,0
+099-Hart,No.,0,,0
+094-Austin,No.,0,,0
+287-JOHNSON,No.,0,,0
+092-George,No.,0,,0
+101-Feagin,Yes.,0,"Context information is below.
+---------------------
+On March 25, 2010, a new sentencing entry was entered in order to impose a mandatory term of post-release control. The trial court sentenced appellant to the original sentence and added a five year term of mandatory post-release control. Appellant filed an appeal, raising in part prosecutorial misconduct. This court affirmed the resentencing, and noted the arguments relative to prosecutorial misconduct were res judicata as they could have been raised in the direct appeal. State v. Feagin, 5th Dist. Richland No. 10CA46, 2011-Ohio-2025.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Is the assignment of error in the procedural history, i.e., if there is prosecutorial misconduct mentioned, was it raised in a previous appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+227-Everson,No.,0,,0
+289-Redic,Yes.,0,"Context information is below.
+---------------------
+Petitioner’s claim that the prosecutor engaged in misconduct by overcharging him is grounded in his claim that there was insufficient evidence to convict him of anal rape. As explained above, there was sufficient evidence of anal rape not just for charging purposes, but also for conviction. It cannot be prosecutorial misconduct to charge a defendant with an offense wholly supported by the evidence. Thus this sub-claim is without merit; it is also procedurally defaulted by Redic’s failure to raise it on direct appeal.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Is the assignment of error in the procedural history, i.e., if there is prosecutorial misconduct mentioned, was it raised in a previous appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+830-RAMEY,No.,0,,0
+051-Kitchen,No.,1,,0
+173-Whitman,No.,0,,0
+939-Green,No.,0,,0
+336-Johnson,No.,0,,0
+032-Maurent,No.,0,,0
+125-Lemons,No.,0,,0
+068-Buk-Shul,No.,0,,0
+003-Young,No.,0,,0
+141-Stewart,No.,0,,0
+044-Glass,No.,0,,0
+913-Prescott,No.,0,,0
+043-Sparks,No.,0,,0
+335-James,No.,0,,0
+897-HECKATHORN,No.,1,,0
+"244-Thorpe, Jr.",No.,1,,0
+984-CAMPBELL,No.,0,,0
+273-Green,No.,0,,0
+036-Craciun,No.,0,,0
+127-Miller,No.,0,,0
+995-Miller,No.,0,,0
+962-Sheldon,No.,0,,0
+250-Mobley,No.,1,,0
+894-Sayles,No.,0,,0
+902-BUTCHER,No.,0,,0
+837-RULONG,No.,0,,0
+243-Robinson,No.,0,,0
+452-Kapitula,No.,0,,0
+959-Herron,No.,0,,0
+223-Hill,No.,0,,0
+821-MCHENRY,No.,0,,0
+189-Shine-Johnson,Yes.,1,"Context information is below.
+---------------------
+In his First Ground for Relief, Petitioner asserts his trial was rendered unfair by prosecutorial misconduct. The Court rejected this claim as procedurally defaulted and also without merit, deferring to the Tenth District’s decision that the prosecutor did not misstate Ohio law. Petitioner had claimed this Court was not bound by an intermediate court of appeals’ decision when it was contrary to Supreme Court of Ohio decisions. The Court accepted that claim, but noted Petitioner had cited no Supreme Court of Ohio decision which was to the contrary of what the Tenth District decided (Opinion, ECF No. 96, PageID 6629).
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Is the assignment of error in the procedural history, i.e., if there is prosecutorial misconduct mentioned, was it raised in a previous appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+829-GILCREAST,No.,0,,0
+932-Schnabel,No.,0,,0
+332-Rich,No.,0,,0
+825-MARTIN,No.,0,,0
+046-Hardman,No.,0,,0
+080-West,No.,0,,0
+931-Cole,No.,1,,0
+335-Thomas,No.,0,,0
+924-Powell,No.,0,,0
+334-Hundley,No.,0,,0
+000-Edwards,No.,0,,0
+301-Steiner,No.,1,,0
+334-Marcum,No.,0,,0
+047-Mcintosh,No.,0,,0
+302-Lloyd,Yes.,0,"Context information is below.
+---------------------
+{¶ 32} In his five assignments of error, Lloyd challenges many aspects of his bench trial from which the trial court found him guilty of murder with an attendant firearm specification. In support, Lloyd claims the trial court erred by not finding he had acted in self-defense and by not applying the ""castle doctrine"" to the case at bar. Lloyd also claims his conviction must be reversed due to alleged prosecutorial misconduct and ineffective assistance of trial counsel, both of which resulted in him being deprived of a fair and impartial trial. Lloyd's claims, however, are all barred by the doctrine of res judicata since he could have, and in most cases actually did, raise these issues as part of his direct appeal and subsequent motions and petitions before the trial court.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Is the assignment of error in the procedural history, i.e., if there is prosecutorial misconduct mentioned, was it raised in a previous appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+291-YEAGER,No.,0,,0
+986-Bugara,No.,0,,0
+204-Baldwin,No.,0,,0
+873-Armengau,No.,0,,0
+374-Romy,No.,0,,0
+867-JONES,No.,0,,0
+175-Page,No.,0,,0
+312-Lamb,No.,0,,0
+097-Bogan,No.,0,,0
+351-Harris,No.,0,,0
+684-Scullin,No.,0,,0
+005-Carr,No.,0,,0
+957-Line,No.,0,,0
+922-Lincoln,No.,0,,0
+288-Makin,No.,0,,0
+106-Bridges,Yes.,1,"Context information is below.
+---------------------
+In July 2014, Bridges filed a petition for postconviction relief, arguing ineffective assistance of counsel, his convictions were not supported by sufficient evidence, and prosecutorial misconduct. While Bridges’s direct appeal was pending, the trial court denied his petition for postconviction relief without a hearing and issued findings of fact and conclusions of law supporting the denial. Bridges appealed these rulings in two cases, both of which were dismissed for failure to file the record. State v. Bridges, 8th Dist. Cuyahoga Nos. 101938 (Oct. 1, 2014), and 101942 (Oct. 31, 2014).
+In March 2015, Bridges filed a petition to vacate or set aside his judgment of conviction or sentence, arguing ineffective assistance of counsel, the trial court lacked subject matter jurisdiction, speedy trial violations, and prosecutorial misconduct. The trial court denied Bridges’s petition without a hearing. In May 2015, Bridges filed a motion for new trial, arguing his convictions were not supported by sufficient evidence, the trial court abused its discretion by admitting prejudicial photographic evidence, and his $5 million bond was unconstitutional. The trial court denied Bridges’s motion without a hearing.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Is the assignment of error in the procedural history, i.e., if there is prosecutorial misconduct mentioned, was it raised in a previous appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+094-Todd,No.,0,,0
+875-HARGRAVES,No.,0,,0
+461-Tellis,No.,0,,0
+"925-The State ex rel. The Cincinnati Enquirer, A Division of Gannett GP Media, Inc.,",No.,0,,0
+942-Kirk,No.,0,,0
+278-Clay,No.,0,,0
+355-Kerens,No.,0,,0
+259-Flagg,No.,0,,0
+341-Wright,No.,0,,0
+828-JOHNSON,No.,0,,0
+238-Wilson,No.,0,,0
+871-LEMONS III,No.,0,,0
+232-BRIDGES,No.,0,,0
+880-Hall,No.,0,,0
+176-Carter,No.,0,,0
+332-O' Neal,No.,0,,0
+831-BENSON,No.,0,,0
+"898-Dewberry, Sr",No.,0,,0
+295-Webster,No.,0,,0
+462-KRATOCHVILL,No.,0,,0
+118-Jacinto,No.,0,,0
+858-Salyers,No.,0,,0
+361-Pariscoff,No.,0,,0
+327-Gregoire,No.,0,,0
+960-Hammond,No.,0,,0
+333-Marcum,No.,0,,0
+132-Johnson,No.,0,,0
+288-Maranger,No.,0,,0
+245-McCullough,No.,0,,0
+917-Hodges,No.,1,,0
+683-Glowney,No.,0,,0
+314-Jones,No.,0,,0
+201-Barnes,No.,0,,0
+491-Spirnak,No.,0,,0
+091-McKenzie,No.,0,,0
+298-Williams,No.,0,,0
+150-Simmons,No.,0,,0
+358-Porter,No.,0,,0
+260-Williams,No.,0,,0
+001-Verhoff,No.,0,,0
+255-Trussell,No.,0,,0
+045-Harding,No.,0,,0
+699-Daviduk,No.,1,,0
+038-Williams,No.,0,,0
+996-Koch,No.,0,,0
+985-Murphy,No.,0,,0
+353-Reed,No.,0,,0
+124-Parks,No.,0,,0
+904-MAPES,No.,0,,0
+103-Gearhart,No.,0,,0
+200-Beall,No.,0,,0
+840-Crist,No.,0,,0
+305-Williams,No.,0,,0
+460-Hover,No.,0,,0
+075-Russell,No.,0,,0
+209-Gordon,No.,0,,0
+872-LEITWEIN,No.,0,,0
+943-Rosa,No.,0,,0
+338-Hazel,No.,1,,0
+092-Armengau,Yes,0,"Context information is below.
+---------------------
+Though appellant allegedly grounded his second motion for leave to file a delayed motion for new trial in part on newly discovered evidence, pursuant to Crim.R. 33(A)(6), appellant did not produce any newly discovered evidence to support the motion. Rather, appellant presented the same affidavit from Caldwell that he presented in his original motion for leave to file a motion for delayed appeal and made the same arguments in support of his second motion that he made in his original motion. For example, appellant once again argues that his convictions were the result of prosecutorial and witness misconduct, that his convictions were not supported by sufficient evidence, that his convictions were based on inadmissible ""other acts"" evidence, and that the indictment was faulty. These are the same arguments appellant raised in his original motion for leave to file a motion for delayed new trial and the same arguments he raised in his appeal to this court from the judgment of conviction and sentence. *Armengau II* at ¶ 53. As we noted in *Armengau I*, such arguments are grounded on Crim.R. 33(A)(1), (2), and (5), not Crim.R. 33(A)(6).
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Is the assignment of error in the procedural history, i.e., if there is prosecutorial misconduct mentioned, was it raised in a previous appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+181-Snyder,No.,0,,0
+891-Lindsay,No.,0,,0
+281-DeVaughns,No.,1,,0
+852-Harrison,No.,0,,0
+878-CAYAVEC,No.,0,,0
+938-Starks,No.,0,,0
+853-Branam,No.,1,,0
+983-Walls,No.,0,,0
+197-Boaston,No.,0,,0
+843-Brantweiner,No.,0,,0
+100-LAZZERINI,No.,0,,0
+681-Devore,No.,0,,0
+169-Mock,No.,0,,0
+934-Grimm,No.,0,,0
+275-Alvarado,Yes,0,"Context information is below.
+---------------------
+Alvarado responds this portion of Ground One was raised as his Third Assignment of Error in his 26(B) Application, and so fairly presented this portion of his claim to the state courts. (Doc. No. 89 at 95.) In addition, Alvarado argues the Sixth Circuit’s decision in *Whiting v. Burt*, 395 F.3d 602 (6th Cir. 2005)
+stands for the proposition that fair presentment does not require him to specify every factual allegation in support of a claim. (Id. at 96.) Therefore, by presenting “the substance” of his prosecutorial misconduct constitutional claim to the state court of appeals and the Supreme Court of Ohio, he has properly exhausted this portion of Ground One. (Id.)
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Is the assignment of error in the procedural history, i.e., if there is prosecutorial misconduct mentioned, was it raised in a previous appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+028-Southam,No.,0,,0
+375-Lucas,No.,0,,0
+919-Sims,No.,0,,0
+048-Wolford-Lee,No.,0,,0
+958-Watson,No.,0,,0
+209-Feathers,No.,0,,0
+299-Montgomery,No.,0,,0
+290-Rock,No.,0,,0
+255-Lawson,No.,0,,0
+214-Furr,No.,0,,0
+978-Young,No.,0,,0
+841-Biggs,No.,0,,0
+455-Jones,No.,0,,0
+232-Lewis,No.,0,,0
+362-Johnson,No.,1,,0
+366-Baskin,No.,0,,0
+496-Jencson,No.,0,,0
+198-Blanton,No.,0,,0
+158-Sibole,No.,0,,0
+961-Shuster,Yes.,0,"Context information is below.
+---------------------
+{¶16} Shuster previously raised the argument that the prosecutor committed misconduct by referencing a “non-existent confession” in closing arguments. Shuster v. Warden, 6th Cir. No. 19-3184, 2019 WL 4267748 (June 10, 2019); State v. Shuster, 5th Dist. Morgan No. 15AP0017, 2016-Ohio-5030, ¶16. The United States Court of Appeals for the Sixth Circuit noted,
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Is the assignment of error in the procedural history, i.e., if there is prosecutorial misconduct mentioned, was it raised in a previous appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+330-Hill,No.,0,,0
+049-Butcher,No.,0,,0
+953-Johnson,No.,0,,0
+261-Grate,No.,0,,0
+343-POWELL,No.,0,,0
+283-Hundley,Yes.,0,"Context information is below.
+---------------------
+{¶10} The issues Hundley raises in his application were previously raised on appeal. “App.R. 26(B)(2)(c) and (d) should make it obvious that the rule is also not an invitation to raise old issues previously adjudicated.” State v. Lechner, 72 Ohio St.3d 374, 375, 650 N.E.2d 449 (1995).
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Is the assignment of error in the procedural history, i.e., if there is prosecutorial misconduct mentioned, was it raised in a previous appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+240-Jones,No.,0,,0
+949-Williams,No.,0,,0
+357-Donlow,No.,0,,0

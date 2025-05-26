@@ -1,5 +1,5 @@
 from run_baseline import ministral_setup
-from run_questions import *
+from run_case_questions import *
 from identify_allegations import prompt_case_chunks
 from regex import identify_regex_dnms
 
@@ -12,6 +12,7 @@ def run_pipeline(model_setup, pdf_dir, ms_jsonl, dnms_jsonl):
     torch.cuda.empty_cache()
     model, tokenizer = model_setup()
 
+    # Combine DNMS and MS cases files
     full_jsonl = combine_jsonl(ms_jsonl, dnms_jsonl)
     # full_jsonl = load_jsonl("jsonl/dnms_aoe_none_olmocr.jsonl")
     # full_jsonl =full_jsonl.sample(n=5, random_state=42)

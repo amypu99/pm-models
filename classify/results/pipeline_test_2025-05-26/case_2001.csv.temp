@@ -1,0 +1,5 @@
+Index,Gold Label,Response,Predicted Label
+950-Smith,0,No.,0
+161-COOPER,0,Yes,1
+"016-Morgan, Sr.",0,Yes,1
+316-Lincoln,0,Yes.,1

@@ -1,0 +1,1040 @@
+Index,Gold Label,Response,Text,Predicted Label
+073-Sanders,0,No.,,0
+076-Tucker,0,No.,,0
+076-Williams,0,No.,,0
+077-Breneman,0,No.,,0
+078-Burry,0,No.,,0
+079-JARRELL,0,No.,,0
+081-Bolware,0,No.,,0
+081-Jenkins,0,No.,,0
+084-Davis,0,No.,,0
+086-Vogt,0,No.,,0
+087-Norales-Martinez,0,No.,,0
+088-Svoboda,0,No.,,0
+089-LOVINGSHIMER IV,0,No.,,0
+089-Thomas,0,No.,,0
+090-Sipple,0,No.,,0
+093-McFeeture,0,No.,,0
+096-Roan,0,No.,,0
+098-Bard,0,No.,,0
+098-Vicario,0,No.,,0
+339-Henry,0,No.,,0
+339-Nichols,0,No.,,0
+342-Mincey,0,No.,,0
+347-Lynch,0,No.,,0
+347-Powell,0,No.,,0
+348-Jones,0,No.,,0
+349-Moore,0,No.,,0
+350-Grieco,0,No.,,0
+350-Martin,0,No.,,0
+352-Powers,0,No.,,0
+353-Wycuff,0,No.,,0
+357- Mcendree,0,No.,,0
+365-Makin,0,No.,,0
+367-Fornshell,0,No.,,0
+372-Miller,0,No.,,0
+376-Hymes,0,No.,,0
+377-Carswell,0,No.,,0
+378-Patton,0,No.,,0
+379-Phifer,0,No.,,0
+616-Pettus,0,No.,,0
+617-Campbell,0,No.,,0
+618-Singer,0,No.,,0
+619-Thomas,0,No.,,0
+620-Williams,0,No.,,0
+623-Shanklin,0,No.,,0
+624-Hayes,0,No.,,0
+625-Graffius,0,No.,,0
+626-Henderson,0,No.,,0
+627-Blevins,0,No.,,0
+628-Holloway,0,No.,,0
+629-Croskey,0,No.,,0
+630-Junod,0,No.,,0
+631-St. John,0,No.,,0
+632-Parker,0,No.,,0
+633-Tucker,0,No.,,0
+634-Gomez,0,No.,,0
+635-Hamad,0,No.,,0
+636-Paige,0,No.,,0
+178-Edmonds,0,No.,,0
+179-BURTON,0,No.,,0
+179-HENDERSON,0,No.,,0
+180-PANEZICH,0,No.,,0
+182-MORTON,0,No.,,0
+184-Groesser,0,No.,,0
+187-Stein,0,No.,,0
+188-Evans,0,No.,,0
+188-NEWMAN,0,No.,,0
+189-Slade,0,No.,,0
+191-Baird,0,No.,,0
+196-Smith,0,No.,,0
+200-MIECZKOWSK,0,No.,,0
+202-Vargo,0,No.,,0
+203-Baber,0,No.,,0
+205-Fields,0,No.,,0
+205-Zimpfer,0,Yes,"Context information is below.
+---------------------
+In 2014, Zimpfer was convicted of three counts of unlawful sexual conduct with a minor and four counts of rape (by force or threat of force). He was sentenced to a prison term of 33 years and designated a Tier III sex offender/child victim offender. Following an appeal, we affirmed the conviction and sentence. State v. Zimpfer, 2d Dist. Montgomery No. 26062, 2014-Ohio-4401. While his direct appeal was pending, Zimpfer filed a petition for post-conviction relief which the trial court denied. We affirmed the trial court’s denial in State v. Zimpfer, 2d Dist. Montgomery No. 26857, 2016-Ohio-7330. Zimpfer filed two separate applications seeking to reopen both appeals. This court denied both applications. Zimpfer also filed in the trial court a motion for production of documents seeking to have the Montgomery County Clerk of Courts provide him with a copy of all documents related to his case. The motion was denied by the trial court and Zimpfer appealed. We dismissed his appeal as untimely. The Ohio Supreme Court did not allow an appeal of our dismissal. State v. Zimpfer, 152 Ohio St.3d 1411, 2018-Ohio-723, 92 N.E.3d 881 (Table).
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+206-Weaver,0,No.,,0
+229-Walls,0,No.,,0
+231-James,0,No.,,0
+231-Scott,0,No.,,0
+233-Long,0,No.,,0
+233-TELEGO,0,No.,,0
+234-Maddox,0,No.,,0
+235-Beasley,0,No.,,0
+235-Marshall,0,No.,,0
+236-Murphy,0,No.,,0
+239-Freeman,0,No.,,0
+239-Portis,0,No.,,0
+240-Reid,0,Yes,"Context information is below.
+---------------------
+¶ 3 On May 7, 2019, Reid filed a petition to vacate or set aside his conviction based on newly discovered evidence that was outside the record. He requested an evidentiary hearing. Reid argued that the Dayton Police Department (“DPD”) had misrepresented its records retention policy and that the State had failed to turn over 911 recordings related to the shooting, in violation of his due process rights and Brady v. Maryland, 373 U.S. 83, 83 S.Ct. 1194, 10 L.Ed.2d 215 (1953). The trial court dismissed the petition based upon the doctrine of res judicata, finding that “the matter of the missing
+911 call(s) has been litigated previously in post-conviction proceedings.” Reid appealed, and this Court dismissed his appeal for failure to timely file a notice of appeal. State v. Reid, 2d Dist. Montgomery No. 28477 (Decision & Final Judgment Entry, Aug. 26, 2019).
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+243-Sutton,0,No.,,0
+246-Ward,0,No.,,0
+250-Kosto,0,No.,,0
+253-FORTUNE II,0,No.,,0
+254-Rucker,0,No.,,0
+257-PATE,0,No.,,0
+658-Hall,0,No.,,0
+659-Snowden,0,No.,,0
+661-Russell,0,No.,,0
+662-Harris,0,No.,,0
+664-McNeal,0,No.,,0
+665-Townsend,0,No.,,0
+666-Newman,0,No.,,0
+668-Williams,0,Yes.,"Context information is below.
+---------------------
+2. Williams' petition would be untimely whether considered under the current 365-day limitation or the former 180-day limitation in effect at the time of Williams' 2007 guilty plea.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+674-Cowan,0,No.,,0
+677-Almedom,0,No.,,0
+682-Ferguson,0,No.,,0
+688-Hazel,0,No.,,0
+693-Hazel,0,No.,,0
+695-Randle,0,No.,,0
+697-Burns JR.,0,Yes,"Context information is below.
+---------------------
+On October 22, 2015, more than three years after his trial, appellant filed a pro se petition for post-conviction relief (“PCR”). Via a judgment entry issued on November 25, 2015, the trial court denied appellant's petition for post-conviction relief as untimely. On July 6, 2016, we affirmed. See State v. Burns, 5th Dist. Licking No. 15-CA-98, 2016-Ohio-4833. Appellant's attempts to have the decision reviewed by the Ohio
+Supreme Court and the United States Supreme Court were unsuccessful. See State v. Burns, 147 Ohio St.3d 1506, 2017-Ohio-261, 67 N.E.3d 824; Burns v. Ohio, 138 S.Ct. 73, 199 L.Ed.2d 50 (2017).
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+718-Carpenter,0,No.,,0
+770-Powell,0,No.,,0
+773-Kimpel,0,No.,,0
+777-Bowermaster,0,No.,,0
+102-Berila,0,No.,,0
+102-Bowen,0,No.,,0
+105-Craig,0,No.,,0
+105-Hunt,0,No.,,0
+107-Brauchler,0,No.,,0
+107-Jordan,0,No.,,0
+108-Buehner,0,No.,,0
+108-Dailey,0,No.,,0
+110-Daboni,0,No.,,0
+111-Brantley,0,No.,,0
+112-Dandridge,0,No.,,0
+112-Pyles,0,No.,,0
+117-Jacinto,0,No.,,0
+119-Morrissette,0,No.,,0
+120-Cummings,0,No.,,0
+128-Thomas,0,No.,,0
+132-Pennington,0,No.,,0
+136-Hundley,0,No.,,0
+137-Richey,0,No.,,0
+414-Spurgeon,0,No.,,0
+415-Newell,0,No.,,0
+416-Sheline,0,No.,,0
+417-Curtis,0,No.,,0
+418-Conway,0,No.,,0
+420-Quinn,0,No.,,0
+421-Smith,0,No.,,0
+422-Buehner,0,No.,,0
+423-Purvis-Mitchell,0,No.,,0
+424-Austin,0,No.,,0
+425-Goney,0,No.,,0
+426-Barrow,0,No.,,0
+427-Harrison,0,No.,,0
+428-McGuire,0,No.,,0
+430-W. Blanton Jr.,0,No.,,0
+431-Brown,0,No.,,0
+432-Hawkins,0,No.,,0
+433-Mock,0,No.,,0
+434-Nickelson,0,No.,,0
+456-Rupert,0,No.,,0
+457-Lewis,0,No.,,0
+466-Hayes,0,No.,,0
+467-Saunders,0,No.,,0
+469-Thomas,0,No.,,0
+470-Combs,0,No.,,0
+471-Walls,0,No.,,0
+473-McDuffie,0,No.,,0
+477-Towns,0,No.,,0
+479-Howard,0,No.,,0
+480-Mosley,0,No.,,0
+481-Shutway,0,No.,,0
+482-Smith,0,No.,,0
+483-Butts,0,No.,,0
+485-Mott,0,No.,,0
+490-Aboytes,0,No.,,0
+493-Stepp,0,No.,,0
+495-Haynes,0,No.,,0
+778-Bartulica,0,No.,,0
+780-Jones,0,No.,,0
+790-Hodgson,0,No.,,0
+819-BANKS,0,No.,,0
+824-DOYLE,0,No.,,0
+847-Thomas,0,No.,,0
+854-Singleton,0,No.,,0
+855-Culbertson,0,No.,,0
+857-Thomson,0,No.,,0
+861-Heller,0,No.,,0
+862-Murray,0,No.,,0
+865-Green,0,No.,,0
+882-Lucas,0,No.,,0
+921-Holt,0,No.,,0
+928-Figueroa,0,No.,,0
+930-Walker,0,No.,,0
+970-Halka,0,No.,,0
+972-Hall,0,No.,,0
+637-Rafter,0,No.,,0
+638-Robinson,0,No.,,0
+639-Cody,0,Yes,"Context information is below.
+---------------------
+¶ 10 Cody also filed a complaint in federal court against 15 defendants alleging multiple causes of action, including denial of access to courts, retaliation, denial of due process, denial of equal protection, unlawful search and seizure of property, subjection to cruel and unusual punishment, violations of the Americans with Disabilities Act, and numerous state law claims. See *Cody v. Slusher*, N.D.Ohio No. 1:17-CV-00132, 2017 U.S. Dist. LEXIS 90716 (June 13, 2017). His federal case was recently dismissed without prejudice. See *Cody v. Slusher*, N.D.Ohio No. 1:17-CV-00132, (June 24, 2019).
+As it pertains to the instant appeal, on May 11, 2018, Cody filed a “Motion to Correct Record.” The trial court denied his motion on May 15, 2018. Cody did not timely appeal the court’s denial; instead he later filed a motion for leave to file a delayed appeal. We denied his motion and dismissed his appeal as untimely. State v. Cody, 8th Dist. Cuyahoga No. 107471. The Ohio Supreme Court declined jurisdiction. State v. Cody, 153 Ohio St.3d 1506, 2018-Ohio-4285, 109 N.E.3d 1261.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+640-McConnell,0,No.,,0
+641-Parham,0,No.,,0
+642-Ireland,0,No.,,0
+643-Patton,0,No.,,0
+644-Vaughn,0,No.,,0
+645-Schaaf,0,No.,,0
+646-Jefferson,0,No.,,0
+647-Taylor,0,No.,,0
+648-Rivera,0,No.,,0
+650-Young,0,No.,,0
+651-Sanders,0,No.,,0
+652-Johnson,0,No.,,0
+653-Smith,0,No.,,0
+654-Brown,0,No.,,0
+655-Friscone,0,No.,,0
+656-Battle,0,No.,,0
+260-Hill,0,No.,,0
+262-Carter,0,No.,,0
+263-Ivery,0,No.,,0
+264-Fowler,0,No.,,0
+264-Minton,0,No.,,0
+265-Holmes,0,No.,,0
+265-Peyatt,0,Yes.,"Context information is below.
+---------------------
+¶8 In its findings of fact and conclusions of law, the trial court found that R.C. 2953.21(A)(2) required appellant to file his petition no more than 365 days after the trial transcript was filed in this Court for the direct appeal. The court found that appellant timely filed his direct appeal on April 26, 2018, and the trial transcript was filed on October 31, 2018. The trial court held that appellant did not file his post-conviction relief petition until nearly 2 ½ years after the trial transcript was filed, which was well after the statutory time limit. The court further held that appellant did not make any attempt to explain his untimeliness under the exceptions to the 365-day requirement in order to excuse his late filing. The court also explained that it was not required to hold an evidentiary hearing since it lacked jurisdiction to consider the petition because it was untimely.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+266-Jeffries,0,No.,,0
+266-Taylor,0,Yes,"Context information is below.
+---------------------
+{¶ 41} Taylor’s initial petition for postconviction relief was filed on August 23, 2019, and he supplemented that petition on September 20, 2019. Because Taylor filed a direct appeal, he was required to file his petitions within 365 days of the filing of his “trial transcript” in his direct appeal. At the latest, Taylor’s “trial transcript” was filed on August 8, 2018, when the last transcript was filed.  *See State v. Deaton*, 2019-Ohio-2128, 137 N.E.3d 696, ¶ 11-15 (2d Dist.) (addressing the meaning of “trial transcript” under R.C. 2953.21(A)(2)). Because Taylor’s petitions were filed beyond the 365-day time limit, the trial court correctly determined that Taylor’s petitions were untimely.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+267-Johnson,0,No.,,0
+267-Sanders,0,No.,,0
+268-Hopkins,0,No.,,0
+269-Mallory,0,No.,,0
+270-Stokes,0,No.,,0
+271-Binks,0,No.,,0
+272-Blue,0,No.,,0
+"274- A. ""SONNY"" ASH",0,No.,,0
+276-Palmer,0,No.,,0
+277-Ecker,0,No.,,0
+221-Holcomb,0,No.,,0
+056-Graham,0,No.,,0
+166-White,0,No.,,0
+504-Thacker,0,No.,,0
+220-Anderson,0,No.,,0
+527-Brown II,0,No.,,0
+327-Wilks Jr.,0,No.,,0
+559-Penn,0,No.,,0
+541-Doak,0,No.,,0
+148-Ladson,0,No.,,0
+151-Kirk,0,No.,,0
+613-Hairston,0,No.,,0
+069-Smith,0,No.,,0
+581-Szafranski,0,No.,,0
+207-Deanda,0,No.,,0
+066-Benson,0,No.,,0
+381-Loyd,0,No.,,0
+140-Lindsey,0,No.,,0
+228-MOSES,0,No.,,0
+526-Hunt,0,No.,,0
+398-Lewis,0,No.,,0
+524-Harner Sr,0,No.,,0
+059-Madison,0,No.,,0
+225-Montgomery,0,No.,,0
+580-Hypes,0,No.,,0
+015-Thompson,0,No.,,0
+322-Magwood,0,No.,,0
+396-Schentur,0,No.,,0
+523-Daniels,0,No.,,0
+991-BENDOLPH,0,No.,,0
+315-Yanni,0,No.,,0
+071-DAVIS,0,No.,,0
+314-Lusane,0,No.,,0
+226-Warwick,0,No.,,0
+017-Moore,0,No.,,0
+062-Clark,0,No.,,0
+057-Froman,0,No.,,0
+216-Bellamy,0,No.,,0
+311-Pitts,0,No.,,0
+009-Knox,0,No.,,0
+037-Phillips,0,No.,,0
+383-Scofield,0,No.,,0
+981-BERRY,0,No.,,0
+506-Nichols,0,No.,,0
+224-Pember,0,No.,,0
+316-Lincoln,0,No.,,0
+395-DEBARDELEBEN,0,No.,,0
+323-Hunt,0,No.,,0
+313-Hawthorne,0,No.,,0
+591-Searfoss,0,No.,,0
+536-Young,0,No.,,0
+532-Durst,0,No.,,0
+584-Quinn,0,No.,,0
+058-Stock,0,No.,,0
+293-Cantrill,0,No.,,0
+979-Johnson,0,No.,,0
+519-Walker,0,No.,,0
+585-Wright,0,No.,,0
+614-Hope,0,No.,,0
+060-Miller,0,No.,,0
+029-Little,0,No.,,0
+321-Schoenlein,0,No.,,0
+977-Taylor,0,No.,,0
+320-Mayweather,0,No.,,0
+575-Smith,0,No.,,0
+587-Berry,0,No.,,0
+605-Randleman,0,No.,,0
+315-Valdez,0,No.,,0
+297-Wright,0,No.,,0
+539-Jones,0,No.,,0
+507-Stites,0,No.,,0
+176-Remy,0,No.,,0
+576-Johnson,0,No.,,0
+508-Shoffner,0,No.,,0
+065-Hawkins,0,No.,,0
+296-Johnson,0,No.,,0
+014-Williams,0,No.,,0
+012-Tawney,0,No.,,0
+294-Carr,0,No.,,0
+220-Williams,0,No.,,0
+330-Straughan,0,No.,,0
+208-Jones,0,No.,,0
+410-Smith,0,No.,,0
+402-Jenkins,0,No.,,0
+533-Peyatt,0,No.,,0
+011-Benge,0,No.,,0
+408-Housley,0,No.,,0
+165-Bonner,0,No.,,0
+531-Drain,0,No.,,0
+601-Talbert,0,No.,,0
+989-Long,0,No.,,0
+597-Clipps,0,No.,,0
+337-Martin,0,No.,,0
+167-Brandon,0,No.,,0
+151-Patterson,0,No.,,0
+280-Frye,0,No.,,0
+333-Hartman,0,No.,,0
+397-Lee,0,No.,,0
+161-Lanter,0,No.,,0
+588-Grable,0,No.,,0
+010-Sarr,0,No.,,0
+215-Groce,0,No.,,0
+138-Leach,0,No.,,0
+306-Williams,0,No.,,0
+412-Riggins,0,No.,,0
+140-Martin,0,No.,,0
+509-Schulman,0,No.,,0
+034-Tench,0,No.,,0
+308-Hoerig nka Sobral,0,No.,,0
+552-Lester,0,No.,,0
+982-DERIFIELD,0,No.,,0
+582-Hodge,0,No.,,0
+222-Italiano,0,No.,,0
+145-Miller,0,No.,,0
+511-Smith,0,No.,,0
+153-Gibbons,0,No.,,0
+331-Palmer,0,No.,,0
+602-Love,0,No.,,0
+513-Kaufhold,0,No.,,0
+207-Durgan,0,No.,,0
+058-Kirkland,0,No.,,0
+291-Shine-Johnson,0,No.,,0
+008-Groce,0,No.,,0
+167-ST. ANTHONY FORD,0,No.,,0
+384-Sims Jr.,0,No.,,0
+503-Rhodes,0,No.,,0
+388-Angel,0,No.,,0
+318-RODRIGUEZ,0,No.,,0
+216-Reynolds,0,No.,,0
+322-Bradford,0,No.,,0
+500-Partin,0,No.,,0
+305-Cunningham,0,No.,,0
+041-Shivers,0,No.,,0
+013-Carner,0,No.,,0
+540-Hashi,0,No.,,0
+567-Smith,0,No.,,0
+544-Lavender,0,No.,,0
+593-Mathis,0,No.,,0
+542-Chavez,0,No.,,0
+529-Hodge,0,No.,,0
+152-Shine-Johnson,0,No.,,0
+300-Hugley,0,No.,,0
+405-Lawless,0,No.,,0
+551-Rowland,0,No.,,0
+608-Savage,0,No.,,0
+304-Bedell,0,No.,,0
+522-Williams,0,No.,,0
+164-Erker,0,No.,,0
+502-Poteet,0,No.,,0
+229-Hawkins,0,No.,,0
+604-Powers,0,No.,,0
+546-Rosemond,0,No.,,0
+400-Collins,0,No.,,0
+147-Heiney,0,No.,,0
+610-Toda,0,No.,,0
+053-Burkes,0,No.,,0
+068-English,0,No.,,0
+054-Jenkins,0,No.,,0
+409-Weemes,0,No.,,0
+306-Horsley Jr.,0,No.,,0
+171-Moore,0,No.,,0
+615-Stutler,0,No.,,0
+988-Price,0,No.,,0
+324-Jackson,0,No.,,0
+547-Ruggles,0,No.,,0
+512-Marr,0,No.,,0
+599-Johnson,0,No.,,0
+050-Fannon,0,No.,,0
+993-SPAULDING,0,No.,,0
+033-Smale,0,No.,,0
+020-Robledo,0,No.,,0
+211-Gaines,0,No.,,0
+053-Myers,0,No.,,0
+035-Akers,0,No.,,0
+516-Panezich,0,No.,,0
+525-Hartley,0,No.,,0
+215-Dibiase,0,Yes,"Context information is below.
+---------------------
+{¶8} Before discussing Mr. DiBiase’s assignments of error, we note that the petition was untimely, and the trial court could have rejected it on that basis alone. Generally, a petition for postconviction relief must be filed “no later than one hundred
+eighty days after the date on which the trial transcript is filed in the court of appeals in the
+direct appeal of the judgment of conviction.” R.C. 2953.21(A)(2). The record in the direct
+appeal of this case was filed April 4, 2012 – more than four years before Mr. DiBiase filed
+his petition.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+612-Reed,0,No.,,0
+382-Palmer,0,No.,,0
+387-Singleton,0,No.,,0
+560-Blackshear,0,No.,,0
+498-Rike,0,No.,,0
+067-Lawson,0,No.,,0
+317-Steelman,0,No.,,0
+528-Keeton,0,No.,,0
+514-Taylor,0,No.,,0
+543-Murphy,0,No.,,0
+217-HILL,0,No.,,0
+609-Jones,0,No.,,0
+021-Sarr,0,No.,,0
+521-Bethel,0,No.,,0
+295-Lee,0,No.,,0
+304-Webster,0,No.,,0
+980-STILTNER,0,No.,,0
+538-Bond,0,No.,,0
+282-Howard,0,No.,,0
+595-Moore,0,No.,,0
+297-Allen,0,No.,,0
+072-Hawkins,0,No.,,0
+990-Dotson,0,No.,,0
+"323-PRIMOUS, IV",0,No.,,0
+"992- SHINE, JR.",0,No.,,0
+"290-Clark, Sr.",0,No.,,0
+"016-Morgan, Sr.",0,No.,,0
+"385-Thorpe, Jr",0,No.,,0
+"615-Burns, Jr.",0,Yes,"Context information is below.
+---------------------
+On October 22, 2015, more than three years after his trial, appellant filed a pro se petition for post-conviction relief (“PCR”). Via a judgment entry issued on November 25, 2015, the trial court denied appellant's petition for post-conviction relief as untimely. On July 6, 2016, we affirmed. See State v. Burns, 5th Dist. Licking No. 15-CA-98, 2016-Ohio-4833. Appellant's attempts to have the decision reviewed by the Ohio
+Supreme Court and the United States Supreme Court were unsuccessful. See State v. Burns, 147 Ohio St.3d 1506, 2017-Ohio-261, 67 N.E.3d 824; Burns v. Ohio, 138 S.Ct. 73, 199 L.Ed.2d 50 (2017).
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+"586-Austin, Jr",0,No.,,0
+"510-Eberhardt, Jr",0,No.,,0
+"060-Ford, Jr.",0,No.,,0
+"214-Walker, Jr.",0,No.,,0
+"603-Brunner, Jr",0,No.,,0
+"994-Walker, Jr.",0,No.,,0
+"535-Burney, Sr",0,No.,,0
+"298-ZACHERY, SR.",0,No.,,0
+"497-Durham, Jr.",0,No.,,0
+159-Davis,0,No.,,0
+160-Hill,0,No.,,0
+161-COOPER,0,No.,,0
+165-FERRICCI,0,No.,,0
+168-Ross,0,No.,,0
+169-Littlepage,1,No.,,0
+169-Mock,0,No.,,0
+171-Shuster,0,No.,,0
+172-Lindsay,0,No.,,0
+173-Whitman,0,No.,,0
+175-Page,0,No.,,0
+176-Carter,0,No.,,0
+177-Thomas,0,No.,,0
+181-Snyder,0,No.,,0
+182-Clemmons,1,No.,,0
+183-In re Dor.B,0,No.,,0
+183-Morton,0,No.,,0
+185-Hartman,0,No.,,0
+186-NEWELL,0,No.,,0
+187-NEWMAN,0,No.,,0
+976-Thacker,0,No.,,0
+978-Young,0,No.,,0
+984-CAMPBELL,0,No.,,0
+985-Murphy,0,No.,,0
+986-Bugara,0,No.,,0
+995-Miller,0,No.,,0
+996-Koch,0,No.,,0
+998-E.,0,No.,,0
+999-Lewis,0,No.,,0
+000-Edwards,0,No.,,0
+002-C.,0,No.,,0
+003-Young,0,No.,,0
+005-Carr,0,No.,,0
+007-R.,0,No.,,0
+023-Douglas,0,No.,,0
+024-Zaccone,0,No.,,0
+027-Diestler,0,No.,,0
+028-Southam,0,No.,,0
+031-HOUDESHELL,0,No.,,0
+032-Maurent,0,No.,,0
+036-Craciun,0,No.,,0
+038-Williams,0,No.,,0
+039-Woodford,0,No.,,0
+042-In Re L.S.,0,No.,,0
+043-Sparks,1,No.,,0
+044-Glass,1,No.,,0
+045-Harding,1,No.,,0
+301-Jones,0,No.,,0
+301-Steiner,0,No.,,0
+302-Klafczynski,0,No.,,0
+302-Lloyd,1,Yes,"Context information is below.
+---------------------
+On January 16, 2008, while his direct appeal was still pending before this court, Lloyd filed a petition for postconviction relief. Although represented by counsel, Lloyd's petition raised many of the same issues as part of his then pending direct appeal. On July 29, 2008, the trial court denied Lloyd's petition without a hearing. Lloyd did not appeal from the trial court's decision.
+On January 4, 2010, approximately 18 months after this court's decision affirming Lloyd's conviction and sentence on direct appeal, Lloyd filed a motion with this court requesting his appeal be reopened pursuant to App.R. 26(B). Pursuant to App.R. 26(B)(1), an application for reopening must be filed ""within ninety days from journalization of the appellate judgment unless the applicant shows good cause for filing at a later time."" On April 7, 2010, this court denied Lloyd's motion to reopen his appeal after finding he had ""failed to show good cause as to why his application was not filed in a timely manner[.]"" State v. Lloyd, 12th Dist. Warren Nos. CA2007-04-052 and CA2007-04-053 (April 7, 2010) (Entry Denying Application for Reopening). Lloyd then appealed to the Ohio Supreme Court, which again declined review. State v. Lloyd, 128 Ohio St.3d 1414, 2011-Ohio-828.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+303-Moton,0,No.,,0
+307-Mathis,0,No.,,0
+307-Miku,0,No.,,0
+308-Rich,0,No.,,0
+312-Lamb,0,No.,,0
+312-Ramey,0,No.,,0
+314-Jones,0,No.,,0
+316-Lamp,0,No.,,0
+317-McKNIGHT,0,No.,,0
+318-Hall,0,No.,,0
+319-YOUNG,0,No.,,0
+321-Mack,0,No.,,0
+326-West,0,No.,,0
+327-Gregoire,0,No.,,0
+328-Whitt,0,No.,,0
+329-In Re SS,0,No.,,0
+329-LaRosa,0,No.,,0
+330-Hill,1,Yes,"Context information is below.
+---------------------
+On August 27, 2014, appellant filed a pro se direct appeal to this court which was dismissed for failure to prosecute. A subsequent motion for leave to file delayed appeal was denied.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+332-Rich,0,No.,,0
+333-Marcum,0,No.,,0
+334-Hundley,0,No.,,0
+334-Marcum,0,No.,,0
+335-James,0,No.,,0
+335-Thomas,0,No.,,0
+336-Johnson,0,No.,,0
+338-Hazel,0,No.,,0
+340-Jones,0,No.,,0
+341-Wright,0,No.,,0
+343-POWELL,0,No.,,0
+343-Thomas,0,No.,,0
+344-Grooms,0,No.,,0
+344-Robinson,1,Yes,"Context information is below.
+---------------------
+{¶ 10} Nevertheless, we find appellant's motion to be untimely as the verdict was rendered on May 10, 2013, and the motion for new trial was filed well beyond the 14-day deadline outlined in Crim.R. 33.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+346-Vance,0,No.,,0
+349-KOPCHAK,0,No.,,0
+078-Hough,0,No.,,0
+079-Johnson,0,No.,,0
+082-Dotson,0,No.,,0
+082-Jarmon,0,No.,,0
+083-T.C.,0,No.,,0
+085-Vance,0,No.,,0
+088-M.B.,0,No.,,0
+091-Glenn,0,No.,,0
+092-Armengau,1,Yes,"Context information is below.
+---------------------
+[Appellant’s] rights to due process and a fair trial were violated when the trial court allowed the State to present irrelevant, cumulative, overly prejudicial evidence about prior bad acts through additional non-victim witnesses, whose testimony also violated the Ohio Rape Shield Statute, as well as testimony of hundreds of unindicted offenses.
+Davis. See also State v. Cochran, 10th Dist. No. 16AP-491, 2017-Ohio-1528, ¶ 5 (""Absent extraordinary circumstances, such as an intervening decision by the Supreme Court, an inferior court has no discretion to disregard the mandate of a superior court in a prior appeal in the same case.""). The fact the dissenting opinion in Armengau II arguably supports the grounds for new trial appellant asserted under Crim.R. 33(A)(1) through (5) does not alter our conclusion in Armengau I that appellant’s motion asserting those grounds was untimely filed, and appellant failed to demonstrate compliance with Crim.R. 33(B). The only ""newly discovered"" evidence cited by appellant in his combined motion for reconsideration and second motion for leave to file a motion for new trial was the Caldwell affidavit. Appellant presented nothing to excuse his untimeliness that this court had not already considered in Armengau I.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+092-George,0,Yes,"Context information is below.
+---------------------
+{¶2} App.R. 26(B)(1) and (2)(b) require applications claiming ineffective assistance of appellate counsel to be filed within 90 days from journalization of the decision unless the applicant shows good cause for filing at a later time. The November 2018 application was filed approximately two years after this court’s decision. Thus, it is untimely on its face. In an effort to establish good cause, George claims that his poverty prevented him from obtaining his transcript in a timely manner and that his appellate counsel’s inadequate performance caused the untimely filing of the application.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+094-Austin,0,No.,,0
+094-Todd,0,No.,,0
+095-Jordan,1,No.,,0
+096-M.,0,No.,,0
+097-Bogan,0,No.,,0
+099-Hart,0,No.,,0
+099-Hughes,0,No.,,0
+100-LAZZERINI,0,No.,,0
+100-Long,0,No.,,0
+101-Feagin,1,No.,,0
+103-Gearhart,0,No.,,0
+622-Curtis,0,Yes,"Context information is below.
+---------------------
+On November 23, 2015, Curtis was sentenced to an aggregate prison sentence of eleven years. Curtis did not file a direct appeal, though he attempted to file a delayed appeal on November 23, 2016. This Court denied Curtis' motion to file a delayed appeal by Judgment Entry filed January 3, 2017 in Case No. 16-62.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+669-Brunson,0,No.,,0
+675-Freed,0,No.,,0
+679-A.,0,No.,,0
+680-Untied,0,No.,,0
+681-Devore,0,No.,,0
+684-Scullin,0,No.,,0
+685-Coogan,1,No.,,0
+686-K,0,No.,,0
+687-K,0,No.,,0
+699-Daviduk,0,No.,,0
+702-Smith,0,No.,,0
+793-Lynch,0,No.,,0
+818-DEVAUGHNS,1,No.,,0
+820-MARTIN,0,No.,,0
+947-Thompson,0,No.,,0
+948-W,0,No.,,0
+949-Williams,0,No.,,0
+950-Smith,0,No.,,0
+954-Travis,0,No.,,0
+956-Graham,0,No.,,0
+958-Watson,0,No.,,0
+959-Herron,0,No.,,0
+960-Hammond,0,No.,,0
+961-Shuster,1,No.,,0
+962-Sheldon,0,No.,,0
+964-Thomson,0,No.,,0
+965-Evick,0,No.,,0
+967-Esparza,0,No.,,0
+968-Jones,0,No.,,0
+969-MASSUCCI,0,No.,,0
+971-REED,0,No.,,0
+419-Hill,0,No.,,0
+454-Smith,0,No.,,0
+455-Jones,0,No.,,0
+460-Hover,0,No.,,0
+461-Tellis,0,No.,,0
+462-KRATOCHVILL,0,No.,,0
+463-Baker,0,No.,,0
+472-Snowden,0,No.,,0
+491-Spirnak,0,Yes,"Context information is below.
+---------------------
+1 Crim.R. 33(B) requires, with certain exceptions for being unavoidably prevented from filing and for newly discovered evidence, that a motion for new trial be filed within 14 days after the verdict was rendered. Here, the verdict was rendered on February 7, 2019. Fourteen days after the verdict was rendered was February 21, 2019. Appellant filed his motion well after this deadline. Appellant also filed his motion after the trial court had sentenced appellant and rendered its final judgment. Appellant alleged four claims in his motion for new trial: (1) trial counsel's lack of attentiveness, (2) the state's use of 9-1-1 call and trial court not permitting recross-examination, (3) prosecutorial misconduct, and (4) being shackled during trial. In support of his first claim, appellant asserted new trial was warranted on grounds of an irregularity in the proceeding; however, appellant did not assert any specific grounds for new trial in support of his remaining claims. He did not allege unavoidable prevention or newly discovered evidence. The record does not reflect that the trial court ruled on the motion. Nevertheless, as the motion was untimely filed and filed after the trial court rendered final judgment, we proceed with this appeal.
+& 16, Article I of the Ohio Constitution, and his right to a fair trial, as guaranteed by the Sixth Amendment to the United States Constitution and Section 16, Article I of the Ohio Constitution.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+496-Jencson,0,No.,,0
+596-Neil,1,Yes,"Context information is below.
+---------------------
+¶ 15 On appeal, appellant does not contend his successive petition was timely under R.C. 2953.21(A)(2). In addressing the issue of timeliness, the trial court noted the trial transcripts in appellant's direct appeal in case No. 12CR-5963 were filed February 2, 2015 and, therefore, appellant's petition ""should have been filed no later than three hundred sixty-five days after the filing of the trial transcript in the Court of Appeals, which is February 2, 2016."" (Dec. 7, 2018 Dec. & Entry at 4.) Because the petition was not filed until August 1, 2018, the court found the petition to be untimely. We agree.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+606-Lopez-Tolentino,0,No.,,0
+611-Somers,1,No.,,0
+130-Gray,0,No.,,0
+132-Johnson,0,No.,,0
+134-Boler,0,Yes,"Context information is below.
+---------------------
+¶ 18 We first point out that the version of R.C. 2953.21(A)(2) in effect prior to March 2015, the time window for appellant’s petition, limited the filing of a petition to no later than 180 days after the filing of the transcript. Appellant was ordered to file his transcript in his direct appeal on or before October 12, 2009, but a notification on the clerk of courts’ record indicates that a “Notice of Supplemental Transmission of Record” filed on October 13, 2009. Thus, appellant filed his latest petition for postconviction relief more than eight years after the notation of the supplemental transmission of record was filed. “[A] court may not entertain a petition filed after the expiration of the period prescribed in division (A) of that section or a second petition or successive petitions for similar relief on behalf of a petitioner unless division (A)(1) or (2) of this section applies[.]” (Emphasis added.) R.C. 2953.23(A). Here, neither section applies. Appellant does not (1) claim that he was unavoidably prevented from discovery of the facts upon which he must rely to present the claim for relief [R.C. 2953.23(A)(1)(a)], (2) claim that subsequent to the deadline or his earlier
+petition that the United States Supreme Court recognized a new federal or state right that applies retroactively [R.C. 2953.23(A)(1)(a)], (3) argue that, but for constitutional error at trial, no reasonable factfinder would have found him guilty of the offense of which he was convicted, [R.C. 2953.23(A)(1)(b)], and (4) claim that he has submitted DNA evidence to show his “actual innocence” [R.C. 2953.23(A)(2)]. Thus, appellant untimely filed his petition for postconviction relief.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+135-Johnson,0,No.,,0
+141-Stewart,0,No.,,0
+142-In Re K.D.,0,No.,,0
+142-Obermiller,0,No.,,0
+143-In L.D.,0,No.,,0
+144-Kouame,0,No.,,0
+147-Lee,0,No.,,0
+149-Meade,0,No.,,0
+150-Simmons,0,No.,,0
+152-Riffle,0,No.,,0
+153-Bennett,0,No.,,0
+154-Wallace,0,No.,,0
+155-Smith,0,No.,,0
+157-Pitts,0,No.,,0
+158-Sibole,0,No.,,0
+159-Campbell,0,No.,,0
+103-K.,0,No.,,0
+104-Dixon,1,No.,,0
+104-LaRosa,0,No.,,0
+106-Bridges,0,No.,,0
+109-Dunn,0,No.,,0
+113-Jones,0,No.,,0
+114-Jones,0,No.,,0
+115-Lawrence,0,No.,,0
+118-Clark,0,No.,,0
+118-Jacinto,0,Yes,"Context information is below.
+---------------------
+[w]e now reject [the applicant’s] claims that those excuses gave good cause to miss the 90-day deadline in App.R. 26(B). * * * Consistent enforcement of the rule’s deadline by the appellate courts in Ohio protects on the one hand the state’s legitimate interest in the finality of its judgments and ensures on the other hand that any claims of ineffective assistance of appellate counsel are promptly examined and resolved.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+122-Shelton,0,No.,,0
+123-Mobley,0,No.,,0
+124-Parks,0,No.,,0
+127-Miller,0,No.,,0
+351-Harris,0,No.,,0
+352-Blanton,0,No.,,0
+353-Reed,0,Yes,"Context information is below.
+---------------------
+In August 2008, Reed moved to vacate his convictions on the basis that his indictment failed to include a mens rea. The trial court denied the motion. This court dismissed an appeal for failure to timely file a brief. State v. Reed, 2d Dist. Montgomery No. 23802 (Sept. 8, 2010) (Reed II).
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+355-Kerens,0,No.,,0
+356-Cobb,0,No.,,0
+356-Wilson JR.,0,No.,,0
+357-Donlow,0,No.,,0
+358-Porter,0,Yes,"Context information is below.
+---------------------
+{¶2} App.R. 26(B)(1) and (2)(b) require applications claiming ineffective assistance of appellate counsel to be filed within 90 days from journalization of the decision unless the applicant shows good cause for filing at a later time. Porter filed his application approximately 18 months after this court’s March 17, 2016 decision. Thus, the application is untimely on its face. Porter tries to show good cause by arguing that the prison’s limited legal assistance, as well as the public defender’s continued
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+360-Ferguson,0,No.,,0
+362-Johnson,0,No.,,0
+363-Jackson,0,No.,,0
+365-Young,0,No.,,0
+366-Baskin,0,No.,,0
+371-Myers,1,No.,,0
+373-Moore,0,No.,,0
+374-Romy,0,No.,,0
+375-Lucas,0,Yes,"Context information is below.
+---------------------
+[w]e now reject [the applicant’s] claims that those excuses gave good cause to miss the 90-day deadline in App.R. 26(B). * * * Consistent enforcement of the rule’s deadline by the appellate courts in Ohio protects on the [ * * * ] one hand the state’s legitimate interest in the finality of its judgments and ensures on the other hand that any claims of ineffective assistance of appellate counsel are promptly examined and resolved.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+401-Tiedjen,0,No.,,0
+404-Hayden,0,No.,,0
+213-Bender,1,No.,,0
+214-Furr,0,No.,,0
+217-Gibson,1,No.,,0
+218-Gillispie,0,No.,,0
+219-Gray,0,No.,,0
+219-Klein,0,No.,,0
+221-MCNEIR,0,No.,,0
+222-B.,0,No.,,0
+223-Hill,0,No.,,0
+223-P.,0,No.,,0
+224-Liggins,0,No.,,0
+225-Wright,0,No.,,0
+226-Hoover,0,No.,,0
+227-Gutierrez,0,No.,,0
+230-Jackson,1,No.,,0
+232-BRIDGES,0,No.,,0
+232-Lewis,0,No.,,0
+234-MACK,0,No.,,0
+237-Newman,1,Yes,"Context information is below.
+---------------------
+¶ 1 On March 16, 2021, the applicant, Dazelle Newman, pursuant to
+App.R. 26(B) and State v. Murnahan, 62 Ohio St.3d 60, 584 N.E.2d 1204 (1992),
+applied to reopen this court’s judgment in State v. Newman, 8th Dist. Cuyahoga No.
+107944, which this court dismissed as untimely on October 22, 2019. Newman now argues that his appellate counsel should have raised the following issues: (1) The trial court erred in proceeding to trial without holding a hearing or obtaining an evaluation as to Newman’s competency to represent himself. (2) There was insufficient evidence to convict Newman of attempted murder; the evidence could only allow simple assault and vehicular assault. (3) The kidnapping convictions were not supported by sufficient evidence and were against the manifest weight of the evidence. (4) His convictions generally were not supported by sufficient evidence and were against the manifest weight of the evidence. (5) His convictions were the result of police and prosecutorial misconduct. (6) The trial judge had predetermined Newman’s guilt. (7) The photo lineup was unduly suggestive. For the following reasons, this court denies the application to reopen.¹
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+238-Newman,1,Yes,"Context information is below.
+---------------------
+Moreover, the Supreme Court of Ohio in State v. LaMar, 102 Ohio St.3d 467, 2004-Ohio-3976, 812 N.E.2d 970, and State v. Gumm, 103 Ohio St.3d 162, 2004-Ohio-4755, 814 N.E.2d 861, held that the 90-day deadline for filing must be strictly enforced. In those cases, the applicants argued that after the court of appeals decided their cases, their appellate lawyers continued to represent them, and their appellate lawyers could not be expected to raise their own incompetence. Although the Supreme Court agreed with this latter principle, it rejected the argument that continued representation provided good cause. In both cases, the court ruled that the applicants could not ignore the 90-day deadline, even if it meant retaining new counsel or filing the applications themselves. The court then reaffirmed the principle that lack of effort, lack of imagination, and ignorance of the law do not establish good cause for failure to seek timely relief under App.R. 26(B). Accordingly, this court denies the application as untimely.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+238-Wilson,0,No.,,0
+240-Jones,0,No.,,0
+260-Williams,0,No.,,0
+261-Grate,0,No.,,0
+262-Hatton,1,No.,,0
+268-Hunt,0,No.,,0
+269-Roberts,0,No.,,0
+271-Turner,1,No.,,0
+273-Green,1,Yes.,"Context information is below.
+---------------------
+Under 28 U.S.C. § 2244(d), the statute of limitations begins to run when a conviction is final on direct review unless a later date is shown. In this case that date is August 30, 2013, the date on which his time to file an appeal of right expired. With that as the finality date, the “trigger
+date” for § 2244(d) purposes, the statute would have expired September 1, 2014, as to Grounds One and Two.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+275-Alvarado,1,Yes.,"Context information is below.
+---------------------
+Respondent argues Alvarado’s claim that the prosecutor suppressed material, exculpatory evidence as identified in Charles Wells’ affidavit is procedurally defaulted as the state courts found Alvarado’s filings for post-conviction for relief untimely, which is an adequate and independent state ground to foreclose habeas review. (Doc. No. 88 at 31.) Respondent further argues Alvarado fails to demonstrate cause and prejudice to excuse the procedural default, and fails to present any new, reliable evidence to excuse the default. (Id. at 33-34.)
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+278-Clay,0,No.,,0
+279-Hollins,0,No.,,0
+281-DeVaughns,0,Yes,"Context information is below.
+---------------------
+{¶ 11} On appeal, we found that DeVaughns’ petition was successive and untimely, and that he failed to establish that he was unavoidably prevented from discovering the facts upon which his claim was based. Specifically, we found that
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+283-Hundley,0,Yes,"Context information is below.
+---------------------
+As the rule specifies, the application must be filed within 90 days. The appellate decision in this case was journalized on September 6, 2018. Hundley filed the present application on December 10, 2018. The application is therefore untimely as it was filed with the clerk on the 95th day. A showing of good cause is required.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+283-York,0,No.,,0
+284-Armengau,1,No.,,0
+284-HARRIS,0,No.,,0
+285-Guy,1,Yes,"Context information is below.
+---------------------
+Accordingly, Petitioner’s objection on this issue is OVERRULED on the merits and also because it is untimely. Any objection to the Magistrate Judge’s Order on this issue should have been filed by September 13, 2021.
+II. Petitioner’s Objections to the Report Itself
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+285-YOUNG,0,No.,,0
+286-Harris,1,Yes.,"Context information is below.
+---------------------
+\textsuperscript{35} \textit{Id.} at 63.
+\textsuperscript{36} \textit{Id.} at 117.
+\textsuperscript{37} \textit{Id.} at 152-88.
+\textsuperscript{38} \textit{Id.} at 189, 192, 202.
+\textsuperscript{39} \textit{Id.} at 206.
+\textsuperscript{40} Ohio Supreme Court Practice Rule 7.01(A)(1)(a)(i) states that an appeal must be filed within 45 days of the appellate judgment for which review is sought. Here, the appellate decision was entered May 11, 2017 and the notice of appeal was filed with the Supreme Court of Ohio on June 16, 2017 – 36 days.
+\textsuperscript{41} ECF No. 6, Attachment 2 at 207.
+defense from [sic] the jury contained therein, or object to the state’s inflammatory remarks on closing.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+286-Yee,0,No.,,0
+287-JOHNSON,0,No.,,0
+287-Mack,0,Yes,"Context information is below.
+---------------------
+As Respondent asserts, these claims are procedurally defaulted. They arise out of the record of proceedings in the trial court, and therefore could have been raised on direct appeal. But Mack failed to do so, and under Ohio law, res judicata now prohibits him from raising the issues in any post-conviction proceeding. See Wong v. Money, 142 F.3d 313, 322 (6th Cir. 1998) (“Under Ohio law, the failure to raise on appeal a claim that appears on the face of the record constitutes a procedural default under the State’s doctrine of res judicata.”); State v. Perry, 10 Ohio St. 2d 175 (Ohio 1967) (holding that res judicata bars a criminal defendant from raising in post-conviction proceedings those claims that could have been raised at trial or on direct appeal). With no state-court remedies still available to him, Mack has defaulted the claims. See Gray v. Netherland, 518 U.S. 152, 161–62 (1996) (“Because the exhaustion requirement refers only to remedies still available at the time of the federal petition . . ., it is satisfied if it is clear that [the petitioner’s] claims are now
+procedurally barred under [state] law.”) (internal quotation marks and citations omitted); *Alley v. Bell*, 307 F.3d 380, 385 (6th Cir. 2002) (“[I]f an unexhausted claim would be procedurally barred under state law, that claim is procedurally defaulted for purposes of federal habeas review.”).
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+288-Makin,1,No.,,0
+288-Maranger,0,No.,,0
+289-Redic,1,Yes,"Context information is below.
+---------------------
+Ohio law allows a litigant forty-five days to appeal to the Supreme Court of Ohio from an adverse decision of the court of appeals. In this case Redic’s time to appeal expired October 23, 2019, but he did not file a notice of appeal until February 20, 2020, along with a motion for delayed appeal (State Court Record, ECF No. 4, Exs. 21, 22). The Supreme Court summarily denied the motion. Id. at Ex. 23.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+934-Grimm,0,No.,,0
+935-Kunzer,0,No.,,0
+936-Phillips,0,No.,,0
+937-Shaner,0,No.,,0
+938-Starks,0,No.,,0
+939-Green,0,No.,,0
+940-Bennett,0,No.,,0
+942-Kirk,0,No.,,0
+943-Rosa,0,No.,,0
+932-Schnabel,0,No.,,0
+933-Edwards,0,No.,,0
+046-Hardman,1,No.,,0
+048-Wolford-Lee,0,No.,,0
+047-Mcintosh,0,No.,,0
+049-Butcher,0,No.,,0
+051-Kitchen,0,No.,,0
+068-Buk-Shul,0,No.,,0
+066-Hill,0,No.,,0
+057-Hill,0,No.,,0
+052-Owens,0,No.,,0
+056-Brown,0,No.,,0
+059-Henderson,0,No.,,0
+055-Teets,0,No.,,0
+063-Mohammed Ali,0,No.,,0
+062-Robinson,0,No.,,0
+064-Phelps,0,No.,,0
+864-Howard,0,No.,,0
+074-Norman,0,No.,,0
+252-MASTON,0,No.,,0
+924-Powell,0,No.,,0
+209-Feathers,1,No.,,0
+900-Crowell,0,No.,,0
+931-Cole,0,No.,,0
+244-Price,0,No.,,0
+831-BENSON,0,No.,,0
+915-Altman,0,No.,,0
+841-Biggs,0,No.,,0
+909-Turner,0,No.,,0
+194-Hudson,0,No.,,0
+880-Hall,1,Yes.,"Context information is below.
+---------------------
+\(\{\text{¶ 2}\}\) App.R. 26(B)(1) and (2)(b) require applications claiming ineffective assistance of appellate counsel to be filed within 90 days from journalization of the decision unless the applicant shows good cause for filing at a later time. The December 2019 application was filed more than ten months after this court’s decision. Thus, it is untimely on its face.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+929-Crawford,0,No.,,0
+190-Smith,0,No.,,0
+196-Boware,1,No.,,0
+883-BRIDGES,0,No.,,0
+298-Williams,0,No.,,0
+247-ZEN,0,No.,,0
+894-Sayles,0,No.,,0
+908-Howard,0,No.,,0
+256-Ammons,0,No.,,0
+879-Carter,0,No.,,0
+212-Gatewood,0,No.,,0
+242-Harian,0,No.,,0
+912-W,0,No.,,0
+255-Lawson,0,No.,,0
+291-YEAGER,0,No.,,0
+197-In Re FB,0,No.,,0
+195-Calhoun,0,No.,,0
+192-Dennis,0,No.,,0
+913-Prescott,0,No.,,0
+241-Sewell,0,No.,,0
+299-Baugh,0,No.,,0
+927-Warren,0,No.,,0
+920-Edwards,0,No.,,0
+253-Robinson,0,No.,,0
+866-T.B.,0,No.,,0
+070-Stidhum,0,No.,,0
+209-Gordon,0,No.,,0
+252-Littlejohn,0,No.,,0
+255-Trussell,0,No.,,0
+885-COOPER,0,No.,,0
+876-Wynn,0,No.,,0
+837-RULONG,0,No.,,0
+873-Armengau,1,No.,,0
+259-Flagg,0,No.,,0
+848-Brooks,0,No.,,0
+897-HECKATHORN,0,No.,,0
+887-Winfield,0,No.,,0
+198-Blanton,0,No.,,0
+243-Robinson,0,No.,,0
+858-Salyers,0,No.,,0
+860-Bowen,0,No.,,0
+911-Jones,0,No.,,0
+194-Allison,0,No.,,0
+191-Winston,0,No.,,0
+201-Barnes,0,No.,,0
+197-Boaston,1,No.,,0
+825-MARTIN,0,No.,,0
+870-MILLER,0,No.,,0
+069-Johnson,1,Yes,"Context information is below.
+---------------------
+{¶2} App.R. 26(B)(1) and (2)(b) require applications claiming ineffective assistance of appellate counsel to be filed within 90 days from journalization of the decision unless the applicant shows good cause for filing at a later time. This court issued its decision on April 12, 2018, and Johnson filed his application one day late on July 12, 2018 (18 (remaining days in April) + 31 (May) + 30 (June) + 12 (July) = 91). Thus, this application is untimely. Johnson did not proffer any explanation to show good cause.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+901-DOWELL,1,No.,,0
+877-BAER,0,No.,,0
+835-Rosa,0,No.,,0
+830-RAMEY,0,No.,,0
+074-Square,0,No.,,0
+899-Duncan,0,No.,,0
+204-Baldwin,0,No.,,0
+245-Tomlinson,0,No.,,0
+907-Banks,0,No.,,0
+829-GILCREAST,0,No.,,0
+926-Ericksen,0,No.,,0
+893-CARR,0,No.,,0
+212-Stewart,0,No.,,0
+257-Harrison,0,No.,,0
+828-JOHNSON,0,No.,,0
+922-Lincoln,0,No.,,0
+201-Pelfrey,0,No.,,0
+258-F,0,No.,,0
+299-Montgomery,0,No.,,0
+896-APANOVITCH,1,No.,,0
+867-JONES,0,No.,,0
+075-Russell,0,No.,,0
+919-Sims,0,No.,,0
+189-Shine-Johnson,0,No.,,0
+878-CAYAVEC,0,No.,,0
+916-Campbell,0,No.,,0
+290-Rock,1,Yes,"Context information is below.
+---------------------
+The state filed a response in opposition. ECF Doc. 12-1 at 341-49. On July 26, 2016, the trial court denied Rock’s petition as untimely because the transcript was filed in the Ohio Court of Appeals on June 8, 2015, making the deadline for filing a petition for postconviction relief June 7, 2016. ECF Doc. 12-1 at 350. Alternatively, the court found that the claims Rock raised therein would be barred by res judicata. Id.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1

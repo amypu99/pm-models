@@ -1,0 +1,987 @@
+Index,Gold Label,Predicted Label,Title,Comment
+008-Groce,MS,0,State v. Groce,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+009-Knox,MS,0,State v. Knox,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+010-Sarr,MS,0,State v. Sarr,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+011-Benge,MS,0,State v. Benge,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+012-Tawney,MS,0,State v. Tawney,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+013-Carner,MS,0,State v. Carner,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+014-Williams,MS,0,State v. Williams,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+015-Thompson,MS,0,State v. Thompson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+"016-Morgan, Sr.",MS,0,State v. Morgan,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+017-Moore,MS,0,State v. Moore,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+018-Turner,MS,1,State v. Turner,Title meets form. Case originated in a Municipal Court (city prosecutor).
+020-Robledo,MS,0,State v. Robledo,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+021-Sarr,MS,0,,Empty metadata title; defaulted to MS.
+029-Little,MS,0,State v. Little,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+033-Smale,MS,0,State v. Smale,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+034-Tench,MS,0,ne3d rep bv123,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+035-Akers,MS,0,State v. Akers,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+037-Phillips,MS,0,State v. Phillips,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+041-Shivers,MS,0,State v. Shivers,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+050-Fannon,MS,0,State v. Fannon,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+053-Burkes,MS,0,State v. Burkes,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+053-Myers,MS,0,State v. Myers,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+054-Jenkins,MS,0,State v. Jenkins,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+056-Graham,MS,0,State v. Graham,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+057-Froman,MS,0,State v. Froman,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+058-Kirkland,MS,0,State v. Kirkland,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+058-Stock,MS,0,State v. Stock,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+059-Madison,MS,0,State v. Madison,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+"060-Ford, Jr.",MS,0,State v. Ford,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+060-Miller,MS,0,State v. Miller,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+062-Clark,MS,0,State v. Clark,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+065-Hawkins,MS,0,State v. Hawkins,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+066-Benson,MS,0,State v. Benson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+067-Lawson,MS,0,State v. Lawson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+068-English,MS,0,State v. English,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+069-Smith,MS,0,State v. Smith,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+071-DAVIS,MS,0,State v. Davis,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+072-Hawkins,MS,0,State v. Hawkins,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+073-Sanders,MS,0,State v. Sanders,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+076-Tucker,MS,0,State v. Tucker,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+076-Williams,MS,0,State v. Williams,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+077-Breneman,MS,0,State v. Breneman,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+078-Burry,MS,0,State v. Burry,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+079-JARRELL,MS,0,State v. Jarrell,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+081-Bolware,MS,0,State v. Bolware,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+081-Jenkins,MS,0,State v. Jenkins,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+084-Davis,MS,0,State v. Davis,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+086-Vogt,MS,0,State v. Vogt,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+087-Norales-Martinez,MS,0,State v. Norales-Martinez,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+088-Svoboda,MS,0,,Empty metadata title; defaulted to MS.
+089-LOVINGSHIMER IV,MS,0,State v. Lovingshimer,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+089-Thomas,MS,0,State v. Thomas,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+090-Sipple,MS,0,State v. Sipple,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+093-McFeeture,MS,0,State v. McFeeture,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+096-Roan,MS,0,State v. Roan,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+098-Bard,MS,0,State v. Bard,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+098-Vicario,MS,0,State v. Vicario,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+102-Berila,MS,0,State v. Berila,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+102-Bowen,MS,0,State v. Bowen,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+105-Craig,MS,0,State v. Craig,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+105-Hunt,MS,0,State v. Hunt,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+107-Brauchler,MS,0,State v. Brauchler,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+107-Jordan,MS,0,State v. Jordan,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+108-Buehner,MS,0,,Empty metadata title; defaulted to MS.
+108-Dailey,MS,0,State v. Dailey,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+110-Daboni,MS,0,State v. Daboni,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+111-Brantley,MS,0,State v. Brantley,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+112-Dandridge,MS,0,State v. Dandridge,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+112-Pyles,MS,0,State v. Pyles,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+117-Jacinto,MS,0,State v. Jacinto,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+119-Morrissette,MS,0,State v. Morrissette,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+120-Cummings,MS,0,State v. Cummings,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+128-Thomas,MS,0,State v. Thomas,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+132-Pennington,MS,0,State v. Pennington,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+136-Hundley,MS,0,State v. Hundley,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+137-Richey,MS,0,State v. Richey,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+138-Leach,MS,0,State v. Leach,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+140-Lindsey,MS,0,State v. Lindsey,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+140-Martin,MS,0,State v. Martin,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+145-Miller,MS,0,State v. Miller,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+147-Heiney,MS,0,State v. Heiney,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+148-Ladson,MS,0,State v. Ladson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+151-Kirk,MS,0,State v. Kirk,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+151-Patterson,MS,0,State v. Patterson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+152-Shine-Johnson,MS,0,State v. Shine-Johnson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+153-Gibbons,MS,0,State v. Gibbons,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+161-Lanter,MS,0,State v. Lanter,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+"163-MONTALVO, JR.",MS,1,State v. Montalvo,Title meets form. Case originated in a Municipal Court (city prosecutor).
+164-Erker,MS,0,State v. Erker,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+165-Bonner,MS,0,State v. Bonner,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+166-White,MS,0,State v. White,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+167-Brandon,MS,0,State v. Greene,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+167-ST. ANTHONY FORD,MS,0,State v. Ford,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+171-Moore,MS,0,State v. Moore,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+176-Remy,MS,0,State v. Remy,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+178-Edmonds,MS,0,State v. Edmonds,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+179-BURTON,MS,0,State v. Burton,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+179-HENDERSON,MS,0,State v. Henderson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+180-PANEZICH,MS,0,State v. Panezich,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+182-MORTON,MS,0,State v. Morton,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+184-Groesser,MS,0,State v. Groesser,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+187-Stein,MS,0,State v. Stein,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+188-Evans,MS,0,State v. Evans,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+188-NEWMAN,MS,0,State v. Newman,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+189-Slade,MS,0,State v. Slade,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+191-Baird,MS,0,State v. Baird,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+192-Austin,MS,1,State v. Austin,Title meets form. Case originated in a Municipal Court (city prosecutor).
+196-Smith,MS,0,State v. Smith,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+200-MIECZKOWSK,MS,0,State v. Mieczkowski,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+202-Vargo,MS,0,State v. Vargo,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+203-Baber,MS,0,State v. Barber,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+205-Fields,MS,0,State v. Fields,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+205-Zimpfer,MS,0,State v. Zimpfer,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+206-Weaver,MS,0,State v. Weaver,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+207-Deanda,MS,0,State v. Deanda,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+207-Durgan,MS,0,State v. Durgan,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+208-Jones,MS,0,State v. Jones,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+211-Gaines,MS,0,State v. Gaines,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+"214-Walker, Jr.",MS,0,State v. Walker,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+215-Dibiase,MS,0,State v. DiBiase,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+215-Groce,MS,0,State v. Groce,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+216-Bellamy,MS,0,State v. Bellamy,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+216-Reynolds,MS,0,State v. Reynolds,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+217-HILL,MS,0,State v. Hill,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+220-Anderson,MS,0,State v. Anderson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+220-Williams,MS,0,State v. Williams,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+221-Holcomb,MS,0,State v. Holcomb,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+222-Italiano,MS,0,State v. Italiano,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+224-Pember,MS,0,State v. Pember,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+225-Montgomery,MS,0,State v. Montgomery,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+226-Warwick,MS,0,State v. Warwick,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+228-MOSES,MS,0,State v. Moses,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+229-Hawkins,MS,0,State v. Hawkins,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+229-Walls,MS,0,State v. Walls,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+231-James,MS,0,State v. James,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+231-Scott,MS,0,State v. Scott,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+233-Long,MS,0,State v. Long,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+233-TELEGO,MS,0,State v. Telego,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+234-Maddox,MS,0,State v. Maddox,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+235-Beasley,MS,0,State v. Beasley,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+235-Marshall,MS,0,State v. Marshall,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+236-Murphy,MS,0,State v. Murphy,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+239-Freeman,MS,0,State v. Freeman,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+239-Portis,MS,0,State v. Portis,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+240-Reid,MS,0,State v. Reid,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+241-Rouzier,MS,1,State v. Rouzier,Title meets form. Case originated in a Municipal Court (city prosecutor).
+243-Sutton,MS,0,State v. Sutton,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+246-Ward,MS,0,State v. Ward,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+250-Kosto,MS,0,State v. Kosto,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+253-FORTUNE II,MS,0,State v. Fortune,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+254-Rucker,MS,0,State v. Rucker,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+257-PATE,MS,0,State v. Pate,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+260-Hill,MS,0,State v. Hill,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+262-Carter,MS,0,State v. Carter,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+263-Ivery,MS,0,State v. Ivery,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+264-Fowler,MS,0,State v. Fowler,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+264-Minton,MS,0,State v. Minton,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+265-Holmes,MS,0,State v. Holmes,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+265-Peyatt,MS,0,State v. Peyatt,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+266-Jeffries,MS,0,State v. Jeffries,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+266-Taylor,MS,0,State v. Taylor,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+267-Johnson,MS,0,State v. Johnson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+267-Sanders,MS,0,State v. Sanders,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+268-Hopkins,MS,0,State v. Hopkins,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+269-Mallory,MS,0,State v. Mallory,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+270-Stokes,MS,0,State v. Stokes,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+271-Binks,MS,0,State v. Binks,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+272-Blue,MS,0,State v. Blue,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+"274- A. ""SONNY"" ASH",MS,0,State v. Ash,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+276-Palmer,MS,0,State v. Palmer,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+277-Ecker,MS,0,State v. Ecker,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+280-Frye,MS,0,State v. Frye,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+282-Howard,MS,0,State v. Howard,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+"290-Clark, Sr.",MS,0,State v. Clark,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+291-Shine-Johnson,MS,0,Microsoft Word - Shine-Johnson Habeas 59(e) Adopt 2,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+293-Cantrill,MS,0,State v. Cantrill,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+294-Carr,MS,0,State v. Carr,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+295-Lee,MS,0,State v. Lee,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+296-Johnson,MS,0,State v. Johnson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+297-Allen,MS,0,State v. Allen,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+297-Wright,MS,0,State v. Wright,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+"298-ZACHERY, SR.",MS,0,State v. Zachary,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+300-Hugley,MS,0,State v. Hugley,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+304-Bedell,MS,0,State v. Bedell,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+304-Webster,MS,0,State v. Webster,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+305-Cunningham,MS,0,State v. Cunningham,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+306-Horsley Jr.,MS,0,State v. Horsley,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+306-Williams,MS,0,State v. Williams,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+308-Hoerig nka Sobral,MS,0,State v. Hoerig,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+311-Pitts,MS,0,State v. Pitts,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+313-Hawthorne,MS,0,State v. Hawthorne,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+314-Lusane,MS,0,State v. Lusane,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+315-Valdez,MS,0,State v. Valdez,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+315-Yanni,MS,0,State v. Yanni,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+316-Lincoln,MS,0,State v. Lincoln,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+317-Steelman,MS,0,State v. Steelman,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+318-RODRIGUEZ,MS,0,State v. Rodriguez,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+320-Mayweather,MS,0,State v. Mayweather,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+321-Schoenlein,MS,0,State v. Schoenlein,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+322-Bradford,MS,0,State v. Bradford,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+322-Magwood,MS,0,State v. Magwood,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+323-Hunt,MS,0,State v. Hunt,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+"323-PRIMOUS, IV",MS,0,State v. Primous,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+324-Jackson,MS,0,State v. Jackson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+327-Wilks Jr.,MS,0,ne3d rep bv 114,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+330-Straughan,MS,0,State v. Straughan,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+331-Palmer,MS,0,State v. Palmer,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+333-Hartman,MS,0,State v. Hartman,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+337-Martin,MS,0,State v. Martin,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+339-Henry,MS,0,State v. Henry,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+339-Nichols,MS,0,State v. Nichols,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+342-Mincey,MS,0,State v. Mincey,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+347-Lynch,MS,0,State v. Lynch,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+347-Powell,MS,0,State v. Powell,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+348-Jones,MS,0,State v. Jones,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+349-Moore,MS,0,State v. Moore,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+350-Grieco,MS,0,State v. Grieco,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+350-Martin,MS,0,State v. Martin,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+352-Powers,MS,0,State v. Powers,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+353-Wycuff,MS,0,State v. [C.W.],"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+357- Mcendree,MS,0,State v. McEndree,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+365-Makin,MS,0,State v. Makin,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+367-Fornshell,MS,0,State v. Fornshell,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+372-Miller,MS,0,State v. Miller,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+376-Hymes,MS,0,State v. Hymes,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+377-Carswell,MS,0,State v. Carswell,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+378-Patton,MS,0,State v. Patton,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+379-Phifer,MS,0,State v. Phifer,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+381-Loyd,MS,0,State v. Loyd,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+382-Palmer,MS,0,State v. Palmer,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+383-Scofield,MS,0,State v. Scofield,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+384-Sims Jr.,MS,0,State v. Sims,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+"385-Thorpe, Jr",MS,0,State v. Thorpe,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+387-Singleton,MS,0,State v. Singleton,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+388-Angel,MS,0,State v. Angel,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+395-DEBARDELEBEN,MS,0,State v. Debardeleben,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+396-Schentur,MS,0,State v. Schentur,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+397-Lee,MS,0,State v. Lee,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+398-Lewis,MS,0,State v. Lewis,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+400-Collins,MS,0,State v. Collins,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+402-Jenkins,MS,0,State v. Jenkins,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+405-Lawless,MS,0,State v. Lawless,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+408-Housley,MS,0,State v. Housley,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+409-Weemes,MS,0,State v. Weemes,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+410-Smith,MS,0,State v. Smith,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+411-Stubbs,MS,1,State v. Stubbs,Title meets form. Case originated in a Municipal Court (city prosecutor).
+412-Riggins,MS,0,State v. Riggins,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+414-Spurgeon,MS,0,State v. Spurgeon,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+415-Newell,MS,0,State v. Newell,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+416-Sheline,MS,0,State v. Sheline,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+417-Curtis,MS,0,State v. Curtis,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+418-Conway,MS,0,State v. Conway,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+420-Quinn,MS,0,State v. Quinn,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+421-Smith,MS,0,State v. Smith,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+422-Buehner,MS,0,State v. Buehner,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+423-Purvis-Mitchell,MS,0,State v. Mitchell,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+424-Austin,MS,0,State v. Austin,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+425-Goney,MS,0,State v. Goney,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+426-Barrow,MS,0,State v. Barrow,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+427-Harrison,MS,0,State v. Harrison,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+428-McGuire,MS,0,State v. McGuire,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+430-W. Blanton Jr.,MS,0,State v. Blanton,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+431-Brown,MS,0,State v. Brown,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+432-Hawkins,MS,0,State v. Hawkins,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+433-Mock,MS,0,State v. Mock,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+434-Nickelson,MS,0,State v. Nickelson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+456-Rupert,MS,0,State v. Rupert,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+457-Lewis,MS,0,State v. Lewis,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+466-Hayes,MS,0,State v. Hayes,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+467-Saunders,MS,0,State v. Saunders,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+469-Thomas,MS,0,State v. Thomas,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+470-Combs,MS,0,State v. Combs,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+471-Walls,MS,0,State v. Walls,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+473-McDuffie,MS,0,State v. McDuffie,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+477-Towns,MS,0,State v. Towns,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+479-Howard,MS,0,State v. Howard,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+480-Mosley,MS,0,State v. Mosley,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+481-Shutway,MS,0,State v. Shutway,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+482-Smith,MS,0,State v. Smith,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+483-Butts,MS,0,State v. Butts,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+485-Mott,MS,0,State v. Mott,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+490-Aboytes,MS,0,State v. Aboytes,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+493-Stepp,MS,0,State v. Stepp,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+494-Montgomery,MS,1,State v. A.W.M.,Title meets form. Juvenile mention and name in initials.
+495-Haynes,MS,0,State v. Haynes,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+"497-Durham, Jr.",MS,0,State v. Durham,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+498-Rike,MS,0,State v. Rike,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+500-Partin,MS,0,State v. Partin,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+502-Poteet,MS,0,State v. Poteet,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+503-Rhodes,MS,0,State v. R.L.R.,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+504-Thacker,MS,0,State v. Thacker,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+506-Nichols,MS,0,State v. Nichols,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+507-Stites,MS,0,State v. Stites,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+508-Shoffner,MS,0,State v. Shoffner,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+509-Schulman,MS,0,State v. Schulman,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+"510-Eberhardt, Jr",MS,0,State v. Eberhardt,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+511-Smith,MS,0,State v. Smith,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+512-Marr,MS,0,State v. Marr,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+513-Kaufhold,MS,0,State v. Kaufhold,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+514-Taylor,MS,0,State v. Taylor,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+516-Panezich,MS,0,State v. Panezich,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+519-Walker,MS,0,State v. Walker,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+521-Bethel,MS,0,State v. Bethel,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+522-Williams,MS,0,State v. Williams,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+523-Daniels,MS,0,State v. Daniels,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+524-Harner Sr,MS,0,State v. Harner,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+525-Hartley,MS,0,State v. Hartley,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+526-Hunt,MS,0,State v. Hunt,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+527-Brown II,MS,0,State v. Brown,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+528-Keeton,MS,0,State v. Keeton,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+529-Hodge,MS,0,State v. Hodge,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+531-Drain,MS,0,State v. Drain,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+532-Durst,MS,0,State v. Durst,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+533-Peyatt,MS,0,State v. Peyatt,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+"535-Burney, Sr",MS,0,State v. Burney,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+536-Young,MS,0,State v. Young,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+537-Rasawehr,MS,1,State v. Rasawehr,Title meets form. Case originated in a Municipal Court (city prosecutor).
+538-Bond,MS,0,State v. Bond,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+539-Jones,MS,0,State v. Jones,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+540-Hashi,MS,0,State v. Hashi,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+541-Doak,MS,0,State v. Doak,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+542-Chavez,MS,0,State v. Chavez,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+543-Murphy,MS,0,State v. Murphy,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+544-Lavender,MS,0,State v. Lavender,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+546-Rosemond,MS,0,State v. Rosemond,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+547-Ruggles,MS,0,State v. Ruggles,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+551-Rowland,MS,0,State v. Rowland,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+552-Lester,MS,0,State v. Lester,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+559-Penn,MS,0,State v. Penn,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+560-Blackshear,MS,0,State v. Blackshear,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+567-Smith,MS,0,State v. Smith,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+575-Smith,MS,0,State v. Smith,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+576-Johnson,MS,0,State v. Johnson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+579-Strange,MS,1,State v. Strange,Title meets form. Case originated in a Municipal Court (city prosecutor).
+580-Hypes,MS,0,State v. Hypes,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+581-Szafranski,MS,0,State v. Szafranski,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+582-Hodge,MS,0,State v. Hodge,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+584-Quinn,MS,0,State v. Quinn,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+585-Wright,MS,0,State v. Wright,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+"586-Austin, Jr",MS,0,State v. Austin,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+587-Berry,MS,0,State v. Berry,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+588-Grable,MS,0,State v. Grable,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+589-Hager,MS,1,State v. Hager,Title meets form. Case originated in a Municipal Court (city prosecutor).
+591-Searfoss,MS,0,State v. Searfoss,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+593-Mathis,MS,0,State v Mathis,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+595-Moore,MS,0,State v. Moore,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+597-Clipps,MS,0,State v. Clipps,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+599-Johnson,MS,0,State v. Johnson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+601-Talbert,MS,0,State v. Talbert,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+602-Love,MS,0,State v. Love,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+"603-Brunner, Jr",MS,0,State v. Brunner,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+604-Powers,MS,0,State v. Powers,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+605-Randleman,MS,0,State v. Randleman,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+608-Savage,MS,0,State v. Savage,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+609-Jones,MS,0,State v. Jones,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+610-Toda,MS,0,State v. Toda,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+612-Reed,MS,0,State v. Reed,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+613-Hairston,MS,0,State v. R.I.H.,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+614-Hope,MS,0,State v. Hope,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+"615-Burns, Jr.",MS,0,State v. Burns,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+615-Stutler,MS,0,State v. Stutler,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+616-Pettus,MS,0,State v. Pettus,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+617-Campbell,MS,0,State v. Campbell,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+618-Singer,MS,0,State v. Singer,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+619-Thomas,MS,0,State v. Thomas,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+620-Williams,MS,0,State v. Williams,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+623-Shanklin,MS,0,State v. Shanklin,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+624-Hayes,MS,0,State v. Hayes,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+625-Graffius,MS,0,State v. Graffius,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+626-Henderson,MS,0,State v. Henderson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+627-Blevins,MS,0,State v. Blevins,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+628-Holloway,MS,0,State v. Holloway,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+629-Croskey,MS,0,State v. Croskey,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+630-Junod,MS,0,State v. Junod ,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+631-St. John,MS,0,State v. St. John,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+632-Parker,MS,0,State v. Parker,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+633-Tucker,MS,0,State v. Tucker,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+634-Gomez,MS,0,State v. Gomez,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+635-Hamad,MS,0,State v. Hamad,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+636-Paige,MS,0,State v. Paige,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+637-Rafter,MS,0,State v. Rafter,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+638-Robinson,MS,0,State v. Robinson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+639-Cody,MS,0,State v. Cody,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+640-McConnell,MS,0,State v. McConnell,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+641-Parham,MS,0,State v. Parham,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+642-Ireland,MS,0,State v. Ireland,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+643-Patton,MS,0,State v. Patton,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+644-Vaughn,MS,0,State v. Vaughn,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+645-Schaaf,MS,0,State v. Schaaf,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+646-Jefferson,MS,0,State v. Jefferson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+647-Taylor,MS,0,State v. Taylor,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+648-Rivera,MS,0,State v. Rivera,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+650-Young,MS,0,State v. Cortez,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+651-Sanders,MS,0,State v. Sanders,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+652-Johnson,MS,0,State v. Johnson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+653-Smith,MS,0,State v. Smith,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+654-Brown,MS,0,State v. Brown,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+655-Friscone,MS,0,State v. Friscone,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+656-Battle,MS,0,State v. Battle,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+658-Hall,MS,0,State v. Hall,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+659-Snowden,MS,0,State v. Snowden,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+661-Russell,MS,0,State v. Russell,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+662-Harris,MS,0,State v. Harris,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+664-McNeal,MS,0,State v. McNeal,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+665-Townsend,MS,0,State v. Townsend,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+666-Newman,MS,0,State v. Newman,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+668-Williams,MS,0,State v. Williams,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+674-Cowan,MS,0,State v. Cowan,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+677-Almedom,MS,0,State v. S.A.A.,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+682-Ferguson,MS,0,State v. G.F.,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+688-Hazel,MS,0,State v. Hazel,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+693-Hazel,MS,0,State v. Hazel,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+695-Randle,MS,0,State v. Randle,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+697-Burns JR.,MS,0,State v. Burns,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+718-Carpenter,MS,0,State v. Carpenter,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+770-Powell,MS,0,State v. Powell,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+773-Kimpel,MS,0,State v. Kimpel,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+777-Bowermaster,MS,0,State v. Bowermaster,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+778-Bartulica,MS,0,State v. Bartulica,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+780-Jones,MS,0,State v. Jones,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+790-Hodgson,MS,0,State v. Hodgson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+819-BANKS,MS,0,State v. Banks,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+824-DOYLE,MS,0,State v. Doyle,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+847-Thomas,MS,0,State v. Thomas,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+854-Singleton,MS,0,State v. Singleton,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+855-Culbertson,MS,0,State v. Culbertson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+857-Thomson,MS,0,State v. Thomson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+861-Heller,MS,0,State v. Heller,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+862-Murray,MS,0,State v. Murray,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+865-Green,MS,0,State v. Green,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+882-Lucas,MS,0,State v. Lucas,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+921-Holt,MS,0,State v. Holt,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+928-Figueroa,MS,0,State v. Figuero,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+930-Walker,MS,0,State v. Walker,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+970-Halka,MS,0,State v. Halka,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+972-Hall,MS,0,State v. Hall,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+973-Hunt,MS,1,State v. Hunt,Title meets form. Case originated in a Municipal Court (city prosecutor).
+977-Taylor,MS,0,State v. Taylor,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+979-Johnson,MS,0,State v. Johnson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+980-STILTNER,MS,0,State v. Stiltner,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+981-BERRY,MS,0,State v. Berry,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+982-DERIFIELD,MS,0,State v. Derifield,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+988-Price,MS,0,State v. Price,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+989-Long,MS,0,State v. Long,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+990-Dotson,MS,0,State v. Dotson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+991-BENDOLPH,MS,0,State v. Bendolph,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+"992- SHINE, JR.",MS,0,State v. Shine,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+993-SPAULDING,MS,0,State v. Spaulding,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+"994-Walker, Jr.",MS,0,State v. Walker,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+000-Edwards,DNMS,0,State v. Edwards,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+001-Verhoff,DNMS,1,Verhoff v. Verhoff,Does not match State v.
+002-C.,DNMS,0,In re X.C.,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+003-Young,DNMS,0,State v. Young,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+005-Carr,DNMS,0,State v. Carr,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+006-DeMarco,DNMS,1,DeMarco v. Pace,Does not match State v.
+007-R.,DNMS,0,In re S.C.,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+022-GOOD TIME OUTDOORS,DNMS,1,"Metal Seal v. Good Time Outdoors, Inc.",Does not match State v.
+023-Douglas,DNMS,0,State v. Douglas,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+024-Zaccone,DNMS,0,State v. Zaccone,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+025-T.C.,DNMS,1,T.C. v. K.C.,Does not match State v.
+026-P.K.,DNMS,1,P.K. v. J.V.,Does not match State v.
+027-Diestler,DNMS,0,State v. Diestler,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+028-Southam,DNMS,0,State v. Southam,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+030-Kiara,DNMS,1,"Torres v. Concrete Designs, Inc.",Does not match State v.
+031-HOUDESHELL,DNMS,0,State v. Houdeshell,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+032-Maurent,DNMS,0,State v. Maurent,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+036-Craciun,DNMS,0,State v. Craciun,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+038-Williams,DNMS,0,State v. Williams,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+039-Woodford,DNMS,0,State v. Woodford,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+040-McDuffey,DNMS,1,Toledo v. McDuffey,Does not match State v.
+042-In Re L.S.,DNMS,0,In re L.S.,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+043-Sparks,DNMS,0,State v. Sparks,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+044-Glass,DNMS,0,State v. Glass,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+045-Harding,DNMS,0,State v. Harding,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+046-Hardman,DNMS,0,State v. Hardman,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+047-Mcintosh,DNMS,0,State v. McIntosh,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+048-Wolford-Lee,DNMS,0,State v. Wolford-Lee,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+049-Butcher,DNMS,0,State v. Butcher,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+051-Kitchen,DNMS,0,State v. Kitchen,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+052-D'Ambrosio,DNMS,1,State ex rel. O'Malley v. Russo,Does not match State v.
+052-Owens,DNMS,0,State v. Owens,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+055-Teets,DNMS,0,State v. Teets,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+056-Brown,DNMS,0,State v. Brown,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+057-Hill,DNMS,0,State v. Hill,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+059-Henderson,DNMS,0,State v. Henderson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+"061-MURPHY, ROGERS, SLOSS & GAMBEL, A PROFESSIONAL LAW CORPORATION, ET AL.",DNMS,1,"Rayco Mfg., Inc. v. Murphy, Rogers, Sloss & Gambel",Does not match State v.
+062-Robinson,DNMS,0,State v. Robinson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+063-Mohammed Ali,DNMS,0,State v. Ali,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+064-Phelps,DNMS,0,State v. Phelps,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+066-Hill,DNMS,0,State v. Hill,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+068-Buk-Shul,DNMS,0,State v. Buk-Shul,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+069-Johnson,DNMS,0,State v. Johnson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+070-Stidhum,DNMS,0,State v. Stidhum,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+"071-L.C.C.,",DNMS,0,In re L.C.C.,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+073-Beedy,DNMS,0,State v. Beedy,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+074-Norman,DNMS,0,State v. Norman,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+074-Square,DNMS,0,State v. Square,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+075-Russell,DNMS,0,State v. Russell,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+077-U.S. Bank,DNMS,1,U.S. Bank v. Hill,Does not match State v.
+078-Hough,DNMS,0,State v. Hough,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+079-Johnson,DNMS,0,State v. Johnson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+080-West,DNMS,1,State v. Weist,Title meets form. Prosecutor is a city prosecutor.
+082-Dotson,DNMS,0,State v. Dotson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+082-Jarmon,DNMS,0,State v. Jarmon,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+083-T.C.,DNMS,0,In re T.C.,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+085-Vance,DNMS,0,State v. Vance,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+088-M.B.,DNMS,0,In re M.B.,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+091-Glenn,DNMS,0,State v. Glenn,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+091-McKenzie,DNMS,1,State v. McKenzie,Title meets form. Prosecutor is a city prosecutor.
+092-Armengau,DNMS,0,State v. Armengau,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+092-George,DNMS,0,State v. George,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+093-CONTINI,DNMS,1,State v. Contini,Title meets form. Case originated in a Municipal Court (city prosecutor).
+094-Austin,DNMS,0,State v. Austin,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+094-Todd,DNMS,0,State v. Todd,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+095-Jordan,DNMS,0,State v. Jordan,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+095-M.D.,DNMS,1,M.D. v. M.D.,Does not match State v.
+096-M.,DNMS,0,State v. A.M.,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+097-Bogan,DNMS,0,State v. Bogan,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+099-Hart,DNMS,0,State vs. Hart,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+099-Hughes,DNMS,0,State v. Hughes,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+100-LAZZERINI,DNMS,0,State v. Lazzerini,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+100-Long,DNMS,0,State v. Long,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+101-Feagin,DNMS,0,State v. Feagin,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+103-Gearhart,DNMS,0,State v. Gearhart,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+103-K.,DNMS,0,In re A.K.,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+104-Dixon,DNMS,0,State v. Dixon,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+104-LaRosa,DNMS,0,State v. LaRosa,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+106-Bridges,DNMS,0,State v. Bridges,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+106-Hemming,DNMS,1,State v. Hemming,Title meets form. Case originated in a Municipal Court (city prosecutor).
+109-CLIFF RIVENBARK,DNMS,1,Rivenbark v. Discount Drug Mart,Does not match State v.
+109-Dunn,DNMS,0,State v. Dunn,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+113-Jones,DNMS,0,State v. Jones,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+114-Jones,DNMS,0,State v. Jones,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+115-Lawrence,DNMS,0,State v. Lawrence,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+116-Bayless,DNMS,1,Collier v. Bayless,Does not match State v.
+117-Miller,DNMS,1,Miller v. Miller,Does not match State v.
+118-Clark,DNMS,0,State v. Clark,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+118-Jacinto,DNMS,0,State v. Jacinto,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+119-PTAK,DNMS,1,Chagrin Falls v. Ptak,Does not match State v.
+121-Whittaker,DNMS,1,Steubenville v. Whittaker,Does not match State v.
+122-Shelton,DNMS,0,State v. Shelton,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+123-Mobley,DNMS,0,State v. Mobley,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+124-Parks,DNMS,0,State v. Parks,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+125-Lemons,DNMS,1,Lemons v. State,Does not match State v.
+125-Willis,DNMS,1,Wolford v. Willis,Does not match State v.
+126-BROOKS,DNMS,1,Parma Hts. v. Brooks,Does not match State v.
+126-Miller,DNMS,1,Johnson v. Miller,Does not match State v.
+127-Miller,DNMS,0,State v. Miller,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+129-Jenkins,DNMS,1,State v. Jenkins,Title meets form. Case originated in a Municipal Court (city prosecutor).
+130-Gray,DNMS,0,State v. Gray,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+131-BSHM ARCHITECTS,DNMS,1,"Netherlands Ins. Co. v. BSHM Architects, Inc.",Does not match State v.
+132-Johnson,DNMS,0,State v. Johnson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+134-Boler,DNMS,0,State v. Boler,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+135-Johnson,DNMS,0,State v. Johnson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+139-Dunlap,DNMS,1,State v. Dunlap,Title meets form. Case originated in a Municipal Court (city prosecutor).
+141-Stewart,DNMS,0,State v. Stewart,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+142-In Re K.D.,DNMS,0,In re K.D.,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+142-Obermiller,DNMS,0,State v. Obermiller,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+143-In L.D.,DNMS,0,In re L.D.,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+144-Kouame,DNMS,0,State v. Kouame,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+144-Spehar,DNMS,1,Mentor v. Spehar,Does not match State v.
+147-Lee,DNMS,0,State v. Lee,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+148-Davis,DNMS,1,State ex rel. Davis v. Holbrook,Does not match State v.
+149-Meade,DNMS,0,State v. Meade,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+150-Simmons,DNMS,0,State v. Simmons ,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+152-Riffle,DNMS,0,State v. Riffle,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+153-Bennett,DNMS,0,State v. Bennett,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+154-Poe,DNMS,1,State v. Poe,Title meets form. Prosecutor is a city prosecutor.
+154-Wallace,DNMS,0,,Empty metadata title; defaulted to MS.
+155-Smith,DNMS,0,State v. Smith,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+156-Short,DNMS,1,Short v. Short,Does not match State v.
+157-Pitts,DNMS,0,State v. Pitts,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+158-Sibole,DNMS,0,State v. Sibole,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+159-Campbell,DNMS,0,State v. Campbell,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+159-Davis,DNMS,0,State v. Davis,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+160-Hill,DNMS,0,State v. Hill,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+161-COOPER,DNMS,0,State v. Cooper,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+162-Solon,DNMS,1,Solon v. Solon,Does not match State v.
+164-O'Malley,DNMS,1,Presutto v. Hull,Does not match State v.
+165-FERRICCI,DNMS,0,State v. Ferricci,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+168-Ross,DNMS,0,State v. Ross,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+169-Littlepage,DNMS,0,State v. Littlepage,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+169-Mock,DNMS,0,State v. Mock,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+170-Reese,DNMS,1,Toledo v. Reese,Does not match State v.
+171-Shuster,DNMS,0,State v. Shuster,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+172-Lindsay,DNMS,0,State v. Lindsay,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+173-Whitman,DNMS,0,State v. Whitman,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+174-WRIGHT STATE PHYSICIANS,DNMS,1,"Onady v. Wright State Physicians, Inc.",Does not match State v.
+175-Page,DNMS,0,State v. Page,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+176-Carter,DNMS,0,State v. Carter,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+177-Thomas,DNMS,0,State v. Thomas,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+181-Snyder,DNMS,0,State v. Snyder,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+182-Clemmons,DNMS,0,,Empty metadata title; defaulted to MS.
+183-In re Dor.B,DNMS,0,In re Dor.B.,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+183-Morton,DNMS,0,State v. Morton,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+185-Hartman,DNMS,0,State v. Hartman,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+186-NEWELL,DNMS,0,State v. Newell,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+186-Whitacre,DNMS,1,Kraynak v. Whitacre,Does not match State v.
+187-NEWMAN,DNMS,0,State v. Newman,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+189-Shine-Johnson,DNMS,0,Microsoft Word - Shine-Johnson Habeas 59(e) R&R.docx,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+190-Hopkins,DNMS,0,State v. Hopkins,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+190-Smith,DNMS,0,State v. Smith,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+191-Winston,DNMS,0,State v. Winston,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+192-Dennis,DNMS,0,State v. Dennis,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+"193-ADMINISTRATOR, OHIO BUREAU OF",DNMS,1,Green v. Ohio Bur. of Workers' Comp.,Does not match State v.
+193-Armstrong-Carter,DNMS,1,State v. Armstrong-Carter,Title meets form. Case originated in a Municipal Court (city prosecutor).
+194-Allison,DNMS,0,State v. Allison,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+194-Hudson,DNMS,0,In re Estate of Hudson,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+195-Calhoun,DNMS,0,State v. Calhoun,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+195-PATRIOT ENERGY PARTNERS,DNMS,1,KB Resources v. Patriot Energy Partners,Does not match State v.
+196-Boware,DNMS,0,State v. Boware,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+197-Boaston,DNMS,0,State v. Boaston,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+197-In Re FB,DNMS,0,In re F.B.,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+198-Blanton,DNMS,0,State v. Blanton,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+198-Kinley,DNMS,0,State v. Kinley,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+199-Blair,DNMS,1,State v. Blair,Title meets form. Case originated in a Municipal Court (city prosecutor).
+199-MCLOUGHLIN,DNMS,1,State v. McLoughlin,Title meets form. Case originated in a Municipal Court (city prosecutor).
+200-Beall,DNMS,0,State v. Beall,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+201-Barnes,DNMS,0,State v. Barnes,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+201-Pelfrey,DNMS,0,State v. Pelfrey,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+202-Gideon,DNMS,1,State v. Gideon,Title meets form. Case originated in a Municipal Court (city prosecutor).
+203-State of Ohio,DNMS,1,Hudson v. State,Does not match State v.
+204-Baldwin,DNMS,0,State v. Baldwin,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+204-PHOENIX LIGHTING GROUP,DNMS,1,"Phoenix Lighting Group, L.L.C. v. Genlyte Thomas Group, L.L.C.",Does not match State v.
+209-Feathers,DNMS,0,State v. Feathers,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+209-Gordon,DNMS,0,State v. Gordon,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+210-Divoky,DNMS,1,King v. Divoky,Does not match State v.
+"211-D.M., et al.",DNMS,0,In re D.M.,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+212-Gatewood,DNMS,0,State v. Gatewood,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+212-Stewart,DNMS,0,State v. Stewart,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+213-Bender,DNMS,0,State v. Bender,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+213-Tinley,DNMS,1,State v. Tinley,Title meets form. Case originated in a Municipal Court (city prosecutor).
+214-Furr,DNMS,0,State v. Furr,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+217-Gibson,DNMS,0,State v. Gibson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+218-BROWNIE’S INDEPENDENT TRANSMISSION,DNMS,1,Mitchell v. Brownie's Indep. Transm.,Does not match State v.
+218-Gillispie,DNMS,0,State v. Gillispie,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+219-Gray,DNMS,0,State v. Gray,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+219-Klein,DNMS,0,In re Adoption of X.A.F.,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+221-MCNEIR,DNMS,0,State v. McNeir,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+222-B.,DNMS,0,In re J.B.,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+223-Hill,DNMS,0,State v. Hill,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+223-P.,DNMS,0,In re P.R.P.,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+224-Liggins,DNMS,0,State v. Liggins,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+225-Wright,DNMS,0,State v. Wright,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+226-Hoover,DNMS,0,State v. Hoover,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+227-Everson,DNMS,1,State v. Everson,Title meets form. Case originated in a Municipal Court (city prosecutor).
+227-Gutierrez,DNMS,0,State v. Gutierrez,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+230-Jackson,DNMS,0,State v. Jackson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+230-SCHWENDEMAN,DNMS,1,State v. Schwendeman,Title meets form. Prosecutor is a city prosecutor.
+232-BRIDGES,DNMS,0,State v. Bridge,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+232-Lewis,DNMS,0,State v. Lewis,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+234-MACK,DNMS,0,State v. Mack,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+236-Henderson,DNMS,1,Cleveland v. Henderson,Does not match State v.
+237-Newman,DNMS,0,State v. Newman,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+237-West Oaks Mall,DNMS,1,"MRI Software, L.L.C. v. W. Oaks Mall FL, L.L.C.",Does not match State v.
+238-Newman,DNMS,0,State v. Newman,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+238-Wilson,DNMS,0,State v. Wilson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+240-Jones,DNMS,0,State v. Jones,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+241-Sewell,DNMS,0,State v. Sewell,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+242-Harian,DNMS,0,State v. Harian,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+242-Staley,DNMS,1,State v. Staley,Title meets form. Case originated in a Municipal Court (city prosecutor).
+243-Robinson,DNMS,0,State v. Robinson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+244-Price,DNMS,0,State v. Price,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+"244-Thorpe, Jr.",DNMS,0,State v. Thorpe,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+245-McCullough,DNMS,1,State v. McCullough,Title meets form. Case originated in a Municipal Court (city prosecutor).
+245-Tomlinson,DNMS,0,State v. Tomlinson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+246-M,DNMS,0,In re A.M.,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+247-Wilcoxson,DNMS,1,State v. Wilcoxson,Title meets form. Case originated in a Municipal Court (city prosecutor).
+247-ZEN,DNMS,0,In re Z.E.N.,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+248-Defiance Therapeutic Massage,DNMS,1,Knapp v. Defiance Therapeutic Massage & Wellness Ctr.,Does not match State v.
+248-Wiredu,DNMS,1,State v. Wiredu,Title meets form. Case originated in a Municipal Court (city prosecutor).
+249-Bump,DNMS,1,State v. Bump,Title meets form. Case originated in a Municipal Court (city prosecutor).
+249-Korbel,DNMS,1,State v. Korbel,Title meets form. Case originated in a Municipal Court (city prosecutor).
+250-Mobley,DNMS,0,State v. Mobley,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+251-Giant Eagle,DNMS,1,"Rieger v. Giant Eagle, Inc.",Does not match State v.
+251-Stultz,DNMS,1,State v. Stultz,Title meets form. Case originated in a Municipal Court (city prosecutor).
+252-Littlejohn,DNMS,0,State v. Littlejohn,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+252-MASTON,DNMS,0,State v. Maston,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+253-Robinson,DNMS,0,State v. Robinson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+"254-Daniels, Sr",DNMS,0,State v. Daniels,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+255-Lawson,DNMS,0,State v. Lawson (Slip Opinion),"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+255-Trussell,DNMS,0,State v. Trussell,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+256-Ammons,DNMS,0,State v. Ammons,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+257-Harrison,DNMS,0,State v. Harrison,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+258-F,DNMS,0,In re D.F.,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+259-Flagg,DNMS,0,State v. Flagg,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+260-Williams,DNMS,0,State v. Williams,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+261-Eytcheson,DNMS,1,State v. Eytcheson,Title meets form. Case originated in a Municipal Court (city prosecutor).
+261-Grate,DNMS,0,State v. Grate,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+262-Hatton,DNMS,0,State v. Hatton,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+268-Hunt,DNMS,0,State v. Hunt,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+269-Roberts,DNMS,0,State v. Roberts,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+270-Graham,DNMS,1,Timberlake v. Graham,Does not match State v.
+271-Turner,DNMS,0,State v. Turner,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+273-Green,DNMS,0,Microsoft Word - Green Habeas R&R ,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+275-Alvarado,DNMS,0,,Empty metadata title; defaulted to MS.
+275-Whitling,DNMS,1,State v. Whitling,Title meets form. Prosecutor is a city prosecutor.
+278-Clay,DNMS,0,State v. Clay,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+279-Hollins,DNMS,0,State v. Hollins,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+279-Rogers,DNMS,1,Rogers v. Logan Cty. Health Dist.,Does not match State v.
+281-DeVaughns,DNMS,0,State v. DeVaughns,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+283-Hundley,DNMS,0,State v. Hundley,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+283-York,DNMS,0,State v. York,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+284-Armengau,DNMS,0,Microsoft Word - Armengau Habeas R&R .docx,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+284-HARRIS,DNMS,0,State v. Harris,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+285-Guy,DNMS,0,,Empty metadata title; defaulted to MS.
+285-YOUNG,DNMS,0,State v. Young,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+286-Harris,DNMS,0,Microsoft Word - IN THE UNITED STATES DISTRICT COURT.docx,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+286-Yee,DNMS,0,State v. Yee,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+287-JOHNSON,DNMS,0,State v. Johnson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+287-Mack,DNMS,0,,Empty metadata title; defaulted to MS.
+288-Makin,DNMS,0,,Empty metadata title; defaulted to MS.
+288-Maranger,DNMS,0,State v. Maranger,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+289-Redic,DNMS,0,Microsoft Word - Redic Habeas R&R.docx,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+289-SUMMA HEALTH SYSTEM,DNMS,1,Messer v. Summa Health Sys.,Does not match State v.
+290-Rock,DNMS,0,,Empty metadata title; defaulted to MS.
+291-YEAGER,DNMS,0,State v. Yeager,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+"292-JAMES M. JACKSON, et al.",DNMS,1,Marquez v. Jackson,Does not match State v.
+"293-ROSARIO, JR",DNMS,1,Campbell v. Rosario,Does not match State v.
+"294-Mike McGarry & Sons, Inc",DNMS,1,"McGarry & Sons, Inc. v. Constr. Resources One, L.L.C.",Does not match State v.
+295-Webster,DNMS,1,Microsoft Word - 17cv2519 Webster v. Frederick R&R.docx,Does not match State v.
+298-Williams,DNMS,0,State v. Williams,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+299-Baugh,DNMS,0,State v. Baugh,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+299-Montgomery,DNMS,0,,Empty metadata title; defaulted to MS.
+301-Jones,DNMS,0,State v. Jones,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+301-Steiner,DNMS,0,State v. Steiner,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+302-Klafczynski,DNMS,0,State v. Klafczynski,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+302-Lloyd,DNMS,0,State v. Lloyd,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+303-Moton,DNMS,0,State v. Moton,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+303-Snowden Jr.,DNMS,1,State v. Snowden,Title meets form. Case originated in a Municipal Court (city prosecutor).
+305-Williams,DNMS,1,State v. Williams,Title meets form. Case originated in a Municipal Court (city prosecutor).
+307-Mathis,DNMS,0,State v. Mathis,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+307-Miku,DNMS,0,State v. Miku,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+308-Rich,DNMS,0,State v. Rich,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+309-Houk,DNMS,1,State v. Houk,Title meets form. Case originated in a Municipal Court (city prosecutor).
+309-Such,DNMS,1,State v. Such,Title meets form. Case originated in a Municipal Court (city prosecutor).
+310-Middleton,DNMS,1,State v. Middleton,Title meets form. Case originated in a Municipal Court (city prosecutor).
+310-Talarek,DNMS,1,Talarek v. Walls,Does not match State v.
+311-Beauchamp,DNMS,1,Beauchamp v. Petit,Does not match State v.
+312-Lamb,DNMS,0,State v. Lamb,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+312-Ramey,DNMS,0,State v. Ramey,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+314-Jones,DNMS,0,State v. Jones,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+316-Lamp,DNMS,0,State v. Lamp,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+317-McKNIGHT,DNMS,0,State v. McKnight,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+318-Hall,DNMS,0,State v. Hall,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+319-YOUNG,DNMS,0,State v. Young,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+321-Mack,DNMS,0,State v. Mack,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+325-Miday,DNMS,1,State ex rel. Young v. Miday,Does not match State v.
+326-West,DNMS,0,State v. West,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+327-Gregoire,DNMS,0,State v. Gregoire,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+328-Whitt,DNMS,0,State v. Whitt,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+329-In Re SS,DNMS,0,In re S.S.,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+329-LaRosa,DNMS,0,State v. LaRosa,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+330-Hill,DNMS,0,State v. Hill,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+332-O' Neal,DNMS,1,O'Neal v. State,Does not match State v.
+332-Rich,DNMS,0,State v. Rich,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+333-Marcum,DNMS,0,State v. Mardcum,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+334-Hundley,DNMS,0,State v. Hundley,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+334-Marcum,DNMS,0,State v. Marcum,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+335-James,DNMS,0,State v. James,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+335-Thomas,DNMS,0,State v. Thomas,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+336-Johnson,DNMS,0,State v. Johnson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+336-Marcelain,DNMS,1,State ex rel. Dunkle v. Marcelain,Does not match State v.
+338-Hazel,DNMS,0,State v. Hazel,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+340-Jones,DNMS,0,State v. Jones,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+341-Wright,DNMS,0,State v. Wright,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+342-Petway,DNMS,1,State v. Petway,Title meets form. Case originated in a Municipal Court (city prosecutor).
+343-POWELL,DNMS,0,State v. Powell,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+343-Thomas,DNMS,0,State v. Thomas,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+344-Grooms,DNMS,0,State v. Grooms,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+344-Robinson,DNMS,0,State v. Robinson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+346-Vance,DNMS,0,State v. Vance,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+349-KOPCHAK,DNMS,0,State v. Kopchak,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+351-Brust,DNMS,1,State ex rel. Brust v. Mohr,Does not match State v.
+351-Harris,DNMS,0,State v. Harris,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+352-Blanton,DNMS,0,State v. Blanton,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+353-Reed,DNMS,0,State v. Reed,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+355-Kerens,DNMS,0,State v. Kerns,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+356-Cobb,DNMS,0,State v. Cobb,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+356-Wilson JR.,DNMS,0,State v. Wilson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+357-Donlow,DNMS,0,State v. Donlow,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+358-Porter,DNMS,0,State v. Porter,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+358-Weeks,DNMS,1,Hamon v. Weeks,Does not match State v.
+359-T.D,DNMS,1,State v. W.T.D.,Title meets form. Case originated in a Municipal Court (city prosecutor).
+360-Ferguson,DNMS,0,State v. Ferguson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+361-Pariscoff,DNMS,1,State v. Pariscoff,Title meets form. Case originated in a Municipal Court (city prosecutor).
+362-Johnson,DNMS,0,State v. Johnson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+363-Jackson,DNMS,0,State v. Jackson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+364-Fogt,DNMS,1,Fogt v. Fogt,Does not match State v.
+365-Young,DNMS,0,State v. Young,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+366-Baskin,DNMS,0,State v. Baskin,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+371-Myers,DNMS,0,State v. Myers,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+373-Moore,DNMS,0,State v. Moore,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+374-Romy,DNMS,0,State v. Romy,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+375-Lucas,DNMS,0,State v. Lucas,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+380-Frye,DNMS,1,State v. Frye,Title meets form. Case originated in a Municipal Court (city prosecutor).
+386-Hall,DNMS,1,State v. Hall,Title meets form. Case originated in a Municipal Court (city prosecutor).
+401-Tiedjen,DNMS,0,State v. Tiedjen,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+404-Hayden,DNMS,0,State v. Hayden,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+419-Hill,DNMS,0,State v. Hill,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+452-Kapitula,DNMS,1,State v. Kapitula,Title meets form. Case originated in a Municipal Court (city prosecutor).
+454-Smith,DNMS,0,State v. Smith,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+455-Jones,DNMS,0,State v. Jones,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+460-Hover,DNMS,0,State v. Hover,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+461-Tellis,DNMS,0,State v. Tellis,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+462-KRATOCHVILL,DNMS,0,State v. Kratochvill,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+463-Baker,DNMS,0,State v. Baker,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+472-Snowden,DNMS,0,State v. Snowden,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+474-Stahl-Francisco,DNMS,1,State v. Stahl-Francisco,Title meets form. Case originated in a Municipal Court (city prosecutor).
+476-Sangeri,DNMS,1,Sangeri v. Yerra,Does not match State v.
+478-Wycuff,DNMS,1,State v. Wycuff,Title meets form. Case originated in a Municipal Court (city prosecutor).
+491-Spirnak,DNMS,0,State v. Spirnak,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+496-Jencson,DNMS,0,State v. Jencson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+505-Spiess,DNMS,1,State v. Spiess,Title meets form. Case originated in a Municipal Court (city prosecutor).
+530-Smoot,DNMS,1,State v. Smoot,Title meets form. Case originated in a Municipal Court (city prosecutor).
+534-Warren,DNMS,1,State v. Warren,Title meets form. Prosecutor is a city prosecutor.
+578-Pieronek,DNMS,1,State v. Pieronek,Title meets form. Case originated in a Municipal Court (city prosecutor).
+583-Puryear,DNMS,1,State v. Puryear,Title meets form. Case originated in a Municipal Court (city prosecutor).
+592-Smigleski,DNMS,1,State v. Smigelski,Title meets form. Case originated in a Municipal Court (city prosecutor).
+596-Neil,DNMS,0,State v. Neil,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+598-Cook,DNMS,1,State v. Cook,Title meets form. Prosecutor is a city prosecutor.
+606-Lopez-Tolentino,DNMS,0,State v. Lopez-Tolentino,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+607-Perin,DNMS,1,State v. Perin,Title meets form. Prosecutor is a city prosecutor.
+611-Somers,DNMS,0,State v. Somers,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+621-Helfrich,DNMS,1,State v. Helfrich,Title meets form. Case originated in a Municipal Court (city prosecutor).
+622-Curtis,DNMS,0,State v. Curtis,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+657-Brewer,DNMS,1,State v. Brewer,Title meets form. Case originated in a Municipal Court (city prosecutor).
+660-Caldwell,DNMS,1,State v. Caldwell,Title meets form. Case originated in a Municipal Court (city prosecutor).
+669-Brunson,DNMS,0,State v. Brunson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+675-Freed,DNMS,0,State v. Freed,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+678-Robinson,DNMS,1,Robinson v. State,Does not match State v.
+679-A.,DNMS,0,State v. G.F.A.,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+680-Untied,DNMS,0,In re Disqualification of Pokorny,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+681-Devore,DNMS,0,State v. DeVore,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+683-Glowney,DNMS,1,State v. Glowney & Glowney,Title meets form. Prosecutor is a city prosecutor.
+684-Scullin,DNMS,0,State v. Scullin,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+685-Coogan,DNMS,0,State v. Coogan,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+686-K,DNMS,0,In re P.K.,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+687-K,DNMS,0,In re P.K.,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+696-Allbritain,DNMS,1,State v. Allbritain,Title meets form. Case originated in a Municipal Court (city prosecutor).
+699-Daviduk,DNMS,0,State v. Daviduk,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+702-Smith,DNMS,0,State v. Smith,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+746-Hall,DNMS,1,State v. Hall,Title meets form. Prosecutor is a city prosecutor.
+793-Lynch,DNMS,0,State v. Lynch,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+818-DEVAUGHNS,DNMS,0,State v. DeVaughns,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+820-MARTIN,DNMS,0,State v. Martin,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+821-MCHENRY,DNMS,1,State v. McHenry,Title meets form. Case originated in a Municipal Court (city prosecutor).
+822-Covington,DNMS,1,State v. Covington,Title meets form. Case originated in a Municipal Court (city prosecutor).
+823-DANLEY,DNMS,1,In re Eberly v. Danley,Does not match State v.
+825-MARTIN,DNMS,0,State v. Martin,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+826-REED,DNMS,1,Reed v. Sims,Does not match State v.
+827-Boyer,DNMS,1,Hurton v. Boyer,Does not match State v.
+828-JOHNSON,DNMS,0,State v. Johnson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+829-GILCREAST,DNMS,0,State v. Gilcreast,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+830-RAMEY,DNMS,0,State v. Ramey,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+831-BENSON,DNMS,0,State v. Benson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+832-Estate of Reva,DNMS,1,"Estate of Case v. KKS Park Family Ltd. Partnership, PLL",Does not match State v.
+833-S.,DNMS,1,J.S. v. L.S.,Does not match State v.
+"834-LAKE PROPERTY MANAGEMENT, LLC",DNMS,1,"Stokes v. Lake Property Mgt., L.L.C.",Does not match State v.
+835-Rosa,DNMS,0,State v. Rosa,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+836-GEAUGA SOIL & WATER CONSERVATION DISTRICT,DNMS,1,Vanek v. Geauga Soil & Water Conservation Dist.,Does not match State v.
+837-RULONG,DNMS,0,State v. Rulong,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+"838-Floyd's Legacy, LLC d.b.a. Club De Ja Vu",DNMS,1,"Floyd's Legacy, L.L.C. v. Ohio Liquor Control Comm.",Does not match State v.
+"839-U.S. TITLE AGENCY, INC",DNMS,1,"Johnson v. U.S. Title Agency, Inc.",Does not match State v.
+840-Crist,DNMS,1,State v. Crist,Title meets form. Case originated in a Municipal Court (city prosecutor).
+841-Biggs,DNMS,0,State v. Biggs,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+842-West,DNMS,0,State v. West,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+843-Brantweiner,DNMS,1,State v. Brantweiner,Title meets form. Case originated in a Municipal Court (city prosecutor).
+844-Brown,DNMS,1,State v. Brown,Title meets form. Case originated in a Municipal Court (city prosecutor).
+845-Bechtel,DNMS,1,State v. Bechtel,Title meets form. Case originated in a Municipal Court (city prosecutor).
+846-Greenlee,DNMS,1,State v. Greenlee,Title meets form. Case originated in a Municipal Court (city prosecutor).
+848-Brooks,DNMS,0,State v. Brooks,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+850-Manicini,DNMS,1,State v. Mancini,Title meets form. Case originated in a Municipal Court (city prosecutor).
+851-Harrison,DNMS,1,State v. Harrison,Title meets form. Case originated in a Municipal Court (city prosecutor).
+852-Harrison,DNMS,0,State v. Harrison,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+853-Branam,DNMS,1,State v. Branam,Title meets form. Prosecutor is a city prosecutor.
+858-Salyers,DNMS,0,State v. Salyers,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+860-Bowen,DNMS,0,State v. Bowen,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+864-Howard,DNMS,0,State v. Howard,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+866-T.B.,DNMS,0,In re T.B.,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+867-JONES,DNMS,0,State v. Jones,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+868-ROOTSTOWN TOWNSHIP BOARD OF TRUSTEES,DNMS,1,State ex rel. Ames v. Rootstown,Does not match State v.
+"869-COLSTON, JR",DNMS,0,State v. Colston,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+870-MILLER,DNMS,0,State v. Miller,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+871-LEMONS III,DNMS,0,State v. Lemons,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+872-LEITWEIN,DNMS,1,State v. Leitwein,Title meets form. Prosecutor is a city prosecutor.
+873-Armengau,DNMS,0,State v. Armengau,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+875-HARGRAVES,DNMS,1,State v. Hargraves,Title meets form. Case originated in a Municipal Court (city prosecutor).
+876-Wynn,DNMS,0,State v. Wynn,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+877-BAER,DNMS,0,State v. Baer,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+878-CAYAVEC,DNMS,0,State v. Cayavec,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+879-Carter,DNMS,0,In re Z.C.,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+880-Hall,DNMS,0,State v. Hall,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+881-Norfolk Southern Railway Company,DNMS,1,Taylor v. Norfolk S. Ry. Co.,Does not match State v.
+883-BRIDGES,DNMS,0,State v. Bridges,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+884-STARR,DNMS,1,Lee v. Starr,Does not match State v.
+885-COOPER,DNMS,0,State v. Cooper,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+886-KHAMISI,DNMS,0,State v. Khamsi,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+887-Winfield,DNMS,0,State v. Winfield,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+888-Bierlein,DNMS,1,Bierleinl v. Grandview Hts. Bd. of Zoning Appeals,Does not match State v.
+889-O’CONNELL II,DNMS,0,State v. O'Connell,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+890-HARDING,DNMS,0,State v. Khamsi,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+891-Lindsay,DNMS,1,State ex rel. Lindsay v. Turner,Does not match State v.
+892-Desmond,DNMS,1,Desmond v. State,Does not match State v.
+893-CARR,DNMS,0,State v. Carr,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+894-Sayles,DNMS,0,State v. Sayles,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+895-PARRISH,DNMS,1,State v. Parrish,Title meets form. Case originated in a Municipal Court (city prosecutor).
+896-APANOVITCH,DNMS,0,State v. Apanovitch,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+897-HECKATHORN,DNMS,0,State v. Heckathorn,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+"898-Dewberry, Sr",DNMS,0,State v. Dewberry,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+899-Duncan,DNMS,0,State v. Duncan,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+900-Crowell,DNMS,0,State v. Crowell,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+901-DOWELL,DNMS,0,State v. Dowell,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+902-BUTCHER,DNMS,1,State v. Butcher,Title meets form. Case originated in a Municipal Court (city prosecutor).
+903-McGlown Jr,DNMS,1,State ex rel. McGlown v. Quilter,Does not match State v.
+904-MAPES,DNMS,1,State v. Mapes,Title meets form. Case originated in a Municipal Court (city prosecutor).
+907-Banks,DNMS,0,State v. Banks,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+908-Howard,DNMS,0,State v. Howard,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+909-Turner,DNMS,0,State v. Turner,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+910-S,DNMS,0,In re L.S.,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+911-Jones,DNMS,0,State v. Jones,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+912-W,DNMS,0,In re D.W.,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+913-Prescott,DNMS,0,State v. Prescott,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+915-Altman,DNMS,0,State v. R.R.A.,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+916-Campbell,DNMS,0,State v. Campbell,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+917-Hodges,DNMS,1,State v. Hodges,Title meets form. Case originated in a Municipal Court (city prosecutor).
+918-Groves,DNMS,1,State v. Groves,Title meets form. Prosecutor is a city prosecutor.
+919-Sims,DNMS,0,State v. Sims,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+920-Edwards,DNMS,0,State v. Edwards,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+922-Lincoln,DNMS,0,State v. Lincoln,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+924-Powell,DNMS,0,State v. Powell,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+"925-The State ex rel. The Cincinnati Enquirer, A Division of Gannett GP Media, Inc.,",DNMS,1,"State ex rel. Cincinnati Enquirer v. Ohio Dept. of Commerce, Div. of Fire",Does not match State v.
+926-Ericksen,DNMS,0,State v. Ericksen,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+927-Warren,DNMS,0,State v. Warren,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+929-Crawford,DNMS,0,State v. Crawford,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+931-Cole,DNMS,0,State v. Cole,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+932-Schnabel,DNMS,0,State v. Schnabel,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+933-Edwards,DNMS,0,State v. Edwards,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+934-Grimm,DNMS,0,State v. Grimm,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+935-Kunzer,DNMS,0,State v. Kunzer,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+936-Phillips,DNMS,0,State v. Phillips,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+937-Shaner,DNMS,0,State v. Shaner,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+938-Starks,DNMS,0,State v. Starks,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+939-Green,DNMS,0,State v. D.D.G.,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+940-Bennett,DNMS,0,State v. Bennett,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+941-Sands,DNMS,1,State v. Sands,Title meets form. Case originated in a Municipal Court (city prosecutor).
+942-Kirk,DNMS,0,State v. Kirk,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+943-Rosa,DNMS,0,State v. Rosa,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+946-Abdullah,DNMS,1,Johnson v. Abdullah,Does not match State v.
+947-Thompson,DNMS,0,State v. Thompson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+948-W,DNMS,0,In re J.W.,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+949-Williams,DNMS,0,State v. Williams,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+950-Smith,DNMS,0,State v. Smith,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+951-Godoy,DNMS,1,State v. Godoy,Title meets form. Case originated in a Municipal Court (city prosecutor).
+952-Pfan,DNMS,1,Sweeney v. Pfan,Does not match State v.
+953-Johnson,DNMS,1,State v. Johnson,Title meets form. Case originated in a Municipal Court (city prosecutor).
+954-Travis,DNMS,0,State v. Travis,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+955-Dixon,DNMS,1,Dixon v. Bowerman,Does not match State v.
+956-Graham,DNMS,0,State v. Graham,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+957-Line,DNMS,1,State v. Line,Title meets form. Case originated in a Municipal Court (city prosecutor).
+958-Watson,DNMS,0,State v. Watson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+959-Herron,DNMS,0,State v. Herron,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+960-Hammond,DNMS,0,State v. Hammond,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+961-Shuster,DNMS,0,State v. Shuster,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+962-Sheldon,DNMS,0,State v. Sheldon,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+963-Kapp,DNMS,1,Kapp v. Kapp,Does not match State v.
+964-Thomson,DNMS,0,State v. Thomson,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+965-Evick,DNMS,0,State v. Evick,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+966-Rogerson,DNMS,1,Lloyd v. Rogerson,Does not match State v.
+967-Esparza,DNMS,0,State v. Esparza,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+968-Jones,DNMS,0,State v. Jones,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+969-MASSUCCI,DNMS,0,State v. Massucci,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+971-REED,DNMS,0,State v. Reed,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+974-Ware,DNMS,1,State v. Ware,Title meets form. Case originated in a Municipal Court (city prosecutor).
+975-State of Ohio,DNMS,1,State v. Heil,Title meets form. Case originated in a Municipal Court (city prosecutor).
+976-Thacker,DNMS,0,State v. Thacker,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+978-Young,DNMS,0,State v. Young,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+983-Walls,DNMS,1,Walls v. Sigsworth,Does not match State v.
+984-CAMPBELL,DNMS,0,State v. Campbell,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+985-Murphy,DNMS,0,State v. Murphy,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+986-Bugara,DNMS,0,State v. Bugara,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+995-Miller,DNMS,0,State v. Miller,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+996-Koch,DNMS,0,State v. Koch,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."
+997-Desmond,DNMS,1,Desmond v. Mahoning Cty. Pros. Office,Does not match State v.
+998-E.,DNMS,0,In re C.E.,Title doesn't contain ' v ' or ' v.'; defaulted to MS.
+999-Lewis,DNMS,0,State v. Lewis,"Title meets form. Neither city prosecutor, municipal court, nor juvenile."

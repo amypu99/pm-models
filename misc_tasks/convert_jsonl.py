@@ -1,4 +1,4 @@
- import json
+import json
 
 def create_indices():
     # Input and output file paths
@@ -59,5 +59,60 @@ def get_labels():
     print(f"Merged file written to {output_file}")
 
 
-get_labels()
+# get_labels()
 # create_indices()
+
+
+def add_default_fields(input_file, output_file):
+     """
+     Add default fields to each JSON object in a JSON Lines file if they don't already exist.
+     """
+     # Define the default fields to add
+     default_fields = {
+         "case_juv": 0,
+         "case_crim": 0,
+         "case_2001": 0,
+         "case_app": 0,
+         "case_pros": 0,
+         "aoe_none": 0,
+         "aoe_grandjury": 0,
+         "aoe_court": 0,
+         "aoe_defense": 0,
+         "aoe_procbar": 0,
+         "aoe_prochist": 0,
+         "case_timeframe": 0,
+         "other": 0
+     }
+
+     with open(input_file, 'r', encoding='utf-8') as infile, \
+             open(output_file, 'w', encoding='utf-8') as outfile:
+
+         for line_num, line in enumerate(infile, 1):
+             line = line.strip()
+             if not line:  # Skip empty lines
+                 continue
+
+             try:
+                 # Parse the JSON object
+                 json_obj = json.loads(line)
+
+                 # Add default fields if they don't exist
+                 for field, default_value in default_fields.items():
+                     if field not in json_obj:
+                         json_obj[field] = default_value
+
+                 # Write the updated JSON object
+                 json.dump(json_obj, outfile, ensure_ascii=False)
+                 outfile.write('\n')
+
+             except json.JSONDecodeError as e:
+                 print(f"Error parsing JSON on line {line_num}: {e}")
+                 print(f"Problematic line: {line}")
+
+
+if __name__ == "__main__":
+     input_filename = "../cases_olmocr/MS/ms_olmocr_converted.jsonl"
+     output_filename = "../cases_olmocr/ms_olmocr_converted.jsonl"
+
+     add_default_fields(input_filename, output_filename)
+     print(f"Processing complete. Updated file saved as {output_filename}")

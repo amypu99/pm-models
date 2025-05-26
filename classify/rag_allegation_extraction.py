@@ -12,7 +12,7 @@ from datasets import load_dataset
 from peft import LoraConfig, PeftModel
 
 from run_baseline import clean_text, mistral_setup, ministral_setup, llama_setup
-from run_questions import label_flipped_answers, label_answers, load_jsonl
+from run_case_questions import label_flipped_answers, label_answers, load_jsonl
 
 
 from langchain_huggingface import HuggingFaceEmbeddings

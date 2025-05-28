@@ -1,5 +1,5 @@
-from get_all_aoe import full_query
 import pandas as pd
+from get_all_aoe import full_query
 import os
 import json
 import re
@@ -15,11 +15,11 @@ from datasets import load_dataset
 from peft import LoraConfig, PeftModel
 from run_baseline import clean_text, mistral_setup, ministral_setup, llama_setup
 from run_case_questions import find_whole_word, load_jsonl
-
+from run_pipeline import filter_jsonl
 
 
 os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
-os.environ["CUDA_VISIBLE_DEVICES"] = "3"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'
 
 # with open('./list_of_allegations.jsonl', 'r') as json_file:
@@ -127,10 +127,12 @@ def full_logic():
 def condensed_logic():
     gc.collect()
     torch.cuda.empty_cache()
-    filepath = "./results/allegations_evidence_20250526_1.jsonl"
-    output_path = "./results/aoe_question_results_20250526_1.jsonl"
-    aoe_evidence_jsonl = load_jsonl(filepath)
-    # aoe_evidence_jsonl = aoe_evidence_jsonl.sample(n=2, random_state=42)
+    filepath = "./results/allegations_evidence_20250520.jsonl"
+    full_jsonl = load_jsonl(filepath)
+    aoe_procbar2_df = pd.read_csv("./results/pipeline_test_2025-05-26/aoe_procbar2.csv")
+    aoe_evidence_jsonl = filter_jsonl(aoe_procbar2_df, full_jsonl)
+    # aoe_evidence_jsonl = load_jsonl(filepath)
+    aoe_evidence_jsonl = aoe_evidence_jsonl.sample(n=2, random_state=42)
     results = {}
     temp_results = {}
 
@@ -140,107 +142,51 @@ def condensed_logic():
     # pipe.model = pipe.model.to('cuda')
 
     # For each case
-    question_results = []
-    for case_name, group in aoe_evidence_jsonl.groupby('index'):
+    for case_name, group in aoe_evidence_jsonl.groupby('Index'):
 
         meets_standards = False
 
         for index, row in group.iterrows():
             if "allegation" in row:
-                case_name = str(row["index"])
-                allegation_num = str(row["allegation_num"])
-                aoe = str(row["allegation"])
-                # aoe_evidence = str(row["evidence"])
-                aoe_evidence = str(row["doc_0"])
+                    case_name = str(row["Index"])
+                    aoe = str(row["allegation"])
+                    aoe_evidence = str(row["evidence"])
 
-                # print(case_name, aoe)
+                    print(case_name, aoe)
 
-                # Ask if aoe is against the prosecutor, is procedurally barred, or is in the procedural history
-                question = (f"{aoe_evidence}\n\n" "Described above is an assignment of error from an appellate case. Read over the "
-                            "assignment of error carefully and think step-by-step through the following questions, "
-                            "answering with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your "
-                            "best yes or no guess:\n\n"
-                            "### Questions \n"
-                            "1. Is the assignment of error alleging that the prosecutor or State committed misconduct?\n"
-                            "2. Is the assignment of error barred by res judicata?\n"
-                            "3. Is the assignment of error in the procedural history (i.e. is it from a past appeal))\n"                            "### Output format:\n\n"
-                            "Return only this JSON block and nothing else:"
-                            "```json{\"aoe_none\": \"<answer to question 1>\", \"aoe_procbar\": \"<answer to question 2>\","
-                            "\"aoe_prochist\": \"<answer to question 3>\"}```")
+                    # Ask if aoe is against the prosecutor, is procedurally barred, or is in the procedural history
+                    question = (f"{aoe_evidence}\n\n" "Described above is an assignment of error from an appellate case. Read over the "
+                                "assignment of error carefully and think step-by-step through the following questions, "
+                                "answering with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your "
+                                "best yes or no guess:\n\n"
+                                "### Questions \n"
+                                "1. Is the assignment of error alleging that the prosecutor or State committed misconduct?\n"
+                                "2. Is the assignment of error barred by res judicata?\n"
+                                "3. Is the assignment of error in the procedural history (i.e. is it from a past appeal))\n"                            "### Output format:\n\n"
+                                "Return only this JSON block and nothing else:"
+                                "```json{\"aoe_none\": \"<answer to question 1>\", \"aoe_procbar\": \"<answer to question 2>\","
+                                "\"aoe_prochist\": \"<answer to question 3>\"}```")
 
-                prompt_all = [{"role": "user", "content": question}]
-                results = pipe(prompt_all, max_new_tokens=256)[0]['generated_text']
+                    prompt_all = [{"role": "user", "content": question}]
+                    results = pipe(prompt_all, max_new_tokens=256)[0]['generated_text']
 
-                aoe_answers = re.search(r'```(?:json)?\s*(\{.*?\})\s*```', results[1]['content'], re.DOTALL).group(1)
+                    aoe_answers = re.search(r'```(?:json)?\s*(\{.*?\})\s*```', results[1]['content'], re.DOTALL).group(1)
 
-                try:
-                    aoe_answers = json.loads(aoe_answers)
-                except json.decoder.JSONDecodeError:
-                    question_results.append({
-                        "Index": case_name,
-                        "Allegation_num": allegation_num,
-                        "Allegation": aoe,
-                        "Result": -1,
-                        "Explanation": "JSONDecodeError: Unable to parse JSON from the response."
-                    })
-                    print(f"Skipping {case_name}, {index}. Not able to load as json object")
-                    continue
+                    try:
+                        aoe_answers = json.loads(aoe_answers)
+                    except json.decoder.JSONDecodeError:
+                        print(f"Skipping {case_name}, {index}. Not able to load as json object")
+                        continue
 
-                if find_whole_word("Yes")(aoe_answers['aoe_none']):
-                    # print("Allegation is against Prosecutor")
-                    if find_whole_word("No")(aoe_answers['aoe_procbar']):
-                        # print("Allegation is not procedurally barred")
-                        if find_whole_word("No")(aoe_answers['aoe_prochist']):
-                            # print("Allegation is not in procedural history")
-                            meets_standards = True
-                            if meets_standards:
-                                # print("CASE MEETS STANDARDS")
-                                question_results.append({
-                                    "Index": case_name,
-                                    "Allegation_num": allegation_num,
-                                    "Allegation": aoe,
-                                    "Result": 1,
-                                    "Explanation": "Meets standards"
-                                })
-                            else:
-                                question_results.append({
-                                    "Index": case_name,
-                                    "Allegation_num": allegation_num,
-                                    "Allegation": aoe,
-                                    "Result": 0,
-                                    "Explanation": "Allegation does not meet standards"
-                                })
-                                # print("Allegation does not meet standards")
-                        else:
-                            question_results.append({
-                                "Index": case_name,
-                                "Allegation_num": allegation_num,
-                                "Allegation": aoe,
-                                "Result": 0,
-                                "Explanation": "PH"
-                            })
-                            # print("Allegation is in procedural history")
-                    else:
-                        question_results.append({
-                                "Index": case_name,
-                                "Allegation_num": allegation_num,
-                                "Allegation": aoe,
-                                "Result": 0,
-                                "Explanation": "procedurally barred"
-                            })
-                        # print("Allegation is procedurally barred")
-                else:
-                    question_results.append({
-                        "Index": case_name,
-                        "Allegation_num": allegation_num,
-                        "Allegation": aoe,
-                        "Result": 0,
-                        "Explanation": "not prosecutor"
-                    })
-                    # print("Allegation is not against Prosecutor")
-
-        results_df = pd.DataFrame(question_results)
-        results_df.to_csv(output_path, index=False)
+                    if find_whole_word("Yes")(aoe_answers['aoe_none']):
+                        print("Allegation is against Prosecutor")
+                        if find_whole_word("No")(aoe_answers['aoe_procbar']):
+                            print("Allegation is not procedurally barred")
+                            if find_whole_word("No")(aoe_answers['aoe_prochist']):
+                                print("Allegation is not in procedural history")
+                                meets_standards = True
+                                if meets_standards:
+                                    print("CASE MEETS STANDARDS")
 
 
 if __name__ == "__main__":

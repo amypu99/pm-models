@@ -17,7 +17,7 @@ from run_case_questions import label_flipped_answers, label_answers, load_jsonl
 
 
 os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
-os.environ["CUDA_VISIBLE_DEVICES"] = "5"
+os.environ["CUDA_VISIBLE_DEVICES"] = "7"
 os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'
 
 
@@ -51,8 +51,9 @@ def full_query(pipe, tokenizer, all_text):
             ────────────────────
             ### TASKS
 
-            1. Count the number of **assignments of error** made by the appellant/defendant.
-            2. Name and list all the assignments of error or allegations claimed by the appellant/defendant.
+            1. Count the number of **distinct assignments of error** made by the appellant/defendant.
+            2. List each assignment of error clearly and concisely, using numbering or bullet points.
+            3. If the assignments are explicitly labeled or numbered (e.g., "Assignment of Error No. 1"), preserve this original numbering and phrasing exactly.
 
             ────────────────────
             ### OUTPUT FORMAT
@@ -88,7 +89,7 @@ if __name__ == "__main__":
     # login()
     gc.collect()
     torch.cuda.empty_cache()
-    filepath = "../cases_olmocr/test_cases.jsonl"
+    filepath = "../cases_olmocr/remaining.jsonl"
     all_jsonl = load_jsonl(filepath)
     results = {}
     temp_results = {}
@@ -100,7 +101,7 @@ if __name__ == "__main__":
     for i, row in all_jsonl.iterrows():
         key = row['Index']
         allegation_list = full_query(pipe, tokenizer, row["Context"])
-        with open("list_of_allegations_20250527_a.jsonl", "a") as f:
+        with open("./results/list_of_allegations_20250527.jsonl", "a") as f:
             json_record = json.dumps({"Index": key, "allegations": allegation_list})
             f.write(json_record + "\n")
         gc.collect()

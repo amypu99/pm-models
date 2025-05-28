@@ -22,6 +22,13 @@ os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 def clean_json(raw: str) -> str:
     return re.sub(r"^```json\s*|\s*```$", "", raw)
 
+def query_model(pipe, tokenizer, query):
+
+    messages = [{"role": "system", "content": "You are a lawyer. Your job is to read the appellate case (provided) and extract evidence for the allegation of error."},{"role": "user", "content": query}]
+            
+    results = pipe(messages, max_new_tokens=12000)
+    return results
+
 if __name__ == "__main__":
     alle_df  = load_jsonl(ALLEGATIONS_PATH)
     cases_df = load_jsonl(CASES_PATH)
@@ -77,22 +84,17 @@ if __name__ == "__main__":
                 '}\n'
             )
 
-            gen = pipe(prompt)[0]["generated_text"]
-            blocks = [b.strip() for b in gen.split("\n\n") if b.strip()]
-
-            out = {
-                "index": idx,
-                "allegation_num": allegation_num,
-                "allegation": text,
-            }
-            for j, blk in enumerate(blocks):
-                out[f"doc_{j}"] = blk
+            gen = query_model(pipe, tokenizer, prompt)[0]['generated_text'][2]['content']
 
             with open(OUTPUT_PATH, "a") as f:
-                f.write(json.dumps(out, ensure_ascii=False) + "\n")
+                obj = json.loads(gen)
+                f.write(json.dumps(obj, ensure_ascii=False) + "\n")
+
+            break
 
         if i >= 10:
             break
+        break
 
         gc.collect()
         torch.cuda.empty_cache()

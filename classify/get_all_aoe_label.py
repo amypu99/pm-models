@@ -47,25 +47,31 @@ def query_model(pipe, tokenizer, query, text):
 def full_query(pipe, tokenizer, all_text):
     query = """
             Read the attached legal case and complete the following tasks:
-
+                        
             ────────────────────
             ### TASKS
 
             1. Count the number of **assignments of error** made by the appellant/defendant.
-            2. Name and list all the assignments of error or allegations claimed by the appellant/defendant.
+            2. List each assignment of error clearly and concisely.
+            3. If an assignment has an original label (e.g., "Assignment of Error I", "Ground II"), extract that label **exactly as written**.
 
             ────────────────────
             ### OUTPUT FORMAT
 
-            Return **only** this JSON block—nothing else:
+            Respond with **only** this JSON object. Use this exact structure—no commentary or explanation.
+
             ```json
             {
-            "num_errors": <number of distinct assignments of error>,
-            "allegation_1": "<full text of first assignment of error>",
-            "allegation_2": "<full text of second assignment of error>",
-            "allegation_3": "<full text of third assignment of error>",
-            ...
-            "allegation_n": "<full text of last assignment of error>"
+                "num_errors": <number of distinct assignments of error>,
+                "allegation_1": {
+                    "label": "<original or inferred label>",
+                    "aoe": "<full text of the first assignment of error>"
+                },
+                "allegation_2": {
+                    "label": "<original or inferred label>",
+                    "aoe": "<full text of the second assignment of error>"
+                },
+                ...
             }
             ```
             """
@@ -88,7 +94,7 @@ if __name__ == "__main__":
     # login()
     gc.collect()
     torch.cuda.empty_cache()
-    filepath = "../cases_olmocr/test_cases.jsonl"
+    filepath = "../cases_olmocr/all.jsonl"
     all_jsonl = load_jsonl(filepath)
     results = {}
     temp_results = {}
@@ -100,7 +106,7 @@ if __name__ == "__main__":
     for i, row in all_jsonl.iterrows():
         key = row['Index']
         allegation_list = full_query(pipe, tokenizer, row["Context"])
-        with open("list_of_allegations_20250527_a.jsonl", "a") as f:
+        with open("./results/list_of_allegations_20250527.jsonl", "a") as f:
             json_record = json.dumps({"Index": key, "allegations": allegation_list})
             f.write(json_record + "\n")
         gc.collect()

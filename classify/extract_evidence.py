@@ -8,12 +8,12 @@ from transformers import pipeline
 from run_case_questions import load_jsonl
 from run_baseline import ministral_setup
 
-#ALLEGATIONS_PATH = "./results/list_of_allegations_20250526.jsonl"
-#CASES_PATH       = "../cases_olmocr/all.jsonl"
+ALLEGATIONS_PATH = "./results/list_of_allegations_20250526.jsonl"
+CASES_PATH       = "../cases_olmocr/all.jsonl"
 OUTPUT_PATH      = "./results/extracted_evidence_20250527.jsonl"
 
-ALLEGATIONS_PATH = "./results/test2.jsonl"
-CASES_PATH       = "../cases_olmocr/test1.jsonl"
+#ALLEGATIONS_PATH = "./results/test2.jsonl"
+#CASES_PATH       = "../cases_olmocr/test1.jsonl"
 
 os.environ["CUDA_LAUNCH_BLOCKING"]    = "1"
 os.environ["CUDA_VISIBLE_DEVICES"]    = "3"
@@ -21,6 +21,13 @@ os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 
 def clean_json(raw: str) -> str:
     return re.sub(r"^```json\s*|\s*```$", "", raw)
+
+def query_model(pipe, tokenizer, query):
+
+    messages = [{"role": "system", "content": "You are a lawyer. Your job is to read the appellate case (provided) and extract evidence for the allegation of error."},{"role": "user", "content": query}]
+            
+    results = pipe(messages, max_new_tokens=12000)
+    return results
 
 if __name__ == "__main__":
     alle_df  = load_jsonl(ALLEGATIONS_PATH)
@@ -77,22 +84,22 @@ if __name__ == "__main__":
                 '}\n'
             )
 
-            gen = pipe(prompt)[0]["generated_text"]
-            blocks = [b.strip() for b in gen.split("\n\n") if b.strip()]
+            gen = query_model(pipe, tokenizer, prompt)[0]['generated_text'][2]['content']
 
-            out = {
-                "index": idx,
-                "allegation_num": allegation_num,
-                "allegation": text,
-            }
-            for j, blk in enumerate(blocks):
-                out[f"doc_{j}"] = blk
+            try:
+                extracted = json.loads(gen)
+            except json.JSONDecodeError:
+                print(f"JSON parse error on case {idx} / {allegation_num}.")
+                continue
 
-            with open(OUTPUT_PATH, "a") as f:
-                f.write(json.dumps(out, ensure_ascii=False) + "\n")
-
-        if i >= 10:
-            break
+            with open(OUTPUT_PATH, "a", encoding="utf-8") as jf:
+                out = {
+                    "index":          idx,
+                    "allegation_num": allegation_num,
+                    "allegation":     text,
+                    "extracted_text": extracted.get("extracted_text", "")
+                }
+                jf.write(json.dumps(out, ensure_ascii=False) + "\n")
 
         gc.collect()
         torch.cuda.empty_cache()

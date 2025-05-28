@@ -26,23 +26,23 @@ def identify_regex_dnms(directory):
                     reader = PdfReader(file_path)
                     meta = reader.metadata
                     title = meta.title if meta.title else ""
-                    
+
                     if title == "":
                         results.append({
-                            "filename": filename,
-                            "gold_label": gold_label,
-                            "predicted_label": "MS",
-                            "title": "",
-                            "comment": "Empty metadata title; defaulted to MS."
+                            "Index": index_val,
+                            "Gold Label": gold_label,
+                            "Predicted Label": 0,
+                            "Title": title,
+                            "Comment":  "Empty metadata title; defaulted to MS."
                         })
                         continue
                     if not (" v " in title.lower() or " v. " in title.lower()):                 
                         results.append({
-                            "filename": filename,
-                            "gold_label": gold_label,
-                            "predicted_label": "MS",
-                            "title": title,
-                            "comment": "Title doesn't contain ' v ' or ' v.'; defaulted to MS."
+                             "Index": index_val,
+                            "Gold Label": gold_label,
+                            "Predicted Label": 0,
+                            "Title": title,
+                            "Comment": "Title doesn't contain ' v ' or ' v.'; defaulted to MS."
                         })
                         continue
 
@@ -65,21 +65,32 @@ def identify_regex_dnms(directory):
                     county_level = county_pros1 or county_pros2 or county_pros3 or common_pleas
                     municipal_court = municipal and not county_level
                     
+                    predicted_label = 0  # default label
+                    comment = ""
+
                     if not match:
-                        predicted_label = "DNMS"
+                        predicted_label = "1"
                         comment = "Does not match State v."
                     elif city_prosecutor and not common_pleas:        
-                        predicted_label = "DNMS"
+                        predicted_label = "1"
                         comment = "Prosecutor is a city prosecutor."
                     elif municipal_court:
-                        predicted_label = "DNMS"
+                        predicted_label = "1"
                         comment = "Case originated in a municipal court."
                     elif (juvenile_mentioned and match.group(1).count('.') > 1) and (not juvenile_phrase):
-                        predicted_label = "DNMS"
+                        predicted_label = "1"
                         comment = "Case is juvenile."
                     else:
-                        predicted_label = "MS"
+                        predicted_label = "0"
                         comment = "Case meets standards."
+
+                    results.append({
+                        "Index": index_val,
+                        "Gold Label": gold_label,
+                        "Predicted Label": predicted_label,
+                        "Title": title,
+                        "Comment": comment
+                    })
                     
                 except Exception as e:
                     print(f"Error processing file {filename} in {gold_label}: {e}")

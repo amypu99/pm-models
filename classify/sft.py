@@ -44,8 +44,9 @@ print("TEST SET", dataset_test)
 # https://huggingface.co/docs/transformers/en/main_classes/trainer#transformers.TrainingArguments
 # https://huggingface.co/docs/trl/en/sft_trainer#trl.SFTConfig
 training_args = SFTConfig(
-    max_length=32768,
-    output_dir="/home/sky/sky_workdir/models/sft-llama-cot",
+    # max_length=32768,
+    # output_dir="/home/sky/sky_workdir/models/sft-llama-cot",
+    output_dir="./sft-out",
     per_device_train_batch_size=1,
     per_device_eval_batch_size=1,
     learning_rate=1e-05,
@@ -81,6 +82,6 @@ trainer = SFTTrainer(
     train_dataset=dataset_train,
     args=training_args,
     eval_dataset=dataset_test,
-    processing_class=tokenizer,
+    # processing_class=tokenizer,
 )
 trainer.train()

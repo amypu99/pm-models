@@ -72,12 +72,12 @@ def full_query(pipe, tokenizer, all_text):
             """
     tokenized_text = tokenizer(
         all_text,
-        max_length=24000,
+        max_length=60000,
         return_tensors='pt'
     ).to('cuda')
     decoded_text = tokenizer.decode(tokenized_text["input_ids"][0][1:-1])
     before, found_delimiter, after = decoded_text.rpartition("\n\n")
-    generated_text = query_model(pipe, tokenizer, query, before)[0]['generated_text']
+    generated_text = query_model(pipe, tokenizer, query, all_text)[0]['generated_text']
 
     return generated_text[2]['content']
 

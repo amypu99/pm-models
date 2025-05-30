@@ -7,7 +7,7 @@ from run_case_questions import label_answers, load_jsonl, questions_setup
 import os
 
 os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
-os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+os.environ["CUDA_VISIBLE_DEVICES"] = "3"
 os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'
 
 CHUNK_LENGTH = 2000

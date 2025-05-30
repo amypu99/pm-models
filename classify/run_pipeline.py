@@ -6,7 +6,10 @@ from regex import identify_regex_dnms
 
 def run_pipeline(model_setup, pdf_dir, ms_jsonl, dnms_jsonl):
     questions_dict = questions_setup()
-    regex_results = identify_regex_dnms(pdf_dir)
+    print("starting")
+    # regex_results = identify_regex_dnms(pdf_dir)
+    regex_results = pd.read_csv("./results/pipeline_test_2025-05-29/regex.csv")
+    print("done with regex")
 
     gc.collect()
     torch.cuda.empty_cache()
@@ -17,7 +20,8 @@ def run_pipeline(model_setup, pdf_dir, ms_jsonl, dnms_jsonl):
     # full_jsonl = load_jsonl("jsonl/dnms_aoe_none_olmocr.jsonl")
     # full_jsonl =full_jsonl.sample(n=5, random_state=42)
     filtered_jsonl = filter_jsonl(regex_results, full_jsonl)
-
+    filter_length = filtered_jsonl.shape[0]
+    print(f"starting questions on {filter_length}")
     results_df = pd.DataFrame()
     # For each case-specific question, case_2001, and whether untimely or improper paperwork
     for q in questions_dict:

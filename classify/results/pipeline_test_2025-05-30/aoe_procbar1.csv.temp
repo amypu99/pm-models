@@ -1,0 +1,191 @@
+Index,Gold Label,Response,Text,Predicted Label
+073-Sanders,0,No.,,0
+076-Tucker,0,No.,,0
+076-Williams,0,No.,,0
+077-Breneman,0,No.,,0
+078-Burry,0,No.,,0
+079-JARRELL,0,No.,,0
+081-Bolware,0,No.,,0
+081-Jenkins,0,No.,,0
+084-Davis,0,No.,,0
+086-Vogt,0,No.,,0
+087-Norales-Martinez,0,No.,,0
+088-Svoboda,0,No.,,0
+089-LOVINGSHIMER IV,0,No.,,0
+089-Thomas,0,No.,,0
+090-Sipple,0,No.,,0
+093-McFeeture,0,No.,,0
+096-Roan,0,No.,,0
+098-Bard,0,No.,,0
+098-Vicario,0,No.,,0
+339-Henry,0,No.,,0
+339-Nichols,0,No.,,0
+342-Mincey,0,No.,,0
+347-Lynch,0,No.,,0
+347-Powell,0,No.,,0
+348-Jones,0,No.,,0
+349-Moore,0,No.,,0
+350-Grieco,0,No.,,0
+350-Martin,0,No.,,0
+352-Powers,0,No.,,0
+353-Wycuff,0,No.,,0
+357- Mcendree,0,No.,,0
+365-Makin,0,No.,,0
+367-Fornshell,0,No.,,0
+372-Miller,0,No.,,0
+376-Hymes,0,No.,,0
+377-Carswell,0,No.,,0
+378-Patton,0,No.,,0
+379-Phifer,0,No.,,0
+616-Pettus,0,No.,,0
+617-Campbell,0,No.,,0
+618-Singer,0,No.,,0
+619-Thomas,0,No.,,0
+620-Williams,0,No.,,0
+623-Shanklin,0,No.,,0
+624-Hayes,0,No.,,0
+625-Graffius,0,No.,,0
+626-Henderson,0,No.,,0
+627-Blevins,0,No.,,0
+628-Holloway,0,No.,,0
+629-Croskey,0,No.,,0
+630-Junod,0,No.,,0
+631-St. John,0,No.,,0
+632-Parker,0,No.,,0
+633-Tucker,0,No.,,0
+634-Gomez,0,No.,,0
+635-Hamad,0,No.,,0
+636-Paige,0,No.,,0
+178-Edmonds,0,No.,,0
+179-BURTON,0,No.,,0
+179-HENDERSON,0,No.,,0
+180-PANEZICH,0,No.,,0
+182-MORTON,0,No.,,0
+184-Groesser,0,No.,,0
+187-Stein,0,No.,,0
+188-Evans,0,No.,,0
+188-NEWMAN,0,No.,,0
+189-Slade,0,No.,,0
+191-Baird,0,No.,,0
+192-Austin,0,No.,,0
+196-Smith,0,No.,,0
+200-MIECZKOWSK,0,No.,,0
+202-Vargo,0,No.,,0
+203-Baber,0,No.,,0
+205-Fields,0,No.,,0
+205-Zimpfer,0,Yes,"Context information is below.
+---------------------
+In 2014, Zimpfer was convicted of three counts of unlawful sexual conduct with a minor and four counts of rape (by force or threat of force). He was sentenced to a prison term of 33 years and designated a Tier III sex offender/child victim offender. Following an appeal, we affirmed the conviction and sentence. State v. Zimpfer, 2d Dist. Montgomery No. 26062, 2014-Ohio-4401. While his direct appeal was pending, Zimpfer filed a petition for post-conviction relief which the trial court denied. We affirmed the trial court’s denial in State v. Zimpfer, 2d Dist. Montgomery No. 26857, 2016-Ohio-7330. Zimpfer filed two separate applications seeking to reopen both appeals. This court denied both applications. Zimpfer also filed in the trial court a motion for production of documents seeking to have the Montgomery County Clerk of Courts provide him with a copy of all documents related to his case. The motion was denied by the trial court and Zimpfer appealed. We dismissed his appeal as untimely. The Ohio Supreme Court did not allow an appeal of our dismissal. State v. Zimpfer, 152 Ohio St.3d 1411, 2018-Ohio-723, 92 N.E.3d 881 (Table).
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+206-Weaver,0,No.,,0
+229-Walls,0,No.,,0
+231-James,0,No.,,0
+231-Scott,0,No.,,0
+233-Long,0,No.,,0
+233-TELEGO,0,No.,,0
+234-Maddox,0,No.,,0
+235-Beasley,0,No.,,0
+235-Marshall,0,No.,,0
+236-Murphy,0,No.,,0
+239-Freeman,0,No.,,0
+239-Portis,0,No.,,0
+240-Reid,0,Yes,"Context information is below.
+---------------------
+¶ 3 On May 7, 2019, Reid filed a petition to vacate or set aside his conviction based on newly discovered evidence that was outside the record. He requested an evidentiary hearing. Reid argued that the Dayton Police Department (“DPD”) had misrepresented its records retention policy and that the State had failed to turn over 911 recordings related to the shooting, in violation of his due process rights and Brady v. Maryland, 373 U.S. 83, 83 S.Ct. 1194, 10 L.Ed.2d 215 (1953). The trial court dismissed the petition based upon the doctrine of res judicata, finding that “the matter of the missing
+911 call(s) has been litigated previously in post-conviction proceedings.” Reid appealed, and this Court dismissed his appeal for failure to timely file a notice of appeal. State v. Reid, 2d Dist. Montgomery No. 28477 (Decision & Final Judgment Entry, Aug. 26, 2019).
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+243-Sutton,0,No.,,0
+246-Ward,0,No.,,0
+250-Kosto,0,No.,,0
+253-FORTUNE II,0,No.,,0
+254-Rucker,0,No.,,0
+257-PATE,0,No.,,0
+658-Hall,0,No.,,0
+659-Snowden,0,No.,,0
+661-Russell,0,No.,,0
+662-Harris,0,No.,,0
+664-McNeal,0,No.,,0
+665-Townsend,0,No.,,0
+666-Newman,0,No.,,0
+668-Williams,0,Yes.,"Context information is below.
+---------------------
+2. Williams' petition would be untimely whether considered under the current 365-day limitation or the former 180-day limitation in effect at the time of Williams' 2007 guilty plea.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+674-Cowan,0,No.,,0
+677-Almedom,0,No.,,0
+682-Ferguson,0,No.,,0
+688-Hazel,0,No.,,0
+693-Hazel,0,No.,,0
+695-Randle,0,No.,,0
+697-Burns JR.,0,Yes,"Context information is below.
+---------------------
+On October 22, 2015, more than three years after his trial, appellant filed a pro se petition for post-conviction relief (“PCR”). Via a judgment entry issued on November 25, 2015, the trial court denied appellant's petition for post-conviction relief as untimely. On July 6, 2016, we affirmed. See State v. Burns, 5th Dist. Licking No. 15-CA-98, 2016-Ohio-4833. Appellant's attempts to have the decision reviewed by the Ohio
+Supreme Court and the United States Supreme Court were unsuccessful. See State v. Burns, 147 Ohio St.3d 1506, 2017-Ohio-261, 67 N.E.3d 824; Burns v. Ohio, 138 S.Ct. 73, 199 L.Ed.2d 50 (2017).
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+718-Carpenter,0,No.,,0
+770-Powell,0,No.,,0
+773-Kimpel,0,No.,,0
+777-Bowermaster,0,No.,,0
+102-Berila,0,No.,,0
+102-Bowen,0,No.,,0
+105-Craig,0,No.,,0
+105-Hunt,0,No.,,0
+107-Brauchler,0,No.,,0
+107-Jordan,0,No.,,0
+108-Buehner,0,No.,,0
+108-Dailey,0,No.,,0
+110-Daboni,0,No.,,0
+111-Brantley,0,No.,,0
+112-Dandridge,0,No.,,0
+112-Pyles,0,No.,,0
+117-Jacinto,0,No.,,0
+119-Morrissette,0,No.,,0
+120-Cummings,0,No.,,0
+128-Thomas,0,No.,,0
+132-Pennington,0,No.,,0
+136-Hundley,0,No.,,0
+137-Richey,0,No.,,0
+414-Spurgeon,0,No.,,0
+415-Newell,0,No.,,0
+416-Sheline,0,No.,,0
+417-Curtis,0,No.,,0
+418-Conway,0,No.,,0
+420-Quinn,0,No.,,0
+421-Smith,0,No.,,0
+422-Buehner,0,No.,,0
+423-Purvis-Mitchell,0,No.,,0
+424-Austin,0,No.,,0
+425-Goney,0,No.,,0
+426-Barrow,0,No.,,0
+427-Harrison,0,No.,,0
+428-McGuire,0,No.,,0
+430-W. Blanton Jr.,0,No.,,0
+431-Brown,0,No.,,0
+432-Hawkins,0,No.,,0
+433-Mock,0,No.,,0
+434-Nickelson,0,No.,,0
+456-Rupert,0,No.,,0
+457-Lewis,0,No.,,0
+466-Hayes,0,No.,,0
+467-Saunders,0,No.,,0
+469-Thomas,0,No.,,0
+470-Combs,0,No.,,0
+471-Walls,0,No.,,0
+473-McDuffie,0,No.,,0
+477-Towns,0,No.,,0
+479-Howard,0,No.,,0
+480-Mosley,0,No.,,0
+481-Shutway,0,No.,,0
+482-Smith,0,No.,,0

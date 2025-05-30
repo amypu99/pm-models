@@ -1,10 +1,15 @@
 import torch
+import os
 import pandas as pd
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, AutoModelForCausalLM, BitsAndBytesConfig, TrainingArguments
 from trl import SFTConfig, SFTTrainer
 import wandb
 from run_case_questions import load_jsonl
 from datasets import Dataset, load_dataset
+
+os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
+os.environ["CUDA_VISIBLE_DEVICES"] = "7"
+os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'
 
 
 train_df = load_jsonl("../cases_olmocr/train.jsonl").sample(frac=1).reset_index(drop=True)

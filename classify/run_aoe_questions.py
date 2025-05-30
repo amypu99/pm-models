@@ -127,12 +127,14 @@ def full_logic():
 def condensed_logic():
     gc.collect()
     torch.cuda.empty_cache()
-    filepath = "./results/allegations_evidence_20250520.jsonl"
-    full_jsonl = load_jsonl(filepath)
-    aoe_procbar2_df = pd.read_csv("./results/pipeline_test_2025-05-26/aoe_procbar2.csv")
-    aoe_evidence_jsonl = filter_jsonl(aoe_procbar2_df, full_jsonl)
-    # aoe_evidence_jsonl = load_jsonl(filepath)
-    aoe_evidence_jsonl = aoe_evidence_jsonl.sample(n=2, random_state=42)
+    filepath = "./results/extracted_evidence_sample.jsonl"
+    output_path = "./results/aoe_questions_results_sample_20250529.csv"
+    # full_jsonl = load_jsonl(filepath)
+    # aoe_procbar2_df = pd.read_csv("./results/pipeline_test_2025-05-26/aoe_procbar2.csv")
+    # aoe_evidence_jsonl = filter_jsonl(aoe_procbar2_df, full_jsonl)
+    aoe_evidence_jsonl = load_jsonl(filepath)
+    # aoe_evidence_jsonl
+    # aoe_evidence_jsonl = aoe_evidence_jsonl.sample(n=2, random_state=42)
     results = {}
     temp_results = {}
 
@@ -142,15 +144,17 @@ def condensed_logic():
     # pipe.model = pipe.model.to('cuda')
 
     # For each case
-    for case_name, group in aoe_evidence_jsonl.groupby('Index'):
+    question_results = []
+    for case_name, group in aoe_evidence_jsonl.groupby('index'):
 
         meets_standards = False
 
         for index, row in group.iterrows():
             if "allegation" in row:
-                    case_name = str(row["Index"])
+                    case_name = str(row["index"])
+                    allegation_num = str(row["allegation_num"])
                     aoe = str(row["allegation"])
-                    aoe_evidence = str(row["evidence"])
+                    aoe_evidence = str(row["discussion"])
 
                     print(case_name, aoe)
 
@@ -187,6 +191,39 @@ def condensed_logic():
                                 meets_standards = True
                                 if meets_standards:
                                     print("CASE MEETS STANDARDS")
+                                    question_results.append({
+                                        "index": case_name,
+                                        "allegation_num": allegation_num,
+                                        "allegation": aoe,
+                                        "result": 1,
+                                        "explanation": "meets standards"
+                                    })
+                            else:
+                                question_results.append({
+                                    "index": case_name,
+                                    "allegation_num": allegation_num,
+                                    "allegation": aoe,
+                                    "result": 0,
+                                    "explanation": "procedural history"
+                                })
+                        else:
+                            question_results.append({
+                                "index": case_name,
+                                "allegation_num": allegation_num,
+                                "allegation": aoe,
+                                "result": 0,
+                                "explanation": "procedurally barred"
+                            })
+                    else:
+                        question_results.append({
+                            "index": case_name,
+                            "allegation_num": allegation_num,
+                            "allegation": aoe,
+                            "result": 0,
+                            "explanation": "not prosecutor"
+                        })
+    results_df = pd.DataFrame(question_results)
+    results_df.to_csv(output_path, index=False)
 
 
 if __name__ == "__main__":

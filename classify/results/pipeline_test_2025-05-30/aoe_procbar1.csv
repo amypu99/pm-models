@@ -1032,3 +1032,56 @@ Answer:",1
 926-Ericksen,0,No.,,0
 893-CARR,0,No.,,0
 212-Stewart,0,No.,,0
+257-Harrison,0,No.,,0
+828-JOHNSON,0,No.,,0
+922-Lincoln,0,No.,,0
+201-Pelfrey,0,No.,,0
+875-HARGRAVES,0,No.,,0
+258-F,0,No.,,0
+299-Montgomery,0,No.,,0
+896-APANOVITCH,1,No.,,0
+917-Hodges,0,No.,,0
+867-JONES,0,No.,,0
+075-Russell,0,No.,,0
+919-Sims,0,No.,,0
+189-Shine-Johnson,0,No.,,0
+878-CAYAVEC,0,No.,,0
+916-Campbell,0,No.,,0
+290-Rock,1,Yes,"Context information is below.
+---------------------
+The state filed a response in opposition. ECF Doc. 12-1 at 341-49. On July 26, 2016, the trial court denied Rock’s petition as untimely because the transcript was filed in the Ohio Court of Appeals on June 8, 2015, making the deadline for filing a petition for postconviction relief June 7, 2016. ECF Doc. 12-1 at 350. Alternatively, the court found that the claims Rock raised therein would be barred by res judicata. Id.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+200-Beall,0,No.,,0
+246-M,0,No.,,0
+073-Beedy,0,No.,,0
+910-S,0,No.,,0
+190-Hopkins,0,No.,,0
+871-LEMONS III,1,No.,,0
+842-West,0,No.,,0
+886-KHAMISI,0,No.,,0
+250-Mobley,0,No.,,0
+890-HARDING,1,No.,,0
+198-Kinley,0,Yes,"Context information is below.
+---------------------
+By its exact wording, this section applies to “a petition that is timely filed” under R.C. 2953.21(A)(2) and, as we have discussed above, this second petition was not timely filed. An untimely or successive petition may not be entertained where the requirements of R.C. 2953.23(A) have not been satisfied, and consideration of the record as described in R.C. 2953.21(D), upon which Kinley relies in this assignment, is required only as a prerequisite to determining whether to grant a hearing.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+852-Harrison,0,No.,,0
+889-O’CONNELL II,0,No.,,0
+"869-COLSTON, JR",0,No.,,0
+"254-Daniels, Sr",0,No.,,0
+"898-Dewberry, Sr",0,No.,,0
+"211-D.M., et al.",0,No.,,0
+"244-Thorpe, Jr.",1,Yes.,"Context information is below.
+---------------------
+App.R. 26(B)(1) and (2)(b) require applications claiming ineffective assistance of appellate counsel to be filed within 90 days from the journalization of the appellate judgment unless the applicant shows good cause for filing at a later time. The Supreme Court of Ohio has ruled that this deadline must be strictly enforced. State v. LaMar, 102 Ohio St.3d 467, 2004-Ohio-3976, 812 N.E.2d 970, State v. Gumm, 103 Ohio St.3d 162, 2004-Ohio-4755, 814 N.E.2d 861, and State v. Keith, 119 Ohio St.3d 161, 2008-Ohio-3866, 892 N.E.2d 912. In the present case, this court journalized its decision on April 15, 2021. Thus, the October 14, 2021 application is untimely on its face.
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: Does the text above indicate that the assignments of error were procedurally barred because the appellant filed an untimely appeal? Answer with only a 'Yes' or 'No'.  If you cannot determine the answer, provide your best yes or no guess.
+Answer:",1
+"071-L.C.C.,",0,No.,,0

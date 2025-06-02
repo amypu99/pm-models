@@ -171,16 +171,16 @@ def condensed_logic():
                                 "only a 'Yes' or 'No.' If you cannot determine the answer, provide your best yes or "
                                 "no guess:\n\n"
                                 "### Questions \n"
-                                "1a. Is the prosecutor or state mentioned in the assignment"
-                                "of error or its explanation at all?\n"
-                                "1b. Is prosecutorial misconduct mentioned?\n"
+                                "1a. Is the prosecutor involved in the assignment of error or its explanation at all?\n"
+                                "1b. Is the state involved in the assignment of error or its explanation at all?\n"
+                                "1c. Is prosecutorial misconduct mentioned at all?\n"
                                 "2. Is the assignment of error procedurally barred by res judicata?\n"
                                 "3. Is the assignment of error in the procedural history (i.e. is it from a past appeal))\n"                            
                                 "### Output format:\n\n"
                                 "Return only this JSON block and nothing else:"
-                                "```json{\"aoe_none\": \"<answer to question 1a>\",\"aoe_none_2\": \"<answer to question "
-                                "1b>\", \"aoe_procbar\": \"<answer to question 2>\", \"aoe_prochist\": \"<answer to "
-                                "question 3>\"}```")
+                                "```json{\"aoe_none_1b\": \"<answer to question 1a>\",\"aoe_none_1b\": \"<answer to question "
+                                "1b>\", \"aoe_none_1c\": \"<answer to question 1c>\", \"aoe_procbar\": \"<answer to "
+                                "question 2>\", \"aoe_prochist\": \"<answer to question 3>\"}```")
 
                     prompt_all = [{"role": "user", "content": question}]
                     results = pipe(prompt_all, max_new_tokens=256)[0]['generated_text']
@@ -193,7 +193,8 @@ def condensed_logic():
                         print(f"Skipping {case_name}, {index}. Not able to load as json object")
                         continue
 
-                    if find_whole_word("Yes")(aoe_answers['aoe_none']) or find_whole_word("Yes")(aoe_answers['aoe_none_2']):
+                    if (find_whole_word("Yes")(aoe_answers['aoe_none_1a']) or find_whole_word("Yes")(aoe_answers['aoe_none_1b'])
+                            or find_whole_word("Yes")(aoe_answers['aoe_none_1c'])):
                         print("Allegation is against Prosecutor")
                         if find_whole_word("No")(aoe_answers['aoe_procbar']):
                             print("Allegation is not procedurally barred")

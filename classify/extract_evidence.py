@@ -12,8 +12,8 @@ ALLEGATIONS_PATH = "./results/list_of_allegations_20250526.jsonl"
 CASES_PATH       = "../cases_olmocr/all.jsonl"
 OUTPUT_PATH      = "./results/extracted_evidence_20250527.jsonl"
 
-#ALLEGATIONS_PATH = "./results/test2.jsonl"
-#CASES_PATH       = "../cases_olmocr/test1.jsonl"
+# ALLEGATIONS_PATH = "./results/test2.jsonl"
+# CASES_PATH       = "../cases_olmocr/test1.jsonl"
 
 os.environ["CUDA_LAUNCH_BLOCKING"]    = "1"
 os.environ["CUDA_VISIBLE_DEVICES"]    = "3"
@@ -22,9 +22,17 @@ os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 def clean_json(raw: str) -> str:
     return re.sub(r"^```json\s*|\s*```$", "", raw)
 
-def query_model(pipe, tokenizer, query):
+def apply_prompt(query, text):
+        full_prompt = (
+            f"{query}.\n---------------------\n\n\n\n\n—— CASE START ——\n{text}—— CASE END ——"
+        )
 
-    messages = [{"role": "system", "content": "You are a lawyer. Your job is to read the appellate case (provided) and extract evidence for the allegation of error."},{"role": "user", "content": query}]
+        return full_prompt
+
+def query_model(pipe, tokenizer, query, text):
+
+    full_prompt = apply_prompt(query, text)
+    messages = [{"role": "system", "content": "You are a lawyer. Your job is to read the appellate case (provided) and extract the evidence for the allegation of error."},{"role": "user", "content": full_prompt}]
             
     results = pipe(messages, max_new_tokens=12000)
     return results
@@ -43,7 +51,7 @@ if __name__ == "__main__":
         tokenizer=tokenizer,
         device_map="auto",
         torch_dtype=torch.bfloat16,
-        max_new_tokens=1200,
+        max_new_tokens=12000,
     )
     pipe.model = pipe.model.to("cuda")
 
@@ -64,42 +72,47 @@ if __name__ == "__main__":
         if matched.empty:
             print(f"No case found for {idx}.")
             continue
-        case_obj = matched.iloc[0].to_dict()
-
-        case_json = json.dumps(matched.iloc[0].to_dict(), ensure_ascii=False)
 
         for allegation_num, text in alle_dict.items():
             if allegation_num == "num_errors":
                 continue
-            
-            prompt = (
-                f"Extract the evidence for this allegation as JSON only.\n\n"
-                f"Case: {case_json}\n\n"
-                f"ALLEGATION ({allegation_num}): {text}\n\n"
-                "Respond with ONLY with this JSON (no trailing commas, all keys & strings double-quoted). Use this exact structure do not add commentary or explanation:\n\n"
-                '{\n'
-                '  "allegation_num": "<number>",\n'
-                '  "allegation": "<text>",\n'
-                '  "extracted_text": "<evidence paragraphs>"\n'
-                '}\n'
-            )
 
-            gen = query_model(pipe, tokenizer, prompt)[0]['generated_text'][2]['content']
+            query = """
+            Read the attached legal case and complete the following tasks:
 
-            try:
-                extracted = json.loads(gen)
-            except json.JSONDecodeError:
-                print(f"JSON parse error on case {idx} / {allegation_num}.")
-                continue
+            ────────────────────
+            ### TASKS
 
-            with open(OUTPUT_PATH, "a", encoding="utf-8") as jf:
-                out = {
-                    "index":          idx,
-                    "allegation_num": allegation_num,
-                    "allegation":     text,
-                    "extracted_text": extracted.get("extracted_text", "")
-                }
-                jf.write(json.dumps(out, ensure_ascii=False) + "\n")
+            1. Read the attached legal case and find the assignment of error that's mentioned below in the case. 
+            2. Extract the corresponding discussion and evidence paragraphs regarding this assignment of error. 
+            3. "Discussion" refers to the full set of paragraphs typically following the assignment title that elaborate on the nature of the alleged error, the court's reasoning, any citations, and its ruling on the issue. It typically begins with a paragraph referencing the assignment number and ends just before the next assignment of error or heading.
+
+            ────────────────────
+            ### OUTPUT FORMAT
+
+            Return **only** this JSON block—nothing else:
+            ```json
+            {
+            "discussion": <full corresponding evidence and discussion regarding assignment of error>,
+            }
+            ```
+            """
+
+            tokenized_text = tokenizer(
+                matched["context"].values[0],
+                max_length=24000,
+                return_tensors='pt'
+            ).to('cuda')
+            decoded_text = tokenizer.decode(tokenized_text["input_ids"][0][1:-1])
+            before, found_delimiter, after = decoded_text.rpartition("\n\n")
+            extracted_discussion = query_model(pipe, tokenizer, query, before)[0]['generated_text'][2]['content']
+
+            with open(OUTPUT_PATH, "a") as f:
+                extracted_discussion_dict = {"index": idx}
+                extracted_discussion_dict["allegation_num"] = allegation_num
+                extracted_discussion_dict["allegation"] = text
+                extracted_discussion_dict["discussion"] = extracted_discussion.strip()
+                f.write(json.dumps(extracted_discussion_dict, ensure_ascii=False) + "\n")
 
         gc.collect()
         torch.cuda.empty_cache()

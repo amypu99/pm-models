@@ -53,8 +53,9 @@ def full_query(pipe, tokenizer, all_text):
 
             1. Count the number of **assignments of error** made by the appellant/defendant.
             2. List each assignment of error clearly and concisely.
-            3. If the assignments are labeled or numbered in the text (e.g., "Assignment of Error No. 1"), preserve this labeling if available.
-            4. Also return the **full corresponding text** of the assignment.
+            3. If it has an original label in the opinion (e.g., "Assignment of Error I", "Ground II"), extract that label **exactly as written**.
+            4. If it has no label, infer the assignment and assign it a generated label in the format: `"Inferred Allegation 1"`, `"Inferred Allegation 2"`, etc.
+            5. Also return the **full corresponding discussion and explanation** regarding the assignment of error. The discussion regarding the assignment of error may span multiple paragraphs.
 
             ────────────────────
             ### OUTPUT FORMAT
@@ -67,12 +68,12 @@ def full_query(pipe, tokenizer, all_text):
                 "allegation_1": {
                     "label": "<original or inferred label>",
                     "aoe": "<full text of the first assignment of error>"
-                    "text": <corresponding text from the case>
+                    "discussion": <corresponding discussion and explanation from the case>
                 },
                 "allegation_2": {
                     "label": "<original or inferred label>",
                     "aoe": "<full text of the second assignment of error>"
-                    "text": <corresponding text from the case>
+                    "discussion": <corresponding discussion and explanation from the case>
                 },
                 ...
             }
@@ -80,7 +81,7 @@ def full_query(pipe, tokenizer, all_text):
             """
     tokenized_text = tokenizer(
         all_text,
-        max_length=20000,
+        max_length=24000,
         return_tensors='pt'
     ).to('cuda')
     decoded_text = tokenizer.decode(tokenized_text["input_ids"][0][1:-1])
@@ -109,7 +110,7 @@ if __name__ == "__main__":
     for i, row in all_jsonl.iterrows():
         key = row['Index']
         allegation_list = full_query(pipe, tokenizer, row["Context"])
-        with open("./results/test_list_of_allegations_20250526.jsonl", "a") as f:
+        with open("./results/list_of_allegations_20250527.jsonl", "a") as f:
             json_record = json.dumps({"Index": key, "allegations": allegation_list})
             f.write(json_record + "\n")
         gc.collect()

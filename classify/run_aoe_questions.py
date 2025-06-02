@@ -131,7 +131,7 @@ def condensed_logic():
     gc.collect()
     torch.cuda.empty_cache()
     filepath = "./results/extracted_evidence_sample.jsonl"
-    output_path = "./results/aoe_test/aoe_questions_results_sample_20250530"
+    output_path = "./results/aoe_test/aoe_questions_results_sample_20250602"
     # full_jsonl = load_jsonl(filepath)
     # aoe_procbar2_df = pd.read_csv("./results/pipeline_test_2025-05-26/aoe_procbar2.csv")
     # aoe_evidence_jsonl = filter_jsonl(aoe_procbar2_df, full_jsonl)
@@ -171,8 +171,8 @@ def condensed_logic():
                                 "only a 'Yes' or 'No.' If you cannot determine the answer, provide your best yes or "
                                 "no guess:\n\n"
                                 "### Questions \n"
-                                "1a. Is the prosecutor involved in the assignment of error or its explanation at all?\n"
-                                "1b. Is the state involved in the assignment of error or its explanation at all?\n"
+                                "1a. Is the prosecutor (also called prosecution) involved at all?\n"
+                                "1b. Is the state involved at all?\n"
                                 "1c. Is prosecutorial misconduct mentioned at all?\n"
                                 "2. Is the assignment of error procedurally barred by res judicata?\n"
                                 "3. Is the assignment of error in the procedural history (i.e. is it from a past appeal))\n"                            

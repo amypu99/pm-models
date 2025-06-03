@@ -130,8 +130,8 @@ def condensed_logic():
 
     gc.collect()
     torch.cuda.empty_cache()
-    filepath = "./results/extracted_evidence_sample.jsonl"
-    output_path = "./results/aoe_test/aoe_questions_results_sample_20250602"
+    filepath = "./results/extracted_join.jsonl"
+    output_path = "./results/aoe_test/aoe_questions_results_join_20250603"
     # full_jsonl = load_jsonl(filepath)
     # aoe_procbar2_df = pd.read_csv("./results/pipeline_test_2025-05-26/aoe_procbar2.csv")
     # aoe_evidence_jsonl = filter_jsonl(aoe_procbar2_df, full_jsonl)
@@ -160,13 +160,13 @@ def condensed_logic():
                     case_name = str(row["index"])
                     allegation_num = str(row["allegation_num"])
                     aoe = str(row["allegation"])
-                    aoe_evidence = str(row["discussion"])
+                    aoe_evidence = str(row["extracted_text"])
 
                     print(case_name, aoe)
 
                     # Ask if aoe is against the prosecutor, is procedurally barred, or is in the procedural history
                     question = (f"{aoe}:{aoe_evidence}\n\n" "Above is an assignment of error from an appellate case and "
-                                "its discussion given in the format 'assignment of error':'discussion'. Read over the "
+                                "its explanation given in the format 'assignment of error':'extracted_text'. Read over the "
                                 "both carefully and think step-by-step through the following questions, answering with "
                                 "only a 'Yes' or 'No.' If you cannot determine the answer, provide your best yes or "
                                 "no guess:\n\n"

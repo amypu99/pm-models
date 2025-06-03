@@ -8,13 +8,13 @@ from transformers import pipeline
 from run_case_questions import load_jsonl
 from run_baseline import ministral_setup
 
-ALLEGATIONS_PATH = "./results/list_of_allegations_20250527.jsonl"
+ALLEGATIONS_PATH = "./results/list_of_allegations/list_of_allegations_20250527.jsonl"
 CASES_PATH       = "../cases_olmocr/all.jsonl"
 OUTPUT_PATH      = ""
 
 
 os.environ["CUDA_LAUNCH_BLOCKING"]    = "1"
-os.environ["CUDA_VISIBLE_DEVICES"]    = "3"
+os.environ["CUDA_VISIBLE_DEVICES"]    = "0,1,3,4,5,6,7"
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 
 def clean_json(raw: str) -> str:
@@ -77,6 +77,7 @@ if __name__ == "__main__":
         if matched.empty:
             print(f"No case found for {idx}.")
             continue
+        case = matched["context"].values[0]
 
         for allegation_num, text in alle_dict.items():
             if allegation_num == "num_errors":
@@ -84,7 +85,7 @@ if __name__ == "__main__":
 
             prompt = (
                 f"Extract the evidence for this allegation as JSON only.\n\n"
-                f"Case: {matched["context"].values[0]}\n\n"
+                f"Case: {case}\n\n"
                 f"ALLEGATION ({allegation_num}): {text}\n\n"
                 "Respond with ONLY with this JSON format (no trailing commas, all keys & strings double-quoted). Use this exact structure do not add commentary or explanation:\n\n"
                 '{\n'

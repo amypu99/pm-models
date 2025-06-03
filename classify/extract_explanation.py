@@ -14,7 +14,7 @@ OUTPUT_PATH      = ""
 
 
 os.environ["CUDA_LAUNCH_BLOCKING"]    = "1"
-os.environ["CUDA_VISIBLE_DEVICES"]    = "0,1,3,4,5,6,7"
+os.environ["CUDA_VISIBLE_DEVICES"]    = "0"
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 
 def clean_json(raw: str) -> str:

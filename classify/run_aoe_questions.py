@@ -130,13 +130,20 @@ def condensed_logic():
 
     gc.collect()
     torch.cuda.empty_cache()
-    filepath = "./results/extracted_evidence_sample.jsonl"
-    output_path = "./results/aoe_test/aoe_questions_results_sample_20250602"
-    # full_jsonl = load_jsonl(filepath)
-    # aoe_procbar2_df = pd.read_csv("./results/pipeline_test_2025-05-26/aoe_procbar2.csv")
-    # aoe_evidence_jsonl = filter_jsonl(aoe_procbar2_df, full_jsonl)
-    aoe_evidence_jsonl = load_jsonl(filepath)
+    filepath = "./results/extracted_evidence_20250602.jsonl"
+    # filepath = "results/extracted_evidence_sample.jsonl"
+    output_path = "./results/aoe_test/aoe_questions_results_full_20250604"
+    full_jsonl = load_jsonl(filepath)
+    aoe_procbar2_df = pd.read_csv("./results/pipeline_test_2025-05-30/aoe_procbar2.csv")
+    aoe_evidence_jsonl = filter_jsonl(aoe_procbar2_df, full_jsonl)
+
+    # sample_df = pd.read_csv("./results/aoe_test/aoe_questions_results_amysample_20250603.csv")
+    # aoe_evidence_jsonl = sample_jsonl(sample_df, full_jsonl)
+
+    # aoe_evidence_jsonl = load_jsonl(filepath)
+
     # aoe_evidence_jsonl = aoe_evidence_jsonl.sample(n=2, random_state=42)
+
     results = {}
     temp_results = {}
 
@@ -148,7 +155,7 @@ def condensed_logic():
     # For each case
     question_results = []
     case_results = []
-    for case_name, group in aoe_evidence_jsonl.groupby('index'):
+    for case_name, group in aoe_evidence_jsonl.groupby('Index'):
 
         gold_label = 0 if case_name in ms_index_list else 1
         meets_standards = False
@@ -157,10 +164,11 @@ def condensed_logic():
 
         for index, row in group.iterrows():
             if "allegation" in row:
-                    case_name = str(row["index"])
+                    case_name = str(row["Index"])
                     allegation_num = str(row["allegation_num"])
                     aoe = str(row["allegation"])
-                    aoe_evidence = str(row["discussion"])
+                    # aoe_evidence = str(row["discussion"])
+                    aoe_evidence = str(row["extracted_text"])
 
                     print(case_name, aoe)
 
@@ -204,7 +212,7 @@ def condensed_logic():
                                 if meets_standards:
                                     print("CASE MEETS STANDARDS")
                                     question_results.append({
-                                        "index": case_name,
+                                        "Index": case_name,
                                         "allegation_num": allegation_num,
                                         "allegation": aoe,
                                         "result": 0,
@@ -214,7 +222,7 @@ def condensed_logic():
                                 print("Allegation is in procedural history")
                                 explanation = "procedural history"
                                 question_results.append({
-                                    "index": case_name,
+                                    "Index": case_name,
                                     "allegation_num": allegation_num,
                                     "allegation": aoe,
                                     "result": 1,
@@ -224,7 +232,7 @@ def condensed_logic():
                             print("Allegation is procedurally barred")
                             explanation = "procedurally barred"
                             question_results.append({
-                                "index": case_name,
+                                "Index": case_name,
                                 "allegation_num": allegation_num,
                                 "allegation": aoe,
                                 "result": 1,
@@ -234,7 +242,7 @@ def condensed_logic():
                         print("Allegation is not against Prosecutor")
                         explanation = "not prosecutor"
                         question_results.append({
-                            "index": case_name,
+                            "Index": case_name,
                             "allegation_num": allegation_num,
                             "allegation": aoe,
                             "result": 1,
@@ -260,6 +268,16 @@ def condensed_logic():
     collapsed_results_df = pd.DataFrame(case_results)
     collapsed_results_df.to_csv(output_path + "_collapsed.csv", index=False)
 
+
+def sample_jsonl(df, jsonl_df):
+    # Take in csv, filter just the cases with 0 (MS so far)
+    # Based on index of those columns, filter jsonl
+    print("columns", df.columns)
+    filtered_idx = df["Index"].astype(str).tolist()
+    filtered_json = jsonl_df[jsonl_df['Index'].astype(str).isin(filtered_idx)].to_dict('records')
+    print(f"Filtered JSONL written")
+
+    return pd.DataFrame(filtered_json)
 
 if __name__ == "__main__":
     condensed_logic()

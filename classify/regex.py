@@ -5,7 +5,6 @@ from pypdf import PdfReader
 import pandas as pd
 from datetime import date
 
-
 def identify_regex_dnms(directory):
     standard_pattern = re.compile(r"^\s*State v\.?\s*(.+)", re.IGNORECASE)
 
@@ -21,7 +20,6 @@ def identify_regex_dnms(directory):
             file_path = os.path.join(subdirectory, filename)
 
             index_val = filename.replace(".pdf", "")
-            print(index_val)
 
             if os.path.isfile(file_path) and filename.lower().endswith('.pdf'):
                 try:
@@ -35,12 +33,12 @@ def identify_regex_dnms(directory):
                             "Gold Label": gold_label,
                             "Predicted Label": 0,
                             "Title": title,
-                            "Comment": "Empty metadata title; defaulted to MS."
+                            "Comment":  "Empty metadata title; defaulted to MS."
                         })
                         continue
-                    if not (" v " in title.lower() or " v. " in title.lower()):
+                    if not (" v " in title.lower() or " v. " in title.lower()):                 
                         results.append({
-                            "Index": index_val,
+                             "Index": index_val,
                             "Gold Label": gold_label,
                             "Predicted Label": 0,
                             "Title": title,
@@ -53,29 +51,27 @@ def identify_regex_dnms(directory):
                     first_two = first_two = (first_page_text or "") + "\n" + (second_page_text or "")
                     text = "".join((page.extract_text() or "") + "\n" for page in reader.pages)
                     match = re.match(r"^\s*State v\.?\s*(.+)", title, re.IGNORECASE)
-
+                    
                     juvenile_mentioned = bool(re.search(r"\bjuvenile\b", first_two, re.IGNORECASE))
-                    juvenile_phrase = bool(
-                        re.search(r"\bjuvenile court\b.*\btransfer jurisdiction to\b", first_two, re.IGNORECASE))
-
+                    juvenile_phrase = bool(re.search(r"\bjuvenile court\b.*\btransfer jurisdiction to\b", first_two, re.IGNORECASE))
+                    
                     city_prosecutor = bool(re.search(r"\bcity\b.*\bprosecutor\b", text, re.IGNORECASE))
-
+                
                     municipal = bool(re.search(r"\bmunicipal\s+court\b", text, re.IGNORECASE))
                     county_pros1 = bool(re.search(r"\bcounty\s+prosecutor(?:'s)?\b", first_two, re.IGNORECASE))
-                    county_pros2 = bool(
-                        re.search(r"\bcounty\s+prosecuting\s+attorney(?:'s)?\b", first_two, re.IGNORECASE))
+                    county_pros2 = bool(re.search(r"\bcounty\s+prosecuting\s+attorney(?:'s)?\b", first_two, re.IGNORECASE))
                     county_pros3 = bool(re.search(r"\bspecial\b.*\bprosecutors\b", first_two, re.IGNORECASE))
                     common_pleas = bool(re.search(r"\bcommon\s+pleas\b", first_two, re.IGNORECASE))
                     county_level = county_pros1 or county_pros2 or county_pros3 or common_pleas
                     municipal_court = municipal and not county_level
-
+                    
                     predicted_label = 0  # default label
                     comment = ""
 
                     if not match:
                         predicted_label = "1"
                         comment = "Does not match State v."
-                    elif city_prosecutor and not common_pleas:
+                    elif city_prosecutor and not common_pleas:        
                         predicted_label = "1"
                         comment = "Prosecutor is a city prosecutor."
                     elif municipal_court:
@@ -95,7 +91,7 @@ def identify_regex_dnms(directory):
                         "Title": title,
                         "Comment": comment
                     })
-
+                    
                 except Exception as e:
                     print(f"Error processing file {filename} in {gold_label}: {e}")
 
@@ -129,7 +125,6 @@ def evaluate_regex(results):
         "false_negative": fn
     }
     return metrics
-
 
 if __name__ == "__main__":
     directory = "/Users/begumgokmen/Downloads/cases_pdf_2"

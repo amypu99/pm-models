@@ -1,0 +1,777 @@
+Index,Gold Label,Predicted Label,Explanation
+000-Edwards,1,1,not prosecutor
+002-C.,1,0,
+003-Young,1,1,not prosecutor
+005-Carr,1,0,
+007-R.,1,1,not prosecutor
+008-Groce,0,0,
+009-Knox,0,0,
+010-Sarr,0,0,
+011-Benge,0,0,
+012-Tawney,0,0,
+013-Carner,0,0,
+014-Williams,0,0,
+015-Thompson,0,0,
+"016-Morgan, Sr.",0,1,not prosecutor
+017-Moore,0,0,
+018-Turner,0,0,
+020-Robledo,0,0,
+021-Sarr,0,0,
+023-Douglas,1,1,not prosecutor
+024-Zaccone,1,1,not prosecutor
+027-Diestler,1,1,not prosecutor
+028-Southam,1,0,
+029-Little,0,0,
+031-HOUDESHELL,1,0,
+032-Maurent,1,1,not prosecutor
+033-Smale,0,0,
+035-Akers,0,0,
+036-Craciun,1,0,
+037-Phillips,0,0,
+038-Williams,1,0,
+039-Woodford,1,1,not prosecutor
+041-Shivers,0,0,
+042-In Re L.S.,1,1,not prosecutor
+043-Sparks,1,1,procedural history
+044-Glass,1,0,
+045-Harding,1,0,
+046-Hardman,1,0,
+047-Mcintosh,1,0,
+048-Wolford-Lee,1,0,
+049-Butcher,1,0,
+050-Fannon,0,0,
+051-Kitchen,1,0,
+052-Owens,1,0,
+053-Burkes,0,0,
+053-Myers,0,0,
+054-Jenkins,0,0,
+055-Teets,1,1,not prosecutor
+056-Brown,1,1,procedural history
+057-Froman,0,0,
+057-Hill,1,0,
+058-Kirkland,0,0,
+058-Stock,0,0,
+059-Henderson,1,1,not prosecutor
+059-Madison,0,0,
+060-Miller,0,0,
+062-Clark,0,0,
+062-Robinson,1,1,not prosecutor
+064-Phelps,1,1,not prosecutor
+065-Hawkins,0,0,
+066-Benson,0,1,not prosecutor
+067-Lawson,0,0,
+068-Buk-Shul,1,0,
+068-English,0,0,
+069-Smith,0,0,
+070-Stidhum,1,0,
+071-DAVIS,0,0,
+"071-L.C.C.,",1,1,not prosecutor
+072-Hawkins,0,0,
+073-Beedy,1,1,not prosecutor
+073-Sanders,0,0,
+074-Norman,1,1,not prosecutor
+074-Square,1,1,not prosecutor
+075-Russell,1,0,
+076-Tucker,0,0,
+076-Williams,0,0,
+077-Breneman,0,0,
+078-Burry,0,0,
+078-Hough,1,1,not prosecutor
+079-JARRELL,0,0,
+079-Johnson,1,1,not prosecutor
+081-Bolware,0,0,
+081-Jenkins,0,0,
+082-Dotson,1,1,not prosecutor
+082-Jarmon,1,1,not prosecutor
+083-T.C.,1,1,not prosecutor
+084-Davis,0,0,
+085-Vance,1,1,not prosecutor
+086-Vogt,0,0,
+087-Norales-Martinez,0,0,
+088-M.B.,1,1,not prosecutor
+088-Svoboda,0,0,
+089-LOVINGSHIMER IV,0,0,
+089-Thomas,0,0,
+090-Sipple,0,0,
+091-Glenn,1,1,not prosecutor
+093-McFeeture,0,0,
+094-Austin,1,1,not prosecutor
+094-Todd,1,1,not prosecutor
+095-Jordan,1,0,
+096-M.,1,0,
+096-Roan,0,0,
+097-Bogan,1,0,
+098-Bard,0,0,
+098-Vicario,0,0,
+099-Hart,1,1,not prosecutor
+099-Hughes,1,1,not prosecutor
+100-LAZZERINI,1,0,
+100-Long,1,0,
+101-Feagin,1,0,
+102-Berila,0,0,
+102-Bowen,0,0,
+103-Gearhart,1,1,not prosecutor
+103-K.,1,1,not prosecutor
+104-Dixon,1,0,
+105-Craig,0,0,
+105-Hunt,0,0,
+107-Brauchler,0,0,
+107-Jordan,0,0,
+108-Buehner,0,0,
+108-Dailey,0,0,
+109-Dunn,1,1,not prosecutor
+110-Daboni,0,0,
+111-Brantley,0,1,procedural history
+112-Dandridge,0,0,
+112-Pyles,0,0,
+113-Jones,1,0,
+114-Jones,1,0,
+115-Lawrence,1,0,
+117-Jacinto,0,0,
+118-Clark,1,1,not prosecutor
+119-Morrissette,0,0,
+120-Cummings,0,0,
+122-Shelton,1,0,
+123-Mobley,1,1,not prosecutor
+124-Parks,1,1,not prosecutor
+127-Miller,1,1,not prosecutor
+128-Thomas,0,0,
+130-Gray,1,1,not prosecutor
+132-Johnson,1,0,
+132-Pennington,0,0,
+135-Johnson,1,1,not prosecutor
+136-Hundley,0,0,
+137-Richey,0,0,
+138-Leach,0,0,
+140-Lindsey,0,0,
+140-Martin,0,0,
+141-Stewart,1,0,
+142-In Re K.D.,1,1,not prosecutor
+142-Obermiller,1,0,
+143-In L.D.,1,1,not prosecutor
+145-Miller,0,0,
+147-Heiney,0,0,
+147-Lee,1,0,
+148-Ladson,0,0,
+149-Meade,1,0,
+150-Simmons,1,0,
+151-Kirk,0,0,
+151-Patterson,0,0,
+152-Riffle,1,1,not prosecutor
+152-Shine-Johnson,0,0,
+153-Bennett,1,0,
+153-Gibbons,0,0,
+154-Wallace,1,1,not prosecutor
+155-Smith,1,1,not prosecutor
+157-Pitts,1,0,
+158-Sibole,1,0,
+159-Campbell,1,1,not prosecutor
+159-Davis,1,0,
+160-Hill,1,0,
+161-COOPER,1,0,
+161-Lanter,0,0,
+"163-MONTALVO, JR.",0,0,
+164-Erker,0,0,
+165-Bonner,0,0,
+165-FERRICCI,1,1,procedural history
+166-White,0,0,
+167-Brandon,0,0,
+167-ST. ANTHONY FORD,0,0,
+168-Ross,1,0,
+169-Littlepage,1,1,procedural history
+169-Mock,1,1,not prosecutor
+171-Moore,0,0,
+171-Shuster,1,1,procedural history
+172-Lindsay,1,1,not prosecutor
+173-Whitman,1,1,not prosecutor
+175-Page,1,1,not prosecutor
+176-Carter,1,1,not prosecutor
+176-Remy,0,0,
+177-Thomas,1,0,
+178-Edmonds,0,1,not prosecutor
+179-BURTON,0,0,
+179-HENDERSON,0,0,
+180-PANEZICH,0,0,
+181-Snyder,1,1,not prosecutor
+182-Clemmons,1,0,
+182-MORTON,0,0,
+183-In re Dor.B,1,1,not prosecutor
+183-Morton,1,1,not prosecutor
+184-Groesser,0,0,
+185-Hartman,1,0,
+186-NEWELL,1,1,not prosecutor
+187-NEWMAN,1,1,not prosecutor
+187-Stein,0,0,
+188-Evans,0,0,
+188-NEWMAN,0,0,
+189-Shine-Johnson,1,0,
+189-Slade,0,0,
+190-Hopkins,1,0,
+190-Smith,1,0,
+191-Baird,0,1,not prosecutor
+191-Winston,1,0,
+192-Austin,0,0,
+192-Dennis,1,0,
+194-Allison,1,0,
+194-Hudson,1,1,not prosecutor
+195-Calhoun,1,0,
+196-Boware,1,0,
+196-Smith,0,0,
+197-Boaston,1,1,not prosecutor
+197-In Re FB,1,1,not prosecutor
+198-Blanton,1,1,not prosecutor
+199-MCLOUGHLIN,1,0,
+200-Beall,1,0,
+200-MIECZKOWSK,0,0,
+201-Barnes,1,0,
+201-Pelfrey,1,0,
+202-Vargo,0,1,not prosecutor
+203-Baber,0,0,
+204-Baldwin,1,0,
+205-Fields,0,0,
+206-Weaver,0,0,
+207-Deanda,0,0,
+207-Durgan,0,0,
+208-Jones,0,0,
+209-Feathers,1,1,not prosecutor
+209-Gordon,1,0,
+"211-D.M., et al.",1,1,not prosecutor
+211-Gaines,0,0,
+212-Gatewood,1,0,
+212-Stewart,1,0,
+213-Bender,1,1,not prosecutor
+214-Furr,1,1,not prosecutor
+"214-Walker, Jr.",0,0,
+215-Groce,0,1,not prosecutor
+216-Bellamy,0,0,
+216-Reynolds,0,0,
+217-Gibson,1,0,
+217-HILL,0,0,
+218-Gillispie,1,1,not prosecutor
+219-Gray,1,1,not prosecutor
+219-Klein,1,1,not prosecutor
+220-Anderson,0,0,
+220-Williams,0,0,
+221-Holcomb,0,0,
+221-MCNEIR,1,1,not prosecutor
+222-B.,1,1,not prosecutor
+222-Italiano,0,0,
+223-Hill,1,0,
+223-P.,1,1,not prosecutor
+224-Liggins,1,1,not prosecutor
+224-Pember,0,0,
+225-Montgomery,0,0,
+225-Wright,1,0,
+226-Hoover,1,1,not prosecutor
+226-Warwick,0,0,
+227-Gutierrez,1,0,
+228-MOSES,0,0,
+229-Hawkins,0,0,
+229-Walls,0,0,
+230-Jackson,1,1,not prosecutor
+231-James,0,0,
+231-Scott,0,0,
+232-BRIDGES,1,1,not prosecutor
+232-Lewis,1,0,
+233-Long,0,1,not prosecutor
+233-TELEGO,0,0,
+234-MACK,1,1,not prosecutor
+234-Maddox,0,1,not prosecutor
+235-Marshall,0,0,
+236-Murphy,0,1,procedurally barred
+238-Wilson,1,1,not prosecutor
+239-Freeman,0,0,
+239-Portis,0,0,
+240-Jones,1,1,not prosecutor
+241-Sewell,1,0,
+242-Harian,1,0,
+243-Robinson,1,1,not prosecutor
+243-Sutton,0,0,
+244-Price,1,0,
+245-McCullough,1,0,
+245-Tomlinson,1,0,
+246-M,1,1,not prosecutor
+246-Ward,0,1,not prosecutor
+247-ZEN,1,1,not prosecutor
+249-Korbel,1,1,not prosecutor
+250-Kosto,0,0,
+250-Mobley,1,1,not prosecutor
+252-Littlejohn,1,0,
+252-MASTON,1,1,not prosecutor
+253-FORTUNE II,0,0,
+253-Robinson,1,0,
+"254-Daniels, Sr",1,0,
+254-Rucker,0,0,
+255-Trussell,1,1,not prosecutor
+256-Ammons,1,1,not prosecutor
+257-Harrison,1,0,
+257-PATE,0,0,
+258-F,1,0,
+259-Flagg,1,0,
+260-Hill,0,0,
+260-Williams,1,1,not prosecutor
+262-Carter,0,0,
+262-Hatton,1,1,procedural history
+263-Ivery,0,0,
+264-Fowler,0,0,
+264-Minton,0,0,
+265-Holmes,0,0,
+266-Jeffries,0,0,
+267-Johnson,0,0,
+267-Sanders,0,0,
+268-Hopkins,0,0,
+268-Hunt,1,1,not prosecutor
+269-Mallory,0,0,
+269-Roberts,1,0,
+270-Stokes,0,0,
+271-Binks,0,0,
+271-Turner,1,0,
+"274- A. ""SONNY"" ASH",0,0,
+276-Palmer,0,1,not prosecutor
+277-Ecker,0,0,
+278-Clay,1,0,
+279-Hollins,1,1,not prosecutor
+282-Howard,0,0,
+283-York,1,0,
+284-HARRIS,1,0,
+285-YOUNG,1,0,
+286-Yee,1,1,not prosecutor
+287-JOHNSON,1,1,not prosecutor
+288-Maranger,1,1,not prosecutor
+"290-Clark, Sr.",0,0,
+291-Shine-Johnson,0,0,
+291-YEAGER,1,1,not prosecutor
+293-Cantrill,0,0,
+295-Lee,0,0,
+296-Johnson,0,0,
+297-Allen,0,0,
+297-Wright,0,0,
+298-Williams,1,0,
+"298-ZACHERY, SR.",0,0,
+299-Baugh,1,0,
+300-Hugley,0,0,
+301-Jones,1,0,
+301-Steiner,1,1,not prosecutor
+302-Klafczynski,1,0,
+303-Moton,1,1,not prosecutor
+303-Snowden Jr.,1,0,
+304-Bedell,0,0,
+304-Webster,0,0,
+305-Cunningham,0,0,
+305-Williams,1,1,not prosecutor
+306-Horsley Jr.,0,0,
+306-Williams,0,0,
+307-Mathis,1,1,not prosecutor
+307-Miku,1,0,
+308-Hoerig nka Sobral,0,0,
+308-Rich,1,0,
+311-Pitts,0,0,
+312-Lamb,1,0,
+312-Ramey,1,1,not prosecutor
+313-Hawthorne,0,0,
+314-Jones,1,0,
+314-Lusane,0,0,
+315-Valdez,0,0,
+315-Yanni,0,0,
+316-Lamp,1,0,
+316-Lincoln,0,0,
+317-McKNIGHT,1,1,not prosecutor
+317-Steelman,0,0,
+318-Hall,1,0,
+318-RODRIGUEZ,0,0,
+319-YOUNG,1,0,
+320-Mayweather,0,0,
+321-Mack,1,1,not prosecutor
+321-Schoenlein,0,0,
+322-Bradford,0,0,
+322-Magwood,0,0,
+323-Hunt,0,0,
+"323-PRIMOUS, IV",0,0,
+324-Jackson,0,0,
+326-West,1,1,not prosecutor
+327-Gregoire,1,1,not prosecutor
+328-Whitt,1,1,not prosecutor
+329-In Re SS,1,1,not prosecutor
+329-LaRosa,1,0,
+330-Straughan,0,0,
+331-Palmer,0,0,
+332-Rich,1,0,
+333-Hartman,0,0,
+333-Marcum,1,0,
+334-Hundley,1,1,not prosecutor
+334-Marcum,1,0,
+335-James,1,1,not prosecutor
+335-Thomas,1,1,not prosecutor
+336-Johnson,1,1,not prosecutor
+337-Martin,0,0,
+338-Hazel,1,1,not prosecutor
+339-Henry,0,1,not prosecutor
+339-Nichols,0,0,
+340-Jones,1,0,
+341-Wright,1,0,
+342-Mincey,0,0,
+343-POWELL,1,0,
+343-Thomas,1,1,not prosecutor
+344-Grooms,1,1,not prosecutor
+346-Vance,1,1,not prosecutor
+347-Lynch,0,0,
+347-Powell,0,0,
+348-Jones,0,0,
+349-KOPCHAK,1,0,
+349-Moore,0,0,
+350-Grieco,0,0,
+350-Martin,0,0,
+351-Harris,1,0,
+352-Blanton,1,0,
+352-Powers,0,0,
+353-Wycuff,0,0,
+355-Kerens,1,1,not prosecutor
+356-Cobb,1,0,
+356-Wilson JR.,1,0,
+357- Mcendree,0,0,
+357-Donlow,1,0,
+360-Ferguson,1,1,not prosecutor
+362-Johnson,1,1,not prosecutor
+363-Jackson,1,1,not prosecutor
+365-Makin,0,0,
+365-Young,1,1,not prosecutor
+366-Baskin,1,0,
+367-Fornshell,0,1,not prosecutor
+372-Miller,0,0,
+373-Moore,1,0,
+374-Romy,1,1,not prosecutor
+376-Hymes,0,0,
+377-Carswell,0,0,
+378-Patton,0,0,
+379-Phifer,0,0,
+381-Loyd,0,0,
+382-Palmer,0,0,
+383-Scofield,0,0,
+384-Sims Jr.,0,0,
+"385-Thorpe, Jr",0,0,
+387-Singleton,0,0,
+388-Angel,0,0,
+395-DEBARDELEBEN,0,1,not prosecutor
+396-Schentur,0,0,
+397-Lee,0,0,
+398-Lewis,0,0,
+400-Collins,0,0,
+401-Tiedjen,1,0,
+402-Jenkins,0,0,
+404-Hayden,1,0,
+405-Lawless,0,0,
+408-Housley,0,1,not prosecutor
+409-Weemes,0,1,not prosecutor
+410-Smith,0,1,not prosecutor
+411-Stubbs,0,0,
+412-Riggins,0,0,
+414-Spurgeon,0,0,
+415-Newell,0,0,
+416-Sheline,0,0,
+417-Curtis,0,0,
+418-Conway,0,0,
+419-Hill,1,1,not prosecutor
+421-Smith,0,0,
+422-Buehner,0,0,
+423-Purvis-Mitchell,0,1,not prosecutor
+424-Austin,0,0,
+425-Goney,0,0,
+426-Barrow,0,0,
+427-Harrison,0,1,not prosecutor
+428-McGuire,0,1,not prosecutor
+430-W. Blanton Jr.,0,0,
+431-Brown,0,0,
+432-Hawkins,0,0,
+433-Mock,0,0,
+434-Nickelson,0,1,not prosecutor
+452-Kapitula,1,0,
+454-Smith,1,0,
+455-Jones,1,1,not prosecutor
+456-Rupert,0,0,
+457-Lewis,0,0,
+460-Hover,1,1,not prosecutor
+461-Tellis,1,1,not prosecutor
+462-KRATOCHVILL,1,0,
+463-Baker,1,1,not prosecutor
+466-Hayes,0,0,
+467-Saunders,0,0,
+469-Thomas,0,0,
+470-Combs,0,0,
+471-Walls,0,1,not prosecutor
+472-Snowden,1,1,not prosecutor
+473-McDuffie,0,0,
+477-Towns,0,0,
+479-Howard,0,0,
+480-Mosley,0,0,
+481-Shutway,0,0,
+482-Smith,0,0,
+483-Butts,0,1,not prosecutor
+485-Mott,0,0,
+490-Aboytes,0,0,
+493-Stepp,0,1,not prosecutor
+494-Montgomery,0,0,
+495-Haynes,0,0,
+496-Jencson,1,1,not prosecutor
+"497-Durham, Jr.",0,0,
+498-Rike,0,0,
+500-Partin,0,0,
+502-Poteet,0,0,
+503-Rhodes,0,0,
+504-Thacker,0,0,
+506-Nichols,0,0,
+507-Stites,0,0,
+508-Shoffner,0,0,
+509-Schulman,0,0,
+"510-Eberhardt, Jr",0,0,
+511-Smith,0,0,
+512-Marr,0,0,
+513-Kaufhold,0,0,
+514-Taylor,0,0,
+516-Panezich,0,0,
+519-Walker,0,0,
+521-Bethel,0,1,not prosecutor
+522-Williams,0,0,
+523-Daniels,0,0,
+524-Harner Sr,0,0,
+525-Hartley,0,0,
+526-Hunt,0,0,
+528-Keeton,0,0,
+529-Hodge,0,0,
+531-Drain,0,0,
+532-Durst,0,0,
+533-Peyatt,0,0,
+"535-Burney, Sr",0,0,
+536-Young,0,0,
+538-Bond,0,1,not prosecutor
+539-Jones,0,0,
+540-Hashi,0,0,
+541-Doak,0,0,
+542-Chavez,0,0,
+543-Murphy,0,0,
+544-Lavender,0,0,
+546-Rosemond,0,0,
+547-Ruggles,0,0,
+551-Rowland,0,0,
+552-Lester,0,0,
+559-Penn,0,0,
+560-Blackshear,0,0,
+567-Smith,0,0,
+575-Smith,0,0,
+576-Johnson,0,0,
+579-Strange,0,0,
+580-Hypes,0,0,
+581-Szafranski,0,0,
+582-Hodge,0,0,
+584-Quinn,0,0,
+585-Wright,0,0,
+"586-Austin, Jr",0,0,
+587-Berry,0,1,not prosecutor
+588-Grable,0,0,
+591-Searfoss,0,0,
+593-Mathis,0,0,
+595-Moore,0,0,
+597-Clipps,0,0,
+599-Johnson,0,0,
+601-Talbert,0,0,
+602-Love,0,0,
+"603-Brunner, Jr",0,0,
+604-Powers,0,0,
+605-Randleman,0,0,
+608-Savage,0,0,
+609-Jones,0,0,
+610-Toda,0,0,
+611-Somers,1,0,
+612-Reed,0,0,
+613-Hairston,0,0,
+614-Hope,0,0,
+615-Stutler,0,0,
+616-Pettus,0,0,
+617-Campbell,0,0,
+618-Singer,0,0,
+619-Thomas,0,0,
+620-Williams,0,0,
+623-Shanklin,0,0,
+624-Hayes,0,0,
+625-Graffius,0,0,
+626-Henderson,0,1,not prosecutor
+627-Blevins,0,0,
+628-Holloway,0,0,
+629-Croskey,0,0,
+630-Junod,0,0,
+631-St. John,0,0,
+632-Parker,0,0,
+633-Tucker,0,0,
+634-Gomez,0,0,
+635-Hamad,0,0,
+636-Paige,0,0,
+637-Rafter,0,0,
+638-Robinson,0,0,
+640-McConnell,0,0,
+641-Parham,0,0,
+642-Ireland,0,0,
+643-Patton,0,0,
+644-Vaughn,0,0,
+645-Schaaf,0,0,
+646-Jefferson,0,0,
+647-Taylor,0,0,
+648-Rivera,0,0,
+650-Young,0,0,
+651-Sanders,0,0,
+652-Johnson,0,0,
+653-Smith,0,1,not prosecutor
+654-Brown,0,0,
+655-Friscone,0,1,not prosecutor
+656-Battle,0,1,not prosecutor
+658-Hall,0,0,
+659-Snowden,0,0,
+661-Russell,0,0,
+662-Harris,0,1,not prosecutor
+664-McNeal,0,1,not prosecutor
+665-Townsend,0,0,
+666-Newman,0,1,not prosecutor
+669-Brunson,1,0,
+674-Cowan,0,0,
+679-A.,1,0,
+680-Untied,1,0,
+681-Devore,1,1,not prosecutor
+682-Ferguson,0,0,
+684-Scullin,1,0,
+685-Coogan,1,1,not prosecutor
+686-K,1,0,
+687-K,1,0,
+688-Hazel,0,1,not prosecutor
+693-Hazel,0,1,not prosecutor
+695-Randle,0,0,
+699-Daviduk,1,1,not prosecutor
+702-Smith,1,0,
+718-Carpenter,0,1,not prosecutor
+770-Powell,0,1,not prosecutor
+773-Kimpel,0,0,
+777-Bowermaster,0,0,
+778-Bartulica,0,0,
+780-Jones,0,0,
+790-Hodgson,0,0,
+793-Lynch,1,0,
+818-DEVAUGHNS,1,0,
+819-BANKS,0,0,
+820-MARTIN,1,1,not prosecutor
+821-MCHENRY,1,0,
+824-DOYLE,0,0,
+825-MARTIN,1,0,
+828-JOHNSON,1,1,not prosecutor
+829-GILCREAST,1,1,not prosecutor
+830-RAMEY,1,1,not prosecutor
+831-BENSON,1,1,not prosecutor
+837-RULONG,1,1,not prosecutor
+841-Biggs,1,1,not prosecutor
+842-West,1,0,
+847-Thomas,0,0,
+848-Brooks,1,0,
+852-Harrison,1,0,
+854-Singleton,0,0,
+855-Culbertson,0,0,
+857-Thomson,0,0,
+858-Salyers,1,1,not prosecutor
+860-Bowen,1,0,
+861-Heller,0,0,
+862-Murray,0,1,not prosecutor
+864-Howard,1,0,
+865-Green,0,0,
+866-T.B.,1,1,not prosecutor
+867-JONES,1,1,not prosecutor
+"869-COLSTON, JR",1,0,
+870-MILLER,1,0,
+871-LEMONS III,1,0,
+873-Armengau,1,1,not prosecutor
+875-HARGRAVES,1,0,
+876-Wynn,1,0,
+877-BAER,1,1,not prosecutor
+878-CAYAVEC,1,0,
+879-Carter,1,1,not prosecutor
+885-COOPER,1,1,not prosecutor
+886-KHAMISI,1,0,
+887-Winfield,1,0,
+889-O’CONNELL II,1,0,
+890-HARDING,1,0,
+893-CARR,1,1,not prosecutor
+894-Sayles,1,0,
+896-APANOVITCH,1,1,not prosecutor
+897-HECKATHORN,1,0,
+"898-Dewberry, Sr",1,0,
+899-Duncan,1,0,
+900-Crowell,1,0,
+901-DOWELL,1,0,
+907-Banks,1,0,
+908-Howard,1,0,
+909-Turner,1,1,not prosecutor
+910-S,1,1,not prosecutor
+911-Jones,1,1,not prosecutor
+912-W,1,1,not prosecutor
+913-Prescott,1,0,
+915-Altman,1,0,
+916-Campbell,1,0,
+917-Hodges,1,1,not prosecutor
+919-Sims,1,0,
+920-Edwards,1,1,not prosecutor
+921-Holt,0,0,
+922-Lincoln,1,0,
+924-Powell,1,1,not prosecutor
+926-Ericksen,1,0,
+927-Warren,1,1,not prosecutor
+928-Figueroa,0,0,
+929-Crawford,1,1,not prosecutor
+930-Walker,0,0,
+931-Cole,1,1,not prosecutor
+932-Schnabel,1,0,
+933-Edwards,1,0,
+934-Grimm,1,1,not prosecutor
+935-Kunzer,1,0,
+936-Phillips,1,1,not prosecutor
+937-Shaner,1,0,
+938-Starks,1,1,not prosecutor
+939-Green,1,1,not prosecutor
+940-Bennett,1,0,
+941-Sands,1,1,procedurally barred
+942-Kirk,1,0,
+943-Rosa,1,1,not prosecutor
+947-Thompson,1,1,not prosecutor
+948-W,1,1,not prosecutor
+949-Williams,1,1,not prosecutor
+950-Smith,1,0,
+954-Travis,1,0,
+956-Graham,1,0,
+958-Watson,1,1,not prosecutor
+959-Herron,1,1,not prosecutor
+960-Hammond,1,1,not prosecutor
+961-Shuster,1,0,
+962-Sheldon,1,0,
+964-Thomson,1,1,not prosecutor
+965-Evick,1,0,
+967-Esparza,1,1,procedural history
+968-Jones,1,0,
+969-MASSUCCI,1,0,
+970-Halka,0,0,
+971-REED,1,1,not prosecutor
+972-Hall,0,0,
+973-Hunt,0,1,not prosecutor
+976-Thacker,1,0,
+977-Taylor,0,0,
+978-Young,1,0,
+979-Johnson,0,0,
+980-STILTNER,0,0,
+981-BERRY,0,0,
+982-DERIFIELD,0,1,not prosecutor
+984-CAMPBELL,1,0,
+985-Murphy,1,0,
+986-Bugara,1,0,
+988-Price,0,0,
+989-Long,0,1,not prosecutor
+990-Dotson,0,0,
+991-BENDOLPH,0,0,
+"992- SHINE, JR.",0,0,
+993-SPAULDING,0,1,not prosecutor
+"994-Walker, Jr.",0,0,
+995-Miller,1,1,not prosecutor
+996-Koch,1,0,
+998-E.,1,1,not prosecutor
+999-Lewis,1,0,

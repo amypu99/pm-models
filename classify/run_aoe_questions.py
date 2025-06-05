@@ -130,9 +130,10 @@ def condensed_logic():
 
     gc.collect()
     torch.cuda.empty_cache()
-    
     filepath = "./results/extracted_evidence_20250602.jsonl"
+
     # filepath = "results/extracted_evidence_sample.jsonl"
+
     output_path = "./results/aoe_test/aoe_questions_results_full_20250604"
     full_jsonl = load_jsonl(filepath)
     aoe_procbar2_df = pd.read_csv("./results/pipeline_test_2025-05-30/aoe_procbar2.csv")
@@ -175,20 +176,19 @@ def condensed_logic():
 
                     # Ask if aoe is against the prosecutor, is procedurally barred, or is in the procedural history
                     question = (f"{aoe}:{aoe_evidence}\n\n" "Above is an assignment of error from an appellate case and "
-                                "its explanation given in the format 'assignment of error':'extracted_text'. Read over the "
+                                "its discussion given in the format 'assignment of error':'discussion'. Read over the "
                                 "both carefully and think step-by-step through the following questions, answering with "
                                 "only a 'Yes' or 'No.' If you cannot determine the answer, provide your best yes or "
                                 "no guess:\n\n"
                                 "### Questions \n"
-                                "1a. Is the prosecutor (also called prosecution) involved at all?\n"
-                                "1b. Is the state involved at all?\n"
+                                "1a. Is the prosecutor the state involved at all?\n"
+                                "1b. Is the prosecution involved at all? \n"
                                 "1c. Is prosecutorial misconduct mentioned at all?\n"
                                 "2. Is the assignment of error procedurally barred by res judicata?\n"
                                 "3. Is the assignment of error in the procedural history (i.e. is it from a past appeal))\n"                            
                                 "### Output format:\n\n"
                                 "Return only this JSON block and nothing else:"
-                                "```json{\"aoe_none_1b\": \"<answer to question 1a>\",\"aoe_none_1b\": \"<answer to question "
-                                "1b>\", \"aoe_none_1c\": \"<answer to question 1c>\", \"aoe_procbar\": \"<answer to "
+                                "```json{\"aoe_none_1a\": \"<answer to question 1a>\", \"aoe_none_1b\": \"<answer to question 1b>\", \"aoe_none_1c\": \"<answer to question 1c>\", \"aoe_procbar\": \"<answer to "
                                 "question 2>\", \"aoe_prochist\": \"<answer to question 3>\"}```")
 
                     prompt_all = [{"role": "user", "content": question}]
@@ -202,8 +202,12 @@ def condensed_logic():
                         print(f"Skipping {case_name}, {index}. Not able to load as json object")
                         continue
 
+
+                    # if (find_whole_word("Yes")(aoe_answers['aoe_none_1a']) or find_whole_word("Yes")(aoe_answers['aoe_none_1c'])):
+
                     if (find_whole_word("Yes")(aoe_answers['aoe_none_1a']) or find_whole_word("Yes")(aoe_answers['aoe_none_1b'])
                             or find_whole_word("Yes")(aoe_answers['aoe_none_1c'])):
+
                         print("Allegation is against Prosecutor")
                         if find_whole_word("No")(aoe_answers['aoe_procbar']):
                             print("Allegation is not procedurally barred")
@@ -269,6 +273,8 @@ def condensed_logic():
     collapsed_results_df = pd.DataFrame(case_results)
     collapsed_results_df.to_csv(output_path + "_collapsed.csv", index=False)
 
+    return collapsed_results_df
+
 
 def sample_jsonl(df, jsonl_df):
     # Take in csv, filter just the cases with 0 (MS so far)
@@ -280,5 +286,33 @@ def sample_jsonl(df, jsonl_df):
 
     return pd.DataFrame(filtered_json)
 
+def evaluate_aoe(results):
+    gold = results["Gold Label"].astype(str)
+    pred = results["Predicted Label"].astype(str)
+
+    tp = ((gold == "0") & (pred == "0")).sum()
+    tn = ((gold == "1") & (pred == "1")).sum()
+    fp = ((gold == "1") & (pred == "0")).sum()
+    fn = ((gold == "0") & (pred == "1")).sum()
+
+    accuracy = (tp + tn) / (tp + tn + fp + fn) if (tp + tn + fp + fn) > 0 else 0
+    precision = tp / (tp + fp) if (tp + fp) > 0 else 0
+    recall = tp / (tp + fn) if (tp + fn) > 0 else 0
+    f1_score = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
+
+    metrics = {
+        "accuracy": accuracy,
+        "precision": precision,
+        "recall": recall,
+        "f1_score": f1_score,
+        "true_positive": tp,
+        "true_negative": tn,
+        "false_positive": fp,
+        "false_negative": fn
+    }
+    return metrics
+
 if __name__ == "__main__":
-    condensed_logic()
+    # collapsed_results = condensed_logic()
+    collapsed_results = pd.read_csv("./results/aoe_test/aoe_questions_results_full_20250604_collapsed.csv")
+    print(evaluate_aoe(collapsed_results))

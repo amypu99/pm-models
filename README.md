@@ -10,6 +10,7 @@ Code for the tasks associated with automating the extraction of information from
     * ```classify/old``` code, results, and inputs from past classification attempts
     * ```classify/run_pipeline.py``` code to run whole pipeline (eventually)---currently only implements case-specific logic 
     * ```classify/results``` results from full and partial pipeline runs
+  * ```label``` code, data for second task of labeling allegations and court holdings
 * ```read``` code for converting cases from PDFs to readable formats
 * ```misc_tasks``` intermediary tasks not crucial to the full pipeline, i.e. updating requirements.txt for other machine
 

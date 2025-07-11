@@ -125,19 +125,17 @@ def full_logic():
                 else:
                     continue
 
-def condensed_logic():
+def condensed_logic(case_pipeline_results_df, output_path):
     ms_index_list = load_jsonl("../cases_olmocr/MS/ms_olmocr_converted_with_label.jsonl")["Index"].tolist()
 
     gc.collect()
     torch.cuda.empty_cache()
-    filepath = "./results/extracted_evidence_20250602.jsonl"
+    evidence_filepath = "./results/extracted_evidence_20250602.jsonl"
 
     # filepath = "results/extracted_evidence_sample.jsonl"
 
-    output_path = "./results/aoe_test/aoe_questions_results_full_20250604"
     full_jsonl = load_jsonl(filepath)
-    aoe_procbar2_df = pd.read_csv("./results/pipeline_test_2025-05-30/aoe_procbar2.csv")
-    aoe_evidence_jsonl = filter_jsonl(aoe_procbar2_df, full_jsonl)
+    aoe_evidence_jsonl = filter_jsonl(case_pipeline_results_df, full_jsonl)
 
     # sample_df = pd.read_csv("./results/aoe_test/aoe_questions_results_amysample_20250603.csv")
     # aoe_evidence_jsonl = sample_jsonl(sample_df, full_jsonl)
@@ -313,6 +311,10 @@ def evaluate_aoe(results):
     return metrics
 
 if __name__ == "__main__":
-    # collapsed_results = condensed_logic()
-    collapsed_results = pd.read_csv("./results/aoe_test/aoe_questions_results_full_20250604_collapsed.csv")
+    case_pipeline_results_df = pd.read_csv("./results/pipeline_test_2025-05-30/aoe_procbar2.csv")
+    output_path = "./results/aoe_test/aoe_questions_results_full_20250604"
+    
+    collapsed_results = condensed_logic(case_pipeline_results_df, output_path)
+    
+    collapsed_results = pd.read_csv(output_path + "_collapsed.csv")
     print(evaluate_aoe(collapsed_results))
